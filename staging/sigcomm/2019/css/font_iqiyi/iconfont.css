@@ -1,0 +1,21 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1565527590582'); /* IE9 */
+  src: url('iconfont.eot?t=1565527590582#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAARsAAsAAAAACLQAAAQgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqFNIRBATYCJAMICwYABCAFhG0HORtwB1GULUqM7GdCNoe2jhNS6zlDro0HOR2MWsXXfcrg+zPnfXAltF6BN+GUtE5aByu0Z4In42huqEVGupCmbQmzpHVD7n9+TCxmSoKHd9er/lqSYGQBBtYWJXCAB2IH1wABfpP/55jp8vl0lH/Bc8ps2hvgeEAD6rryxgMNoAPjHsZuIg/yaiAAiZMAZCadb5UOBphHAOS28melk9BgKnCEIOcKtgbIC5aQV1IXUcFa7+PJDzUBoLAFoCjnbD6V+WcLk2jFf4UKigB3OBMAZRdAAwIADJBVaMlSDyIBaJJlaXCrrmcQeCP8/085i/3CAwiQCiAx4LEOnGPiYt6hSijx7QxABHwH0jslA+IwURTx9U7GBvX7oneotZZDnpu91YToLSSVlV7WjxCi9NJ57Y7Y5LHJRgFFsZLorfWWWkCh2WSlsypTy2rrEW+99Z3iYrWnfCpx1y1HrbWsthq2m046nbQ7CjKqpN0RCTsjznEYtFG0qyQVNIObLG4W7IxQRZWfqrPS2SklSWU5ZDsWuSvyVuGpW8nJe6L5EucRe2XRnWJ9SbnGIsTBatpNp6s12vZW4RBGHTVaWVbrF2eyLlJVui0pjXUSTyt1hlZQCsNM69vmqCbKlikaS2jKFUWsLuxh/hHpxaKbdAiV3B4aI4jm4jobJtSMuvVl/MbK8RzV0pBrt9qgvd0x5RfD2LSfPLFefia15GnzuZ1+Ts4c67C/Y12FYSUVD/tJ19rG/DQ5kc2Zz7MmLjvm2lnEh26fsre/enz6xskl/XOu6yXue5uTE8/ZK8uPJUqJdG2N8eLTozdfvP547pEZy8SiOwk9N8t9wredZNqssaJ++84lA77XVgj86AHbFPgSp2EUG8YsuMA8/2ShNqNl/85pkpD0c+J5NoEP58L5RpbZfVaw6SRwAfJkOJ/A++Nz82e27XA+iAvnIrgELlD+Ee/g0OauJVnNR14WQJoQLQqzRJFaEQP46Ic68Dt8Dmbvf8AwnvdVkBkAwL0s2MtTMZrZAOGmiUlH9svnNuxgbD7QUmFyCxOU78SbWieRAP+JDjOPu9osITIRgsrlgcJzBJrAA8lgA4AliwCOYCFI/CXvlpnrUEdCBOBnKQeEiS1AMXIEaCYuIRnsI2BZeQsck2iQFCXzI2VetUrxHfhM8AN1JbS+KWBIn/T8/Avy1HtGcb5HeGAU234IFeV0fIcBRkOs6My42pUwaIrIhyTueuh5BG0ROfhOxJYk+erBEiu6J7Ge/EpPvAh6SqAPUKcEWr2RAKO9E73M+18gLuV5iiraWswPKBKzBwehgoQ0QO4kQaO2SxndKcOpuiSYOKtJhPhAEm9CHowQ0FY8yYHeEqKWDqEvXbDQrampRJxe5t/dPgAJUFIJDqFhvFueAS8Jl3nESQurAA==') format('woff2'),
+  url('iconfont.woff?t=1565527590582') format('woff'),
+  url('iconfont.ttf?t=1565527590582') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1565527590582#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 14px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-changyonglogo32:before {
+  content: "\e719";
+}
+

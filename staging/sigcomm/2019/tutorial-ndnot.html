@@ -1,0 +1,1075 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="ACM SIGCOMM 2019 Tutorial: Named Data Networking of Things - ACM SIGCOMM 2019" />
+    <meta property="og:image" content="https://conferences.sigcomm.org/" />
+    <meta property="og:url" content="/tutorial-ndnot.html" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="copyright" content="The ACM SIGCOMM 2019 Website is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. Based on the ACM SIGCOMM 2018 web site available at https://github.com/cslev/sigcomm_2018" />
+
+    <title>ACM SIGCOMM 2019 Tutorial: Named Data Networking of Things - ACM SIGCOMM 2019</title>
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700" rel="stylesheet" type="text/css">
+    <script src="https://use.fontawesome.com/3f4ded534f.js"></script>
+
+    <link rel="stylesheet" herf="/sigcomm/2019/css/font_iqiyi/demo.css" />
+    <link rel="stylesheet" herf="/sigcomm/2019/css/font_iqiyi/iconfont.css" />    
+    <script src="/sigcomm/2019/css/font_iqiyi/iconfont.js"></script>
+    <style>
+.icon {
+  width: 1.4em;
+  height: 1.4em;
+  vertical-align:-0.4em;
+  fill: currentColor;
+  overflow: hidden;
+}
+</style>
+
+    <!-- Favicon alternatives: https://css-tricks.com/favicon-quiz/ -->
+    <!-- Generated using http://realfavicongenerator.net/ -->
+    <link rel="icon" type="image/png" href="/sigcomm/2019/images/favicons/favicon.png">
+<!--    <link rel="apple-touch-icon" sizes="180x180" href="/sigcomm/2019/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/sigcomm/2019/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/sigcomm/2019/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/sigcomm/2019/images/favicons/manifest.json">
+    <link rel="mask-icon" href="/sigcomm/2019/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/sigcomm/2019/images/favicons/favicon.ico">-->
+    <meta name="apple-mobile-web-app-title" content="ACM SIGCOMM 2019">
+    <meta name="application-name" content="ACM SIGCOMM 2019">
+<!--    <meta name="msapplication-config" content="/sigcomm/2019/images/favicons/browserconfig.xml"> -->
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- send file digest to prevent caching issues -->
+    <link rel="stylesheet" href="/sigcomm/2019/css/site.css?digest=728129f713d0a633ff000f73219d51bcb6228225de8fa71e2a5053c9630e6e2a" />
+
+    <link rel="stylesheet" herf="/sigcomm/2019/css/font_iqiyi/demo.css" />
+    <link rel="stylesheet" herf="/sigcomm/2019/css/font_iqiyi/iconfont.css" />
+
+    <!-- make the CSS work with older IE -->
+    <script src="/sigcomm/2019/js/css3-mediaqueries.js"></script>
+
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/sigcomm/2019/js/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <!-- Grab CDN jquerymobile, with a protocol relative URL; fall back to local if offline -->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script>$.mobile || document.write('<script src="/sigcomm/2019/js/jquery.mobile-1.4.5.min.js"><\/script>')</script>
+
+    <script src="/sigcomm/2019/js/jqm-docs.js"></script>
+    <script src="/sigcomm/2019/js/js-image-slider.js"></script>
+
+
+    <!-- send file digest to prevent caching issues -->
+    <script src="/sigcomm/2019/js/script.js?digest=3212d05859b17b7efed6f2997d28ebeed688efbb20fdd607ae794e47ddfadc18" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <div data-role="page" data-theme="a" class="main-page">
+
+      <div class="header" data-role="header" data-theme="a" data-position="inline">
+        <div>
+          <a href="/sigcomm/2019/"><img src="/sigcomm/2019/images/SIGCOMM19.png" alt="ACM SIGCOMM 2019, Beijing, China"></a>
+        </div>
+        <a href="#" onclick="$.mobile.silentScroll($.mobile.activePage.find('.leftnav').position().top)" id="menu-btn" class="ui-btn-right" data-corners="true" data-icon="grid">MENU</a>
+      </div>
+
+      <div data-role="content" class="ui-content">
+        <div class="content-primary">
+          <h1 id="acm-sigcomm-2019-tutorial-named-data-networking-of-things">ACM SIGCOMM 2019 Tutorial: Named Data Networking of Things</h1>
+
+<h2 id="tutorial-program-subject-to-changes">Tutorial Program (subject to changes)</h2>
+
+<div id="tutorial-p4-program" class="tutorial-p4-program">
+  <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">
+    
+      
+        
+        <li class="prog-header prog-no-filter ui-bar-a prog-item prog-monday">
+          <h3>Monday, August 19, 2019</h3>
+        </li>
+      
+    
+      
+        
+
+
+<li class="ui-li ui-bar-a prog-item ui-li-divider prog-monday   " data-role="list-divider">
+
+  
+  <table>
+    <tr>
+      <td style="width:100%;text-align:left;">
+        <h3 style="font-weight: 700">
+          9:00am - 10:30am
+          NDN Architecture
+        </h3>
+      </td>
+      
+      <td>
+        <a href="https://dlnext.acm.org/doi/abs/10.1145/3341302.3362072" rel="external" target="_blank">
+          <i style="font-size:100%" class="fa fa-video-camera"></i>
+        </a>
+      </td>
+      
+      
+    </tr>
+  </table>
+  
+
+
+<!---->
+
+
+  
+    
+      <p>Beichuan Zhang <em>(University of Arizona, USA)</em></p>
+    
+    
+  
+  
+    
+  
+</li>
+
+<li class="hidden">NDN Architecture</li>
+
+      
+    
+      
+        <li class="prog-break prog-item ui-li-divider prog-monday   " data-role="list-divider">
+
+
+  <h3 style="font-weight: 500;">
+    <strong>10:30am - 11:00am
+    Coffee Break</strong>
+  </h3>
+
+<!---->
+
+
+    
+    
+
+  
+</li>
+
+<li class="hidden">Coffee Break</li>
+
+      
+    
+      
+        
+
+
+<li class="ui-li ui-bar-a prog-item ui-li-divider prog-monday   " data-role="list-divider">
+
+  
+  <table>
+    <tr>
+      <td style="width:100%;text-align:left;">
+        <h3 style="font-weight: 700">
+          11:00am - 12:30pm
+          NDN IoT Applications
+        </h3>
+      </td>
+      
+      <td>
+        <a href="https://dlnext.acm.org/doi/abs/10.1145/3341302.3362073" rel="external" target="_blank">
+          <i style="font-size:100%" class="fa fa-video-camera"></i>
+        </a>
+      </td>
+      
+      
+    </tr>
+  </table>
+  
+
+
+<!---->
+
+
+  
+    
+      <p>Lan Wang <em>(University of Memphis, USA)</em></p>
+    
+    
+  
+  
+    
+  
+</li>
+
+<li class="hidden">NDN IoT Applications</li>
+
+      
+    
+      
+        <li class="prog-break prog-item ui-li-divider prog-monday   " data-role="list-divider">
+
+
+  <h3 style="font-weight: 500;">
+    <strong>11:30am - 1:30pm
+    Lunch</strong>
+  </h3>
+
+<!---->
+
+
+    
+    
+
+  
+</li>
+
+<li class="hidden">Lunch</li>
+
+      
+    
+      
+        
+
+
+<li class="ui-li ui-bar-a prog-item ui-li-divider prog-monday   " data-role="list-divider">
+
+  
+  <table>
+    <tr>
+      <td style="width:100%;text-align:left;">
+        <h3 style="font-weight: 700">
+          1:30pm - 2:30pm
+          NDN IoT Package (Part 1)
+        </h3>
+      </td>
+      
+      <td>
+        <a href="https://dlnext.acm.org/doi/abs/10.1145/3341302.3362074" rel="external" target="_blank">
+          <i style="font-size:100%" class="fa fa-video-camera"></i>
+        </a>
+      </td>
+      
+      
+    </tr>
+  </table>
+  
+
+
+<!---->
+
+
+  
+    
+      <p>Alex Afanasyev <em>(Florida International University, USA)</em> ; Yanbiao Li<em>(Hunan University, China)</em></p>
+    
+    
+  
+  
+    
+  
+</li>
+
+<li class="hidden">NDN IoT Package (Part 1)</li>
+
+      
+    
+      
+        
+
+
+<li class="ui-li ui-bar-a prog-item ui-li-divider prog-monday   " data-role="list-divider">
+
+  
+  <table>
+    <tr>
+      <td style="width:100%;text-align:left;">
+        <h3 style="font-weight: 700">
+          2:30pm - 3:30pm
+          Hands-On Exercises (Part 1)
+        </h3>
+      </td>
+      
+      <td>
+        <a href="http://dlnext.acm.org/doi/abs/10.1145/3341302.3362075" rel="external" target="_blank">
+          <i style="font-size:100%" class="fa fa-video-camera"></i>
+        </a>
+      </td>
+      
+      
+    </tr>
+  </table>
+  
+
+
+<!---->
+
+
+  
+    
+      <p>Alex Afanasyev <em>(Florida International University, USA)</em> ; Yanbiao Li <em>(Hunan University, China)</em></p>
+    
+    
+  
+  
+    
+  
+</li>
+
+<li class="hidden">Hands-On Exercises (Part 1)</li>
+
+      
+    
+      
+        <li class="prog-break prog-item ui-li-divider prog-monday   " data-role="list-divider">
+
+
+  <h3 style="font-weight: 500;">
+    <strong>3:30pm - 4:00pm
+    Break</strong>
+  </h3>
+
+<!---->
+
+
+    
+    
+
+  
+</li>
+
+<li class="hidden">Break</li>
+
+      
+    
+      
+        
+
+
+<li class="ui-li ui-bar-a prog-item ui-li-divider prog-monday   " data-role="list-divider">
+
+  
+  <table>
+    <tr>
+      <td style="width:100%;text-align:left;">
+        <h3 style="font-weight: 700">
+          4:00pm - 5:00pm
+          Hands-On Exercises(Part 2)
+        </h3>
+      </td>
+      
+      <td>
+        <a href="https://dlnext.acm.org/doi/abs/10.1145/3341302.3362075" rel="external" target="_blank">
+          <i style="font-size:100%" class="fa fa-video-camera"></i>
+        </a>
+      </td>
+      
+      
+    </tr>
+  </table>
+  
+
+
+<!---->
+
+
+  
+    
+      <p>Alex Afanasyev <em>(Florida International University, USA)</em> ; Yanbiao Li<em>(Hunan University, China)</em></p>
+    
+    
+  
+  
+    
+  
+</li>
+
+<li class="hidden">Hands-On Exercises(Part 2)</li>
+
+      
+    
+      
+        
+
+
+<li class="ui-li ui-bar-a prog-item ui-li-divider prog-monday listlast listlast " data-role="list-divider">
+
+  
+  <table>
+    <tr>
+      <td style="width:100%;text-align:left;">
+        <h3 style="font-weight: 700">
+          5:00pm - 5:30pm
+          Looking back, looking forward Taking NDN to next stage
+        </h3>
+      </td>
+      
+      <td>
+        <a href="https://dlnext.acm.org/doi/abs/10.1145/3341302.3362076" rel="external" target="_blank">
+          <i style="font-size:100%" class="fa fa-video-camera"></i>
+        </a>
+      </td>
+      
+      
+    </tr>
+  </table>
+  
+
+
+<!---->
+
+
+  
+    
+      <p>Lixia Zhang <em>(UCLA, USA)</em></p>
+    
+    
+  
+  
+    
+  
+</li>
+
+<li class="hidden">Looking back, looking forward Taking NDN to next stage</li>
+
+      
+    
+  </ul>
+</div>
+
+<h2 id="call-for-participation">Call For Participation</h2>
+
+<p>This full-day tutorial aims to provide an overview of Named Data Networking (NDN), a newly developed Internet architecture, and IoT application development over NDN. The morning program will introduce the NDN architecture and illustrate its features through a specific use case in IoT. In the afternoon, we will give an overview of the open source NDN-IoT package, demonstrate how to use it and how to contribute to it, followed by a hands-on session on developing simple IoT applications over NDN. We will wrap up the day by a Q&amp;A session, and  invite all the attendance to provide feedbacks.</p>
+
+<h2 id="background">Background</h2>
+<p>Named Data Networking (NDN) is a new Internet architecture that has been under development since 2010. NDN changes today’s TCP/IP architecture’s focus on where, i.e., hosts and their IP addresses, to what, i.e., the content that users and applications care about. This fundamental shift can bring profound impact to enhancing Internet security, enabling mobility support, scaling data disseminations as well as data collection (e.g., from IoT devices), and facilitating the development of decentralized applications. NDN research has attracted researchers from both academia and industry around the world to explore all aspects of its design, implementation, and applications. NDN is the most prominent realization of the vision for Information-Centric Networking (ICN), around which a growing research community has formed over the past several years.</p>
+
+<p>Together with an increasing interest in NDN, there have also been a number of questions as well as misconceptions regarding NDN.  This tutorial aims to bring NDN to the broader networking community by explaining NDN’s basic architectural concepts and demonstrating its advantages in supporting IoT applications, introducing the new NDN-IoT package, and offering hands-on exercises to guide participants to develop simple IoT applications.</p>
+
+<p>We expect the tutorial to benefit network researchers and students with different levels of background knowledge on NDN. For people who want to learn what NDN is, the morning sessions are of particular interest. For people who are looking for ways to contribute to NDN design and development, the afternoon hands-on exercises will be very useful.</p>
+
+<h2 id="-important-dates"><i class="fa fa-calendar"></i> Important Dates</h2>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+  
+    <li data-icon="false">
+      <div class="ui-grid-a">
+        <div class="ui-block-a"><h2>August 19, 2019</h2></div>
+        <div class="ui-block-b"><p>Tutorial</p></div>
+      </div>
+    </li>
+    
+</ul>
+
+<h2 id="audience-expectations-and-prerequisites">Audience Expectations and Prerequisites</h2>
+<p>To participate the hands-on exercise, attendees need to bring their own laptops of Linux, MacOS, or Windows with Linux virtual machines, and with proper C/C++ development environment.</p>
+
+<h2 id="organizers">Organizers</h2>
+
+<!-- <div  class="presenters"> -->
+<ul class="program" data-role="listview" data-inset="true" data-theme="d" data-dividertheme="a">
+         
+      <li data-icon="false" class="prog-item">
+        <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+          <h4>
+            <div>
+              <p class="paper-header">
+                <div class="ui-grid-a">
+                  <div class="ui-block-a"><p>Alexander Afanasyev</p></div>
+                  <div class="ui-block-b"><p>Florida, USA</p></div>
+                </div>
+              </p>
+            </div>
+            <div class="ui-li-aside">
+            </div>
+          </h4>
+          <ul data-role="listview" data-inset="false">
+            <li data-icon="false" style="padding:1px;">
+              <!--<p>-->
+              <table style="border-spacing: 10px; border-collapse: separate;">
+                <tr>
+
+                
+
+                  <td style="width:90%;">
+                  <p><span style="font-weight: 700;">Bio: </span>
+                    <p>Alexander Afanasyev is an Assistant Professor in Florida International University, Miami.  He received his Ph.D. degree in computer science from UCLA in 2013.  His research focus is on the next-generation Internet architecture as part of the Named Data Networking (NDN) project. His research interests include a variety of topics that are vital for the success of NDN, including scalability of name-based routing, auto-configuration, distributed data synchronization, application and network security.  Dr. Afanasyev is also leading the development effort of the overall NDN codebase. </p>
+                  </p><br />
+                  </td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+      </li>
+         
+      <li data-icon="false" class="prog-item">
+        <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+          <h4>
+            <div>
+              <p class="paper-header">
+                <div class="ui-grid-a">
+                  <div class="ui-block-a"><p>Lan Wang </p></div>
+                  <div class="ui-block-b"><p>Memphis, USA</p></div>
+                </div>
+              </p>
+            </div>
+            <div class="ui-li-aside">
+            </div>
+          </h4>
+          <ul data-role="listview" data-inset="false">
+            <li data-icon="false" style="padding:1px;">
+              <!--<p>-->
+              <table style="border-spacing: 10px; border-collapse: separate;">
+                <tr>
+
+                
+
+                  <td style="width:90%;">
+                  <p><span style="font-weight: 700;">Bio: </span>
+                    <p>Lan Wang is Professor and Chair of Computer Science at the University of Memphis. She received her B.S. (1997) in Computer Science from Peking University, China, M.S. (1999) and Ph.D. (2004) in Computer Science from the University of California, Los Angeles. Since 2010, she has been collaborating with other universities to develop the Named Data Networking Internet architecture. Her current research projects focus on routing and forwarding, data synchronization, and IoT applications in NDN. </p>
+                  </p><br />
+                  </td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+      </li>
+         
+      <li data-icon="false" class="prog-item">
+        <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+          <h4>
+            <div>
+              <p class="paper-header">
+                <div class="ui-grid-a">
+                  <div class="ui-block-a"><p>Beichuan Zhang</p></div>
+                  <div class="ui-block-b"><p>Arizona, USA</p></div>
+                </div>
+              </p>
+            </div>
+            <div class="ui-li-aside">
+            </div>
+          </h4>
+          <ul data-role="listview" data-inset="false">
+            <li data-icon="false" style="padding:1px;">
+              <!--<p>-->
+              <table style="border-spacing: 10px; border-collapse: separate;">
+                <tr>
+
+                
+
+                  <td style="width:90%;">
+                  <p><span style="font-weight: 700;">Bio: </span>
+                    <p>Beichuan Zhang is an Associate Professor at the Department of Computer Science, the University of Arizona. His research interest is in Internet routing architectures and protocols. He has been working on Named Data Networking, green networking, and inter-domain routing. He received the Applied Networking Research Prize in 2011 by ISOC and IRTF, and best paper awards at IEEE ICDCS in 2005 and IWQoS in 2014. Dr. Zhang received Ph.D. from UCLA and B.S. from Peking University. </p>
+                  </p><br />
+                  </td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+      </li>
+         
+      <li data-icon="false" class="prog-item">
+        <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+          <h4>
+            <div>
+              <p class="paper-header">
+                <div class="ui-grid-a">
+                  <div class="ui-block-a"><p>Lixia Zhang</p></div>
+                  <div class="ui-block-b"><p>UCLA, USA</p></div>
+                </div>
+              </p>
+            </div>
+            <div class="ui-li-aside">
+            </div>
+          </h4>
+          <ul data-role="listview" data-inset="false">
+            <li data-icon="false" style="padding:1px;">
+              <!--<p>-->
+              <table style="border-spacing: 10px; border-collapse: separate;">
+                <tr>
+
+                
+
+                  <td style="width:90%;">
+                  <p><span style="font-weight: 700;">Bio: </span>
+                    <p>Lixia Zhang is a Professor in the Computer Science Department of UCLA.  She received her Ph.D. in computer science from MIT and was a member of the research staff at Xerox PARC before joining UCLA. She is a fellow of ACM and IEEE, the recipient of IEEE Internet Award, and the holder of UCLA Postel Chair in Computer Science.  Since 2010 she has been leading the effort on the design and development of the NDN architecture (http://named-data.net/).</p>
+                  </p><br />
+                  </td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+      </li>
+         
+      <li data-icon="false" class="prog-item">
+        <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+          <h4>
+            <div>
+              <p class="paper-header">
+                <div class="ui-grid-a">
+                  <div class="ui-block-a"><p>Yanbiao Li</p></div>
+                  <div class="ui-block-b"><p>Hunan University, China</p></div>
+                </div>
+              </p>
+            </div>
+            <div class="ui-li-aside">
+            </div>
+          </h4>
+          <ul data-role="listview" data-inset="false">
+            <li data-icon="false" style="padding:1px;">
+              <!--<p>-->
+              <table style="border-spacing: 10px; border-collapse: separate;">
+                <tr>
+
+                
+
+                  <td style="width:90%;">
+                  <p><span style="font-weight: 700;">Bio: </span>
+                    
+                  </p><br />
+                  </td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+      </li>
+    
+  </ul>
+<p><!-- </div> --></p>
+
+<h2 id="references">References</h2>
+<p>Named Data Networking website (<a href="http://named-data.net">http://named-data.net</a>) archives NDN publications, codebase, documentations, and prior tutorials. A few specific links:</p>
+
+<ul>
+  <li>
+    <p>NDN architecture paper: <a href="https://named-data.net/publications/named_data_networking_ccr/">https://named-data.net/publications/named_data_networking_ccr/</a></p>
+  </li>
+  <li>
+    <p>NDN codebase: <a href="https://named-data.net/publications/named_data_networking_ccr/">https://named-data.net/codebase/platform/</a></p>
+  </li>
+  <li>
+    <p>NDN-lite: <a href="https://github.com/named-data-iot/ndn-lite/wiki">https://github.com/named-data-iot/ndn-lite/wiki</a></p>
+  </li>
+</ul>
+
+        </div><!-- content-primary -->
+
+        <div class="leftnav" role="panel" data-position="left" data-display="overlay" data-theme="a">
+
+  <a href="/sigcomm/2019/"><img src="/sigcomm/2019/images/SIGCOMM19.png" alt="ACM SIGCOMM 2019, Beijing, China"></a>
+
+  <ul data-role="listview" data-inset="true" data-theme="a" data-divider-theme="a">
+
+    
+      
+        
+        <li class="  " data-icon="false">
+          <a href="/sigcomm/2019/"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Home</a>
+        </li>
+        
+    
+      
+        
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"  class="navgroup">
+          <h4><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Program</h4>
+          <ul data-role="listview" data-inset="false">
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/program.html"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;All days</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/program_sunday.html"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Sunday</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/program_monday.html"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Monday</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/program_tuesday.html"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Tuesday</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/program_wednesday.html"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Wednesday</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/program_thursday.html"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Thursday</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/program_friday.html"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Friday</a>
+              </li>
+            
+          </ul>
+        </div>
+        
+    
+      
+        
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"  class="navgroup">
+          <h4><i class="fa fa-area-chart" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Main conference</h4>
+          <ul data-role="listview" data-inset="false">
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/camera-ready.html"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Camera-ready instructions</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/tpc.html"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Program committee</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/submission.html"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Submission instructions</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/cfp.html"><i class="fa fa-bell-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Call for papers</a>
+              </li>
+            
+          </ul>
+        </div>
+        
+    
+      
+        
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"  class="navgroup">
+          <h4><i class="fa fa-list-ul" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Parallel events</h4>
+          <ul data-role="listview" data-inset="false">
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/cf-posters.html"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Posters and demos</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/cf-industrial-demos.html"><i class="fa fa-industry" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Industrial demos</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/mentoring.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Mentoring</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/src.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Student research competition</a>
+              </li>
+            
+          </ul>
+        </div>
+        
+    
+      
+        
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"  class="navgroup">
+          <h4><i class="fa fa-wrench" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Workshops</h4>
+          <ul data-role="listview" data-inset="false">
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/camera-ready_ws.html"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Camera-ready instructions</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/workshop-neat.html"><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;NEAT</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/workshop-netpl.html"><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;NetPL</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/workshop-netaim.html"><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;NetAI</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/workshop-optsys.html"><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;OptSys</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/workshop-magesys.html"><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;MAGESys</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/cf-workshops.html"><i class="fa fa-wrench" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Call for workshops</a>
+              </li>
+            
+          </ul>
+        </div>
+        
+    
+      
+        
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right" data-collapsed="false" class="navgroup">
+          <h4><i class="fa fa-bell-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Tutorials</h4>
+          <ul data-role="listview" data-inset="false">
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/tutorial-p4.html"><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;P4</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/tutorial-cps.html"><i class="fa fa-adjust fa-rotate-180" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;CPS</a>
+              </li>
+            
+              
+              <li class="subnav navselected" data-icon="false">
+                <a href="/sigcomm/2019/tutorial-ndnot.html"><i class="fa fa-adjust" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;NDN IoT</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/tutorial-powder.html"><i class="fa fa-adjust fa-rotate-180" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;POWDER</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/cf-tutorials.html"><i class="fa fa-laptop" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Call for tutorials</a>
+              </li>
+            
+          </ul>
+        </div>
+        
+    
+      
+        
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"  class="navgroup">
+          <h4><i class="fa fa-briefcase" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Hackathon</h4>
+          <ul data-role="listview" data-inset="false">
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/hackathon.html"><i class="fa fa-bell-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Call for participation</a>
+              </li>
+            
+          </ul>
+        </div>
+        
+    
+      
+        
+        <li class="notlast  " data-icon="false">
+          <a href="/sigcomm/2019/venue.html"><i class="fa fa fa-university" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Venue</a>
+        </li>
+        
+    
+      
+        
+        <li class="notlast  " data-icon="false">
+          <a href="/sigcomm/2019/hotel.html"><i class="fa fa-building-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Hotel</a>
+        </li>
+        
+    
+      
+        
+        <li class="notlast  " data-icon="false">
+          <a href="/sigcomm/2019/visa.html"><i class="fa fa-address-card-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Visa</a>
+        </li>
+        
+    
+      
+        
+        <li class="notlast  " data-icon="false">
+          <a href="/sigcomm/2019/registration.html"><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Registration</a>
+        </li>
+        
+    
+      
+        
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"  class="navgroup">
+          <h4><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Social events</h4>
+          <ul data-role="listview" data-inset="false">
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/student_dinner.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Student dinner</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/banquet.html"><i class="fa fa-cutlery" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Banquet</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/n2women_dinner.html"><i class="fa fa-female" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;N2Women dinner</a>
+              </li>
+            
+          </ul>
+        </div>
+        
+    
+      
+        
+        <li class="notlast  " data-icon="false">
+          <a href="/sigcomm/2019/travel_grant.html"><i class="fa fa-money" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Travel grants</a>
+        </li>
+        
+    
+      
+        
+        <li class="notlast  " data-icon="false">
+          <a href="/sigcomm/2019/supporters.html"><i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Supporters</a>
+        </li>
+        
+    
+      
+        
+        <li class="notlast  " data-icon="false">
+          <a href="/sigcomm/2019/org-committee.html"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Organizing committee</a>
+        </li>
+        
+    
+      
+        
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"  class="navgroup">
+          <h4><i class="fa fa-map-pin" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Local information</h4>
+          <ul data-role="listview" data-inset="false">
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/currency.html"><i class="fa fa-money" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Currency</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/power.html"><i class="fa fa-plug" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Power</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/language.html"><i class="fa fa-commenting" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Language</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/getting_here.html"><i class="fa fa-plane" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Getting here</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/banks_and_restaurants.html"><i class="fa fa-cutlery" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Banks and Restaurants</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/shuttle.html"><i class="fa fa-bus" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Shuttle buses schedule</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/getting_around.html"><i class="fa fa-compass" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Getting around</a>
+              </li>
+            
+          </ul>
+        </div>
+        
+    
+      
+        
+        <li class="  " data-icon="false">
+          <a href="/sigcomm/2019/policies.html"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Policies</a>
+        </li>
+        
+    
+  </ul>
+
+  <!--<div class="border ui-corner-all ui-shadow socialbuttons">-->
+    <!--<iframe src="/sigcomm/2019/misc/socialbtn.html" scrolling="no" height="21" width="100%" frameborder="0" marginheight="0" marginwidth="0"></iframe>-->
+  <!--</div>-->
+</div>
+
+      </div> <!-- content -->
+
+      
+        <div class="logobar" data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="c"></div>
+      
+    </div> <!-- page -->
+
+    
+      
+  <img src="/sigcomm/2019/images/sponsors/h3c_new2.jpg" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/huawei.png" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/amazon.png" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/cisco.png" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/ericsson.png" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/facebook.png" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/alibaba_new.jpg" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/ByteDance_new.png" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/google.png" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/intel.png" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/microsoft.jpg" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/akamai.png" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/barefoot-networks.jpg" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/comcast.jpg" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/netapp.jpg" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/verizon.png" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/vmware.png" alt="cached" class="hidden">
+
+
+<script type="text/javascript">
+  /* [priority, logo_filename, sponsor_website, sponsor_shortname, 0, real_height, real_width] */
+  sps = [[800,"h3c_new2.jpg","http://www.h3c.com/","h3c",0,294,800,"diamond"],[800,"huawei.png","https://www.huawei.com/","huawei",0,519,519,"diamond"],[300,"amazon.png","https://www.amazon.com/","amazon",0,120,300,"platinum"],[300,"cisco.png","https://www.cisco.com/","cisco",0,200,379,"platinum"],[300,"ericsson.png","https://ericsson.com/","ericsson",0,116,104,"platinum"],[300,"facebook.png","https://www.facebook.com/","facebook",0,713,2026,"platinum"],[200,"alibaba_new.jpg","https://www.alibaba.com/","alibaba",0,591,1181,"gold"],[100,"ByteDance_new.png","https://www.bytedance.com/","ByteDance",0,295,1151,"silver"],[100,"google.png","https://www.google.com/","google",0,56,160,"silver"],[100,"intel.png","https://www.intel.com/","intel",0,1978,3000,"silver"],[100,"microsoft.jpg","https://www.microsoft.com/","microsoft",0,250,600,"silver"],[90,"akamai.png","https://www.akamai.com/","akamai",0,195,450,"bronze"],[90,"barefoot-networks.jpg","https://www.barefootnetworks.com/","barefoot networks",0,246,600,"bronze"],[90,"comcast.jpg","https://www.comcast.com/","comcast",0,263,594,"bronze"],[90,"netapp.jpg","https://www.netapp.com/","netapp",0,1208,1279,"bronze"],[90,"verizon.png","https://www.verizondigitalmedia.com/","verizon",0,519,1200,"bronze"],[90,"vmware.png","https://www.vmware.com/","vmware",0,410,845,"bronze"]];
+</script>
+
+    
+
+    <!-- Google Analytics script code for collecting visit statistics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+  </body>
+</html>

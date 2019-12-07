@@ -1,0 +1,1246 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="ACM SIGCOMM 2019 Tutorial on Modeling and Analysis of Network Infrastructure in Cyber-Physical Systems - ACM SIGCOMM 2019" />
+    <meta property="og:image" content="http://localhost:4000" />
+    <meta property="og:url" content="/tutorial-cps.html" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="copyright" content="The ACM SIGCOMM 2019 Website is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. Based on the ACM SIGCOMM 2018 web site available at https://github.com/cslev/sigcomm_2018" />
+
+    <title>ACM SIGCOMM 2019 Tutorial on Modeling and Analysis of Network Infrastructure in Cyber-Physical Systems - ACM SIGCOMM 2019</title>
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700" rel="stylesheet" type="text/css">
+    <script src="https://use.fontawesome.com/3f4ded534f.js"></script>
+
+    <link rel="stylesheet" herf="/sigcomm/2019/css/font_iqiyi/demo.css" />
+    <link rel="stylesheet" herf="/sigcomm/2019/css/font_iqiyi/iconfont.css" />    
+    <script src="/sigcomm/2019/css/font_iqiyi/iconfont.js"></script>
+    <style>
+.icon {
+  width: 1.4em;
+  height: 1.4em;
+  vertical-align:-0.4em;
+  fill: currentColor;
+  overflow: hidden;
+}
+</style>
+
+    <!-- Favicon alternatives: https://css-tricks.com/favicon-quiz/ -->
+    <!-- Generated using http://realfavicongenerator.net/ -->
+    <link rel="icon" type="image/png" href="/sigcomm/2019/images/favicons/favicon.png">
+<!--    <link rel="apple-touch-icon" sizes="180x180" href="/sigcomm/2019/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/sigcomm/2019/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/sigcomm/2019/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/sigcomm/2019/images/favicons/manifest.json">
+    <link rel="mask-icon" href="/sigcomm/2019/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/sigcomm/2019/images/favicons/favicon.ico">-->
+    <meta name="apple-mobile-web-app-title" content="ACM SIGCOMM 2019">
+    <meta name="application-name" content="ACM SIGCOMM 2019">
+<!--    <meta name="msapplication-config" content="/sigcomm/2019/images/favicons/browserconfig.xml"> -->
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- send file digest to prevent caching issues -->
+    <link rel="stylesheet" href="/sigcomm/2019/css/site.css?digest=728129f713d0a633ff000f73219d51bcb6228225de8fa71e2a5053c9630e6e2a" />
+
+    <link rel="stylesheet" herf="/sigcomm/2019/css/font_iqiyi/demo.css" />
+    <link rel="stylesheet" herf="/sigcomm/2019/css/font_iqiyi/iconfont.css" />
+
+    <!-- make the CSS work with older IE -->
+    <script src="/sigcomm/2019/js/css3-mediaqueries.js"></script>
+
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/sigcomm/2019/js/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <!-- Grab CDN jquerymobile, with a protocol relative URL; fall back to local if offline -->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script>$.mobile || document.write('<script src="/sigcomm/2019/js/jquery.mobile-1.4.5.min.js"><\/script>')</script>
+
+    <script src="/sigcomm/2019/js/jqm-docs.js"></script>
+    <script src="/sigcomm/2019/js/js-image-slider.js"></script>
+
+
+    <!-- send file digest to prevent caching issues -->
+    <script src="/sigcomm/2019/js/script.js?digest=3212d05859b17b7efed6f2997d28ebeed688efbb20fdd607ae794e47ddfadc18" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <div data-role="page" data-theme="a" class="main-page">
+
+      <div class="header" data-role="header" data-theme="a" data-position="inline">
+        <div>
+          <a href="/sigcomm/2019/"><img src="/sigcomm/2019/images/SIGCOMM19.png" alt="ACM SIGCOMM 2019, Beijing, China"></a>
+        </div>
+        <a href="#" onclick="$.mobile.silentScroll($.mobile.activePage.find('.leftnav').position().top)" id="menu-btn" class="ui-btn-right" data-corners="true" data-icon="grid">MENU</a>
+      </div>
+
+      <div data-role="content" class="ui-content">
+        <div class="content-primary">
+          <h1 id="acm-sigcomm-2019-tutorial-on-modeling-and-analysis-of-network-infrastructure-in-cyber-physical-systems">ACM SIGCOMM 2019 Tutorial on Modeling and Analysis of Network Infrastructure in Cyber-Physical Systems</h1>
+
+<h2 id="tutorial-program-subject-to-changes">Tutorial Program (subject to changes)</h2>
+
+<div id="tutorial-p4-program" class="tutorial-p4-program">
+  <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">
+    
+      
+        
+        <li class="prog-header prog-no-filter ui-bar-a prog-item prog-friday">
+          <h3>Friday, August 23, 2019</h3>
+        </li>
+      
+    
+      
+        <li class="ui-li ui-bar-a prog-item ui-li-divider prog-friday   " data-role="list-divider">
+
+
+  <h3 style="font-weight: 700;">
+    08:30am - 10:00am
+    Session I
+  </h3>
+
+<!---->
+
+  
+    
+    
+  
+  
+    
+  
+</li>
+
+<li class="hidden">Session I</li>
+
+      
+    
+      
+        
+  
+  
+  
+
+
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+<li data-icon="false" class="prog-item prog-friday">
+  <!--<div >-->
+
+      <table>
+         <tr>
+             
+             <td style="font-size:80%; padding-right:10px; max-width:20%;">08:30am - 08:50am</td>
+             
+             <td style="width:100%;text-align:left;">
+                <p class="paper-header">
+                    Introduction to CPS and its network infrastructure evolution
+
+                </p>
+                <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+                <p>Liang Cheng, Lehigh University, USA</p>
+             </td> 
+                        
+             
+          
+         </tr>
+  </table>
+  <!--</div>-->
+  <!--<div class="ui-li-aside-item">-->
+      <!---->
+      <!---->
+      <!---->
+  <!--</div>-->
+</li>
+
+
+
+      
+    
+      
+        
+  
+  
+  
+
+
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+<li data-icon="false" class="prog-item prog-friday">
+  <!--<div >-->
+
+      <table>
+         <tr>
+             
+             <td style="font-size:80%; padding-right:10px; max-width:20%;">08:50am - 09:20am</td>
+             
+             <td style="width:100%;text-align:left;">
+                <p class="paper-header">
+                    Min-plus calculus and network calculus
+
+                </p>
+                <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+                <p>Liang Cheng, Lehigh University, USA</p>
+             </td> 
+                        
+             
+          
+         </tr>
+  </table>
+  <!--</div>-->
+  <!--<div class="ui-li-aside-item">-->
+      <!---->
+      <!---->
+      <!---->
+  <!--</div>-->
+</li>
+
+
+
+      
+    
+      
+        
+  
+  
+  
+
+
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+<li data-icon="false" class="prog-item prog-friday">
+  <!--<div >-->
+
+      <table>
+         <tr>
+             
+             <td style="font-size:80%; padding-right:10px; max-width:20%;">09:20am - 09:40am</td>
+             
+             <td style="width:100%;text-align:left;">
+                <p class="paper-header">
+                    Case study of wireless sensor networks
+
+                </p>
+                <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+                <p>Steffen Bondorf, Norwegian University of Science and Technology, Norway</p>
+             </td> 
+                        
+             
+          
+         </tr>
+  </table>
+  <!--</div>-->
+  <!--<div class="ui-li-aside-item">-->
+      <!---->
+      <!---->
+      <!---->
+  <!--</div>-->
+</li>
+
+
+
+      
+    
+      
+        
+  
+  
+  
+
+
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+<li data-icon="false" class="prog-item prog-friday">
+  <!--<div >-->
+
+      <table>
+         <tr>
+             
+             <td style="font-size:80%; padding-right:10px; max-width:20%;">09:40am - 10:00am</td>
+             
+             <td style="width:100%;text-align:left;">
+                <p class="paper-header">
+                    Case study of smart-grid substation networks
+
+                </p>
+                <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+                <p>Liang Cheng, Lehigh University, USA</p>
+             </td> 
+                        
+             
+          
+         </tr>
+  </table>
+  <!--</div>-->
+  <!--<div class="ui-li-aside-item">-->
+      <!---->
+      <!---->
+      <!---->
+  <!--</div>-->
+</li>
+
+
+
+      
+    
+      
+        <li class="prog-break prog-item ui-li-divider prog-friday   " data-role="list-divider">
+
+
+  <h3 style="font-weight: 500;">
+    <strong>10:00am - 10:30am
+    Coffee/tea Break</strong>
+  </h3>
+
+<!---->
+
+
+    
+    
+
+  
+</li>
+
+<li class="hidden">Coffee/tea Break</li>
+
+      
+    
+      
+        <li class="ui-li ui-bar-a prog-item ui-li-divider prog-friday   " data-role="list-divider">
+
+
+  <h3 style="font-weight: 700;">
+    10:30am - 12:00pm
+    Session II
+  </h3>
+
+<!---->
+
+  
+    
+    
+  
+  
+    
+  
+</li>
+
+<li class="hidden">Session II</li>
+
+      
+    
+      
+        
+  
+  
+  
+
+
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+<li data-icon="false" class="prog-item prog-friday">
+  <!--<div >-->
+
+      <table>
+         <tr>
+             
+             <td style="font-size:80%; padding-right:10px; max-width:20%;">10:30am - 10:50am</td>
+             
+             <td style="width:100%;text-align:left;">
+                <p class="paper-header">
+                    Review exercise
+
+                </p>
+                <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+                <p>Liang Cheng, Lehigh University, USA</p>
+             </td> 
+                        
+             
+          
+         </tr>
+  </table>
+  <!--</div>-->
+  <!--<div class="ui-li-aside-item">-->
+      <!---->
+      <!---->
+      <!---->
+  <!--</div>-->
+</li>
+
+
+
+      
+    
+      
+        
+  
+  
+  
+
+
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+<li data-icon="false" class="prog-item prog-friday">
+  <!--<div >-->
+
+      <table>
+         <tr>
+             
+             <td style="font-size:80%; padding-right:10px; max-width:20%;">10:50am - 11:10am</td>
+             
+             <td style="width:100%;text-align:left;">
+                <p class="paper-header">
+                    Introduction to DNC (NetworkCalculus.org)
+
+                </p>
+                <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+                <p>Steffen Bondorf, Norwegian University of Science and Technology, Norway</p>
+             </td> 
+                        
+             
+          
+         </tr>
+  </table>
+  <!--</div>-->
+  <!--<div class="ui-li-aside-item">-->
+      <!---->
+      <!---->
+      <!---->
+  <!--</div>-->
+</li>
+
+
+
+      
+    
+      
+        
+  
+  
+  
+
+
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+<li data-icon="false" class="prog-item prog-friday">
+  <!--<div >-->
+
+      <table>
+         <tr>
+             
+             <td style="font-size:80%; padding-right:10px; max-width:20%;">11:10am - 11:55pm</td>
+             
+             <td style="width:100%;text-align:left;">
+                <p class="paper-header">
+                    Hands-on labs
+
+                </p>
+                <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+                <p>Steffen Bondorf, Norwegian University of Science and Technology, Norway</p>
+             </td> 
+                        
+             
+          
+         </tr>
+  </table>
+  <!--</div>-->
+  <!--<div class="ui-li-aside-item">-->
+      <!---->
+      <!---->
+      <!---->
+  <!--</div>-->
+</li>
+
+
+
+      
+    
+      
+        
+  
+  
+  
+
+
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+<li data-icon="false" class="prog-item prog-friday">
+  <!--<div >-->
+
+      <table>
+         <tr>
+             
+             <td style="font-size:80%; padding-right:10px; max-width:20%;">11:55pm - 12:00pm</td>
+             
+             <td style="width:100%;text-align:left;">
+                <p class="paper-header">
+                    Summary and outlook
+
+                </p>
+                <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+                <p>Liang Cheng, Lehigh University, USA</p>
+             </td> 
+                        
+             
+          
+         </tr>
+  </table>
+  <!--</div>-->
+  <!--<div class="ui-li-aside-item">-->
+      <!---->
+      <!---->
+      <!---->
+  <!--</div>-->
+</li>
+
+
+
+      
+    
+  </ul>
+</div>
+
+<h2 id="call-for-participation">Call For Participation</h2>
+
+<p>This tutorial will provide participants with challenges, solutions, and tools with hands-on exercises to modeling and analysis of network infrastructure in delay-constrained cyber-physical systems. Attendee will learn network calculus with cases studies of its applications in designing and analyzing wireless sensor networks and smart-grid substation networks.</p>
+
+<p>Attendees will also learn details of DNC (NetworkCalculus.org), a comprehensive tool for network calculus analysis, and how to use it for analyzing the delay performance of tandem networks, tree networks, and feed-forward networks for CPS with hands-on labs.</p>
+
+<h2 id="travel-support">Travel Support</h2>
+<p>There may be opportunities for attendees of this tutorial who are current students of U.S. universities to receive nominal support for travel with the fund provided by the U.S. National Science Foundation as it wishes to increase participation of under-represented groups such as female and/or minority students. Please contact Prof. Liang Cheng <a href="mailto:cheng@lehigh.edu">cheng@lehigh.edu</a> for details and an application.</p>
+
+<h2 id="-important-dates"><i class="fa fa-calendar"></i> Important Dates</h2>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+  
+    <li data-icon="false">
+      <div class="ui-grid-a">
+        <div class="ui-block-a"><h2>August 23, 2019</h2></div>
+        <div class="ui-block-b"><p>Tutorial</p></div>
+      </div>
+    </li>
+    
+</ul>
+
+<h2 id="outline">Outline</h2>
+
+<p>Part I: Background and network calculus theory. Introduction to CPS; network infrastructure evolution in CPS; min-plus calculus; network calculus; review exercise. [Le Boudec and Thiran 2001]</p>
+
+<p>Part II: Case studies of modeling and analysis of network infrastructure in CPS.<br />
+Case study #1: designing wireless sensor networks with predictable performance using sensor network calculus. [Bondorf and Schmitt 2015]<br />
+Case study #2: analyzing worst-case delay performance of smart-grid substation networks using measurements and network calculus. [Yang, Cheng, and Ma 2017]</p>
+
+<p>Part III: Hands-on lab activities of using a network calculus tool, the NetworkCalculus.org Deterministic Network Calculator (DNC). Introduction to DNC, a comprehensive tool for network calculus analysis; hands-on labs on analyzing the delay performance of tandem networks, tree networks, and feed-forward networks for CPS. [Bondorf and Schmitt 2014]</p>
+
+<h2 id="background">Background</h2>
+<p>Modern societies are witnessing the prevalence of a wide assortment of distributed cyber-physical systems (CPS) built upon network infrastructure for mission-critical applications, such as industrial process control systems and avionics. Such applications demand strict and deterministic delay performance of their CPS network infrastructure for system safety, stability and resilience. Thus there is an increasing interest in modeling and analysis of delay-constrained CPS.</p>
+
+<p>Industrial process control systems and avionics had been developing networking solutions for decades and we can currently observe a convergence to a common standard. As an example take fieldbus technologies such as Profibus that had been developed for use in factory automation. With increasing demands on data rates and interoperability with existing off-the-shelf components, Ethernet-based solutions such as Profinet have started replacing the bus technologies. The same trend can be observed in the avionics sector where Airbus developed the Ethernet-based on-board communication system AFDX (Avionics Full-Duplex Ethernet) that has subsequently been adopted by its competitors Boeing and Bombardier. In addition to these industry-led developments for real-time-capable Ethernet, the IEEE has been working on official standards to address these use-cases of Ethernet. Its efforts first led to IEEE AVB (audio-video bridging) that defines traffic shaping, scheduling and path reservation for time-synchronized low latency streaming services. The continued development is led by the IEEE TSN (Time-Sensitive Networking) working group and TSN technologies are already discussed to be incorporated into Profinet and AFDX. Moreover, the Internet Engineering Task Force (IETF) has established a working group for Deterministic Networking (DetNet) that is closely collaborating with IEEE TSN in order to bring its concepts to the Internet.</p>
+
+<p>Given that there is a technological convergence, the search for a common methodology for verification of real-time capabilities under any operation condition is complementary. During the development of AFDX, the Network Calculus was adopted and subsequently used for certification. Both the IEEE and the IETF have already discussed the applicability of Network Calculus to their respective problem spaces and standardization efforts. Recent development in network performance analyses especially network calculus and network modeling and measurements makes it possible for an organically integrated approach to modeling and analysis of delay-constrained networked cyber-physical systems. Researchers may be able to take advantage of the contents of this tutorial for their work when which may be utilized for analysis, identification and mitigation of delay performance bottlenecks of network infrastructure in cyber-physical systems.</p>
+
+<h2 id="audience-expectations-and-prerequisites">Audience Expectations and Prerequisites</h2>
+<p>Attendees are required to bring their own laptops with a Java 10 JDK and an editor for the hands-on lab. We recommend using the Eclipse Java IDE as dnc.networkcalculus.org provides documentation for configuring Eclipse.</p>
+
+<h2 id="organizers">Organizers</h2>
+
+<!-- <div  class="presenters"> -->
+<ul class="program" data-role="listview" data-inset="true" data-theme="d" data-dividertheme="a">
+         
+      <li data-icon="false" class="prog-item">
+        <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+          <h4>
+            <div>
+              <p class="paper-header">
+                <div class="ui-grid-a">
+                  <div class="ui-block-a"><p>Liang Cheng</p></div>
+                  <div class="ui-block-b"><p>New York, USA</p></div>
+                </div>
+              </p>
+            </div>
+            <div class="ui-li-aside">
+            </div>
+          </h4>
+          <ul data-role="listview" data-inset="false">
+            <li data-icon="false" style="padding:1px;">
+              <!--<p>-->
+              <table style="border-spacing: 10px; border-collapse: separate;">
+                <tr>
+
+                
+
+                  <td style="width:90%;">
+                  <p><span style="font-weight: 700;">Bio: </span>
+                    <p>Prof. Liang Cheng of the Department of Computer Science and Engineering at Lehigh University focuses his research on enabling intelligent infrastructure based on real-time sensing, model-driven data analytics, and machine learning. He is an expert in cyber-physical systems and ad hoc networks. His research has been funded by U.S. federal funding agencies such as NSF, DOE, DOT, and DARPA, Pennsylvania government, and companies including ABB, Agere Systems, East Penn Manufacturing, and PPL. He has advised 6 Ph.D. students to their graduation, supervised 2 postdocs, advised 22 Master's degree theses, and co-authored more than 100 papers. Prof. Cheng was a keynote speaker at 2015 IEEE International Conference on the Edges of Innovation for Smarter Cities. He served as a Program Co-Chair for IEEE SustainCom 2016 and MobiSPC 2014. He received Christian R. &amp; Mary F. Lindback Foundation Minority Junior Faculty Award in 2004. Previously he offered tutorials on Network Systems Design with Network Processor Technology and MAC Schemes for Message Dissemination in Vehicular Ad Hoc Networks.</p>
+                  </p><br />
+                  </td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+      </li>
+         
+      <li data-icon="false" class="prog-item">
+        <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+          <h4>
+            <div>
+              <p class="paper-header">
+                <div class="ui-grid-a">
+                  <div class="ui-block-a"><p>Steffen Bondorf</p></div>
+                  <div class="ui-block-b"><p>Trondheim, Norway</p></div>
+                </div>
+              </p>
+            </div>
+            <div class="ui-li-aside">
+            </div>
+          </h4>
+          <ul data-role="listview" data-inset="false">
+            <li data-icon="false" style="padding:1px;">
+              <!--<p>-->
+              <table style="border-spacing: 10px; border-collapse: separate;">
+                <tr>
+
+                
+
+                  <td style="width:90%;">
+                  <p><span style="font-weight: 700;">Bio: </span>
+                    <p>Steffen Bondorf received his B.Sc. (2009), M.Sc. (2012) and Ph.D. (2016) in Computer Science from TU Kaiserslautern, Germany. After graduation, he was a postdoctoral researcher and Carl-Zeiss Fellow at TU Kaiserslautern, Research Fellow at the National University of Singapore as well as visiting the University of Toronto, Canada. He is currently an ERCIM (European Research Consortium for Informatics and Mathematics) Alain-Bensoussan Fellow and postdoc the NTNU – the Norwegian University of Science and Technology in Trondheim, Norway. His research interests are in performance modeling and analysis of communication networks and in particular in advancing the Network Calculus methodology.</p>
+                  </p><br />
+                  </td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+      </li>
+    
+  </ul>
+<p><!-- </div> --></p>
+
+<h3 id="references">References</h3>
+<p>
+[Bondorf and Schmitt 2014] Steffen Bondorf and Jens B. Schmitt. 2014. The DiscoDNC v2 – a comprehensive tool for deterministic network calculus. In Proceedings of the 8th International Conference on Performance Evaluation Methodologies and Tools (VALUETOOLS '14). ICST (Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering), ICST, Brussels, Belgium, Belgium, 44-49. <br />
+<ul> <li> For the source code visit dnc.networkcalculus.org</li></ul>
+[Bondorf and Schmitt 2015] Steffen Bondorf and Jens B. Schmitt, Boosting sensor network calculus by thoroughly bounding cross-traffic, 2015 IEEE Conference on Computer Communications (INFOCOM), Kowloon, 2015, pp. 235-243.<br />
+[Le Boudec and Thiran 2001] Jean-Yves Le Boudec and Patrick Thiran. 2001. Network Calculus: A Theory of Deterministic Queuing Systems for the Internet. Springer-Verlag, Berlin, Heidelberg.<br />
+[Yang, Cheng, and Ma 2017] Huan Yang, Liang Cheng, and Xiaoguang Ma, Analyzing worst-case delay performance of IEC 61850-9-2 process bus networks using measurements and network calculus, in the Proceeding of The Eighth International Conference on Future Energy Systems (ACM e-Energy), Hong Kong, May 17-19, 2017
+</p>
+
+        </div><!-- content-primary -->
+
+        <div class="leftnav" role="panel" data-position="left" data-display="overlay" data-theme="a">
+
+  <a href="/sigcomm/2019/"><img src="/sigcomm/2019/images/SIGCOMM19.png" alt="ACM SIGCOMM 2019, Beijing, China"></a>
+
+  <ul data-role="listview" data-inset="true" data-theme="a" data-divider-theme="a">
+
+    
+      
+        
+        <li class="  " data-icon="false">
+          <a href="/sigcomm/2019/"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Home</a>
+        </li>
+        
+    
+      
+        
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"  class="navgroup">
+          <h4><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Program</h4>
+          <ul data-role="listview" data-inset="false">
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/program.html"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;All days</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/program_sunday.html"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Sunday</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/program_monday.html"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Monday</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/program_tuesday.html"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Tuesday</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/program_wednesday.html"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Wednesday</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/program_thursday.html"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Thursday</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/program_friday.html"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Friday</a>
+              </li>
+            
+          </ul>
+        </div>
+        
+    
+      
+        
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"  class="navgroup">
+          <h4><i class="fa fa-area-chart" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Main conference</h4>
+          <ul data-role="listview" data-inset="false">
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/camera-ready.html"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Camera-ready instructions</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/tpc.html"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Program committee</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/submission.html"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Submission instructions</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/cfp.html"><i class="fa fa-bell-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Call for papers</a>
+              </li>
+            
+          </ul>
+        </div>
+        
+    
+      
+        
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"  class="navgroup">
+          <h4><i class="fa fa-list-ul" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Parallel events</h4>
+          <ul data-role="listview" data-inset="false">
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/cf-posters.html"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Posters and demos</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/cf-industrial-demos.html"><i class="fa fa-industry" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Industrial demos</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/mentoring.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Mentoring</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/src.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Student research competition</a>
+              </li>
+            
+          </ul>
+        </div>
+        
+    
+      
+        
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"  class="navgroup">
+          <h4><i class="fa fa-wrench" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Workshops</h4>
+          <ul data-role="listview" data-inset="false">
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/camera-ready_ws.html"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Camera-ready instructions</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/workshop-neat.html"><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;NEAT</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/workshop-netpl.html"><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;NetPL</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/workshop-netaim.html"><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;NetAI</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/workshop-optsys.html"><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;OptSys</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/workshop-magesys.html"><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;MAGESys</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/cf-workshops.html"><i class="fa fa-wrench" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Call for workshops</a>
+              </li>
+            
+          </ul>
+        </div>
+        
+    
+      
+        
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right" data-collapsed="false" class="navgroup">
+          <h4><i class="fa fa-bell-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Tutorials</h4>
+          <ul data-role="listview" data-inset="false">
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/tutorial-p4.html"><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;P4</a>
+              </li>
+            
+              
+              <li class="subnav navselected" data-icon="false">
+                <a href="/sigcomm/2019/tutorial-cps.html"><i class="fa fa-adjust fa-rotate-180" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;CPS</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/tutorial-ndnot.html"><i class="fa fa-adjust" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;NDN IoT</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/tutorial-powder.html"><i class="fa fa-adjust fa-rotate-180" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;POWDER</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/cf-tutorials.html"><i class="fa fa-laptop" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Call for tutorials</a>
+              </li>
+            
+          </ul>
+        </div>
+        
+    
+      
+        
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"  class="navgroup">
+          <h4><i class="fa fa-briefcase" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Hackathon</h4>
+          <ul data-role="listview" data-inset="false">
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/hackathon.html"><i class="fa fa-bell-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Call for participation</a>
+              </li>
+            
+          </ul>
+        </div>
+        
+    
+      
+        
+        <li class="notlast  " data-icon="false">
+          <a href="/sigcomm/2019/venue.html"><i class="fa fa fa-university" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Venue</a>
+        </li>
+        
+    
+      
+        
+        <li class="notlast  " data-icon="false">
+          <a href="/sigcomm/2019/hotel.html"><i class="fa fa-building-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Hotel</a>
+        </li>
+        
+    
+      
+        
+        <li class="notlast  " data-icon="false">
+          <a href="/sigcomm/2019/visa.html"><i class="fa fa-address-card-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Visa</a>
+        </li>
+        
+    
+      
+        
+        <li class="notlast  " data-icon="false">
+          <a href="/sigcomm/2019/registration.html"><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Registration</a>
+        </li>
+        
+    
+      
+        
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"  class="navgroup">
+          <h4><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Social events</h4>
+          <ul data-role="listview" data-inset="false">
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/student_dinner.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Student dinner</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/banquet.html"><i class="fa fa-cutlery" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Banquet</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/n2women_dinner.html"><i class="fa fa-female" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;N2Women dinner</a>
+              </li>
+            
+          </ul>
+        </div>
+        
+    
+      
+        
+        <li class="notlast  " data-icon="false">
+          <a href="/sigcomm/2019/travel_grant.html"><i class="fa fa-money" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Travel grants</a>
+        </li>
+        
+    
+      
+        
+        <li class="notlast  " data-icon="false">
+          <a href="/sigcomm/2019/supporters.html"><i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Supporters</a>
+        </li>
+        
+    
+      
+        
+        <li class="notlast  " data-icon="false">
+          <a href="/sigcomm/2019/org-committee.html"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Organizing committee</a>
+        </li>
+        
+    
+      
+        
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"  class="navgroup">
+          <h4><i class="fa fa-map-pin" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Local information</h4>
+          <ul data-role="listview" data-inset="false">
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/currency.html"><i class="fa fa-money" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Currency</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/power.html"><i class="fa fa-plug" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Power</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/language.html"><i class="fa fa-commenting" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Language</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/getting_here.html"><i class="fa fa-plane" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Getting here</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/banks_and_restaurants.html"><i class="fa fa-cutlery" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Banks and Restaurants</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/shuttle.html"><i class="fa fa-bus" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Shuttle buses schedule</a>
+              </li>
+            
+              
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2019/getting_around.html"><i class="fa fa-compass" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Getting around</a>
+              </li>
+            
+          </ul>
+        </div>
+        
+    
+      
+        
+        <li class="  " data-icon="false">
+          <a href="/sigcomm/2019/policies.html"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Policies</a>
+        </li>
+        
+    
+  </ul>
+
+  <!--<div class="border ui-corner-all ui-shadow socialbuttons">-->
+    <!--<iframe src="/sigcomm/2019/misc/socialbtn.html" scrolling="no" height="21" width="100%" frameborder="0" marginheight="0" marginwidth="0"></iframe>-->
+  <!--</div>-->
+</div>
+
+      </div> <!-- content -->
+
+      
+        <div class="logobar" data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="c"></div>
+      
+    </div> <!-- page -->
+
+    
+      
+  <img src="/sigcomm/2019/images/sponsors/h3c_new2.jpg" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/huawei.png" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/amazon.png" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/cisco.png" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/ericsson.png" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/facebook.png" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/alibaba_new.jpg" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/ByteDance_new.png" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/google.png" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/intel.png" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/microsoft.jpg" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/akamai.png" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/barefoot-networks.jpg" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/comcast.jpg" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/netapp.jpg" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/verizon.png" alt="cached" class="hidden">
+
+  <img src="/sigcomm/2019/images/sponsors/vmware.png" alt="cached" class="hidden">
+
+
+<script type="text/javascript">
+  /* [priority, logo_filename, sponsor_website, sponsor_shortname, 0, real_height, real_width] */
+  sps = [[800,"h3c_new2.jpg","http://www.h3c.com/","h3c",0,294,800,"diamond"],[800,"huawei.png","https://www.huawei.com/","huawei",0,519,519,"diamond"],[300,"amazon.png","https://www.amazon.com/","amazon",0,120,300,"platinum"],[300,"cisco.png","https://www.cisco.com/","cisco",0,200,379,"platinum"],[300,"ericsson.png","https://ericsson.com/","ericsson",0,116,104,"platinum"],[300,"facebook.png","https://www.facebook.com/","facebook",0,713,2026,"platinum"],[200,"alibaba_new.jpg","https://www.alibaba.com/","alibaba",0,591,1181,"gold"],[100,"ByteDance_new.png","https://www.bytedance.com/","ByteDance",0,295,1151,"silver"],[100,"google.png","https://www.google.com/","google",0,56,160,"silver"],[100,"intel.png","https://www.intel.com/","intel",0,1978,3000,"silver"],[100,"microsoft.jpg","https://www.microsoft.com/","microsoft",0,250,600,"silver"],[90,"akamai.png","https://www.akamai.com/","akamai",0,195,450,"bronze"],[90,"barefoot-networks.jpg","https://www.barefootnetworks.com/","barefoot networks",0,246,600,"bronze"],[90,"comcast.jpg","https://www.comcast.com/","comcast",0,263,594,"bronze"],[90,"netapp.jpg","https://www.netapp.com/","netapp",0,1208,1279,"bronze"],[90,"verizon.png","https://www.verizondigitalmedia.com/","verizon",0,519,1200,"bronze"],[90,"vmware.png","https://www.vmware.com/","vmware",0,410,845,"bronze"]];
+</script>
+
+    
+
+    <!-- Google Analytics script code for collecting visit statistics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+  </body>
+</html>

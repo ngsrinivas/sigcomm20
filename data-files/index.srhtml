@@ -1,0 +1,64 @@
+        <div class="content-primary">
+          <h1 id="welcome-to-sigcomm-2020">Welcome to SIGCOMM 2020</h1>
+
+<p>The organizing committee is delighted to invite you to ACM SIGCOMM 2020, to be held in Columbia University, New York City, USA, during August 10--14, 2020. SIGCOMM is the flagship annual conference of the ACM Special Interest Group on Data Communication (SIGCOMM) on the applications, technologies, architectures, and protocols for computer communication.</p>
+
+<h2 id="-news"><i class="fa fa-newspaper-o"></i> News</h2>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+
+  <li data-icon="false">
+    <div class="ui-grid-a">
+      <div class="ui-block-a"><h2>Nov 13, 2019</h2></div>
+      <div class="ui-block-b"><p>First version of web site is live.</p></div>
+    </div>
+  </li>
+
+  <li data-icon="false">
+    <div class="ui-grid-a">
+      <div class="ui-block-a"><h2>Nov 7, 2019</h2></div>
+      <div class="ui-block-b"><p><a href="cfp.html">Call for papers</a> is published</p></div>
+    </div>
+  </li>
+      
+  <!-- <li class="newslibtn ui-btn ui-li" data-theme="a" onclick="showall('.newslibtn');"> -->
+  <!--   <div><a>Older News</a><span class="ui-icon ui-btn-icon-right ui-icon-plus ui-icon-shadow">&nbsp;</span></div> -->
+  <!-- </li> -->
+</ul>
+
+<h2 id="-important-dates"><i class="fa fa-calendar"></i> Important Dates</h2>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+    
+    
+    
+    
+    <li data-icon="false">
+        <div class="ui-grid-a">
+            <div class="ui-block-a"><h2>Feb 7, 2020</h2></div>
+            <div class="ui-block-b"><p>Paper submission deadline of the main conference</p></div>
+        </div>
+    </li>
+
+    <li data-icon="false">
+        <div class="ui-grid-a">
+            <div class="ui-block-a"><h2>May 15, 2020 (tentative)</h2></div>
+            <div class="ui-block-b"><p>Main conference notification date (tentative)</p></div>
+        </div>
+    </li>
+
+    
+    <!-- <li class="dateslibtn ui-btn ui-li" data-theme="a" onclick="showall('.dateslibtn');"> -->
+    <!--     <div><a>Older Dates</a><span class="ui-icon ui-btn-icon-right ui-icon-plus ui-icon-shadow">&nbsp;</span></div> -->
+    <!-- </li> -->
+</ul>
+
+<!-- ## <i class="fa fa-gg"></i> Sponsors
+
+<div class="sponsors">
+	<a href="//www.acm.org/"><img src="images/acm.png" alt="Association for Computing Machinery" /></a>
+	<a href="//www.sigcomm.org/"><img src="images/sig.png" alt="ACM SIGCOMM" /></a>
+</div> -->
+
+
+        </div><!-- content-primary -->
