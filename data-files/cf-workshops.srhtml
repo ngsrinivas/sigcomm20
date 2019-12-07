@@ -1,0 +1,280 @@
+        <div class="content-primary">
+          <h1 id="call-for-workshop-proposals">Call for Workshop Proposals</h1>
+
+<p>SIGCOMM 2020 plans to hold multiple one-day workshops in conjunction with the conference, to be held in New York City August 10-14 2020. Workshops will take place on Monday, August 10 and Friday, August 14.</p>
+
+<p>We invite you to submit workshop proposals on any topic related to the broad set of research and application areas covered by the SIGCOMM conference, including topics in network research, practice, and education.  Topics that represent new research areas and directions are particularly welcome.</p>
+
+<p>A workshop proposal should contain the following information:</p>
+
+<ul>
+  <li>
+    <p>Motivation and rationale for the workshop.</p>
+  </li>
+  <li>
+    <p>A Call for Papers (CFP) draft, as complete as possible.</p>
+  </li>
+  <li>
+    <p>The workshop schedule on submission deadline, acceptance notification, and camera ready date. See below for guidelines on SIGCOMM camera ready date. The workshop schedule must permit the camera ready paper to be prepared in advance of this date.</p>
+  </li>
+  <li>
+    <p>Names and affiliations of the organizers, a tentative composition of the committees. Please indicate whether prospective TPC members have been contacted, and whether they have accepted the invitation.</p>
+  </li>
+  <li>
+    <p>Workshop format, including expected number of presented papers, invited talks, panels, demonstrations, etc.</p>
+  </li>
+  <li>
+    <p>Expected number of participants and the expected number of submissions (if appropriate).</p>
+  </li>
+  <li>
+    <p>Prior history of this workshop, if any, including number of submissions, number of accepted papers, and attendee count. If the workshop was co-located with another conference please include details and a brief description why SIGCOMM is a more appropriate venue.</p>
+  </li>
+  <li>
+    <p>If the workshop is interdisciplinary, please provide details about your plans to advertise to other communities and how you intend to encourage participation at the workshop.</p>
+  </li>
+  <li>
+    <p>If appropriate, a brief explanation of how the workshop relates to other workshops and conferences on similar topics.</p>
+  </li>
+  <li>
+    <p>If appropriate, the financial support the workshop intends to receive from a third-party.</p>
+  </li>
+</ul>
+
+<p>The workshop organizers should also take into account the following practical considerations:</p>
+
+<ul>
+  <li>
+    <p>We expect to have rooms in two sizes: for approximately 50-100 attendees.</p>
+  </li>
+  <li>
+    <p>A/V (projector and screen) will be provided in all workshop rooms, which may also be equipped with microphone and speakers.</p>
+  </li>
+  <li>
+    <p>There will be Wi-Fi coverage in all areas of the conference, including the workshop rooms. Any specific networking requirements should be stated in the proposal.</p>
+  </li>
+  <li>
+    <p>We will require all workshops to have identical start, end and break times, though yet to be determined at this point.</p>
+  </li>
+  <li>
+    <p>Individual Workshop organizers are expected to manage their workshop and coordinate with the local arrangements chair of SIGCOMM 2020 for facilities, and with publications chairs for camera ready papers.</p>
+  </li>
+  <li>
+    <p>Individual Workshop organizers will be responsible for setting up the paper submission site and review process for the selected workshops and their individual web page design in coordination with the SIGCOMM 2020 web chair (hosted on the common conference web site).</p>
+  </li>
+</ul>
+
+<p>If you have any further questions about your workshop proposal, do not hesitate to contact the workshop chairs.</p>
+
+<p><a href="mailto:workshopchairs20@sigcomm.org?subject=[SIGCOMM 2020]" data-role="button" class="button">Contact the Workshop Chairs</a></p>
+
+<h2 id="where-to-submit-a-workshop-proposals">Where To Submit a Workshop Proposals</h2>
+
+<p>Please submit your workshop proposal in a single PDF file by sending it to the Workshop Chairs by email at workshopchairs20@sigcomm.org with the subject “SIGCOMM 2020 Workshop Proposal: xxxx” (where xxxx is the acronym of your proposed workshop) by Feb. 14, 2020, 5 pm ET.</p>
+
+<p><a href="mailto:workshopchairs20@sigcomm.org?subject=SIGCOMM 2020 Workshop Proposal: xxxx" data-role="button" class="button">Submit a Workshop Proposal</a></p>
+
+<!--
+## <i class="fa fa-calendar"></i> Important dates
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+    
+</ul>
+
+
+Note that there are only three weeks between the notification and the final CFP. Thus, we reiterate that you contact your workshop’s potential PC members before submitting the proposal.
+
+## Preliminary Information for Workshop Planning
+
+All deadline (Workshop Chairs will coordinate across all selected workshops to have common dates) will be common across Workshops.
+
+-->
+<!--
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      <li data-icon="false">
+        <div class="ui-grid-a">
+          <div class="ui-block-a"><h2>Before March 25, 2018</h2></div>
+          <div class="ui-block-b"><p>Paper submissions deadline</p></div>
+        </div>
+      </li>
+    
+  
+    
+    
+    
+      <li data-icon="false">
+        <div class="ui-grid-a">
+          <div class="ui-block-a"><h2>Before end of April, 2018</h2></div>
+          <div class="ui-block-b"><p>Paper acceptance notification</p></div>
+        </div>
+      </li>
+    
+  
+    
+    
+    
+      <li data-icon="false">
+        <div class="ui-grid-a">
+          <div class="ui-block-a"><h2>Before end of May, 2018</h2></div>
+          <div class="ui-block-b"><p>Camera ready due</p></div>
+        </div>
+      </li>
+    
+  
+    
+    
+    
+      <li data-icon="false">
+        <div class="ui-grid-a">
+          <div class="ui-block-a"><h2>Before mid-June, 2018</h2></div>
+          <div class="ui-block-b"><p>Program available online</p></div>
+        </div>
+      </li>
+    
+  
+    
+    
+    
+      <li data-icon="false">
+        <div class="ui-grid-a">
+          <div class="ui-block-a"><h2>Before mid-June, 2018</h2></div>
+          <div class="ui-block-b"><p>List of organization details</p></div>
+        </div>
+      </li>
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+    
+</ul>
+
+
+In order for the workshops to be synchronized with preparations for the main conference and with travel grants, the dates above must be followed strictly by all workshops. Please contact the SIGCOMM 2018 Workshop co-chairs, Xiaoming Fu and K. K. Ramakrishnan at [workshopchairs18@sigcomm.org](mailto:workshopchairs18@sigcomm.org?subject=[SIGCOMM 2018]) with any questions.
+-->
+<!-- <a href="files/cft.pdf" rel="external" data-role="button" class="dl-button button">Download this call as a PDF</a> -->
+
+        </div><!-- content-primary -->

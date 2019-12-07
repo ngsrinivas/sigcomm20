@@ -23,7 +23,19 @@
           </ul>
         </div>    
         
-  </ul>
+
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right" data-collapsed="false" class="navgroup">
+          <h4><i class="fa fa-wrench" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Workshops</h4>
+          <ul data-role="listview" data-inset="false">
+            
+              <li class="subnav navselected" data-icon="false">
+                <a href="/sigcomm/2020/cf-workshops.html"><i class="fa fa-wrench" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Call for workshops</a>
+              </li>
+            
+          </ul>
+        </div>
+
+   </ul>
 
   <!--<div class="border ui-corner-all ui-shadow socialbuttons">-->
     <!--<iframe src="/sigcomm/2020/misc/socialbtn.html" scrolling="no" height="21" width="100%" frameborder="0" marginheight="0" marginwidth="0"></iframe>-->

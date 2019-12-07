@@ -6,7 +6,9 @@ data_folder = 'data-files/'
 stage_folder = 'staging/sigcomm/2020/'
 
 # Add list of files to generate here
-data_files = ['index', 'cfp']
+data_files = ['index',
+              'cfp',
+              'cf-workshops']
 
 def read_file(fname):
     with open(data_folder + fname + '.srhtml', 'r') as f:
