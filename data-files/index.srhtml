@@ -7,6 +7,16 @@
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
 
+
+  <li data-icon="false">
+    <div class="ui-grid-a">
+      <div class="ui-block-a"><h2>Nov 13, 2019</h2></div>
+      <div class="ui-block-b"><p><a href="cf-workshops.html">Call for workshop proposals</a> out:
+    deadline Feb 14, 2020</p></div>
+    </div>
+  </li>
+
+
   <li data-icon="false">
     <div class="ui-grid-a">
       <div class="ui-block-a"><h2>Nov 13, 2019</h2></div>
@@ -30,13 +40,19 @@
 
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
     
-    
-    
+
     
     <li data-icon="false">
         <div class="ui-grid-a">
             <div class="ui-block-a"><h2>Feb 7, 2020</h2></div>
             <div class="ui-block-b"><p>Paper submission deadline of the main conference</p></div>
+        </div>
+    </li>
+
+    <li data-icon="false">
+        <div class="ui-grid-a">
+            <div class="ui-block-a"><h2>Feb 14, 2020</h2></div>
+            <div class="ui-block-b"><p>Deadline to submit workshop proposals</p></div>
         </div>
     </li>
 
