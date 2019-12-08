@@ -1,0 +1,482 @@
+
+
+
+        <div class="content-primary">
+          <h1>SIGCOMM 2020 Organizing Committee</h1>
+
+  <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
+  
+
+    <li data-role="list-divider" style="white-space: normal; padding-right:.5em">General Chairs
+      
+
+        <a href="mailto:hgs@cs.columbia.edu,misra@cs.columbia.edu?subject=[SIGCOMM 2020]">
+          <i class="fa fa-envelope-o" aria-hidden="true" style="float:right"></i>
+        </a>
+
+      
+
+    </li>
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Vishal Misra
+              </p>
+            </div>
+            <div class="ui-block-b"><p>Columbia University</p></div>
+          </div>
+          
+      </li>  
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Henning Schulzrinne
+              </p>
+            </div>
+            <div class="ui-block-b"><p>Columbia University</p></div>
+          </div>
+          
+      </li>  
+  
+
+    <li data-role="list-divider" style="white-space: normal; padding-right:.5em">Program Committee Chairs
+      
+
+        <a href="mailto:sigcomm2020-pc-chairs@googlegroups.com?subject=[SIGCOMM 2020]">
+          <i class="fa fa-envelope-o" aria-hidden="true" style="float:right"></i>
+        </a>
+
+      
+
+    </li>
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Sujata Banerjee
+              </p>
+            </div>
+            <div class="ui-block-b"><p>VMware Research</p></div>
+          </div>
+          
+      </li>  
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Ratul Mahajan
+              </p>
+            </div>
+            <div class="ui-block-b"><p>University of Washington, Intentionet</p></div>
+          </div>
+          
+      </li>  
+    
+  
+
+    <li data-role="list-divider" style="white-space: normal; padding-right:.5em">Tutorial Chairs
+      
+
+        <a href="mailto:lvanbever@ethz.ch,stefano.vissicchio@uclouvain.be?subject=[SIGCOMM 2020]">
+          <i class="fa fa-envelope-o" aria-hidden="true" style="float:right"></i>
+        </a>
+
+      
+
+    </li>
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Laurent Vanbever
+              </p>
+            </div>
+            <div class="ui-block-b"><p>EPFL</p></div>
+          </div>
+          
+      </li>  
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Stefano Vissicchio
+              </p>
+            </div>
+            <div class="ui-block-b"><p>UC Louvain</p></div>
+          </div>
+          
+      </li>  
+    
+  
+
+    <li data-role="list-divider" style="white-space: normal; padding-right:.5em">Workshop Chairs
+      
+
+        <a href="mailto:workshopchairs20@sigcomm.org?subject=[SIGCOMM 2020]">
+          <i class="fa fa-envelope-o" aria-hidden="true" style="float:right"></i>
+        </a>
+
+      
+
+    </li>
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Manya Ghobadi
+              </p>
+            </div>
+            <div class="ui-block-b"><p>MIT</p></div>
+          </div>
+          
+      </li>  
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Michael Schapira
+              </p>
+            </div>
+            <div class="ui-block-b"><p>Hebrew University of Jerusalem</p></div>
+          </div>
+          
+      </li>  
+    
+  
+
+    <li data-role="list-divider" style="white-space: normal; padding-right:.5em">Poster Chair
+      
+
+        <a href="mailto:ihsan.qazi@lums.edu.pk?subject=[SIGCOMM 2020]">
+          <i class="fa fa-envelope-o" aria-hidden="true" style="float:right"></i>
+        </a>
+
+      
+
+    </li>
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Ihsan Ayyub Qazi
+              </p>
+            </div>
+            <div class="ui-block-b"><p>LUMS</p></div>
+          </div>
+          
+      </li>      
+  
+
+    <li data-role="list-divider" style="white-space: normal; padding-right:.5em">Demos Chair
+      
+
+        <a href="mailto:ragarwal@cs.cornell.edu?subject=[SIGCOMM 2020]">
+          <i class="fa fa-envelope-o" aria-hidden="true" style="float:right"></i>
+        </a>
+
+      
+
+    </li>
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Rachit Agarwal
+              </p>
+            </div>
+            <div class="ui-block-b"><p>Cornell University</p></div>
+          </div>
+          
+      </li>  
+      
+
+    <li data-role="list-divider" style="white-space: normal; padding-right:.5em">Sponsorship Chair
+      
+
+        <a href="mailto:jiawang@research.att.com?subject=[SIGCOMM 2020]">
+          <i class="fa fa-envelope-o" aria-hidden="true" style="float:right"></i>
+        </a>
+
+      
+
+    </li>
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Jia Wang
+              </p>
+            </div>
+            <div class="ui-block-b"><p>AT&T Research Labs</p></div>
+          </div>
+          
+      </li>  
+        
+  
+
+    <li data-role="list-divider" style="white-space: normal; padding-right:.5em">Local Arrangements Chairs
+      
+
+        <a href="mailto:jiang@ee.columbia.edu,yongliu@nyu.edu?subject=[SIGCOMM 2020]">
+          <i class="fa fa-envelope-o" aria-hidden="true" style="float:right"></i>
+        </a>
+
+      
+
+    </li>
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Fred Jiang
+              </p>
+            </div>
+            <div class="ui-block-b"><p>Columbia University</p></div>
+          </div>
+          
+      </li>  
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Yong Liu
+              </p>
+            </div>
+            <div class="ui-block-b"><p>NYU</p></div>
+          </div>
+          
+      </li>  
+    
+  
+
+    <li data-role="list-divider" style="white-space: normal; padding-right:.5em">Web Chair
+      
+
+        <a href="mailto:srinivas.narayana@rutgers.edu?subject=[SIGCOMM 2020]">
+          <i class="fa fa-envelope-o" aria-hidden="true" style="float:right"></i>
+        </a>
+
+      
+
+    </li>
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Srinivas Narayana
+              </p>
+            </div>
+            <div class="ui-block-b"><p>Rutgers University</p></div>
+          </div>
+          
+      </li>  
+      
+
+    <li data-role="list-divider" style="white-space: normal; padding-right:.5em">Treasurer
+      
+
+        <a href="mailto:aashaikh@google.com?subject=[SIGCOMM 2020]">
+          <i class="fa fa-envelope-o" aria-hidden="true" style="float:right"></i>
+        </a>
+
+      
+
+    </li>
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Anees Shaikh
+              </p>
+            </div>
+            <div class="ui-block-b"><p>Google</p></div>
+          </div>
+          
+      </li>  
+    
+  
+
+    <li data-role="list-divider" style="white-space: normal; padding-right:.5em">Topics Preview Chair
+      
+
+        <a href="mailto:ethan@ee.columbia.edu?subject=[SIGCOMM 2020]">
+          <i class="fa fa-envelope-o" aria-hidden="true" style="float:right"></i>
+        </a>
+
+      
+
+    </li>
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Ethan Katz-Bassett
+              </p>
+            </div>
+            <div class="ui-block-b"><p>Columbia University</p></div>
+          </div>
+          
+      </li>  
+
+
+    <li data-role="list-divider" style="white-space: normal; padding-right:.5em">Publicity Chairs
+      
+
+        <a href="mailto:tbma@comp.nus.edu.sg,srinivas.narayana@rutgers.edu?subject=[SIGCOMM 2020]">
+          <i class="fa fa-envelope-o" aria-hidden="true" style="float:right"></i>
+        </a>
+
+      
+
+    </li>
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Richard Ma
+              </p>
+            </div>
+            <div class="ui-block-b"><p>NUS</p></div>
+          </div>
+          
+      </li>  
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Srinivas Narayana
+              </p>
+            </div>
+            <div class="ui-block-b"><p>Rutgers University</p></div>
+          </div>
+          
+      </li>  
+  
+
+    <li data-role="list-divider" style="white-space: normal; padding-right:.5em">Student Research Competition Chair
+      
+
+        <a href="mailto:arpitgupta@cs.ucsb.edu?subject=[SIGCOMM 2020]">
+          <i class="fa fa-envelope-o" aria-hidden="true" style="float:right"></i>
+        </a>
+
+      
+
+    </li>
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Arpit Gupta
+              </p>
+            </div>
+            <div class="ui-block-b"><p>UCSB</p></div>
+          </div>
+          
+      </li>    
+  
+</ul>
+
+
+<!--  <br/>
+<a class="button" data-role="button" href="mailto:generalchairs18@sigcomm.org">Contact the General Chairs</a>-->
+
+
+        </div><!-- content-primary -->
