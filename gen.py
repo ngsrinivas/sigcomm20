@@ -10,7 +10,9 @@ data_files = ['index',
               'cfp',
               'cf-workshops',
               'tpc',
-              'org-committee']
+              'org-committee',
+              'cf-tutorials',
+              'submission']
 
 def read_file(fname):
     with open(data_folder + fname + '.srhtml', 'r') as f:

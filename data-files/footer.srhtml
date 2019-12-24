@@ -23,6 +23,10 @@
               <li class="subnav " data-icon="false">
                 <a href="/sigcomm/2020/tpc.html"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Program committee</a>
               </li>
+
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2020/submission.html"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Submission instructions</a>
+              </li>
             
           </ul>
         </div>    
@@ -36,6 +40,19 @@
                 <a href="/sigcomm/2020/cf-workshops.html"><i class="fa fa-wrench" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Call for workshops</a>
               </li>
             
+          </ul>
+        </div>
+
+
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right" data-collapsed="false" class="navgroup">
+          <h4><i class="fa fa-bell-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Tutorials</h4>
+          <ul data-role="listview" data-inset="false">
+
+              <li class="subnav " data-icon="false">
+                <a href="/sigcomm/2020/cf-tutorials.html"><i class="fa fa-laptop" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Call for tutorials</a>
+              </li>
+
+
           </ul>
         </div>
 

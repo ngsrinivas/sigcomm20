@@ -1,0 +1,82 @@
+<div class="content-primary">
+<h1 id="call-for-tutorials">Call for tutorials</h1>
+
+<p>We seek to extend the SIGCOMM experience by tutorials on selected topics given by renowned scientists and practitioners in their fields. We therefore solicit proposals for full-day or half-day tutorials on topics relevant to the SIGCOMM community.</p>
+
+<p>Tutorials must cover advanced topics that fit the scope of SIGCOMM and are of current interest to the SIGCOMM community. Tutorials may be lectures, interactive workshops, hands-on training, or any combination of the above. Successful tutorials educate the community members on emerging methods, concepts, and tools to expand the research capabilities of the community. Exploring diverse ways of interacting with the audience and cross disciplinary topics are welcome.</p>
+
+<h2 id="where-to-submit">Where To Submit</h2>
+
+<p>Tutorial proposals should be submitted in PDF format, should not exceed three (3) pages in total, and be sent to the Tutorial Chairs.</p>
+
+<p><a href="mailto:lvanbever@ethz.ch,s.vissicchio@ucl.ac.uk?subject=[SIGCOMM 2020] Tutorial Proposal" data-role="button" class="button ui-link ui-btn ui-shadow ui-corner-all" role="button">Submit a Tutorial Proposal</a></p>
+
+<h2 id="-important-dates"><i class="fa fa-calendar" aria-hidden="true"></i> Important dates</h2>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl ui-listview ui-listview-inset ui-corner-all ui-shadow ui-group-theme-a">
+  
+      <li data-icon="false" class="ui-li-static ui-body-inherit ui-first-child">
+        <div class="ui-grid-a">
+          <div class="ui-block-a"><h2>March 6, 2020</h2></div>
+          <div class="ui-block-b"><p>Submission deadline</p></div>
+        </div>
+      </li>
+    
+  
+      <li data-icon="false" class="ui-li-static ui-body-inherit ui-last-child">
+        <div class="ui-grid-a">
+          <div class="ui-block-a"><h2>March 23, 2020</h2></div>
+          <div class="ui-block-b"><p>Notification of acceptance</p></div>
+        </div>
+      </li>
+ 
+</ul>
+
+<h2 id="proposals-must-include">Proposals must include:</h2>
+
+<ul>
+  <li>
+    <p>A <strong>motivation</strong> for the tutorial (why this, why now, why at SIGCOMM?)</p>
+  </li>
+  <li>
+    <p>An <strong>outline</strong> of the tutorial content, including its tentative schedule (over a half-day or full-day)</p>
+  </li>
+  <li>
+    <p>The <strong>type</strong> of tutorial (e.g., lecture vs. hands-on). It is highly recommended that full-day tutorials should include a hands-on component and not be limited to only lectures. Hands-on components are well-known to be more engaging and pedagogically better in teaching for full-day events.</p>
+  </li>
+  <li>
+    <p><strong>References</strong> to previous iterations of the tutorial (if applicable) including their date, venue, topics and number of participants and the motivation for the new proposal.</p>
+  </li>
+  <li>
+    <p><strong>Venue requirements</strong> for the tutorial room (please note that our capabilities in fulfilling unusual requests are limited). Projection and A/V support will be provided.</p>
+  </li>
+  <li>
+    <p><strong>Requirements for the attendees</strong> (e.g., must bring own laptop or other hardware, familiarity with certain technologies or topics, speed of Internet connection etc.)</p>
+  </li>
+  <li>
+    <p>Any <strong>restrictions</strong> (e.g., number of participants)</p>
+  </li>
+</ul>
+
+<h2 id="-important-notes"><i class="fa fa-calendar" aria-hidden="true"></i> Important notes:</h2>
+
+<ul>
+  <li>
+    <p>It is <em>recommended</em> that there are up to three speakers for a full-day tutorial and up to two speakers for a half-day tutorial.</p>
+  </li>
+  <li>
+    <p>Tutorials will likely be held in parallel with the workshops, i.e., Monday and/or Friday of the SIGCOMM week.</p>
+  </li>
+  <li>
+    <p>Upon acceptance of a tutorial proposal, either the tutorial co-chair or the tutorial speakers can request a cancellation of the tutorial if there is clear evidence indicating low attendance of the tutorial by the early registration deadline.</p>
+  </li>
+  <li>
+    <p>Compensation to tutorial speakers will not be provided.</p>
+  </li>
+</ul>
+
+<p><a href="mailto:lvanbever@ethz.ch,s.vissicchio@ucl.ac.uk?subject=[SIGCOMM 2020] Tutorial" data-role="button" class="button ui-link ui-btn ui-shadow ui-corner-all" role="button">Contact the Tutorial Chairs</a></p>
+
+
+        </div><!-- content-primary -->
+
