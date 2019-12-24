@@ -1,115 +1,276 @@
         <div class="content-primary">
           <h1 id="paper-submission-requirements">Paper Submission Requirements</h1>
-<p>The ACM SIGCOMM 2019 conference seeks papers making significant research contributions to the field of data communication networks and networked systems. The conference takes a broad view of networking research.  Please see the <a href="https://conferences.sigcomm.org/sigcomm/2019/cfp.html">Call For Papers</a> for a list of topics of particular relevance.
-<!--The ACM SIGCOMM 2019 conference seeks papers describing significant research contributions to the field of data communication networks and networked systems. SIGCOMM&#39;19 takes a broad view of networking research. This includes new ideas relating to (but not limited to) mobile, wide-area, data-center, home, and enterprise networks using a variety of link technologies (wired, wireless, visual, and acoustic), as well as social networks and network architecture. It encompasses all aspects of networks and networked systems, including packet-processing hardware and software, virtualization, mobility, sensors, provisioning and resource management, performance, energy consumption, topology, robustness and security, measurement, diagnosis, verification, privacy, economics and evolution, interactions with applications, internet-of-things, novel applications of machine learning to networking, and usability of underlying networking technologies.--></p>
 
-<p>Paper submissions typically report novel results firmly substantiated by experimentation, simulation, or analysis. As an aid to the community, the SIGCOMM web site provides <a href="https://www.sigcomm.org/publish/hints-tips-and-guides/">useful advice</a> to authors planning to submit to SIGCOMM conferences.</p>
+<p>The ACM SIGCOMM 2020 conference seeks papers making significant research
+contributions to the field of data communication networks and networked
+systems. The conference takes a broad view of networking research. Please see
+the <a href="https://conferences.sigcomm.org/sigcomm/2020/cfp.html">Call For
+Papers</a> for a list of topics of particular relevance.</p>
 
-<p>To submit papers to the SIGCOMM 2019 conference, please carefully read the rest of this document which provides information regarding paper formatting, registration, anonymity, and other important issues relevant to your submission.</p>
+<p>Paper submissions typically report novel results firmly substantiated by
+experimentation, simulation, or analysis. As an aid to the community, the
+SIGCOMM web site provides <a
+href="https://www.sigcomm.org/publish/hints-tips-and-guides/">useful advice</a>
+to authors planning to submit to SIGCOMM conferences.</p>
 
-<p>Then use <a href="https://sigcomm2019.hotcrp.com">the paper submission site</a> to:</p>
+<p>To submit papers to the SIGCOMM 2020 conference, please carefully read the
+rest of this document which provides information regarding paper formatting,
+registration, anonymity, and other important issues relevant to your
+submission.</p>
+
+<p>Then use <a href="https://sigcomm20.hotcrp.com/">the paper submission site</a> to:</p>
 
 <ul>
-  <li>Register your paper by <span style="color:red">January 24, 2019 23:59 UTC</span>.</li>
-  <li>Submit your paper by <span style="color:red">January 31, 2019 23:59 UTC</span>.</li>
+  <li>Submit your paper by <span style="color:red">Feb 7, 2020 23:59 EST
+  (Feb 8, 2020 4:59 UTC)</span>.</li>
 </ul>
 
-<p>These are <span style="color:red">hard deadlines</span> and no extensions will be given.</p>
+<p>This is a <span style="color:red">hard deadline</span> and no extensions will
+be given. Unlike prior years, there is no separate paper registration or
+abstract submission deadline, though authors are encouraged to register papers
+and provide relevant metadata ahead of time to avoid last-minute surprises.</p>
 
 <h2 id="paper-formatting">Paper Formatting</h2>
+
 <p>All submissions must obey the following formatting requirements.</p>
 
 <ul>
-  <li>Paper bodies (all content before references and appendices) must be no more than <strong><span style="color:red">twelve (12) single–spaced pages</span></strong>, including figures and tables, followed by as many pages as necessary for references and optional appendicies. Papers whose pre-reference content is longer than 12 pages will not be reviewed.</li>
-  <li>Appendices will not be considered in reviews, so the paper body must be complete and self-contained.
-(For example, if the appendix provides details of a proof or experiment,
-the body should summarize the key result.)</li>
-  <li>The paper body must include some statement about ethical considerations. This could be simply the sentence “This work does not raise any ethical issues”, or for a paper involving human subjects, the discussion may be more detailed.</li>
-  <li>Papers must be formatted for printing on Letter-sized (8.5” by 11”) paper. Paper text blocks must follow ACM guidelines: double-column, with each column 9.25” by 3.33”, 0.33” space between columns. Each column must use 10-point font or larger, and contain no more than 55 lines of text.</li>
-  <li>It is your responsibility to ensure that your submission satisfies the above requirements. If you are using LaTeX, you may make use of <a href="https://github.com/scyue/ccp-sigcomm18">this template for ACM conference proceedings</a>. With the older versions of this template you *must add “10pt” to the documentclass command to meet the submission requirements. The current template sets 10pt by default. (Unlike the official template, it only includes example for conference proceedings.)</li>
+  <li>Paper bodies (all content before references and appendices) must be no
+  more than <strong><span style="color:red">twelve (12) single–spaced
+  pages,</span></strong> including figures and tables, followed by as many pages
+  as necessary for references and optional appendices. Papers whose
+  pre-reference content is longer than 12 pages will not be reviewed.</li>
+  <li>Reviewers are not required to read any appendices or consider them in
+  their review. Authors should thus ensure that the core paper is complete and
+  self-contained. For example, if the appendix provides details of a proof or
+  experiment, the body should summarize the key result. </li>
+  <li>The paper body must include some statement about ethical
+  considerations. This could be simply the sentence “This work does not raise
+  any ethical issues”, or where relevant (for example, but not exclusively, a
+  paper involving human subjects), the discussion may be more detailed.</li>
+  <li>If submitting to the operational systems track, authors should indicate as
+  such in the submission form and paper title. </li>
+  <li>Papers must be formatted for printing on Letter-sized (8.5” by 11”)
+  paper. Paper text blocks must follow ACM guidelines: double-column, with each
+  column 9.25” by 3.33”, 0.33” space between columns. Each column must use
+  10-point font or larger, and contain no more than 55 lines of text. </li>
+  <li>It is your responsibility to ensure that your submission satisfies the
+  above requirements. If you are using LaTeX, you may make use of <a
+  href="https://github.com/scyue/ccp-sigcomm18">this template for ACM conference
+  proceedings.</a> With the older versions of this template you *must add “10pt”
+  to the documentclass command to meet the submission requirements. The current
+  template sets 10pt by default. (Unlike the official template, it only includes
+  example for conference proceedings.)</li>
 </ul>
 
-<p>Your goal as an author is to produce a clearly readable submission within the above constraints. Authors are strongly discouraged from violating the formatting requirements with the aim of including additional material: <span style="color:red"><strong>submissions that violate the formatting requirements may not be reviewed</strong></span>. You can visually inspect a page-by-page report of your paper format using the same tool as the submission system via a separate <a href="https://www.sysnet.ucsd.edu/sigops/banal/index.php">online form</a>.</p>
+<p>Your goal as an author is to produce a clearly readable submission within the
+above constraints. Authors are strongly discouraged from violating the
+formatting requirements with the aim of including additional material: <span
+style="color:red"><strong>submissions that violate the formatting requirements
+may not be reviewed.</strong></span> You can visually inspect a page-by-page
+report of your paper format using the same tool as the submission system via a
+separate <a href="https://www.sysnet.ucsd.edu/sigops/banal/index.php">online
+form.</a></p>
 
-<p>After the submission deadline, we will use the same tool to check the conformance of papers. The format checking tool uses heuristics and can make mistakes. The PC chairs will manually inspect and possibly reject those papers with evident format violations.</p>
+<p>After the submission deadline, we will use the same tool to check the
+conformance of papers. The format checking tool uses heuristics and can make
+mistakes. The PC chairs will manually inspect and possibly reject those papers
+with evident format violations.</p> 
 
 <p>Please make sure that your submitted paper satisfies the following:</p>
 <ul>
-  <li>You must list the submission number and the number of pages (ideally) in your paper in the author block, e.g., “Paper #N, 12 pages body, 14 pages total”, beneath your title. Registering your title, abstract, etc., will provide a paper submission number. Per the anonymity guidelines, you must remove any author names.</li>
-  <li>You must provide an abstract, and it should be of no more than 200 words.</li>
+  <li>You must list the submission number and the number of pages (ideally) in
+  your paper in the author block, e.g., “Paper #N, 12 pages body, 14 pages
+  total”, beneath your title. Registering your title, abstract, etc., will
+  provide a paper submission number. Per the anonymity guidelines, you must
+  remove any author names.</li>
+  <li>You must provide an abstract, and it should be of no more than 200
+  words.</li>
   <li>You must number the pages.</li>
-  <li>You must submit papers in PDF (Portable Document Format) and ensure that they are compatible with Adobe Acrobat (English version). Other formats, including Postscript, will not be accepted. Avoid using non-standard fonts. The PC must be able to display and print your submission exactly as we receive it using only standard tools and printers, so we strongly suggest that you use only standard fonts that are embedded in the PDF file.</li>
-  <li>You should ensure that the paper prints well on black-and-white printers, not color printers. Pay particular attention to figures and graphs in the paper to ensure that they are legible without color. Explicitly using grayscale colors will provide best control over how graphs and figures will print on black-and-white printers.</li>
-  <li>You should ensure that labels and symbols used in graphs and figures are legible, including the font sizes of tick marks, axis labels, legends, etc.</li>
-  <li>You should limit the file size to less than 15 MB. Contact the PC chairs if you have a file larger than 15 MB.</li>
+  <li>You must submit papers in PDF (Portable Document Format) and ensure that
+  they are compatible with Adobe Acrobat (English version). Other formats,
+  including Postscript, will not be accepted. Avoid using non-standard
+  fonts. The PC must be able to display and print your submission exactly as we
+  receive it using only standard tools and printers, so we strongly suggest that
+  you use only standard fonts that are embedded in the PDF file.</li>
+  <li>You should ensure that the paper prints well on black-and-white printers,
+  not color printers. Pay particular attention to figures and graphs in the
+  paper to ensure that they are legible without color. Explicitly using
+  grayscale colors will provide best control over how graphs and figures will
+  print on black-and-white printers.</li>
+  <li>You should ensure that labels and symbols used in graphs and figures are
+  legible, including the font sizes of tick marks, axis labels, legends,
+  etc.</li>
+  <li>You should limit the file size to less than 15 MB. Contact the PC chairs
+  if you have a file larger than 15 MB.</li>
 </ul>
 
-<h2 id="paper-registration">Paper Registration</h2>
-<p><a href="https://sigcomm2019.hotcrp.com/">Registration</a> only requires submission of paper metadata: paper title and abstract, author names, affiliations, contact email addresses, topics matching the subject matter of the paper, track (experience or main), and conflicts with PC members. The paper itself does not need to be submitted at the registration deadline. However, the paper title and abstract submitted during registration must be complete - not placeholders - and correctly characterize the paper that will be submitted. Authors can change the wording of their titles and abstracts for submission, but their essence should not fundamentally change. The PC will use the information provided during registration as a basis for making review assignments.</p>
+<h2 id="paper-registration">Paper Metadata and Conflicts</h2>
 
-<p>Both authors and PC members provide PC conflict information. The PC will review paper conflicts to ensure the integrity of the reviewing process, adding conflicts where necessary. Broadly, we define conflict of interest with a PC member using the following principles:</p>
+<p>As part of the paper registration, authors will be required to provide paper
+metadata which includes title and abstract, author names, affiliations, contact
+email addresses, topics matching the subject matter of the paper, track (main or
+operational systems), and conflicts with program committee (PC) members. </p>
+
+<p>Broadly, we define conflict of interest with a PC member using the following
+principles:</p>
 
 <ol>
-  <li>You are currently employed at the same institution, have been previously employed at the same institution within the last 12 months, or are going to begin employment at the same institution.</li>
+  <li>You are currently employed at the same institution, have been previously
+  employed at the same institution within the last 12 months, or are going to
+  begin employment at the same institution.</li>
   <li>You have a professional partnership as follows:
     <ul>
       <li>Past or present association as thesis advisor or advisee.</li>
-      <li>Collaboration on a project, publication, or grant proposal within the past 2 years (i.e., 2017 or later).</li>
-    </ul>
+      <li>Collaboration on a project, publication, or grant proposal within the
+  past 2 years (i.e., 2018 or later).</li>
+     </ul>
   </li>
 </ol>
 
-<p>If there is no basis for PC conflicts provided by authors, those conflicts will be removed. Improperly identifying PC members as a conflict to avoid having an individual review your paper may lead to your paper being rejected. If you have concerns, please contact the PC chairs.</p>
+<p>The PC chairs and members will review conflicts to ensure the integrity of
+the reviewing process, adding conflicts where necessary and sanity checking
+cases where conflicts do not appear justified.  If there is no basis for PC
+conflicts provided by authors, those conflicts will be removed. Improperly
+identifying PC members as a conflict to avoid individual reviewers may lead to
+your paper being rejected. If you have concerns, please contact the PC
+chairs.</p>
 
 <h2 id="paper-anonymity">Paper Anonymity</h2>
-<p>All submitted papers will be judged based on their quality and relevance through double-blind reviewing, where the identities of the authors are withheld from the reviewers. As an author, you are required to make a good-faith effort to preserve the anonymity of your submission, while at the same time allowing the reader to fully grasp the context of related past work, including your own. Common sense and careful writing will go a long way towards preserving anonymity. Minimally, please take the following steps when preparing your submission:</p>
+
+<p>All submitted papers will be judged based on their quality and relevance
+through double-blind reviewing, where the identities of the authors are withheld
+from the reviewers. As an author, you are required to make a good-faith effort
+to preserve the anonymity of your submission, while at the same time allowing
+the reader to fully grasp the context of related past work, including your
+own. Common sense and careful writing will go a long way towards preserving
+anonymity. Minimally, please take the following steps when preparing your
+submission:</p>
 
 <ul>
-  <li>Remove the names and affiliations of authors from the title page.</li>
+  <li>Remove the names and affiliations of authors from the title page. One
+  exception to this requirement is for submissions to the operational systems
+  track. Given the nature of these papers, it is OK (but not necessary) to
+  reveal company or system name but NOT author names. </li>
   <li>Remove acknowledgment of identifying names and funding sources.</li>
-  <li>Use care in naming your files. Source file names (e.g., “Alice-n-Bob.dvi”) are often embedded in the final output as readily accessible comments.</li>
-  <li>Use care in referring to related work, particularly your own. Do not omit references to provide anonymity, as this leaves the reviewer unable to grasp the context. Instead, reference your past work in the third person, just as you would any other piece of related work by another author.</li>
+  <li>Use care in naming your files. Source file names (e.g., “Alice-n-Bob.dvi”)
+  are often embedded in the final output as readily accessible comments.</li>
+  <li>Use care in referring to related work, particularly your own. Do not omit
+  references to provide anonymity, as this leaves the reviewer unable to grasp
+  the context. Instead, reference your past work in the third person, just as
+  you would any other piece of related work by another author.</li>
+  <li>Do not embed pointers to external sources (e.g., public GitHub
+  repositories) that leak author identity or affiliation.  </li>
 </ul>
 
-<p>In addition to submitting an anonymized paper, double-blind reviewing requires that both authors and reviewers take care while reviewing is happening.</p>
+<p>In addition to submitting an anonymized paper, double-blind reviewing
+requires that both authors and reviewers take care while reviewing is
+happening.</p>
 
-<p>For <strong>authors</strong>: you are welcome to release your paper in a non-peer-reviewed location (such as a technical report by your institution or arxive), but you should not broadcast information about the publication widely. For example, do not post it to large mailing lists or social media forums where TPC members would easily encouter it, and do not do general press releases. Authors are also welcome to talk about their work (as work-in-progress) at local institutions. In either cause, authors should be aware of TPC members who might encouter the work and avoid sharing the work in a way the a TPC member would encounter it.</p>
-
-<p>(Note that the <a href="https://www.acm.org/publications/policies/simultaneous-submissions">ACM policy on simultaneous submission</a> considers technical reports as not a concurrent publication.)</p>
-
-<p><strong>Program committee members</strong> are expected to not actively attempt to denonanymize papers. In either case, if there is a breach of double-blind reviewing, the author and the TPC member should let the TPC chairs know.</p>
-
-<h2 id="experience-papers">Experience Papers</h2>
-<p>Unlike some previous years, SIGCOMM 2019 will not have a separate experience track. However, we do encourage the submission of experience papers, particularly from industry, that provide detailed technical insight into real-world deployments of novel networking technologies and systems.</p>
+<ul>
+  <li>Authors are welcome to release their paper in a non-peer-reviewed location
+  (such as a technical report by your institution or arXiv), but you should not
+  broadcast information about the publication widely. For example, do not post
+  it to large mailing lists or social media forums where PC members would easily
+  encounter it, and do not do general press releases. Authors are also welcome
+  to talk about their work (as work-in-progress) at local institutions. In
+  either case, authors should be aware of PC members who might encounter the
+  work and avoid sharing the work in a way that a PC member would encounter
+  it.</li>
+  <li>PC members and other reviewers are expected to not actively attempt to
+  deanonymize papers. In either case, if there is a breach of double-blind
+  reviewing, the author and the reviewer should report it to the PC chairs.</li>
+</ul>
 
 <h2 id="ethics-considerations">Ethics Considerations</h2>
-<p><em>New in 2019:</em> <strong><span styoe="color:red">All</span></strong> papers must include, in the main body of the paper, a statement about ethical issues. This could be simply the sentence “This work does not raise any ethical issues.” If the work involves human subjects or any potentially sensitive data (e.g., user traffic or social network information, evaluation of censorship, etc), the paper should clearly discuss these issues, perhaps in a separate subsection.</p>
 
-<p>Papers must follow basic precepts of ethical research and subscribe to community norms. These include: respect for privacy, secure storage of sensitive data, voluntary and informed consent if users are placed at risk, avoiding deceptive practices when not essential, beneficence (maximizing the benefits to an individual or to society while minimizing potential harms to an individual), and risk mitigation. Authors may want to consult the <a href="http://www.caida.org/publications/papers/2012/menlo_report_actual_formatted/">Menlo Report</a> for further information on ethical principles, and they may find the [Allman/Paxson paper in IMC 2007] http://conferences.sigcomm.org/imc/2007/papers/imc80.pdf) helpful for a perspective on ethical data sharing.</p>
+<h3 id="ethical-concerns">Ethical Concerns</h3>
 
-<p>Many organizations have an ethics review process (sometimes called an Institutional Research Board, IRB). In some cases, research work may clearly have no human subjects, and formal institutional review may not be required.  (However, a sentence in the paper stating this evaluation is still required.)  In many cases, IRB involvement is appropriate. IRB approval of research is an important factor (and should be mentioned), but the TPC will still evaluate ethical soundness of the work, just as they evaluate technical soundness.</p>
+<p>All papers must include, in the main body of the paper, a statement about
+ethical issues. This could be simply the sentence “This work does not raise any
+ethical issues.” If the work involves human subjects or potentially sensitive
+data (e.g., user traffic or social network information, evaluation of
+censorship, etc), the paper should clearly discuss these issues, perhaps in a
+separate subsection.</p>
 
-<p>If there are questions about the ethics process, please contact the program committee co-chairs. The PC takes a broad view of what constitutes an ethical concern, and the TPC chairs may reach out to authors during the review process if questions arise.</p>
+<p>Papers must follow basic precepts of ethical research and subscribe to
+community norms. These include respect for privacy, secure storage of sensitive
+data, voluntary and informed consent if human subjects are involved or other
+people are placed at risk, avoiding deceptive practices when not essential,
+beneficence (maximizing the benefits to an individual or to society while
+minimizing potential harm to an individual), and risk mitigation. Authors may
+want to consult the <a
+href="http://www.caida.org/publications/papers/2012/menlo_report_actual_formatted/">Menlo
+Report</a> for further information on ethical principles, and they may find the
+<a href="http://conferences.sigcomm.org/imc/2007/papers/imc80.pdf">Allman/Paxson
+paper in IMC 2007</a> helpful for a perspective on ethical data sharing.</p>
 
-<h2 id="research-reproducibility">Research Reproducibility</h2>
-<p>ACM is promoting research reproducibility by encouraging papers to document the artifacts needed for others to reproduce their work. ACM has details at <a href="https://www.acm.org/publications/policies/artifact-review-badging">https://www.acm.org/publications/policies/artifact-review-badging</a>. They will award accepted papers a “reproducibility badge” if the paper provides pointers to public code and other information as described at the above link. Authors who wish to participate in this process should document such information in an appendix to the paper. Information about reproducibility is not required at paper submission, but is required at camera ready. As an appendix, it will need to be provided to the shepherd with adequate time for review. While we encourage authors to participate, formal participation is not a factor in SIGCOMM reviewing.</p>
+<p>Many organizations have an ethics review process (sometimes called an
+Institutional Research Board, IRB). In some cases, research work may clearly
+have no human subjects, and formal institutional review may not be
+required. (However, a sentence in the paper stating this evaluation is still
+required.) In many cases, IRB involvement is appropriate. IRB approval of
+research is an important factor (and should be mentioned), but the TPC will
+still evaluate ethical soundness of the work, just as they evaluate technical
+soundness.</p>
+
+<p>If there are questions about the ethics process, please contact the program
+committee chairs. The PC takes a broad view of what constitutes an ethical
+concern, and the PC chairs may reach out to authors during the review process if
+questions arise.</p>
+
 
 <h2 id="paper-novelty">Paper Novelty</h2>
-<p>Under no circumstances should authors submit previously published work, submit the same work simultaneously to multiple venues, or submit papers that plagiarize the work of other authors. Like other conferences and journals, SIGCOMM prohibits these practices and may take action against authors who have engaged in them. In some cases, the program committee may share information about submitted papers with other conference chairs and journal editors to ensure the integrity of papers under consideration. If the PC discovers a violation of these principles, sanctions may include, but are not limited to, contacting the institutions of the authors and publicizing the details of the case.</p>
 
-<p>SIGCOMM will review extended versions of previously-published short preliminary papers (such as workshop papers) in accordance with published <a href="https://www.sigcomm.org/about/policies/frequently-asked-questions-faq/">SIGCOMM policy</a> and the <a href="https://www.acm.org/publications/policies/plagiarism_policy">ACM Plagiarism Policy</a>.</p>
+<p>Under no circumstances should authors submit previously published work,
+submit the same work simultaneously to multiple venues, or submit papers that
+plagiarize the work of other authors. Like other conferences and journals,
+SIGCOMM prohibits these practices and may take action against authors who have
+engaged in them. In some cases, the program committee may share information
+about submitted papers with other conference chairs and journal editors to
+ensure the integrity of papers under consideration. If the PC discovers a
+violation of these principles, sanctions may include, but are not limited to,
+contacting the institutions of the authors and publicizing the details of the
+case.</p>
+
+<p>SIGCOMM will review extended versions of previously-published short
+preliminary papers (such as workshop papers) in accordance with published <a
+href="https://www.sigcomm.org/about/policies/frequently-asked-questions-faq/">SIGCOMM
+policy</a> and the <a
+href="https://www.acm.org/publications/policies/plagiarism_policy">ACM
+Plagiarism Policy.</a></p>
+
+<p>The <a
+href="https://www.acm.org/publications/policies/simultaneous-submissions">ACM
+policy on simultaneous submission</a> considers technical reports as not a
+concurrent publication.</p>
+
 
 <h2 id="paper-acceptance">Paper Acceptance</h2>
-<p>The SIGCOMM 2019 PC will notify authors of acceptance/rejection decisions by May 10, 2019. All accepted papers may be shepherded by members of the PC. Authors of accepted papers should plan to interact with their shepherds immediately after notification, and to budget sufficient time between acceptance notification and the camera-ready deadline to coordinate with their shepherd. It is a requirement that the paper be considered acceptable to the assigned shepherd so that the updates to the paper reflect the issues raised by the PC (conflicts will be mediated by the PC chairs) before the paper is considered “accepted” to appear in the conference proceedings. In addition, the publisher of the SIGCOMM proceedings will review all accepted papers submitted for the camera-ready deadline. Authors should also budget sufficient time immediately after the camera-ready deadline to be available and responsive to any editing changes requested by the publisher.</p>
 
-<p>After acceptance, substantive changes to paper titles require approval by the PC chairs. Only in exceptional circumstances should authors change their author list, and only with the approval of the PC chairs.</p>
+<p>The SIGCOMM 2020 PC will notify authors of acceptance/rejection decisions by
+May 15, 2020. All accepted papers will be shepherded by members of the
+PC. Authors of accepted papers should plan to interact with their shepherds
+immediately after notification, and to budget sufficient time between acceptance
+notification and the camera-ready deadline to coordinate with their shepherd. It
+is a requirement that the paper be considered acceptable to the assigned
+shepherd so that the updates to the paper reflect the issues raised by the PC
+(conflicts will be mediated by the PC chairs) before the paper is considered
+“accepted” to appear in the conference proceedings. In addition, the publisher
+of the SIGCOMM proceedings will review all accepted papers submitted for the
+camera-ready deadline. Authors should also budget sufficient time immediately
+after the camera-ready deadline to be available and responsive to any editing
+changes requested by the publisher.</p>
 
-<p>Authors of accepted papers will also need to sign an ACM copyright release form. All rejected papers will be treated as permanently confidential.</p>
+<p>After acceptance, substantive changes to paper titles require approval by the
+PC chairs. Only in exceptional circumstances should authors change their author
+list, and only with the approval of the PC chairs.</p>
+
+<p>Authors of accepted papers will also need to sign an ACM copyright release
+form. All rejected papers will be treated as permanently confidential.</p>
 
 <!--
-[Contact the PC chairs](mailto:dina@csail.mit.edu,m.handley@cs.ucl.ac.uk?subject=[SIGCOMM 2018]){: data-role="button" class="button" } -->
-<blockquote>
-
-</blockquote>
+[Contact the PC chairs](mailto:sigcomm2020-pc-chairs@googlegroups.com?subject=[SIGCOMM 2018]){: data-role="button" class="button" } -->
+<!-- <blockquote></blockquote> -->
 
         </div><!-- content-primary -->

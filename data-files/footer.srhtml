@@ -10,7 +10,7 @@
         <li class="  " data-icon="false">
           <a href="/sigcomm/2020/"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Home</a>
         </li>
-        
+
         <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right"  class="navgroup">
           <h4><i class="fa fa-area-chart" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Main conference</h4>
           <ul data-role="listview" data-inset="false">
@@ -32,7 +32,7 @@
         </div>    
         
 
-        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right" data-collapsed="false" class="navgroup">
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right" class="navgroup">
           <h4><i class="fa fa-wrench" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Workshops</h4>
           <ul data-role="listview" data-inset="false">
             
@@ -44,7 +44,7 @@
         </div>
 
 
-        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right" data-collapsed="false" class="navgroup">
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right" class="navgroup">
           <h4><i class="fa fa-bell-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Tutorials</h4>
           <ul data-role="listview" data-inset="false">
 
