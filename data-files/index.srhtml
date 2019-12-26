@@ -10,7 +10,15 @@
 
   <li data-icon="false">
     <div class="ui-grid-a">
-      <div class="ui-block-a"><h2>Nov 13, 2019</h2></div>
+      <div class="ui-block-a"><h2>Dec 26, 2019</h2></div>
+      <div class="ui-block-b"><p><a href="cf-tutorials.html">Call for tutorials</a> out:
+    deadline Mar 6, 2020</p></div>
+    </div>
+  </li>
+
+  <li data-icon="false">
+    <div class="ui-grid-a">
+      <div class="ui-block-a"><h2>Dec 10, 2019</h2></div>
       <div class="ui-block-b"><p><a href="cf-workshops.html">Call for workshop proposals</a> out:
     deadline Feb 14, 2020</p></div>
     </div>
