@@ -259,12 +259,24 @@
         
           <div class="ui-grid-a">
             <div class="ui-block-a">
-              <p>
-                
+              <p>                
                 Jia Wang
               </p>
             </div>
             <div class="ui-block-b"><p>AT&T Research Labs</p></div>
+          </div>
+
+      </li>
+
+     <li data-icon="false">
+
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                Ying Zhang
+              </p>
+            </div>
+            <div class="ui-block-b"><p>Facebook</p></div>
           </div>
           
       </li>  
@@ -442,7 +454,48 @@
             <div class="ui-block-b"><p>Rutgers University</p></div>
           </div>
           
+      </li>
+
+    <li data-role="list-divider" style="white-space: normal; padding-right:.5em">Publication Chairs
+      
+
+        <a href="mailto:tbma@compapanda@cs.nyu.edu,arashloo@cornell.edu?subject=[SIGCOMM 2020]">
+          <i class="fa fa-envelope-o" aria-hidden="true" style="float:right"></i>
+        </a>
+
+      
+
+    </li>
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                 Aurojit Panda
+              </p>
+            </div>
+            <div class="ui-block-b"><p>NYU</p></div>
+          </div>
+          
       </li>  
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                Mina Tashmabi Arashloo
+              </p>
+            </div>
+            <div class="ui-block-b"><p>Cornell University</p></div>
+          </div>
+          
+      </li>
   
 
     <li data-role="list-divider" style="white-space: normal; padding-right:.5em">Student Research Competition Chair
@@ -470,7 +523,34 @@
             <div class="ui-block-b"><p>UCSB</p></div>
           </div>
           
-      </li>    
+      </li>
+
+    <li data-role="list-divider" style="white-space: normal;
+    padding-right:.5em">Student Activities Chair
+      
+
+        <a href="mailto:pleasecorrectthis@google.com?subject=[SIGCOMM 2020]">
+          <i class="fa fa-envelope-o" aria-hidden="true" style="float:right"></i>
+        </a>
+
+      
+
+    </li>
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                Gautam Kumar
+              </p>
+            </div>
+            <div class="ui-block-b"><p>Google</p></div>
+          </div>
+          
+      </li>
   
 </ul>
 
