@@ -1,0 +1,504 @@
+        <div class="content-primary">
+          <h1 id="acm-sigcomm-2020-workshop-on-network-meets-ai--ml-netai-2020">ACM SIGCOMM 2020 Workshop on Network Meets AI &amp; ML (NetAI 2020)</h1>
+
+<h3 id="call-for-papers">Call for Papers</h3>
+<p>In recent years, we have witnessed: (1) development of fully programmable, protocol-independent data planes and languages for programming them; and (2) the emergence of new platforms, tools, and algorithms for Artificial Intelligence (AI) and Machine Learning (ML).  These technological advancements and scientific innovations create exciting new opportunities. On the one hand, the scientific innovations in the area of AI/ML have the potential to simplify network management (monitoring as well as control). On the other hand, recent advancements in the area of networking technology have the potential to improve the performance of AI and ML systems.</p>
+
+<p><strong>AI/ML for Networking.</strong> AI &amp; ML have been successfully applied to various perceptual domains, including computer vision, natural language processing, and voice recognition. In addition, ML techniques are showing impressive results in new domains such as medicine, finance, and astronomy, to name a few. This success in non-perceptual domains suggests that ML techniques could be successfully applied to simplify network management. For at least a decade, networking researchers, equipment vendors, and Internet service providers alike have argued for “autonomous” or “self-driving” networks, where network management and control decisions are made in real time and in an automated fashion. Yet, building such “self-driving” networks that are practically deployable has largely remained unrealized.  The coupling of the programmable control of software-defined networking (SDN) with scientific innovations in AI and ML promises unprecedented opportunities for querying high-volume and high-velocity, distributed streaming data at scale; this new technical capability can provide the necessary information to the many different network monitoring and control tasks that self-driving networks should perform automatically and autonomously. Building a self-driving network is one of the “grand challenges” of networking research today. Realizing this vision will require incorporating the collective expertise and input from the networking research community.</p>
+
+<p><strong>Networking for AI/ML.</strong> Distributed processing systems for Artificial Intelligence (AI) and Machine Learning (ML), such as Hadoop, Spark, Storm, GraphLab, TensorFlow etc., are widely used by industry. Networking is a well-known bottleneck for AI &amp; ML systems. Though the recent technological advances, such as reconfigurable switches, programmable NICs, RDMA- over-converged Ethernet (RoCE) and GPU direct, etc., provide exciting opportunities to improve the performance of AI and ML solutions, but the ever-increasing complexity of networks composed of a heterogeneous set of targets makes effective monitoring, modeling, auditing, and overall control of network traffic difficult if not impossible. Hence there is a need for more powerful methods to solve the challenges faced in the design, deployment, and management of networks for distributed processing systems for AI and ML.</p>
+
+<p>This workshop will provide a forum for networking researchers to present and share their latest research on building self-driving networks and coupling the technological advances in networking with scientific innovations in AI and ML. This workshop seeks contributions from experts in areas such as network programming, formal methods, control theory, distributed systems, machine learning, data science, data structures and algorithms, and optimization who share in the excitement of realizing the vision of self-driving networks as well as improving the performance of AI and ML solutions.</p>
+
+<h3 id="topics-of-interest">Topics of Interest</h3>
+
+<ul>
+  <li>Design and implementation of systems for flexible and scalable network monitoring</li>
+  <li>Design and implementation of closed-loop systems (modular) that use monitoring to drive network control (e.g., congestion control, TE, QoE, QoS, etc.) with minimal human intervention</li>
+  <li>Unified programming languages/abstractions for expressing both network monitoring (streaming as well as offline) and control tasks</li>
+  <li>Algorithms to train learning models for inferring network attacks, device/service fingerprinting, congestion, failures, QoE metrics, etc. in (real time) at scale</li>
+  <li>New data structures, algorithms, network protocols, and switch architectures for storing and/or processing network monitoring data (single-site and/or distributed settings)</li>
+  <li>Query-planning algorithms to scale the execution of network-monitoring queries</li>
+  <li>Techniques to collect and analyze network data in a privacy-preserving manner</li>
+  <li>Learning models to capture the relationship between network events and control actions</li>
+  <li>Design data structures and algorithms for consistently and correctly updating the distributed states (e.g., forwarding table entries)</li>
+  <li>Examples of design choices informed by control-theoretic findings (e.g., hard limits, unavoidable tradeoffs)</li>
+  <li>New use cases for self-driving networks in DCs, WANs, IXPs, wireless networks, cloud networks, CDNs, home networks, etc.</li>
+  <li>Case studies demonstrating (dis)advantages of choosing AI/ML techniques for networking over more traditional ones</li>
+  <li>New topology, algorithms, network protocols, and switch architectures for AI/ML applications</li>
+  <li>Techniques to optimize distributed AI, ML and graph processing algorithms/systems with new networking options (e.g., PISA switches,  SmartNICs, RDMA, NVLink, etc.)</li>
+  <li>Measurement and analysis of network traffic for AI &amp; ML systems</li>
+</ul>
+
+<h3 id="submission-instructions">Submission Instructions</h3>
+<p>Submissions must be original, unpublished work, and not under consideration at another conference or journal. Submitted papers must be at most six (6) pages long, including all figures, tables, references, and appendices in two-column 10pt ACM format. This six-page limit does not include the reproducibility section (see below). Papers must include authors names and affiliations for single-blind peer reviewing by the PC. Authors of accepted papers are expected to present their papers at the workshop. Please submit your paper via https://netai20.hotcrp.com.</p>
+
+<h3 id="research-reproducibility">Research Reproducibility</h3>
+
+<p>As the interest in coupling networking and AI/ML is growing, we recognize that reproducible work becomes ever more important, in particular, due to the somewhat inherent lack of interpretability associated with ML methods.</p>
+
+<ul>
+  <li>
+    <p>To encourage reproducibility,  authors are allowed an additional <strong>but optional</strong> page in addition to the six pages. This additional space is meant to be used to explicitly discuss the reproducibility and interpretability of their solution.  In general, all authors are encouraged to consult the <a href="https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf">reproducibility checklist</a> to verify that their submission is reproducible.</p>
+  </li>
+  <li>
+    <p>In NetAI, we want to encourage authors to go the extra mile and release their research artifacts. We plan to reward the reproducible work with special <a href="https://www.acm.org/publications/policies/artifact-review-badging">ACM badging</a>. All the accepted papers at the workshop are eligible for artifacts review.</p>
+  </li>
+</ul>
+
+<p><strong>Note:</strong> While NetAI encourages reproducibility, the reviewers will not place any additional preferences, while reviewing,  towards papers with a reproducibility section.</p>
+
+<h3 id="authors-take-note">Authors Take Note</h3>
+<p>The official publication date is the date the proceedings are made available in the ACM Digital Library. This date may be up to TWO WEEKS prior to the first day of the conference. The official publication date affects the deadline for any patent filings related to published work.</p>
+
+<h3 id="registration">Registration</h3>
+<p>Attendance of the workshop is by open registration and subject to the same registration fees and rules as all the other SIGCOMM 2020 workshops. The registrants of the workshop may freely attend any workshop on the same day.</p>
+
+<h3 id="camera-ready-instructions">Camera-ready instructions</h3>
+
+<p>For the final paper to be published, please refer to <a href="/sigcomm/2020/camera-ready_ws.html">Camera-ready instructions for workshops</a>.</p>
+
+<h3 id="-important-dates"><i class="fa fa-calendar"></i> Important Dates</h3>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+
+  <!--
+    <li data-icon="false">
+      <div class="ui-grid-a">
+        <div class="ui-block-a"><h2><mark>April 12, 2019 11:59 PST</mark></h2></div>
+        <div class="ui-block-b"><p>Paper submission deadline</p></div>
+      </div>
+    </li>
+  
+    <li data-icon="false">
+      <div class="ui-grid-a">
+        <div class="ui-block-a"><h2>May 17, 2019 11:59 PST</h2></div>
+        <div class="ui-block-b"><p>Paper acceptance notification</p></div>
+      </div>
+    </li>
+  -->
+    <li data-icon="false">
+      <div class="ui-grid-a">
+        <div class="ui-block-a"><h2>June 10, 2020 11:59 PST</h2></div>
+        <div class="ui-block-b"><p>Camera-ready deadline</p></div>
+      </div>
+    </li>
+
+    <!-- 
+    <li data-icon="false">
+      <div class="ui-grid-a">
+        <div class="ui-block-a"><h2>August 23, 2019</h2></div>
+        <div class="ui-block-b"><p>Workshop</p></div>
+      </div>
+    </li>
+    -->
+    
+</ul>
+
+<h3 id="committees">Committees</h3>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
+  
+    <li data-role="list-divider" style="white-space: normal;
+    padding-right:.5em">Steering Committee
+      
+
+    </li>
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Marco Canini
+              </p>
+            </div>
+            <div class="ui-block-b"><p>KAUST</p></div>
+          </div>
+          
+      </li>  
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Jon Crowcroft
+              </p>
+            </div>
+            <div class="ui-block-b"><p>University of Cambridge</p></div>
+          </div>
+          
+      </li>  
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Nick Feamster
+              </p>
+            </div>
+            <div class="ui-block-b"><p>Princeton University</p></div>
+          </div>
+          
+      </li>  
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Jennifer Rexford
+              </p>
+            </div>
+            <div class="ui-block-b"><p>Princeton University</p></div>
+          </div>
+          
+      </li>  
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Walter Willinger
+              </p>
+            </div>
+            <div class="ui-block-b"><p>NIKSUN Inc.</p></div>
+          </div>
+          
+      </li>  
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Nicholas Zhang
+              </p>
+            </div>
+            <div class="ui-block-b"><p>Huawei</p></div>
+          </div>
+          
+      </li>  
+    
+
+      
+
+    <li data-role="list-divider" style="white-space: normal; padding-right:.5em">Program Committee Chairs
+      
+
+    </li>
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Behnaz Arzani
+              </p>
+            </div>
+            <div class="ui-block-b"><p>Microsoft Research</p></div>
+          </div>
+          
+      </li>  
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                Xin Jin
+                
+              </p>
+            </div>
+            <div class="ui-block-b"><p>Johns Hopkins University</p></div>
+          </div>
+          
+      </li>  
+  
+
+    <li data-role="list-divider" style="white-space: normal; padding-right:.5em">Program Committee Members
+      
+
+    </li>
+    
+      
+      <li data-icon="false">
+      
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                
+                Theophilus Benson
+              </p>
+            </div>
+            <div class="ui-block-b"><p>Brown University</p></div>
+          </div>
+          
+      </li>
+
+    <li data-icon="false">
+
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Daniel Berger
+          </p>
+        </div>
+        <div class="ui-block-b"><p>Microsoft</p></div>
+      </div>
+
+    </li>
+    
+    <li data-icon="false">
+
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Marco Canini
+          </p>
+        </div>
+        <div class="ui-block-b"><p>KAUST</p></div>
+      </div>
+
+    </li>
+    
+    <li data-icon="false">
+
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Jiasi Chen
+          </p>
+        </div>
+        <div class="ui-block-b"><p>UCR</p></div>
+      </div>
+
+    </li>
+    
+    <li data-icon="false">
+
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Kai Chen
+          </p>
+        </div>
+        <div class="ui-block-b"><p>HKUST</p></div>
+      </div>
+
+    </li>
+    
+    <li data-icon="false">
+
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Yong Cui
+          </p>
+        </div>
+        <div class="ui-block-b"><p>Tsinghua</p></div>
+      </div>
+
+    </li>
+    
+    <li data-icon="false">
+
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Soudeh Ghorbani
+          </p>
+        </div>
+        <div class="ui-block-b"><p>JHU</p></div>
+      </div>
+
+    </li>
+    
+    <li data-icon="false">
+
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Kevin Hsieh
+          </p>
+        </div>
+        <div class="ui-block-b"><p>Microsoft</p></div>
+      </div>
+
+    </li>
+    
+    <li data-icon="false">
+
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Junchen Jiang
+          </p>
+        </div>
+        <div class="ui-block-b"><p>University of Chicago</p></div>
+      </div>
+
+    </li>
+    
+    <li data-icon="false">
+
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Sangeetha Abdu Jyothi
+          </p>
+        </div>
+        <div class="ui-block-b"><p>UC Irvine</p></div>
+      </div>
+
+    </li>
+    
+    <li data-icon="false">
+
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Changhoon Kim
+          </p>
+        </div>
+        <div class="ui-block-b"><p>Barefoot</p></div>
+      </div>
+
+    </li>
+    
+    <li data-icon="false">
+
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Vincent Liu
+          </p>
+        </div>
+        <div class="ui-block-b"><p>University of
+            Pennsylvania</p></div>
+      </div>
+
+    </li>
+    
+    <li data-icon="false">
+
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Marco Mellia
+          </p>
+        </div>
+        <div class="ui-block-b"><p>Politecnico di Torino</p></div>
+      </div>
+
+    </li>
+    
+    <li data-icon="false">
+
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Masoud Moshref
+          </p>
+        </div>
+        <div class="ui-block-b"><p>Google</p></div>
+      </div>
+
+    </li>
+    
+    <li data-icon="false">
+
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Stefan Schmid
+          </p>
+        </div>
+        <div class="ui-block-b"><p>University of Vienna</p></div>
+      </div>
+
+    </li>
+    
+    <li data-icon="false">
+
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Yibo Zhu
+          </p>
+        </div>
+        <div class="ui-block-b"><p>ByteDance</p></div>
+      </div>
+
+    </li>
+    
+    <li data-icon="false">
+
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Ying Zhang
+          </p>
+        </div>
+        <div class="ui-block-b"><p>Facebook</p></div>
+      </div>
+
+    </li>
+    
+    <li data-icon="false">
+
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Zhi-Li Zhang
+          </p>
+        </div>
+        <div class="ui-block-b"><p>University of Minnesota - Twin
+            Cities</p></div>
+      </div>
+
+    </li>
+    
+    <li data-icon="false">
+
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Noa Zilberman
+          </p>
+        </div>
+        <div class="ui-block-b"><p>University of Oxford</p></div>
+      </div>
+
+    </li>
+
+</ul>
+
+        </div><!-- content-primary -->

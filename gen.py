@@ -13,7 +13,9 @@ data_files = ['index',
               'org-committee',
               'cf-tutorials',
               'submission',
-              'workshop-spin']
+              'workshop-spin',
+              'workshop-mantra',
+              'workshop-netai']
 
 def read_file(fname):
     with open(data_folder + fname + '.html', 'r') as f:
