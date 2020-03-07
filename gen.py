@@ -15,7 +15,7 @@ data_files = ['index',
               'submission']
 
 def read_file(fname):
-    with open(data_folder + fname + '.srhtml', 'r') as f:
+    with open(data_folder + fname + '.html', 'r') as f:
         data = f.read()
     return data
 
