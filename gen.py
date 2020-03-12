@@ -20,7 +20,8 @@ data_files = ['index',
               'workshop-neat',
               'workshop-hotedgevideo',
               'workshop-optsys',
-              'workshop-epiq']
+              'workshop-epiq',
+              'camera-ready_ws']
 
 def read_file(fname):
     with open(data_folder + fname + '.html', 'r') as f:
