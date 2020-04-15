@@ -23,7 +23,8 @@ data_files = ['index',
               'workshop-epiq',
               'camera-ready_ws',
               'tutorial-scion',
-              'tutorial-mptp']
+              'tutorial-mptp',
+              'tutorial-aarp']
 
 def read_file(fname):
     with open(data_folder + fname + '.html', 'r') as f:
