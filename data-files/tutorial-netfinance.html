@@ -1,0 +1,325 @@
+        <div class="content-primary">
+          <h1 id="acm-sigcomm-2020-tutorial-on-networking-for-financial-applications">ACM SIGCOMM 2020 Tutorial on <br /> Networking for Financial Applications (NetFinance)</h1>
+
+            <h2 id="tutorial-program-subject-to-changes">Program (subject to changes)</h2>
+
+            <div id="tutorial-p4-program" class="tutorial-p4-program">
+              <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">
+                
+                <li class="prog-header prog-no-filter ui-bar-a prog-item prog-friday">
+                  <h3>Friday, August 14, 2020</h3>
+                </li>
+              
+                <li class="ui-li ui-bar-a prog-item ui-li-divider prog-friday   " data-role="list-divider">
+                  <h3 style="font-weight: 700;">
+                    01:00pm - 02:30pm
+                    Session I
+                  </h3>
+                </li>
+
+                <li class="hidden">Session I</li>
+
+                  
+                <li data-icon="false" class="prog-item prog-friday">
+                  <table>
+                     <tr>
+                         <td style="font-size:80%; padding-right:10px; max-width:20%;">Industry view of trading infrastructure: 01:00pm - 01:45pm</td>
+                         <td style="width:100%;text-align:left;">
+                            <p class="paper-header">
+                            </p>
+                            <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+                            <p>
+                            </p>
+                         </td>                               
+                     </tr>
+                  </table>
+                </li>
+
+                <li data-icon="false" class="prog-item prog-friday">
+                  <table>
+                     <tr>             
+                         <td style="font-size:80%; padding-right:10px; max-width:20%;">Enabling network technologies: 01:45pm - 02:30pm</td>
+                         
+                         <td style="width:100%;text-align:left;">
+                            <p class="paper-header">
+                            </p>
+                            <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+                            <p>
+                            </p>
+                         </td> 
+                     </tr>
+                  </table>
+                </li>
+              
+                <li class="prog-break prog-item ui-li-divider prog-friday   " data-role="list-divider">
+                    <h3 style="font-weight: 500;">
+                    <strong>02:30pm - 03:00pm
+                    Coffee/tea Break</strong>
+                    </h3>
+                </li>
+                <li class="hidden">Coffee/tea Break</li>
+
+                <li class="ui-li ui-bar-a prog-item ui-li-divider prog-friday   " data-role="list-divider">
+                    <h3 style="font-weight: 700;">
+                    03:00pm - 04:30pm
+                    Session II
+                    </h3>
+                </li>
+                <li class="hidden">Session II</li>
+
+                <li data-icon="false" class="prog-item prog-friday">
+                  <table>
+                     <tr>
+                         
+                         <td style="font-size:80%; padding-right:10px; max-width:20%;">Enabling network technologies: 03:00pm - 03:45pm</td>
+                         
+                         <td style="width:100%;text-align:left;">
+                            <p class="paper-header">
+                            </p>
+                            <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+                            <p>
+                            </p>
+                         </td> 
+                     </tr>
+                  </table>
+                </li>
+
+                 <li data-icon="false" class="prog-item prog-friday">
+                  <table>
+                     <tr>
+                         
+                         <td style="font-size:80%; padding-right:10px; max-width:20%;">Cloud exchange demo: 03:45pm - 04:30pm</td>
+                         
+                         <td style="width:100%;text-align:left;">
+                            <p class="paper-header">
+                            </p>
+                            <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+                            <p>
+                            </p>
+                         </td>              
+                     </tr>
+                  </table>
+                </li>
+                
+              </ul>
+            </div>
+
+            <h2 id="call-for-participation">Call For Participation</h2>
+
+	    <p>Traditionally, the networking view of finance has been one of a
+               speed race to enable low-latency trading. Using a variety of techniques, market
+               traders have sought to minimize the tick-to-trade latency: the time duration
+               between receiving an update to a price (tick) and buying or selling  an order
+               based on this price (trade). These techniques include kernel bypass networking,
+               FPGAs, low-latency NICs, layer 1 switching, and microwave links.
+            </p>
+
+            <p>
+	       An alternative view of finance is from the perspective of an
+               exchange operator---as opposed to a trader participating in the exchange. In
+               addition to low latency, an exchange operator needs to ensure fair access to
+               the exchange across different market traders, i.e., ensuring that all traders
+               see the same traversal times into and out of the exchange.
+            </p>
+
+            <p>
+               This fairness of market latencies contrasts with the traditional networking
+               view of fairness, which deals with fair allocation of throughput instead of
+               latency. In the context of trading exchanges, latency fairness has two aspects
+               to it: on the inbound side when market participants' orders are transmitted to
+               the matching engine and on the outbound side when market data are disseminated
+               to traders. This means a trader's order cannot be overtaken by another trader's
+               order. Thus, orders have to be processed in a globally FIFO manner even if they
+               enter the exchange at different gateways. Further, no trader should receive
+               market data before any other trader.
+            </p>
+
+            <p>
+               Currently, exchanges meet these requirements
+               using carefully-engineered, bespoke data networks, limiting their scale and
+               scope. In this tutorial, we show that accurate clock synchronization deployed
+               at scale can transform an unpredictable market into a nearly perfect FIFO
+               machine, even if the market is built upon extremely jittery infrastructure such
+               as the public cloud. This would not only allow exchanges to scale but it would
+               also significantly reduce the cost of participation, thereby democratizing
+               financial trading.
+            </p>
+
+            <p>
+	       Attendees will also learn about and interact with CloudEx: a
+               fair, high frequency exchange in the cloud. CloudEx will be used in a CS course
+               at Stanford in Fall 2020 in which student groups will play the role of “market
+               participants” by engaging in high-frequency and algorithmic trading.
+            </p>
+
+            <h2 id="travel-support">Travel Support</h2>
+            <p>There may be opportunities for attendees of this tutorial who are current students of U.S. universities to receive nominal support for travel with the fund provided by the U.S. National Science Foundation as it wishes to increase participation of under-represented groups such as female and/or minority students. Please contact Prof. Balaji Prabhakar <a href="mailto:balaji@stanford.edu">balaji@stanford.edu</a> for details and an application.</p>
+
+            <h2 id="-important-dates"><i class="fa fa-calendar"></i> Important Dates</h2>
+
+            <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+                <li data-icon="false">
+                  <div class="ui-grid-a">
+                    <div class="ui-block-a"><h2>August 14, 2020</h2></div>
+                    <div class="ui-block-b"><p>Tutorial</p></div>
+                  </div>
+                </li>
+            </ul>
+
+            <h2 id="outline">Outline</h2>
+
+            <p>Part I: Background<br/>
+            Financial Trading Networks: Requirements, current status and future evolution
+            The role of clock synchronization in building time sensitive networks
+
+            <p>Part II: Enabling networking technologies.<br/>
+            Clock synchronization techniques, end-to-end measurement of in-network queuing delays from edge-based timestamps,
+            "time perimeters" as a general framework for building jitter-free networks, facilitating novel packet ordering/delivery mechanisms.
+
+            <p>Part III: CloudEx: Design and demo.<br/>
+            Introduction to CloudEx: a fair, high frequency exchange in the cloud.
+            Exchange infrastructure: design goals and implementation in the cloud.
+            Matching engine: algorithms and their effect of price discovery. Demo allowing attendees to interact with CloudEx.
+
+            <h2 id="background">Background</h2>
+
+            </p>Three trends make this tutorial particularly timely. First, the widespread availability of public cloud computing services reduces the capital expenses associated with running web services, making the cloud an attractive platform for deploying financial applications. At the same time, the data privacy concerns associated with the cloud are beginning to be addressed through the availability of solutions that offer
+            more stringent data privacy guarantees.</p>
+
+            <p>Second, while the availability of the public cloud has lowered the barrier to deploying new applications at scale, the variable nature of cloud infrastructure due to the heterogenous and unknown nature of cloud hardware causes significant latency variability---a detriment to deploying electronic trading exchanges in the cloud. Addressing this latency variability requires highly accurate clock synchronization algorithms that can be deployed in software by cloud customers without requiring new hardware. The development of a recent software time synchronization algorithm (Huygens, NSDI 2018) allows us to revisit the possibility of using the public cloud for electronic trading exchanges. </p>
+
+            <p>Third, the rise of programmable network interface cards (or SmartNICs) provides us a natural location on the edge of the network to deploy time synchronization algorithms and to hold orders and market data before they are ready for execution and dissemination respectively.</p>
+
+            <h2 id="audience-expectations-and-prerequisites">Audience Expectations and Prerequisites</h2>
+            <p>Attendees are recommended to bring laptops/smartphones in order to interact with CloudEx through a web browser.</p>
+
+            <h2 id="organizers">Organizers</h2>
+
+            <!-- <div  class="presenters"> -->
+            <ul class="program" data-role="listview" data-inset="true" data-theme="d" data-dividertheme="a">
+                     
+                  <li data-icon="false" class="prog-item">
+                    <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+                      <h4>
+                        <div>
+                          <p class="paper-header">
+                            <div class="ui-grid-a">
+                              <div class="ui-block-a"><p>Mohammad Alizadeh</p></div>
+                              <div class="ui-block-b"><p>Boston, USA</p></div>
+                            </div>
+                          </p>
+                        </div>
+                        <div class="ui-li-aside">
+                        </div>
+                      </h4>
+                      <ul data-role="listview" data-inset="false">
+                        <li data-icon="false" style="padding:1px;">
+                          <!--<p>-->
+                          <table style="border-spacing: 10px; border-collapse: separate;">
+                            <tr>
+
+                            
+
+                              <td style="width:90%;">
+                              <p><span style="font-weight: 700;">Bio: </span>
+                                <p>Mohammad Alizadeh is the TIBCO Career Development Assistant Professor in the Department of Electrical Engineering and Computer Science (EECS) at MIT, and a member of the Computer Science and Artificial Intelligence Laboratory (CSAIL). He completed his graduate studies at Stanford University, earning his Ph.D. in electrical engineering in 2013, and then spent two years at Insieme Networks, a datacenter networking startup, and Cisco Systems before joining MIT. He is a recipient of several awards, including the SIGCOMM Rising Star Award (2017), Alfred P. Sloan Research Fellowship (2017), Google Faculty Research Award (2016), SIGCOMM Best Paper Award (2014 & 2017), and Numerical Technologies Inc. Prize and Fellowship (2007).</p>
+                              </p><br />
+                              </td>
+                            </tr>
+                          </table>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                     
+                  <li data-icon="false" class="prog-item">
+                    <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+                      <h4>
+                        <div>
+                          <p class="paper-header">
+                            <div class="ui-grid-a">
+                              <div class="ui-block-a"><p>Balaji Prabhakar</p></div>
+                              <div class="ui-block-b"><p>Stanford, USA</p></div>
+                            </div>
+                          </p>
+                        </div>
+                        <div class="ui-li-aside">
+                        </div>
+                      </h4>
+                      <ul data-role="listview" data-inset="false">
+                        <li data-icon="false" style="padding:1px;">
+                          <!--<p>-->
+                          <table style="border-spacing: 10px; border-collapse: separate;">
+                            <tr>
+
+                            
+
+                              <td style="width:90%;">
+                              <p><span style="font-weight: 700;">Bio: </span>
+                                <p>Balaji Prabhakar is VMWare Founders Professor of Computer Science and a faculty member in the Departments of Electrical Engineering and Computer Science at Stanford University. He has been a Terman Fellow at Stanford University, and a Fellow of the Alfred P. Sloan Foundation, IEEE and ACM. He has received the CAREER award from the U.S. National Science Foundation, the Erlang Prize from the INFORMS Applied Probability Society, the Rollo Davidson Prize from the University of Cambridge, and delivered the Lunteren Lectures. He is the recipient of the inaugural IEEE Innovation in Societal Infrastructure Award which recognizes "significant technological achievements and contributions to the establishment, development and proliferation of innovative societal infrastructure systems. He serves on the Advisory Board of the Future Urban Mobility Initiative of the World Economic Forum. He is a co-recipient of several best paper awards.</p>
+                              </p><br />
+                              </td>
+                            </tr>
+                          </table>
+                        </li>
+                      </ul>
+
+                    </div>
+                  </li>
+                
+                  <li data-icon="false" class="prog-item">
+                    <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+                      <h4>
+                        <div>
+                          <p class="paper-header">
+                            <div class="ui-grid-a">
+                              <div class="ui-block-a"><p>Anirudh Sivaraman</p></div>
+                              <div class="ui-block-b"><p>New York City, USA</p></div>
+                            </div>
+                          </p>
+                        </div>
+                        <div class="ui-li-aside">
+                        </div>
+                      </h4>
+                      <ul data-role="listview" data-inset="false">
+                        <li data-icon="false" style="padding:1px;">
+                          <!--<p>-->
+                          <table style="border-spacing: 10px; border-collapse: separate;">
+                            <tr>
+
+                              <td style="width:90%;">
+                              <p><span style="font-weight: 700;">Bio: </span>
+                                <p>
+                                Anirudh Sivaraman is an assistant professor at NYU's Computer Science Department.
+                                His recent research has focused on enabling and taking
+                                advantage of programmability within computer networks. He has also
+                                been actively involved in the design and evolution of the P4 language
+                                for programmable network devices. His past research includes work on
+                                congestion control, network emulation, and network measurement. He
+                                received the MIT EECS department's Frederick C. Hennie III Teaching
+                                Award in 2012 and the ACM SIGCOMM Doctoral Dissertation Award in 2018.
+                                He shared the IETF/IRTF's Applied Networking Research Prize in 2014
+                                and the ACM SIGCOMM Best Paper Award in 2017.
+                                </p>
+                              </p><br />
+                              </td>
+                            </tr>
+                          </table>
+                        </li>
+                      </ul>
+                      
+                    </div>
+                  </li>
+
+
+              </ul>
+            <p><!-- </div> --></p>
+
+            <h3 id="references">References</h3>
+            <p>
+            Geng, Yilong, et al. "SIMON: A Simple and Scalable Method for Sensing, Inference and Measurement in Data Center Networks." 16th USENIX Symposium on Networked Systems Design and Implementation (NSDI 19). 2019.<br /> <br />
+            Geng, Yilong, et al. "Exploiting a natural network effect for scalable, fine-grained clock synchronization." 15th USENIX Symposium on Networked Systems Design and Implementation (NSDI 18). 2018. <br /> <br />
+            Geng, Yilong, et al. "Self-programming networks: Architecture and algorithms." 2017 55th Annual Allerton Conference on Communication, Control, and Computing (Allerton). IEEE, 2017. <br /> <br />
+            </p>
+
+        </div><!-- content-primary -->
