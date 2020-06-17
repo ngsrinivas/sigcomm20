@@ -1,0 +1,238 @@
+<div class="content-primary">
+
+<h1 id="call-for-tutorials">ACM SIGCOMM 2020 Tutorial on the QUIC Protocol</h1>
+
+<h2 id="-tutorial-program-subject-to-changes"><i class="fa fa-calendar" aria-hidden="true"></i>Tutorial Program (subject to changes)</h2>
+
+<div id="tutorial-mptp-program" class="tutorial-mptp-program">
+    <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">
+    <li class="prog-header prog-no-filter ui-bar-a prog-item prog-monday">
+    <h3>Monday, August 10, 2020</h3>
+    </li>
+
+    <li class="ui-li ui-bar-a prog-item ui-li-divider prog-monday   " data-role="list-divider">
+    <table>
+      <tr>
+        <td style="width:100%;text-align:left;">
+          <h3 style="font-weight: 700">
+            1:30 pm - 3:00 pm
+            Session I
+          </h3>
+        </td>        
+      </tr>
+    </table> 
+    </li>
+
+    <li class="hidden">Session I</li>
+
+    <li data-icon="false" class="prog-item prog-monday">
+        <table>
+           <tr>
+               <td style="font-size:80%; padding-right:10px; max-width:20%;">1:30 pm - 3:00 pm</td>
+               
+               <td style="width:100%;text-align:left;">
+                  <p class="paper-header">
+                    QUIC's history and overview; Connection IDs, handshake, connection migration.
+                  </p>
+                  <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+                  <p>Hands-on: Using QUIC tooling -- wireshark, quictrace.</p>
+               </td> 
+           </tr>
+        </table>
+    </li>
+
+    <li class="prog-break prog-item ui-li-divider prog-monday   " data-role="list-divider">
+    <h3 style="font-weight: 500;">
+      <strong>3:00 pm - 3:30 pm
+      Coffee/tea Break</strong>
+    </h3>
+    </li>
+  
+    <li class="hidden">Coffee/tea Break</li>
+  
+    <li class="ui-li ui-bar-a prog-item ui-li-divider prog-monday" data-role="list-divider">
+    <table>
+      <tr>
+        <td style="width:100%;text-align:left;">
+          <h3 style="font-weight: 700">
+            3:30 pm - 5:00 pm
+            Session II
+          </h3>
+        </td>
+      </tr>
+    </table>
+    </li>
+  
+    <li class="hidden">Session II</li>
+    
+    <li data-icon="false" class="prog-item prog-monday">
+        <table>
+           <tr>
+               <td style="font-size:80%; padding-right:10px; max-width:20%;">3:30 pm - 5:00 pm</td>
+               
+               <td style="width:100%;text-align:left;">
+                  <p class="paper-header">
+                    QUIC's loss recovery and congestion control.
+                  </p>
+                  <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+                  <p>Hands-on: Implement a QUIC application using <i>quicly</i> (C) and <i>quiche</i> (C++); Implement a congestion controller.
+               </td> 
+           </tr>
+        </table>
+    </li>
+  </ul>
+</div>
+
+<h2 id="call-for-participation">Call For Participation</h2>
+
+<p>QUIC is a new transport protocol that has been under development at the IETF and in various companies, and it is about to see extensive deployment across the Internet. This tutorial will present the protocol, demonstrate how to work with example production implementations, and discuss opportunities for academic groups that might want to work on various aspects of QUIC.</p>
+
+<h2 id="-important-dates"><i class="fa fa-calendar"></i> Important Dates</h2>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+    <li data-icon="false">
+      <div class="ui-grid-a">
+        <div class="ui-block-a"><h2>August 10, 2020</h2></div>
+        <div class="ui-block-b"><p>Tutorial</p></div>
+      </div>
+    </li>
+</ul>
+
+<h2 id="outline">Outline</h2>
+
+<p>Over the past 7 years, QUIC has progressed from an in-house experiment at
+Google to an almost complete Internet standard at the IETF. It is the basis for
+HTTP/3, and it is slated to become a significant portion of Internet traffic
+soon.  This tutorial attempts to bring participants up to speed with the history
+of QUIC, its current state of development and deployment, and an understanding
+of what's coming.
+</p>
+
+<p> This will be a half-day tutorial, with presentation and discussion as well
+as hands-on components. Our goal is twofold: (i) to discuss enough topics so
+that attendees leave with an understanding of core mechanisms in QUIC that they
+might continue exploring, using, or analyzing; and (ii) to give enough of a
+jump-start so that participants leave empowered to build new applications and
+new congestion controllers for QUIC. A rough outline follows:</p>
+
+<ul>
+    <li><p><strong>Session I</strong> In the first session, we will introduce
+    QUIC, its history, discuss its features and an abstract API. We will discuss
+    some aspects of the protocol in some detail, including the handshake, header
+    encryption, and connection migration. The hands-on part of this session will
+    showcase QUIC tooling: Wireshark, quictrace (and if possible,
+    qlog).</p></li>
+    <li><p><strong>Session II</strong> In the second session, we will discuss
+    QUIC's loss recovery and congestion control, and a high-level overview of
+    QUIC extensions. In the hands-on part of this session we will walk
+    participants through an example application written for QUIC using the
+    quicly (C) and quiche (C++) libraries. Time permitting, we will go through
+    the congestion control API of these libraries and build an example
+    controller for them. We will leave about 30 minutes for open discussion at
+    the end.
+</ul>
+
+<h2 id="audience-expectations-and-prerequisites">Audience Expectations and Prerequisites</h2>
+
+<p>Anyone with basic understanding of transport can participate in this tutorial. In order to benefit from the hands-on, they are asked to bring they own laptop with gcc installed. More specific instructions TBD.</p>
+
+<h2 id="organizers">Organizers</h2>
+
+<!-- <div  class="presenters"> -->
+<ul class="program" data-role="listview" data-inset="true" data-theme="d" data-dividertheme="a">
+         
+      <li data-icon="false" class="prog-item">
+        <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+          <h4>
+            <div>
+              <p class="paper-header">
+                <div class="ui-grid-a">
+                  <div class="ui-block-a"><p>Jana Iyengar</p></div>
+                  <div class="ui-block-b"><p>Fastly</p></div>
+                </div>
+              </p>
+            </div>
+            <div class="ui-li-aside">
+            </div>
+          </h4>
+          <ul data-role="listview" data-inset="false">
+            <li data-icon="false" style="padding:1px;">
+              <!--<p>-->
+              <table style="border-spacing: 10px; border-collapse: separate;">
+                <tr>
+
+                
+
+                  <td style="width:90%;">
+                  <p><span style="font-weight: 700;">Bio: </span>
+                    <p>Jana is a Distinguished Engineer at Fastly, working on
+                      networking performance, including building, deploying, and
+                      measuring QUIC, TCP, and congestion control. He is an
+                      editor of the QUIC standards documents at the IETF. He
+                      chairs the IRTF's Internet Congestion Control Research
+                      Group and engages in IETF standards development. Before
+                      Fastly, he was a Software Engineer at Google, working on
+                      QUIC, BBR, and other networking projects. In a past life,
+                      he was an Associate Professor at Franklin & Marshall
+                      College, where he taught computer science and worked on
+                      various Internet architecture and transport projects.</p>
+                  </p><br />
+                  </td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+      </li>
+         
+      <li data-icon="false" class="prog-item">
+        <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+          <h4>
+            <div>
+              <p class="paper-header">
+                <div class="ui-grid-a">
+                  <div class="ui-block-a"><p>Ian Swett</p></div>
+                  <div class="ui-block-b"><p>Google</p></div>
+                </div>
+              </p>
+            </div>
+            <div class="ui-li-aside">
+            </div>
+          </h4>
+          <ul data-role="listview" data-inset="false">
+            <li data-icon="false" style="padding:1px;">
+              <!--<p>-->
+              <table style="border-spacing: 10px; border-collapse: separate;">
+                <tr>
+
+                
+
+                  <td style="width:90%;">
+                  <p><span style="font-weight: 700;">Bio: </span>
+                    <p>Ian Swett is a Staff Engineer at Google, where he leads
+                    the QUIC team and works on other networking projects,
+                    including BBR. He is an editor of the QUIC standards
+                    documents at the IETF.</p>
+                  </p><br />
+                  </td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+      </li>
+    
+  </ul>
+<p><!-- </div> --></p>
+
+<h3 id=references>References</h3>
+
+<p>[Lan+17] A. Langley et al. "The QUIC Transport Protocol: Design and Internet-Scale Deployment". In: Proceedings of the Conference of the ACM Special Interest Group on Data Communication - SIGCOMM ’17. Los Angeles, CA, USA: ACM Press, 2017, pp. 183–196.</p>
+
+<p>[QUIC-ID] J. Iyengar and M. Thomson. QUIC: A UDP-Based Multiplexed and Secure Transport. Internet-Draft draft-ietf-quic-transport-27. IETF Secretariat, Feb. 2020. https://datatracker.ietf.org/doc/draft-ietf-quic-transport/</p>
+
+<p>[QUIC-wg] QUIC. https://datatracker.ietf.org/wg/quic/about/</p>
+
+<p>[QUIC-impl] Implementations. https://github.com/quicwg/base-drafts/wiki/Implementations</p>
+
+</div><!-- content-primary -->

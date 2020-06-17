@@ -27,7 +27,8 @@ data_files = ['index',
               'tutorial-pins',
               'tutorial-netfinance',
               'camera-ready',
-              'cf-posters']
+              'cf-posters',
+              'tutorial-quic']
 
 def read_file(fname):
     with open(data_folder + fname + '.html', 'r') as f:
