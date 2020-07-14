@@ -1,0 +1,144 @@
+{% for program_item in program_items -%}
+{% if program_item.session_header is defined -%}
+
+
+
+<!-- session header -->
+<li class="ui-li ui-bar-a prog-item ui-li-divider prog-{{ program_item.day }}" data-role="list-divider">
+  <h3 style="font-weight: 700">
+    {{ program_item.time }} {{ program_item.title }}
+  </h3>
+  {% if program_item.session_chair is defined -%}
+  <p><strong>Session chair: </strong> {{ program_item.session_chair }} </p>
+  {% endif -%}
+</li>
+<!-- end session header -->
+
+
+
+{% endif -%}
+{% if program_item.break is defined -%}
+
+
+
+<!-- start break item -->
+<li class="prog-break prog-item ui-li-divider prog-{{ program_item.day }}" data-role="list-divider">
+  <h3 style="font-weight: 500;">
+    <strong>{{ program_item.time }} {{ program_item.break_type }}</strong>
+  </h3>
+</li>
+<li class="hidden">Tea/Coffee/Meal Break</li>
+<!-- end break item -->
+
+
+
+{% endif -%}
+{% if program_item.paper is defined -%}
+
+
+
+<!-- single item in a session -->
+<li data-icon="false" class="prog-item prog-{{ program_item.day }}">
+      <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+      <h4>
+        <div style="width: 78%">
+          <p class="keynote-header">
+          <table>
+            <tr>
+              <td style="font-size:80%; padding-right:10px; max-width:20%;">{{ program_item.time }}</td>
+              <td style="width:100%; text-align:left;">
+                <h2>{{ program_item.title }}</h2>
+                <p>{{ program_item.authors }}</p>
+              </td>
+            </tr>
+          </table>
+          </p>
+        </div>
+        <div class="ui-li-aside">
+          <div class="button-paper">
+              <a href="{{ program_item.paperlink }}" onclick="window.location='{{ program_item.paperlink }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-file-text" aria-hidden="true"></i></a>
+            </div>
+            <div class="button-paper">
+              <a href="{{ program_item.slide_relpath }}" onclick="window.location='{{ program_item.slide_relpath }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i></a>
+            </div>
+        </div>
+      </h4>
+      <ul data-role="listview" data-inset="false">
+        <li data-icon="false">
+            <p>
+              <b>Abstract: </b> {{ program_item.abstract }}
+            </p>
+            <p>&nbsp;</p>
+        </li>
+      </ul>
+    </div>        
+</li>
+<!-- end single item in a session -->
+
+
+{%  endif -%}
+{% if program_item.keynote is defined -%}
+
+
+
+<!-- single item in a session -->
+<li data-icon="false" class="prog-item prog-{{ program_item.day }}">
+      <table>
+         <tr>             
+             <td style="font-size:80%; padding-right:10px; max-width:20%;"><b>{{ program_item.time }}</b></td>
+             <td style="width:100%;text-align:left;">
+               <p class="paper-header">
+                 {{ program_item.keynote_title }}
+               </p>
+               <p><strong>Speakers&#58;</strong> {{ program_item.keynote_speaker }}</p>
+             </td>
+             <td>
+                <a style="color: dimgray;" href="{{ program_item.slide_relpath }}" rel="external" target="_blank">
+                    <i class="fa fa-file-powerpoint-o"></i>
+                </a>
+             </td>
+             <td>
+                <a style="color: dimgray;" href="{{ program_item.dl_video_link }}" rel="external" target="_blank">
+                    <i class="fa fa-video-camera"></i>
+                </a>
+            </td>
+             
+         </tr>
+  </table>
+</li>
+<!-- end single item in a session -->
+
+{% endif -%}
+{% if program_item.day_header is defined -%}
+
+<!-- day header --->
+<li class="prog-header prog-no-filter ui-bar-a prog-item prog-{{ program_item.day }}">
+   <h3>{{ program_item.day_title }}</h3>
+</li>
+<!-- end day header -->
+
+
+
+{% endif -%}
+{% if program_item.program_start is defined -%}
+
+
+<div class="content-primary">
+  <h1 id="acm-sigcomm-2020-program">ACM SIGCOMM 2020 Program</h1>
+
+  <div id="program-program" class="program-program">
+    <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">
+
+
+{% endif -%}
+{% if program_item.program_end is defined -%}
+
+
+    </ul>
+  </div>
+</div> <!-- content-primary -->
+
+{% endif -%}
+
+
+{% endfor -%}

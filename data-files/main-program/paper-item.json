@@ -1,0 +1,161 @@
+{
+    "program_items": [
+        {
+            "program_start" : "true"
+        },
+        
+        {
+            "day_header" : "true",
+            "day" : "tuesday",
+            "day_title" : "Tuesday, August 11, 2020 EDT"
+        },
+        
+        {
+            "session_header" : "true",
+            "time" : "10:00 - 11:15 am EDT",
+            "title" : "Opening &amp; Keynote",
+            "day" : "tuesday"
+        },
+        
+        {
+            "keynote" : "true",
+            "day" : "tuesday",
+            "time" : "10:00 - 10:30 am EDT",
+            "keynote_title" : "Opening: Welcome by GCs and PC chairs. Paper and lifetime awards",
+            "keynote_speaker" : "Vishal Misra (Columbia University, USA), Henning Schulzrinne (Columbia University, USA), Sujata Banerjee (VMware Research), Ratul Mahajan (University of Washington, Intentionet)",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "dl_video_link" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html"
+        },
+        
+        {
+            "keynote" : "true",
+            "day" : "tuesday",
+            "time" : "10:30 - 11:15 am EDT",
+            "keynote_title" : "Keynote 1",
+            "keynote_speaker" : "Amin Vahdat (Google)",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "dl_video_link" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html"
+        },
+        
+        {
+            "session_header" : "true",
+            "time" : "11:15 - 11:59 am EDT",
+            "title": "Technical Session 1: Programming Switches",
+            "day" : "tuesday"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "tuesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "11:15 - 11:30 am EDT",
+            "title" : "Switch Code Generation using Program Synthesis",
+            "authors" : "Xiangyu Gao, Taegyun Kim, Michael D. Wong (New York University); Divya Raghunathan (Princeton University); Aatish Kishan Varma (New York University); Pravein Govindan Kannan (National University of Singapore); Anirudh Sivaraman (New York University); Srinivas Narayana (Rutgers University); Aarti Gupta (Princeton University)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "tuesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "11:30 - 11:45 am EDT",
+            "title" : "Composing Dataplane Programs with μP4",
+            "authors" : "Hardik Soni (Cornell University); Myriana Rifai (Nokia Bell Labs); Praveen Kumar, Ryan Doenges, Nate Foster (Cornell University)"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "tuesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "11:45 - 11:59 am EDT",
+            "title" : "Lyra: A Cross-Platform Language and Compiler for Data Plane Programming on Heterogeneous ASICs",
+            "authors" : "Jiaqi Gao (Alibaba Group and Harvard University); Ennan Zhai, Hongqiang Harry Liu, Rui Miao (Alibaba Group); Yu Zhou (Alibaba Group and Tsinghua University); Bingchuan Tian (Alibaba Group and Nanjing University); Chen Sun, Dennis Cai, Ming Zhang (Alibaba Group); Minlan Yu (Harvard University)"
+        },
+
+        {
+            "session_header" : "true",
+            "time" : "12:00 - 1:00 pm EDT",
+            "title": "Technical Session 2: Tell Me More About My Packets",
+            "day" : "tuesday"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "tuesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "12:00 - 12:15 pm EDT",
+            "title" : "OmniMon: Re-architecting Network Telemetry with Resource Efficiency and Full Accuracy",
+            "authors" : "Qun Huang, Haifeng Sun (Peking University; Institute of Computing Technology, Chinese Academy of Sciences); Patrick P. C. Lee (The Chinese University of Hong Kong); Wei Bai (Microsoft Research); Feng Zhu, Yungang Bao (Institute of Computing Technology, Chinese Academy of Sciences)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "tuesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "12:15 - 12:30 pm EDT",
+            "title" : "PINT: Probabilistic In-band Network Telemetry",
+            "authors" : "Ran Ben Basat (Harvard University); Sivaramakrishnan Satyamangalam Ramanathan (University of Southern California); Yuliang Li (Harvard University); Gianni Antichi (Queen Mary University of London); Minlan Yu, Michael Mitzenmacher (Harvard University)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "tuesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "12:30 - 12:45 pm EDT",
+            "title" : "BeauCoup: Answering Many Network Traffic Queries, One Memory Update at a Time",
+            "authors" : "Xiaoqi Chen, Shir Landau-Feibish, Mark Braverman, Jennifer Rexford (Princeton University)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "tuesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "12:45 - 1:00 pm EDT",
+            "title" : "A Computational Approach to Packet Classification",
+            "authors" : "Alon Rashelbach, Ori Rottenstreich, Mark Silberstein (Technion)"
+        },            
+        
+        {
+            "break" : "true",
+            "time" : "1.00 - 1.45 PM EDT",
+            "break_type" : "Break",
+            "day" : "tuesday"
+        },
+
+        {
+            "session_header" : "true",
+            "time" : "1:45 - 2:45 pm EDT",
+            "title": "Technical Session 3: Take Me via Scenic Routes",
+            "day" : "tuesday"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "tuesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "1:45 - 2:00 pm EDT",
+            "title" : "Concurrent Entanglement Routing for Quantum Networks: Model and Designs",
+            "authors" : "Shouqian Shi, Chen Qian (University of California, Santa Cruz)"
+        },
+
+        {
+            "program_end" : "true"
+        }
+        
+    ]
+}
