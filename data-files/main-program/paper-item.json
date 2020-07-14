@@ -24,7 +24,7 @@
             "keynote_title" : "Opening: Welcome by GCs and PC chairs. Paper and lifetime awards",
             "keynote_speaker" : "Vishal Misra (Columbia University, USA), Henning Schulzrinne (Columbia University, USA), Sujata Banerjee (VMware Research), Ratul Mahajan (University of Washington, Intentionet)",
             "slide_relpath" : "files/slides/content-forthcoming.html",
-            "dl_video_link" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html"
+            "dl_video_link" : "content-forthcoming.html"
         },
         
         {
@@ -34,7 +34,7 @@
             "keynote_title" : "Keynote 1",
             "keynote_speaker" : "Amin Vahdat (Google)",
             "slide_relpath" : "files/slides/content-forthcoming.html",
-            "dl_video_link" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html"
+            "dl_video_link" : "content-forthcoming.html"
         },
         
         {
@@ -47,7 +47,7 @@
         {
             "paper" : "true",
             "day" : "tuesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:15 - 11:30 am EDT",
@@ -58,7 +58,7 @@
         {
             "paper" : "true",
             "day" : "tuesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:30 - 11:45 am EDT",
@@ -69,7 +69,7 @@
         {
             "paper" : "true",
             "day" : "tuesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:45 - 11:59 am EDT",
@@ -87,7 +87,7 @@
         {
             "paper" : "true",
             "day" : "tuesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:00 - 12:15 pm EDT",
@@ -98,7 +98,7 @@
         {
             "paper" : "true",
             "day" : "tuesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:15 - 12:30 pm EDT",
@@ -109,7 +109,7 @@
         {
             "paper" : "true",
             "day" : "tuesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:30 - 12:45 pm EDT",
@@ -120,7 +120,7 @@
         {
             "paper" : "true",
             "day" : "tuesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:45 - 1:00 pm EDT",
@@ -145,7 +145,7 @@
         {
             "paper" : "true",
             "day" : "tuesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "1:45 - 2:00 pm EDT",
@@ -156,7 +156,7 @@
         {
             "paper" : "true",
             "day" : "tuesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:00 - 2:15 pm EDT",
@@ -167,7 +167,7 @@
         {
             "paper" : "true",
             "day" : "tuesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:15 - 2:30 pm EDT",
@@ -178,7 +178,7 @@
         {
             "paper" : "true",
             "day" : "tuesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:30 - 2:45 pm EDT",
@@ -196,7 +196,7 @@
         {
             "paper" : "true",
             "day" : "tuesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:45 - 3:00 pm EDT",
@@ -207,7 +207,7 @@
         {
             "paper" : "true",
             "day" : "tuesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:00 - 3:15 pm EDT",
@@ -218,7 +218,7 @@
         {
             "paper" : "true",
             "day" : "tuesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:15 - 3:30 pm EDT",
@@ -229,7 +229,7 @@
         {
             "paper" : "true",
             "day" : "tuesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:30 - 3:45 pm EDT",
@@ -247,7 +247,7 @@
         {
             "paper" : "true",
             "day" : "tuesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:45 - 4:00 pm EDT",
@@ -258,7 +258,7 @@
         {
             "paper" : "true",
             "day" : "tuesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "4:00 - 4:15 pm EDT",
@@ -269,7 +269,7 @@
         {
             "paper" : "true",
             "day" : "tuesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "4:15 - 4:30 pm EDT",
@@ -297,7 +297,7 @@
             "keynote_title" : "Keynote 2",
             "keynote_speaker" : "Lixia Zhang (UCLA)",
             "slide_relpath" : "files/slides/content-forthcoming.html",
-            "dl_video_link" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html"
+            "dl_video_link" : "content-forthcoming.html"
         },        
         
         {
@@ -310,7 +310,7 @@
         {
             "paper" : "true",
             "day" : "wednesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "10:45 - 11:00 am EDT",
@@ -321,7 +321,7 @@
         {
             "paper" : "true",
             "day" : "wednesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:00 - 11:15 am EDT",
@@ -332,7 +332,7 @@
         {
             "paper" : "true",
             "day" : "wednesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:15 - 11:30 am EDT",
@@ -343,7 +343,7 @@
         {
             "paper" : "true",
             "day" : "wednesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:30 - 11:45 am EDT",
@@ -354,7 +354,7 @@
         {
             "paper" : "true",
             "day" : "wednesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:45 - 11:59 am EDT",
@@ -372,7 +372,7 @@
         {
             "paper" : "true",
             "day" : "wednesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:00 - 12:15 pm EDT",
@@ -383,7 +383,7 @@
         {
             "paper" : "true",
             "day" : "wednesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:15 - 12:30 pm EDT",
@@ -394,7 +394,7 @@
         {
             "paper" : "true",
             "day" : "wednesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:30 - 12:45 pm EDT",
@@ -405,7 +405,7 @@
         {
             "paper" : "true",
             "day" : "wednesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:45 - 1:00 pm EDT",
@@ -430,7 +430,7 @@
         {
             "paper" : "true",
             "day" : "wednesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "1:45 - 2:00 pm EDT",
@@ -441,7 +441,7 @@
         {
             "paper" : "true",
             "day" : "wednesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:00 - 2:15 pm EDT",
@@ -452,7 +452,7 @@
         {
             "paper" : "true",
             "day" : "wednesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:15 - 2:30 pm EDT",
@@ -464,7 +464,7 @@
         {
             "paper" : "true",
             "day" : "wednesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:30 - 2:45 pm EDT",
@@ -482,7 +482,7 @@
         {
             "paper" : "true",
             "day" : "wednesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:45 - 3:00 pm EDT",
@@ -493,7 +493,7 @@
         {
             "paper" : "true",
             "day" : "wednesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:00 - 3:15 pm EDT",
@@ -504,7 +504,7 @@
         {
             "paper" : "true",
             "day" : "wednesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:15 - 3:30 pm EDT",
@@ -516,7 +516,7 @@
         {
             "paper" : "true",
             "day" : "wednesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:30 - 3:45 pm EDT",
@@ -534,7 +534,7 @@
         {
             "paper" : "true",
             "day" : "wednesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:45 - 4:00 pm EDT",
@@ -545,7 +545,7 @@
         {
             "paper" : "true",
             "day" : "wednesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "4:00 - 4:15 pm EDT",
@@ -556,7 +556,7 @@
         {
             "paper" : "true",
             "day" : "wednesday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "4:15 - 4:30 pm EDT",
@@ -584,7 +584,7 @@
             "keynote_title" : "Panel",
             "keynote_speaker" : "To be announced",
             "slide_relpath" : "files/slides/content-forthcoming.html",
-            "dl_video_link" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html"
+            "dl_video_link" : "content-forthcoming.html"
         },
 
         {
@@ -597,7 +597,7 @@
         {
             "paper" : "true",
             "day" : "thursday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:00 - 11:15 am EDT",
@@ -609,7 +609,7 @@
         {
             "paper" : "true",
             "day" : "thursday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:15 - 11:30 am EDT",
@@ -620,7 +620,7 @@
         {
             "paper" : "true",
             "day" : "thursday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:30 - 11:45 am EDT",
@@ -631,7 +631,7 @@
         {
             "paper" : "true",
             "day" : "thursday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:45 - 11:59 am EDT",
@@ -649,7 +649,7 @@
         {
             "paper" : "true",
             "day" : "thursday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:00 - 12:15 pm EDT",
@@ -660,7 +660,7 @@
         {
             "paper" : "true",
             "day" : "thursday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:15 - 12:30 pm EDT",
@@ -671,7 +671,7 @@
         {
             "paper" : "true",
             "day" : "thursday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:30 - 12:45 pm EDT",
@@ -682,7 +682,7 @@
         {
             "paper" : "true",
             "day" : "thursday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:45 - 1:00 pm EDT",
@@ -707,7 +707,7 @@
         {
             "paper" : "true",
             "day" : "thursday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "1:45 - 2:00 pm EDT",
@@ -718,7 +718,7 @@
         {
             "paper" : "true",
             "day" : "thursday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:00 - 2:15 pm EDT",
@@ -729,7 +729,7 @@
         {
             "paper" : "true",
             "day" : "thursday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:15 - 2:30 pm EDT",
@@ -740,7 +740,7 @@
         {
             "paper" : "true",
             "day" : "thursday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:30 - 2:45 pm EDT",
@@ -751,7 +751,7 @@
         {
             "paper" : "true",
             "day" : "thursday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:45 - 3:00 pm EDT",
@@ -769,7 +769,7 @@
         {
             "paper" : "true",
             "day" : "thursday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:00 - 3:15 pm EDT",
@@ -780,7 +780,7 @@
         {
             "paper" : "true",
             "day" : "thursday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:15 - 3:30 pm EDT",
@@ -791,7 +791,7 @@
         {
             "paper" : "true",
             "day" : "thursday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:30 - 3:45 pm EDT",
@@ -802,7 +802,7 @@
         {
             "paper" : "true",
             "day" : "thursday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:45 - 4:00 pm EDT",
@@ -813,7 +813,7 @@
         {
             "paper" : "true",
             "day" : "thursday",
-            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "paperlink" : "content-forthcoming.html",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "4:00 - 4:15 pm EDT",
@@ -828,7 +828,7 @@
             "keynote_title" : "Closing",
             "keynote_speaker" : "Vishal Misra (Columbia University, USA), Henning Schulzrinne (Columbia University, USA), Sujata Banerjee (VMware Research), Ratul Mahajan (University of Washington, Intentionet)",
             "slide_relpath" : "files/slides/content-forthcoming.html",
-            "dl_video_link" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html"
+            "dl_video_link" : "content-forthcoming.html"
         },
         
         {
