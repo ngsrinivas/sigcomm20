@@ -22,7 +22,7 @@
             "day" : "tuesday",
             "time" : "10:00 - 10:30 am EDT",
             "keynote_title" : "Opening: Welcome by GCs and PC chairs. Paper and lifetime awards",
-            "keynote_speaker" : "Vishal Misra (Columbia University, USA), Henning Schulzrinne (Columbia University, USA), Sujata Banerjee (VMware Research), Ratul Mahajan (University of Washington, Intentionet)",
+            "keynote_speaker" : "Vishal Misra <em>(Columbia University, USA)</em>, Henning Schulzrinne <em>(Columbia University, USA)</em>, Sujata Banerjee <em>(VMware Research)</em>, Ratul Mahajan <em>(University of Washington, Intentionet)</em>",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "dl_video_link" : "content-forthcoming.html"
         },
@@ -32,7 +32,7 @@
             "day" : "tuesday",
             "time" : "10:30 - 11:15 am EDT",
             "keynote_title" : "Keynote 1",
-            "keynote_speaker" : "Amin Vahdat (Google)",
+            "keynote_speaker" : "Amin Vahdat <em>(Google)</em>",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "dl_video_link" : "content-forthcoming.html"
         },
@@ -52,7 +52,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:15 - 11:30 am EDT",
             "title" : "Switch Code Generation using Program Synthesis",
-            "authors" : "Xiangyu Gao, Taegyun Kim, Michael D. Wong (New York University); Divya Raghunathan (Princeton University); Aatish Kishan Varma (New York University); Pravein Govindan Kannan (National University of Singapore); Anirudh Sivaraman (New York University); Srinivas Narayana (Rutgers University); Aarti Gupta (Princeton University)"
+            "authors" : "Xiangyu Gao, Taegyun Kim, Michael D. Wong <em>(New York University)</em>; Divya Raghunathan <em>(Princeton University)</em>; Aatish Kishan Varma <em>(New York University)</em>; Pravein Govindan Kannan <em>(National University of Singapore)</em>; Anirudh Sivaraman <em>(New York University)</em>; Srinivas Narayana <em>(Rutgers University)</em>; Aarti Gupta <em>(Princeton University)</em>"
         },
 
         {
@@ -63,7 +63,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:30 - 11:45 am EDT",
             "title" : "Composing Dataplane Programs with μP4",
-            "authors" : "Hardik Soni (Cornell University); Myriana Rifai (Nokia Bell Labs); Praveen Kumar, Ryan Doenges, Nate Foster (Cornell University)"
+            "authors" : "Hardik Soni <em>(Cornell University)</em>; Myriana Rifai <em>(Nokia Bell Labs)</em>; Praveen Kumar, Ryan Doenges, Nate Foster <em>(Cornell University)</em>"
         },
         
         {
@@ -74,7 +74,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:45 - 11:59 am EDT",
             "title" : "Lyra: A Cross-Platform Language and Compiler for Data Plane Programming on Heterogeneous ASICs",
-            "authors" : "Jiaqi Gao (Alibaba Group and Harvard University); Ennan Zhai, Hongqiang Harry Liu, Rui Miao (Alibaba Group); Yu Zhou (Alibaba Group and Tsinghua University); Bingchuan Tian (Alibaba Group and Nanjing University); Chen Sun, Dennis Cai, Ming Zhang (Alibaba Group); Minlan Yu (Harvard University)"
+            "authors" : "Jiaqi Gao <em>(Alibaba Group and Harvard University)</em>; Ennan Zhai, Hongqiang Harry Liu, Rui Miao <em>(Alibaba Group)</em>; Yu Zhou <em>(Alibaba Group and Tsinghua University)</em>; Bingchuan Tian <em>(Alibaba Group and Nanjing University)</em>; Chen Sun, Dennis Cai, Ming Zhang <em>(Alibaba Group)</em>; Minlan Yu <em>(Harvard University)</em>"
         },
 
         {
@@ -92,7 +92,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:00 - 12:15 pm EDT",
             "title" : "OmniMon: Re-architecting Network Telemetry with Resource Efficiency and Full Accuracy",
-            "authors" : "Qun Huang, Haifeng Sun (Peking University; Institute of Computing Technology, Chinese Academy of Sciences); Patrick P. C. Lee (The Chinese University of Hong Kong); Wei Bai (Microsoft Research); Feng Zhu, Yungang Bao (Institute of Computing Technology, Chinese Academy of Sciences)"
+            "authors" : "Qun Huang, Haifeng Sun <em>(Peking University; Institute of Computing Technology, Chinese Academy of Sciences)</em>; Patrick P. C. Lee <em>(The Chinese University of Hong Kong)</em>; Wei Bai <em>(Microsoft Research)</em>; Feng Zhu, Yungang Bao <em>(Institute of Computing Technology, Chinese Academy of Sciences)</em>"
         },
 
         {
@@ -103,7 +103,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:15 - 12:30 pm EDT",
             "title" : "PINT: Probabilistic In-band Network Telemetry",
-            "authors" : "Ran Ben Basat (Harvard University); Sivaramakrishnan Satyamangalam Ramanathan (University of Southern California); Yuliang Li (Harvard University); Gianni Antichi (Queen Mary University of London); Minlan Yu, Michael Mitzenmacher (Harvard University)"
+            "authors" : "Ran Ben Basat <em>(Harvard University)</em>; Sivaramakrishnan Satyamangalam Ramanathan <em>(University of Southern California)</em>; Yuliang Li <em>(Harvard University)</em>; Gianni Antichi <em>(Queen Mary University of London)</em>; Minlan Yu, Michael Mitzenmacher <em>(Harvard University)</em>"
         },
 
         {
@@ -114,7 +114,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:30 - 12:45 pm EDT",
             "title" : "BeauCoup: Answering Many Network Traffic Queries, One Memory Update at a Time",
-            "authors" : "Xiaoqi Chen, Shir Landau-Feibish, Mark Braverman, Jennifer Rexford (Princeton University)"
+            "authors" : "Xiaoqi Chen, Shir Landau-Feibish, Mark Braverman, Jennifer Rexford <em>(Princeton University)</em>"
         },
 
         {
@@ -125,7 +125,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:45 - 1:00 pm EDT",
             "title" : "A Computational Approach to Packet Classification",
-            "authors" : "Alon Rashelbach, Ori Rottenstreich, Mark Silberstein (Technion)"
+            "authors" : "Alon Rashelbach, Ori Rottenstreich, Mark Silberstein <em>(Technion)</em>"
         },            
         
         {
@@ -150,7 +150,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "1:45 - 2:00 pm EDT",
             "title" : "Concurrent Entanglement Routing for Quantum Networks: Model and Designs",
-            "authors" : "Shouqian Shi, Chen Qian (University of California, Santa Cruz)"
+            "authors" : "Shouqian Shi, Chen Qian <em>(University of California, Santa Cruz)</em>"
         },
 
         {
@@ -161,7 +161,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:00 - 2:15 pm EDT",
             "title" : "A Public Option for the Core",
-            "authors" : "Yotam Harchol (EPFL); Dirk Bergemann (Yale); Nick Feamster (University of Chicago); Eric Friedman (ICSI and UC Berkeley); Arvind Krishnamurthy (University of Washington); Aurojit Panda (NYU); Sylvia Ratnasamy (UC Berkeley); Michael Schapira (Hebrew University of Jerusalem); Scott Shenker (UC Berkeley)"
+            "authors" : "Yotam Harchol <em>(EPFL)</em>; Dirk Bergemann <em>(Yale)</em>; Nick Feamster <em>(University of Chicago)</em>; Eric Friedman <em>(ICSI and UC Berkeley)</em>; Arvind Krishnamurthy <em>(University of Washington)</em>; Aurojit Panda <em>(NYU)</em>; Sylvia Ratnasamy <em>(UC Berkeley)</em>; Michael Schapira <em>(Hebrew University of Jerusalem)</em>; Scott Shenker <em>(UC Berkeley)</em>"
         },
 
         {
@@ -172,7 +172,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:15 - 2:30 pm EDT",
             "title" : "PCF: Provably Resilient Flexible Routing",
-            "authors" : "Chuan Jiang, Sanjay Rao, Mohit Tawarmalani (Purdue University)"
+            "authors" : "Chuan Jiang, Sanjay Rao, Mohit Tawarmalani <em>(Purdue University)</em>"
         },
 
         {
@@ -183,7 +183,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:30 - 2:45 pm EDT",
             "title" : "Routing on Multiple Optimality Criteria",
-            "authors" : "João Luís Sobrinho, Miguel Alves Ferreira (Instituto de Telecomunicações, Instituto Superior Técnico, Universidade de Lisboa)"
+            "authors" : "João Luís Sobrinho, Miguel Alves Ferreira <em>(Instituto de Telecomunicações, Instituto Superior Técnico, Universidade de Lisboa)</em>"
         },
 
         {
@@ -201,7 +201,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:45 - 3:00 pm EDT",
             "title" : "bf4: towards bug-free P4 programs",
-            "authors" : "Dragos Dumitrescu, Radu Stoenescu, Lorina Negreanu, Costin Raiciu (University Politehnica of Bucharest)"
+            "authors" : "Dragos Dumitrescu, Radu Stoenescu, Lorina Negreanu, Costin Raiciu <em>(University Politehnica of Bucharest)</em>"
         },
 
         {
@@ -212,7 +212,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:00 - 3:15 pm EDT",
             "title" :  "GRoot: Proactive Verification of DNS Configurations",
-            "authors" :  "Siva Kesava Reddy Kakarla (UCLA); Ryan Beckett, Behnaz Arzani (Microsoft Research); Todd Millstein (UCLA / Intentionet); George Varghese (UCLA)"
+            "authors" :  "Siva Kesava Reddy Kakarla <em>(UCLA)</em>; Ryan Beckett, Behnaz Arzani <em>(Microsoft Research)</em>; Todd Millstein <em>(UCLA / Intentionet)</em>; George Varghese <em>(UCLA)</em>"
         },
 
         {
@@ -223,7 +223,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:15 - 3:30 pm EDT",
             "title" : "Probabilistic Verification of Network Configurations",
-            "authors" : "Samuel Steffen, Timon Gehr, Petar Tsankov, Laurent Vanbever, Martin Vechev (ETH Zürich)"
+            "authors" : "Samuel Steffen, Timon Gehr, Petar Tsankov, Laurent Vanbever, Martin Vechev <em>(ETH Zürich)</em>"
         },
 
         {
@@ -234,7 +234,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:30 - 3:45 pm EDT",
             "title" : "Accuracy, Scalability, Coverage – A Practical Configuration Verifier on a Global WAN",
-            "authors" : "Fangdan Ye (Tsinghua University); Da Yu (Brown University); Ennan Zhai, Hongqiang Harry Liu (Alibaba Group); Bingchuan Tian (Nanjing University); Qiaobo Ye, Chunsheng Wang, Xin Wu, Tianchen Guo, Cheng Jin, Duncheng She, Qing Ma, Biao Cheng, Hui Xu, Ming Zhang (Alibaba Group); Zhiliang Wang (Tsinghua University); Rodrigo Fonseca (Brown University)"
+            "authors" : "Fangdan Ye <em>(Tsinghua University)</em>; Da Yu <em>(Brown University)</em>; Ennan Zhai, Hongqiang Harry Liu <em>(Alibaba Group)</em>; Bingchuan Tian <em>(Nanjing University)</em>; Qiaobo Ye, Chunsheng Wang, Xin Wu, Tianchen Guo, Cheng Jin, Duncheng She, Qing Ma, Biao Cheng, Hui Xu, Ming Zhang <em>(Alibaba Group)</em>; Zhiliang Wang <em>(Tsinghua University)</em>; Rodrigo Fonseca <em>(Brown University)</em>"
         },
 
         {
@@ -252,7 +252,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:45 - 4:00 pm EDT",
             "title" : "Neural-Enhanced Live Streaming: Improving Live Video Ingest via Online Learning",
-            "authors" : "Jaehong Kim, Youngmok Jung, Hyunho Yeo, Juncheol Ye, Dongsu Han (KAIST)"
+            "authors" : "Jaehong Kim, Youngmok Jung, Hyunho Yeo, Juncheol Ye, Dongsu Han <em>(KAIST)</em>"
         },
 
         {
@@ -263,7 +263,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "4:00 - 4:15 pm EDT",
             "title" : "Server-Driven Video Streaming for Deep Learning Inference",
-            "authors" : "Kuntai Du, Ahsan Pervaiz, Xin Yuan (University of Chicago); Aakanksha Chowdhery (Google); Qizheng Zhang, Henry Hoffmann, Junchen Jiang (University of Chicago)"
+            "authors" : "Kuntai Du, Ahsan Pervaiz, Xin Yuan <em>(University of Chicago)</em>; Aakanksha Chowdhery <em>(Google)</em>; Qizheng Zhang, Henry Hoffmann, Junchen Jiang <em>(University of Chicago)</em>"
         },
 
         {
@@ -274,7 +274,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "4:15 - 4:30 pm EDT",
             "title" : "Reducto: On-Camera Filtering for Resource-Efficient Real-Time Video Analytics",
-            "authors": "Yuanqi Li, Arthi Padmanabhan, Pengzhan Zhao, Yufei Wang, Guoqing Harry Xu, Ravi Netravali (UCLA)"
+            "authors": "Yuanqi Li, Arthi Padmanabhan, Pengzhan Zhao, Yufei Wang, Guoqing Harry Xu, Ravi Netravali <em>(UCLA)</em>"
         },
 
         {
@@ -295,7 +295,7 @@
             "day" : "wednesday",
             "time" : "10:00 - 10:45 am EDT",
             "keynote_title" : "Keynote 2",
-            "keynote_speaker" : "Lixia Zhang (UCLA)",
+            "keynote_speaker" : "Lixia Zhang <em>(UCLA)</em>",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "dl_video_link" : "content-forthcoming.html"
         },        
@@ -315,7 +315,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "10:45 - 11:00 am EDT",
             "title" : "PBE-CC: Congestion Control via Endpoint-Centric, Physical-Layer Bandwidth Measurements",
-            "authors": "Yaxiong Xie, Fan Yi, Kyle Jamieson (Princeton University)"
+            "authors": "Yaxiong Xie, Fan Yi, Kyle Jamieson <em>(Princeton University)</em>"
         },
 
         {
@@ -326,7 +326,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:00 - 11:15 am EDT",
             "title" : "Proteus: Scavenger Transport And Beyond",
-            "authors" : "Tong Meng (UIUC); Neta Rozen Schiff (Hebrew University of Jerusalem); Brighten Godfrey (UIUC and VMware); Michael Schapira (Hebrew University of Jerusalem)"
+            "authors" : "Tong Meng <em>(UIUC)</em>; Neta Rozen Schiff <em>(Hebrew University of Jerusalem)</em>; Brighten Godfrey <em>(UIUC and VMware)</em>; Michael Schapira <em>(Hebrew University of Jerusalem)</em>"
         },
 
         {
@@ -337,7 +337,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:15 - 11:30 am EDT",
             "title" : "Annulus: A Dual Congestion Control Loop for Datacenter and WAN Traffic Aggregates",
-            "authors" : "Ahmed Saeed (MIT); Varun Gupta (AT&T Labs Research); Prateesh Goyal (MIT); Milad Sharif (Barefoot Networks); Rong Pan (Cisco Systems); Mostafa Ammar, Ellen Zegura (Georgia Institute of Technology); Keon Jang (MPI-SWS); Mohammad Alizadeh (MIT); Abdul Kabbani, Amin Vahdat (Google)"
+            "authors" : "Ahmed Saeed <em>(MIT)</em>; Varun Gupta <em>(AT&T Labs Research)</em>; Prateesh Goyal <em>(MIT)</em>; Milad Sharif <em>(Barefoot Networks)</em>; Rong Pan <em>(Cisco Systems)</em>; Mostafa Ammar, Ellen Zegura <em>(Georgia Institute of Technology)</em>; Keon Jang <em>(MPI-SWS)</em>; Mohammad Alizadeh <em>(MIT)</em>; Abdul Kabbani, Amin Vahdat <em>(Google)</em>"
         },
 
         {
@@ -348,7 +348,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:30 - 11:45 am EDT",
             "title" : "Swift: Delay is Simple and Effective for Congestion Control in the Datacenter",
-            "authors" : "Gautam Kumar, Nandita Dukkipati (Google); Keon Jang (MPI-SWS); Hassan M. G. Wassel, Xian Wu, Behnam Montazeri, Yaogong Wang, Kevin Springborn, Christopher Alfeld, Michael Ryan, David Wetherall, Amin Vahdat (Google)"
+            "authors" : "Gautam Kumar, Nandita Dukkipati <em>(Google)</em>; Keon Jang <em>(MPI-SWS)</em>; Hassan M. G. Wassel, Xian Wu, Behnam Montazeri, Yaogong Wang, Kevin Springborn, Christopher Alfeld, Michael Ryan, David Wetherall, Amin Vahdat <em>(Google)</em>"
         },
 
         {
@@ -359,7 +359,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:45 - 11:59 am EDT",
             "title" : "Classic Meets Modern: a Pragmatic Learning-Based Congestion Control for the Internet",
-            "authors": "Soheil Abbasloo, Chen-Yu Yen, H. Jonathan Chao (NYU)"
+            "authors": "Soheil Abbasloo, Chen-Yu Yen, H. Jonathan Chao <em>(NYU)</em>"
         },
 
         {
@@ -377,7 +377,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:00 - 12:15 pm EDT",
             "title" : "NetLock: Fast, Centralized Lock Management Using Programmable Switches",
-            "authors" :  "Zhuolong Yu (Johns Hopkins University); Yiwen Zhang (University of Michigan); Vladimir Braverman (Johns Hopkins University); Mosharaf Chowdhury (University of Michigan); Xin Jin (Johns Hopkins University)"
+            "authors" :  "Zhuolong Yu <em>(Johns Hopkins University)</em>; Yiwen Zhang <em>(University of Michigan)</em>; Vladimir Braverman <em>(Johns Hopkins University)</em>; Mosharaf Chowdhury <em>(University of Michigan)</em>; Xin Jin <em>(Johns Hopkins University)</em>"
         },        
 
         {
@@ -388,7 +388,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:15 - 12:30 pm EDT",
             "title" : "TEA: Enabling State-Intensive Network Functions on Programmable Switches",
-            "authors": "Daehyeok Kim (Carnegie Mellon University and Microsoft Research); Zaoxing Liu (Carnegie Mellon University and Boston University); Yibo Zhu (ByteDance Inc.); Changhoon Kim, Jeongkeun Lee (Intel, Barefoot Switch Division); Vyas Sekar, Srinivasan Seshan (Carnegie Mellon University)"
+            "authors": "Daehyeok Kim <em>(Carnegie Mellon University and Microsoft Research)</em>; Zaoxing Liu <em>(Carnegie Mellon University and Boston University)</em>; Yibo Zhu <em>(ByteDance Inc.)</em>; Changhoon Kim, Jeongkeun Lee <em>(Intel, Barefoot Switch Division)</em>; Vyas Sekar, Srinivasan Seshan <em>(Carnegie Mellon University)</em>"
         },
 
         {
@@ -399,7 +399,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:30 - 12:45 pm EDT",
             "title" : "Flow Event Telemetry on Programmable Data Plane",
-            "authors": "Yu Zhou (Alibaba Group and Tsinghua University); Chen Sun, Hongqiang Harry Liu, Rui Miao, Shi Bai, Bo Li, Zhilong Zheng, Lingjun Zhu, Zhen Shen, Yongqing Xi, Pengcheng Zhang, Dennis Cai, Ming Zhang (Alibaba Group); Mingwei Xu (Tsinghua University)"
+            "authors": "Yu Zhou <em>(Alibaba Group and Tsinghua University)</em>; Chen Sun, Hongqiang Harry Liu, Rui Miao, Shi Bai, Bo Li, Zhilong Zheng, Lingjun Zhu, Zhen Shen, Yongqing Xi, Pengcheng Zhang, Dennis Cai, Ming Zhang <em>(Alibaba Group)</em>; Mingwei Xu <em>(Tsinghua University)</em>"
         },
 
         {
@@ -410,7 +410,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:45 - 1:00 pm EDT",
             "title" : "Mantis: Reactive Programmable Switches",
-            "authors": "Liangcheng Yu (University of Pennsylvania); John Sonchack (Princeton University); Vincent Liu (University of Pennsylvania)"
+            "authors": "Liangcheng Yu <em>(University of Pennsylvania)</em>; John Sonchack <em>(Princeton University)</em>; Vincent Liu <em>(University of Pennsylvania)</em>"
         },
 
         {
@@ -435,7 +435,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "1:45 - 2:00 pm EDT",
             "title" : "Aeolus: A Building Block for Proactive Transport in Datacenters",
-            "authors" : "Shuihai Hu (HKUST and Clustar); Wei Bai (HKUST and Microsoft Research); Gaoxiong Zeng, Zilong Wang, Baochen Qiao, Kai Chen (HKUST); Kun Tan (Huawei); Yi Wang (Peng Cheng Lab)"
+            "authors" : "Shuihai Hu <em>(HKUST and Clustar)</em>; Wei Bai <em>(HKUST and Microsoft Research)</em>; Gaoxiong Zeng, Zilong Wang, Baochen Qiao, Kai Chen <em>(HKUST)</em>; Kun Tan <em>(Huawei)</em>; Yi Wang <em>(Peng Cheng Lab)</em>"
         },
 
         {
@@ -446,7 +446,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:00 - 2:15 pm EDT",
             "title" : "MasQ: RDMA for Virtual Private Cloud",
-            "authors" : "Zhiqiang He (University of Science and Technology of China; Huawei Technologies Co., Ltd); Dongyang Wang, Binzhang Fu, Kun Tan (Huawei Technologies Co., Ltd); Bei Hua (University of Science and Technology of China); Zhi-Li Zhang (University of Minnesota); Kai Zheng (Huawei Technologies Co., Ltd)"
+            "authors" : "Zhiqiang He <em>(University of Science and Technology of China; Huawei Technologies Co., Ltd)</em>; Dongyang Wang, Binzhang Fu, Kun Tan <em>(Huawei Technologies Co., Ltd)</em>; Bei Hua <em>(University of Science and Technology of China)</em>; Zhi-Li Zhang <em>(University of Minnesota)</em>; Kai Zheng <em>(Huawei Technologies Co., Ltd)</em>"
         },
 
         {
@@ -457,7 +457,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:15 - 2:30 pm EDT",
             "title" : "VTrace: Automatic Diagnostic System for Persistent Packet Loss in Cloud-Scale Overlay Network",
-            "authors": "Chongrong Fang, Haoyu Liu (Zhejiang University); Mao Miao, Jie Ye, Lei Wang, Wansheng Zhang, Daxiang Kang, Biao Lyv (Alibaba Group); Peng Cheng, Jiming Chen (Zhejiang University)"
+            "authors": "Chongrong Fang, Haoyu Liu <em>(Zhejiang University)</em>; Mao Miao, Jie Ye, Lei Wang, Wansheng Zhang, Daxiang Kang, Biao Lyv <em>(Alibaba Group)</em>; Peng Cheng, Jiming Chen <em>(Zhejiang University)</em>"
 
         },
 
@@ -469,7 +469,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:30 - 2:45 pm EDT",
             "title" : "Scouts: Improving the Diagnosis Process Through Domain-customized Incident Routing",
-            "authors": "Jiaqi Gao (Harvard University); Nofel Yaseen (University of Pennsylvania); Robert MacDavid (Princeton University); Felipe Vieira Frujeri (Microsoft Research); Vincent Liu (University of Pennsylvania); Ricardo Bianchini (Microsoft Research); Ramaswamy Aditya, Xiaohang Wang, Henry Lee, David Maltz (Microsoft); Minlan Yu (Harvard University); Behnaz Arzani (Microsoft Research)"
+            "authors": "Jiaqi Gao <em>(Harvard University)</em>; Nofel Yaseen <em>(University of Pennsylvania)</em>; Robert MacDavid <em>(Princeton University)</em>; Felipe Vieira Frujeri <em>(Microsoft Research)</em>; Vincent Liu <em>(University of Pennsylvania)</em>; Ricardo Bianchini <em>(Microsoft Research)</em>; Ramaswamy Aditya, Xiaohang Wang, Henry Lee, David Maltz <em>(Microsoft)</em>; Minlan Yu <em>(Harvard University)</em>; Behnaz Arzani <em>(Microsoft Research)</em>"
         },
 
         {
@@ -487,7 +487,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:45 - 3:00 pm EDT",
             "title" : "Turboboosting Visible Light Backscatter Communication",
-            "authors": "Yue Wu, Purui Wang, Kenuo Xu, Lilei Feng, Chenren Xu (Peking University)"
+            "authors": "Yue Wu, Purui Wang, Kenuo Xu, Lilei Feng, Chenren Xu <em>(Peking University)</em>"
         },
 
         {
@@ -498,7 +498,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:00 - 3:15 pm EDT",
             "title" : "Leveraging Ambient LTE Traffic for Ubiquitous Passive Communication",
-            "authors": "Zicheng Chi, Xin Liu, Wei Wang, Yao Yao, Ting Zhu (University of Maryland, Baltimore County)"
+            "authors": "Zicheng Chi, Xin Liu, Wei Wang, Yao Yao, Ting Zhu <em>(University of Maryland, Baltimore County)</em>"
         },
 
         {
@@ -509,7 +509,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:15 - 3:30 pm EDT",
             "title" : "WiTAG: Seamless WiFi Backscatter Communication",
-            "authors": "Ali Abedi, Farzan Dehbashi, Mohammad Hossein Mazaheri (University of Waterloo); Omid Abari (UCLA); Tim Brecht (University of Waterloo)"
+            "authors": "Ali Abedi, Farzan Dehbashi, Mohammad Hossein Mazaheri <em>(University of Waterloo)</em>; Omid Abari <em>(UCLA)</em>; Tim Brecht <em>(University of Waterloo)</em>"
 
         },
 
@@ -521,7 +521,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:30 - 3:45 pm EDT",
             "title" : "Ultra-Wideband Underwater Backscatter via Piezoelectric Metamaterials",
-            "authors" : "Reza Ghaffarivardavagh, Sayed Saad Afzal, Osvy Rodriguez, Fadel Adib (MIT)"
+            "authors" : "Reza Ghaffarivardavagh, Sayed Saad Afzal, Osvy Rodriguez, Fadel Adib <em>(MIT)</em>"
         },
 
         {
@@ -539,7 +539,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:45 - 4:00 pm EDT",
             "title" : "An Open Platform to Teach How the Internet Practically Works",
-            "authors" : "Thomas Holterbach (ETH Zurich),Tobias Bühler (ETH Zurich), Tino Rellstab (ETH Zurich), Laurent Vanbever (ETH Zurich)"
+            "authors" : "Thomas Holterbach <em>(ETH Zurich)</em>,Tobias Bühler <em>(ETH Zurich)</em>, Tino Rellstab <em>(ETH Zurich)</em>, Laurent Vanbever <em>(ETH Zurich)</em>"
         },
 
         {
@@ -550,7 +550,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "4:00 - 4:15 pm EDT",
             "title" : "Deprecating The TCP Macroscopic Model",
-            "authors" : "Matt Mathis (Google, Inc) and Jamshid Mahdavi (WhatsApp, Inc)"
+            "authors" : "Matt Mathis <em>(Google, Inc)</em> and Jamshid Mahdavi <em>(WhatsApp, Inc)</em>"
         },
 
         {
@@ -561,7 +561,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "4:15 - 4:30 pm EDT",
             "title" : "Securing Linux with a Faster and Scalable Iptables",
-            "authors" : "Sebastiano Miano (Politecnico di Torino), Matteo Bertrone (Politecnico di Torino), Fulvio Risso (Politecnico di Torino), Mauricio Vásquez Bernal (Politecnico di Torino), Yunsong Lu (Futurewei Technologies, Inc.), Jianwen Pi (Futurewei Technologies, Inc.)"
+            "authors" : "Sebastiano Miano <em>(Politecnico di Torino)</em>, Matteo Bertrone <em>(Politecnico di Torino)</em>, Fulvio Risso <em>(Politecnico di Torino)</em>, Mauricio Vásquez Bernal <em>(Politecnico di Torino)</em>, Yunsong Lu <em>(Futurewei Technologies, Inc.)</em>, Jianwen Pi <em>(Futurewei Technologies, Inc.)</em>"
         },
 
         {
@@ -602,7 +602,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:00 - 11:15 am EDT",
             "title" : "Fault Tolerant Service Function Chaining",
-            "authors" : "Milad Ghaznavi, Elaheh Jalalpour, Bernard Wong, Raouf Boutaba, Ali José Mashtizadeh (University of Waterloo)"
+            "authors" : "Milad Ghaznavi, Elaheh Jalalpour, Bernard Wong, Raouf Boutaba, Ali José Mashtizadeh <em>(University of Waterloo)</em>"
 
         },
 
@@ -614,7 +614,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:15 - 11:30 am EDT",
             "title" : "Gallium: Automated Software Middlebox Offloading to Programmable Switches",
-            "authors" : "Kaiyuan Zhang (University of Washington); Danyang Zhuo (Duke University); Arvind Krishnamurthy (University of Washington)"
+            "authors" : "Kaiyuan Zhang <em>(University of Washington)</em>; Danyang Zhuo <em>(Duke University)</em>; Arvind Krishnamurthy <em>(University of Washington)</em>"
         },
 
         {
@@ -625,7 +625,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:30 - 11:45 am EDT",
             "title" : "Contention-Aware Performance Prediction for Virtualized Network Functions",
-            "authors": "Antonis Manousis, Rahul Anand Sharma, Vyas Sekar, Justine Sherry (Carnegie Mellon University)"
+            "authors": "Antonis Manousis, Rahul Anand Sharma, Vyas Sekar, Justine Sherry <em>(Carnegie Mellon University)</em>"
         },
 
         {
@@ -636,7 +636,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "11:45 - 11:59 am EDT",
             "title" : "Microscope: Queue-based Performance Diagnosis for Network Functions",
-            "authors" : "Junzhi Gong, Yuliang Li (Harvard University); Bilal Anwer (AT&T Labs Research); Aman Shaikh (AT&T Labs - Research); Minlan Yu (Harvard University)"
+            "authors" : "Junzhi Gong, Yuliang Li <em>(Harvard University)</em>; Bilal Anwer <em>(AT&T Labs Research)</em>; Aman Shaikh <em>(AT&T Labs - Research)</em>; Minlan Yu <em>(Harvard University)</em>"
         },
 
         {
@@ -654,7 +654,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:00 - 12:15 pm EDT",
             "title" : "Polaris: A Flat Datacenter Network with Nanosecond Optical Switching",
-            "authors": "Hitesh Ballani, Paolo Costa, Raphael Behrendt, Daniel Cletheroe, Istvan Haller, Krzysztof Jozwik, Fotini Karinou, Sophie Lange, Kai Shi, Benn Thomsen, Hugh Williams (Microsoft Research)"
+            "authors": "Hitesh Ballani, Paolo Costa, Raphael Behrendt, Daniel Cletheroe, Istvan Haller, Krzysztof Jozwik, Fotini Karinou, Sophie Lange, Kai Shi, Benn Thomsen, Hugh Williams <em>(Microsoft Research)</em>"
         },
 
         {
@@ -665,7 +665,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:15 - 12:30 pm EDT",
             "title" : "1RMA: Re-envisioning Remote Memory Access for Multi-tenant Datacenters",
-            "authors": "Arjun Singhvi (University of Wisconsin - Madison); Aditya Akella (University of Wisconsin - Madison and Google, Inc); Dan Gibson, Thomas F. Wenisch, Monica Wong-Chan, Sean Clark, Milo M. K. Martin, Moray McLaren, Prashant Chandra, Rob Cauble, Hassan M. G. Wassel, Behnam Montazeri (Google, Inc.); Simon L. Sabato (Lilac Cloud); Joel Scherpelz (unaffiliated); Amin Vahdat (Google, Inc.)"
+            "authors": "Arjun Singhvi <em>(University of Wisconsin - Madison)</em>; Aditya Akella <em>(University of Wisconsin - Madison and Google, Inc)</em>; Dan Gibson, Thomas F. Wenisch, Monica Wong-Chan, Sean Clark, Milo M. K. Martin, Moray McLaren, Prashant Chandra, Rob Cauble, Hassan M. G. Wassel, Behnam Montazeri <em>(Google, Inc.)</em>; Simon L. Sabato <em>(Lilac Cloud)</em>; Joel Scherpelz <em>(unaffiliated)</em>; Amin Vahdat <em>(Google, Inc.)</em>"
         },
 
         {
@@ -676,7 +676,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:30 - 12:45 pm EDT",
             "title" : "SmartNIC Performance Isolation with FairNIC: Programmable Networking for the Cloud",
-            "authors": "Stewart Grant, Anil Yelam (UC San Diego); Maxwell Bland (University of Illinois at Urbana-Champaign); Alex C. Snoeren (UC San Diego)"
+            "authors": "Stewart Grant, Anil Yelam <em>(UC San Diego)</em>; Maxwell Bland <em>(University of Illinois at Urbana-Champaign)</em>; Alex C. Snoeren <em>(UC San Diego)</em>"
         },
 
         {
@@ -687,7 +687,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:45 - 1:00 pm EDT",
             "title" : "Beyond the mega-data center: networking multi-data center regions",
-            "authors" : "Vojislav Dukic (ETH Zurich); Ginni Khanna, Christos Gkantsidis, Thomas Karagiannis, Francesca Parmigiani (Microsoft); Ankit Singla (ETH Zurich); Mark Filer, Jeffrey L. Cox, Anna Ptasznik, Nick Harland, Winston Saunders, Christian Belady (Microsoft)"
+            "authors" : "Vojislav Dukic <em>(ETH Zurich)</em>; Ginni Khanna, Christos Gkantsidis, Thomas Karagiannis, Francesca Parmigiani <em>(Microsoft)</em>; Ankit Singla <em>(ETH Zurich)</em>; Mark Filer, Jeffrey L. Cox, Anna Ptasznik, Nick Harland, Winston Saunders, Christian Belady <em>(Microsoft)</em>"
         },
 
         {
@@ -712,7 +712,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "1:45 - 2:00 pm EDT",
             "title" : "NFC+: Breaking NFC Networking Limits through Resonance Engineering",
-            "authors" : "Renjie Zhao (Alibaba Group & University of California San Diego); Purui Wang (Alibaba Group & Peking University); Yunfei Ma, Pengyu Zhang, Hongqiang Harry Liu, Xianshang Lin (Alibaba Group); Xinyu Zhang (University of California San Diego); Chenren Xu (Peking University); Ming Zhang (Alibaba Group)"
+            "authors" : "Renjie Zhao <em>(Alibaba Group & University of California San Diego)</em>; Purui Wang <em>(Alibaba Group & Peking University)</em>; Yunfei Ma, Pengyu Zhang, Hongqiang Harry Liu, Xianshang Lin <em>(Alibaba Group)</em>; Xinyu Zhang <em>(University of California San Diego)</em>; Chenren Xu <em>(Peking University)</em>; Ming Zhang <em>(Alibaba Group)</em>"
         },
 
         {
@@ -723,7 +723,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:00 - 2:15 pm EDT",
             "title" : "TACK: Improving Wireless Transport Performance by Taming Acknowledgments",
-            "authors" : "Tong Li (Huawei Technologies Co., Ltd.); Kai Zheng (Huawei Technologies Co. Ltd.); Ke Xu (Tsinghua University & BNRist & PCL); Rahul Arvind Jadhav, Tao Xiong (Huawei Technologies Co. Ltd.); Keith Winstein (Stanford University); Kun Tan (Huawei Technologies Co. Ltd.)"
+            "authors" : "Tong Li <em>(Huawei Technologies Co., Ltd.)</em>; Kai Zheng <em>(Huawei Technologies Co. Ltd.)</em>; Ke Xu <em>(Tsinghua University & BNRist & PCL)</em>; Rahul Arvind Jadhav, Tao Xiong <em>(Huawei Technologies Co. Ltd.)</em>; Keith Winstein <em>(Stanford University)</em>; Kun Tan <em>(Huawei Technologies Co. Ltd.)</em>"
         },
 
         {
@@ -734,7 +734,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:15 - 2:30 pm EDT",
             "title" : "Beyond-5G Reliable Extreme Mobility Management",
-            "authors" : "Yuanjie Li (Hewlett Packard Labs); Qianru Li, Zhehui Zhang (University of California, Los Angeles); Ghufran Baig, Lili Qiu (University of Texas at Austin); Songwu Lu (University of California, Los Angeles)"
+            "authors" : "Yuanjie Li <em>(Hewlett Packard Labs)</em>; Qianru Li, Zhehui Zhang <em>(University of California, Los Angeles)</em>; Ghufran Baig, Lili Qiu <em>(University of Texas at Austin)</em>; Songwu Lu <em>(University of California, Los Angeles)</em>"
         },
 
         {
@@ -745,7 +745,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:30 - 2:45 pm EDT",
             "title" : "Understanding Operational 5G: A First Measurement Study on Its Coverage, Performance and Energy Consumption",
-            "authors": "Dongzhu Xu, Anfu Zhou (Beijing University of Posts and Telecommunications); Xinyu Zhang (University of California San Diego); Guixian Wang, Xi Liu, Congkai An, Yiming Shi, Liang Liu, Huadong Ma (Beijing University of Posts and Telecommunications)"
+            "authors": "Dongzhu Xu, Anfu Zhou <em>(Beijing University of Posts and Telecommunications)</em>; Xinyu Zhang <em>(University of California San Diego)</em>; Guixian Wang, Xi Liu, Congkai An, Yiming Shi, Liang Liu, Huadong Ma <em>(Beijing University of Posts and Telecommunications)</em>"
         },
 
         {
@@ -756,7 +756,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "2:45 - 3:00 pm EDT",
             "title" : "A Low Latency and Consistent Cellular Control Plane",
-            "authors" : "Mukhtiar Ahmad, Syed Usman Jafri, Azam Ikram, Wasiq Noor Ahmad Qasmi, Muhammad Ali Nawazish, Zartash Afzal Uzmi, Zafar Ayyub Qazi (LUMS)"
+            "authors" : "Mukhtiar Ahmad, Syed Usman Jafri, Azam Ikram, Wasiq Noor Ahmad Qasmi, Muhammad Ali Nawazish, Zartash Afzal Uzmi, Zafar Ayyub Qazi <em>(LUMS)</em>"
         },
 
         {
@@ -774,7 +774,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:00 - 3:15 pm EDT",
             "title" : "Akamai DNS: Providing Authoritative Answers to the World’s Queries",
-            "authors": "Kyle Schomp, Onkar Bhardwaj, Eymen Kurdoglu, Mashooq Muhaimen (Akamai Technologies); Ramesh K. Sitaraman (University of Massachusetts at Amherst/Akamai Technologies)"
+            "authors": "Kyle Schomp, Onkar Bhardwaj, Eymen Kurdoglu, Mashooq Muhaimen <em>(Akamai Technologies)</em>; Ramesh K. Sitaraman <em>(University of Massachusetts at Amherst/Akamai Technologies)</em>"
         },
 
         {
@@ -785,7 +785,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:15 - 3:30 pm EDT",
             "title" : "Zero Downtime Release: Disruption-free Load Balancing of a Multi-Billion User Website",
-            "authors" : "Usama Naseer (Brown University); Luca Niccolini, Udip Pant, Alan Frindell, Ranjeeth Dasineni (Facebook); Theophilus A. Benson (Brown University)"
+            "authors" : "Usama Naseer <em>(Brown University)</em>; Luca Niccolini, Udip Pant, Alan Frindell, Ranjeeth Dasineni <em>(Facebook)</em>; Theophilus A. Benson <em>(Brown University)</em>"
         },
 
         {
@@ -796,7 +796,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:30 - 3:45 pm EDT",
             "title" : "Get Out: Helping Unmodified Clients Bypass Censorship with Server-side Evasion",
-            "authors" : "Kevin Bock, George Hughey, Louis-Henri Merino, Tania Arya, Daniel Liscinsky, Regina Pogosian, Dave Levin (University of Maryland)"
+            "authors" : "Kevin Bock, George Hughey, Louis-Henri Merino, Tania Arya, Daniel Liscinsky, Regina Pogosian, Dave Levin <em>(University of Maryland)</em>"
         },
 
         {
@@ -807,7 +807,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "3:45 - 4:00 pm EDT",
             "title" : "Caching with Delayed Hits",
-            "authors": "Nirav Atre, Justine Sherry, Weina Wang (Carnegie Mellon University); Daniel Berger (Microsoft Research)"
+            "authors": "Nirav Atre, Justine Sherry, Weina Wang <em>(Carnegie Mellon University)</em>; Daniel Berger <em>(Microsoft Research)</em>"
         },
 
         {
@@ -818,7 +818,7 @@
             "abstract" : "Abstract is forthcoming.",
             "time" : "4:00 - 4:15 pm EDT",
             "title" : "Interpreting Deep Learning-Based Networking Systems",
-            "authors" : "Zili Meng, Minhu Wang, Jiasong Bai, Mingwei Xu (Tsinghua University); Hongzi Mao (Massachusetts Institute of Technology); Hongxin Hu (Clemson University)"
+            "authors" : "Zili Meng, Minhu Wang, Jiasong Bai, Mingwei Xu <em>(Tsinghua University)</em>; Hongzi Mao <em>(Massachusetts Institute of Technology)</em>; Hongxin Hu <em>(Clemson University)</em>"
         },
 
         {
@@ -826,7 +826,7 @@
             "day" : "tuesday",
             "time" : "4:15 - 4:30 pm EDT",
             "keynote_title" : "Closing",
-            "keynote_speaker" : "Vishal Misra (Columbia University, USA), Henning Schulzrinne (Columbia University, USA), Sujata Banerjee (VMware Research), Ratul Mahajan (University of Washington, Intentionet)",
+            "keynote_speaker" : "Vishal Misra <em>(Columbia University, USA)</em>, Henning Schulzrinne <em>(Columbia University, USA)</em>, Sujata Banerjee <em>(VMware Research)</em>, Ratul Mahajan <em>(University of Washington, Intentionet)</em>",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "dl_video_link" : "content-forthcoming.html"
         },
