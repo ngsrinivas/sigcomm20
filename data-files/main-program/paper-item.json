@@ -653,7 +653,7 @@
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "abstract" : "Abstract is forthcoming.",
             "time" : "12:00 - 12:15 pm EDT",
-            "title" : "Polaris: A Flat Datacenter Network with Nanosecond Optical Switching",
+            "title" : "Sirius: A Flat Datacenter Network with Nanosecond Optical Switching",
             "authors": "Hitesh Ballani, Paolo Costa, Raphael Behrendt, Daniel Cletheroe, Istvan Haller, Krzysztof Jozwik, Fotini Karinou, Sophie Lange, Kai Shi, Benn Thomsen, Hugh Williams <em>(Microsoft Research)</em>"
         },
 
