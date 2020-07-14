@@ -80,7 +80,7 @@
         {
             "session_header" : "true",
             "time" : "12:00 - 1:00 pm EDT",
-            "title": "Technical Session 2: Tell Me More About My Packets",
+            "title": "Technical Session 2: Telemetry: Tell Me More About My Packets",
             "day" : "tuesday"
         },
 
@@ -138,7 +138,7 @@
         {
             "session_header" : "true",
             "time" : "1:45 - 2:45 pm EDT",
-            "title": "Technical Session 3: Take Me via Scenic Routes",
+            "title": "Technical Session 3: Routing: Take Me via Scenic Routes",
             "day" : "tuesday"
         },
         
@@ -189,7 +189,7 @@
         {
             "session_header" : "true",
             "time" : "2:45 - 3:45 pm EDT",
-            "title": "Technical Session 4: Are you doing what I think you're doing?",
+            "title": "Technical Session 4: Verification: Are you doing what I think you're doing?",
             "day" : "tuesday"
         },
         
@@ -277,6 +277,293 @@
             "authors": "Yuanqi Li, Arthi Padmanabhan, Pengzhan Zhao, Yufei Wang, Guoqing Harry Xu, Ravi Netravali (UCLA)"
         },
 
+        {
+            "day_header" : "true",
+            "day" : "wednesday",
+            "day_title" : "Wednesday, August 12, 2020 EDT"
+        },
+
+        {
+            "session_header" : "true",
+            "time" : "10:00 - 10:45 am EDT",
+            "title" : "Keynote",
+            "day" : "wednesday"
+        },        
+
+        {
+            "keynote" : "true",
+            "day" : "wednesday",
+            "time" : "10:00 - 10:45 am EDT",
+            "keynote_title" : "Keynote 2",
+            "keynote_speaker" : "Lixia Zhang (UCLA)",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "dl_video_link" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html"
+        },        
+        
+        {
+            "session_header" : "true",
+            "time" : "10:45 - 11:59 am EDT",
+            "title": "Technical Session 6: Congestion Control: Now now, not so fast",
+            "day" : "wednesday"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "wednesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "10:45 - 11:00 am EDT",
+            "title" : "PBE-CC: Congestion Control via Endpoint-Centric, Physical-Layer Bandwidth Measurements",
+            "authors": "Yaxiong Xie, Fan Yi, Kyle Jamieson (Princeton University)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "wednesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "11:00 - 11:15 am EDT",
+            "title" : "Proteus: Scavenger Transport And Beyond",
+            "authors" : "Tong Meng (UIUC); Neta Rozen Schiff (Hebrew University of Jerusalem); Brighten Godfrey (UIUC and VMware); Michael Schapira (Hebrew University of Jerusalem)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "wednesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "11:15 - 11:30 am EDT",
+            "title" : "Annulus: A Dual Congestion Control Loop for Datacenter and WAN Traffic Aggregates",
+            "authors" : "Ahmed Saeed (MIT); Varun Gupta (AT&T Labs Research); Prateesh Goyal (MIT); Milad Sharif (Barefoot Networks); Rong Pan (Cisco Systems); Mostafa Ammar, Ellen Zegura (Georgia Institute of Technology); Keon Jang (MPI-SWS); Mohammad Alizadeh (MIT); Abdul Kabbani, Amin Vahdat (Google)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "wednesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "11:30 - 11:45 am EDT",
+            "title" : "Swift: Delay is Simple and Effective for Congestion Control in the Datacenter",
+            "authors" : "Gautam Kumar, Nandita Dukkipati (Google); Keon Jang (MPI-SWS); Hassan M. G. Wassel, Xian Wu, Behnam Montazeri, Yaogong Wang, Kevin Springborn, Christopher Alfeld, Michael Ryan, David Wetherall, Amin Vahdat (Google)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "wednesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "11:45 - 11:59 am EDT",
+            "title" : "Classic Meets Modern: a Pragmatic Learning-Based Congestion Control for the Internet",
+            "authors": "Soheil Abbasloo, Chen-Yu Yen, H. Jonathan Chao (NYU)"
+        },
+
+        {
+            "session_header" : "true",
+            "time" : "12:00 - 1:00 pm EDT",
+            "title": "Technical Session 7: What is Switch Programmability Good For?",
+            "day" : "wednesday"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "wednesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "12:00 - 12:15 pm EDT",
+            "title" : "NetLock: Fast, Centralized Lock Management Using Programmable Switches",
+            "authors" :  "Zhuolong Yu (Johns Hopkins University); Yiwen Zhang (University of Michigan); Vladimir Braverman (Johns Hopkins University); Mosharaf Chowdhury (University of Michigan); Xin Jin (Johns Hopkins University)"
+        },        
+
+        {
+            "paper" : "true",
+            "day" : "wednesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "12:15 - 12:30 pm EDT",
+            "title" : "TEA: Enabling State-Intensive Network Functions on Programmable Switches",
+            "authors": "Daehyeok Kim (Carnegie Mellon University and Microsoft Research); Zaoxing Liu (Carnegie Mellon University and Boston University); Yibo Zhu (ByteDance Inc.); Changhoon Kim, Jeongkeun Lee (Intel, Barefoot Switch Division); Vyas Sekar, Srinivasan Seshan (Carnegie Mellon University)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "wednesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "12:30 - 12:45 pm EDT",
+            "title" : "Flow Event Telemetry on Programmable Data Plane",
+            "authors": "Yu Zhou (Alibaba Group and Tsinghua University); Chen Sun, Hongqiang Harry Liu, Rui Miao, Shi Bai, Bo Li, Zhilong Zheng, Lingjun Zhu, Zhen Shen, Yongqing Xi, Pengcheng Zhang, Dennis Cai, Ming Zhang (Alibaba Group); Mingwei Xu (Tsinghua University)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "wednesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "12:45 - 1:00 pm EDT",
+            "title" : "Mantis: Reactive Programmable Switches",
+            "authors": "Liangcheng Yu (University of Pennsylvania); John Sonchack (Princeton University); Vincent Liu (University of Pennsylvania)"
+        },
+
+        {
+            "break" : "true",
+            "time" : "1.00 - 1.45 PM EDT",
+            "break_type" : "Break",
+            "day" : "wednesday"
+        },
+
+        {
+            "session_header" : "true",
+            "time" : "1:45 - 2:45 pm EDT",
+            "title": "Technical Session 8: Build new data center services but don't forget to debug current ones",
+            "day" : "wednesday"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "wednesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "1:45 - 2:00 pm EDT",
+            "title" : "Aeolus: A Building Block for Proactive Transport in Datacenters",
+            "authors" : "Shuihai Hu (HKUST and Clustar); Wei Bai (HKUST and Microsoft Research); Gaoxiong Zeng, Zilong Wang, Baochen Qiao, Kai Chen (HKUST); Kun Tan (Huawei); Yi Wang (Peng Cheng Lab)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "wednesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "2:00 - 2:15 pm EDT",
+            "title" : "MasQ: RDMA for Virtual Private Cloud",
+            "authors" : "Zhiqiang He (University of Science and Technology of China; Huawei Technologies Co., Ltd); Dongyang Wang, Binzhang Fu, Kun Tan (Huawei Technologies Co., Ltd); Bei Hua (University of Science and Technology of China); Zhi-Li Zhang (University of Minnesota); Kai Zheng (Huawei Technologies Co., Ltd)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "wednesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "2:15 - 2:30 pm EDT",
+            "title" : "VTrace: Automatic Diagnostic System for Persistent Packet Loss in Cloud-Scale Overlay Network",
+            "authors": "Chongrong Fang, Haoyu Liu (Zhejiang University); Mao Miao, Jie Ye, Lei Wang, Wansheng Zhang, Daxiang Kang, Biao Lyv (Alibaba Group); Peng Cheng, Jiming Chen (Zhejiang University)"
+
+        },
+
+        {
+            "paper" : "true",
+            "day" : "wednesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "2:30 - 2:45 pm EDT",
+            "title" : "Scouts: Improving the Diagnosis Process Through Domain-customized Incident Routing",
+            "authors": "Jiaqi Gao (Harvard University); Nofel Yaseen (University of Pennsylvania); Robert MacDavid (Princeton University); Felipe Vieira Frujeri (Microsoft Research); Vincent Liu (University of Pennsylvania); Ricardo Bianchini (Microsoft Research); Ramaswamy Aditya, Xiaohang Wang, Henry Lee, David Maltz (Microsoft); Minlan Yu (Harvard University); Behnaz Arzani (Microsoft Research)"
+        },
+
+        {
+            "session_header" : "true",
+            "time" : "2:45 - 3:45 pm EDT",
+            "title": "Technical Session 9: Backscatter: Look Ma, No Batteries",
+            "day" : "wednesday"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "wednesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "2:45 - 3:00 pm EDT",
+            "title" : "Turboboosting Visible Light Backscatter Communication",
+            "authors": "Yue Wu, Purui Wang, Kenuo Xu, Lilei Feng, Chenren Xu (Peking University)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "wednesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "3:00 - 3:15 pm EDT",
+            "title" : "Leveraging Ambient LTE Traffic for Ubiquitous Passive Communication",
+            "authors": "Zicheng Chi, Xin Liu, Wei Wang, Yao Yao, Ting Zhu (University of Maryland, Baltimore County)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "wednesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "3:15 - 3:30 pm EDT",
+            "title" : "WiTAG: Seamless WiFi Backscatter Communication",
+            "authors": "Ali Abedi, Farzan Dehbashi, Mohammad Hossein Mazaheri (University of Waterloo); Omid Abari (UCLA); Tim Brecht (University of Waterloo)"
+
+        },
+
+        {
+            "paper" : "true",
+            "day" : "wednesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "3:30 - 3:45 pm EDT",
+            "title" : "Ultra-Wideband Underwater Backscatter via Piezoelectric Metamaterials",
+            "authors" : "Reza Ghaffarivardavagh, Sayed Saad Afzal, Osvy Rodriguez, Fadel Adib (MIT)"
+        },
+
+        {
+            "session_header" : "true",
+            "time" : "3:45 - 4:30 pm EDT",
+            "title": "Technical Session 10: Best of CCR",
+            "day" : "wednesday"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "wednesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "3:45 - 4:00 pm EDT",
+            "title" : "An Open Platform to Teach How the Internet Practically Works",
+            "authors" : "Thomas Holterbach (ETH Zurich),Tobias Bühler (ETH Zurich), Tino Rellstab (ETH Zurich), Laurent Vanbever (ETH Zurich)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "wednesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "4:00 - 4:15 pm EDT",
+            "title" : "Deprecating The TCP Macroscopic Model",
+            "authors" : "Matt Mathis (Google, Inc) and Jamshid Mahdavi (WhatsApp, Inc)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "wednesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "4:15 - 4:30 pm EDT",
+            "title" : "Securing Linux with a Faster and Scalable Iptables",
+            "authors" : "Sebastiano Miano (Politecnico di Torino), Matteo Bertrone (Politecnico di Torino), Fulvio Risso (Politecnico di Torino), Mauricio Vásquez Bernal (Politecnico di Torino), Yunsong Lu (Futurewei Technologies, Inc.), Jianwen Pi (Futurewei Technologies, Inc.)"
+        },        
+        
         {
             "program_end" : "true"
         }
