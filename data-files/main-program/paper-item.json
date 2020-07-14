@@ -154,6 +154,130 @@
         },
 
         {
+            "paper" : "true",
+            "day" : "tuesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "2:00 - 2:15 pm EDT",
+            "title" : "A Public Option for the Core",
+            "authors" : "Yotam Harchol (EPFL); Dirk Bergemann (Yale); Nick Feamster (University of Chicago); Eric Friedman (ICSI and UC Berkeley); Arvind Krishnamurthy (University of Washington); Aurojit Panda (NYU); Sylvia Ratnasamy (UC Berkeley); Michael Schapira (Hebrew University of Jerusalem); Scott Shenker (UC Berkeley)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "tuesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "2:15 - 2:30 pm EDT",
+            "title" : "PCF: Provably Resilient Flexible Routing",
+            "authors" : "Chuan Jiang, Sanjay Rao, Mohit Tawarmalani (Purdue University)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "tuesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "2:30 - 2:45 pm EDT",
+            "title" : "Routing on Multiple Optimality Criteria",
+            "authors" : "João Luís Sobrinho, Miguel Alves Ferreira (Instituto de Telecomunicações, Instituto Superior Técnico, Universidade de Lisboa)"
+        },
+
+        {
+            "session_header" : "true",
+            "time" : "2:45 - 3:45 pm EDT",
+            "title": "Technical Session 4: Are you doing what I think you're doing?",
+            "day" : "tuesday"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "tuesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "2:45 - 3:00 pm EDT",
+            "title" : "bf4: towards bug-free P4 programs",
+            "authors" : "Dragos Dumitrescu, Radu Stoenescu, Lorina Negreanu, Costin Raiciu (University Politehnica of Bucharest)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "tuesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "3:00 - 3:15 pm EDT",
+            "title" :  "GRoot: Proactive Verification of DNS Configurations",
+            "authors" :  "Siva Kesava Reddy Kakarla (UCLA); Ryan Beckett, Behnaz Arzani (Microsoft Research); Todd Millstein (UCLA / Intentionet); George Varghese (UCLA)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "tuesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "3:15 - 3:30 pm EDT",
+            "title" : "Probabilistic Verification of Network Configurations",
+            "authors" : "Samuel Steffen, Timon Gehr, Petar Tsankov, Laurent Vanbever, Martin Vechev (ETH Zürich)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "tuesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "3:30 - 3:45 pm EDT",
+            "title" : "Accuracy, Scalability, Coverage – A Practical Configuration Verifier on a Global WAN",
+            "authors" : "Fangdan Ye (Tsinghua University); Da Yu (Brown University); Ennan Zhai, Hongqiang Harry Liu (Alibaba Group); Bingchuan Tian (Nanjing University); Qiaobo Ye, Chunsheng Wang, Xin Wu, Tianchen Guo, Cheng Jin, Duncheng She, Qing Ma, Biao Cheng, Hui Xu, Ming Zhang (Alibaba Group); Zhiliang Wang (Tsinghua University); Rodrigo Fonseca (Brown University)"
+        },
+
+        {
+            "session_header" : "true",
+            "time" : "3:45 - 4:30 pm EDT",
+            "title": "Technical Session 5: Let's watch some videos",
+            "day" : "tuesday"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "tuesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "3:45 - 4:00 pm EDT",
+            "title" : "Neural-Enhanced Live Streaming: Improving Live Video Ingest via Online Learning",
+            "authors" : "Jaehong Kim, Youngmok Jung, Hyunho Yeo, Juncheol Ye, Dongsu Han (KAIST)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "tuesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "4:00 - 4:15 pm EDT",
+            "title" : "Server-Driven Video Streaming for Deep Learning Inference",
+            "authors" : "Kuntai Du, Ahsan Pervaiz, Xin Yuan (University of Chicago); Aakanksha Chowdhery (Google); Qizheng Zhang, Henry Hoffmann, Junchen Jiang (University of Chicago)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "tuesday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "4:15 - 4:30 pm EDT",
+            "title" : "Reducto: On-Camera Filtering for Resource-Efficient Real-Time Video Analytics",
+            "authors": "Yuanqi Li, Arthi Padmanabhan, Pengzhan Zhao, Yufei Wang, Guoqing Harry Xu, Ravi Netravali (UCLA)"
+        },
+
+        {
             "program_end" : "true"
         }
         
