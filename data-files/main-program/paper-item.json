@@ -562,7 +562,274 @@
             "time" : "4:15 - 4:30 pm EDT",
             "title" : "Securing Linux with a Faster and Scalable Iptables",
             "authors" : "Sebastiano Miano (Politecnico di Torino), Matteo Bertrone (Politecnico di Torino), Fulvio Risso (Politecnico di Torino), Mauricio Vásquez Bernal (Politecnico di Torino), Yunsong Lu (Futurewei Technologies, Inc.), Jianwen Pi (Futurewei Technologies, Inc.)"
-        },        
+        },
+
+        {
+            "day_header" : "true",
+            "day" : "thursday",
+            "day_title" : "Thursday, August 13, 2020 EDT"
+        },
+        
+        {
+            "session_header" : "true",
+            "time" : "10:00 - 11:00 am EDT",
+            "title" : "Panel",
+            "day" : "thursday"
+        },
+        
+        {
+            "keynote" : "true",
+            "day" : "thursday",
+            "time" : "10:00 - 11:00 am EDT",
+            "keynote_title" : "Panel",
+            "keynote_speaker" : "To be announced",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "dl_video_link" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html"
+        },
+
+        {
+            "session_header" : "true",
+            "time" : "11:00 - 11:59 am EDT",
+            "title": "Technical Session 11: NFV: Making Networks Function Virtually",
+            "day" : "thursday"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "thursday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "11:00 - 11:15 am EDT",
+            "title" : "Fault Tolerant Service Function Chaining",
+            "authors" : "Milad Ghaznavi, Elaheh Jalalpour, Bernard Wong, Raouf Boutaba, Ali José Mashtizadeh (University of Waterloo)"
+
+        },
+
+        {
+            "paper" : "true",
+            "day" : "thursday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "11:15 - 11:30 am EDT",
+            "title" : "Gallium: Automated Software Middlebox Offloading to Programmable Switches",
+            "authors" : "Kaiyuan Zhang (University of Washington); Danyang Zhuo (Duke University); Arvind Krishnamurthy (University of Washington)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "thursday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "11:30 - 11:45 am EDT",
+            "title" : "Contention-Aware Performance Prediction for Virtualized Network Functions",
+            "authors": "Antonis Manousis, Rahul Anand Sharma, Vyas Sekar, Justine Sherry (Carnegie Mellon University)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "thursday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "11:45 - 11:59 am EDT",
+            "title" : "Microscope: Queue-based Performance Diagnosis for Network Functions",
+            "authors" : "Junzhi Gong, Yuliang Li (Harvard University); Bilal Anwer (AT&T Labs Research); Aman Shaikh (AT&T Labs - Research); Minlan Yu (Harvard University)"
+        },
+
+        {
+            "session_header" : "true",
+            "time" : "12:00 - 1:00 pm EDT",
+            "title": "Technical Session 12: Data Centers Need More New Gadgets",
+            "day" : "thursday"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "thursday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "12:00 - 12:15 pm EDT",
+            "title" : "Polaris: A Flat Datacenter Network with Nanosecond Optical Switching",
+            "authors": "Hitesh Ballani, Paolo Costa, Raphael Behrendt, Daniel Cletheroe, Istvan Haller, Krzysztof Jozwik, Fotini Karinou, Sophie Lange, Kai Shi, Benn Thomsen, Hugh Williams (Microsoft Research)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "thursday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "12:15 - 12:30 pm EDT",
+            "title" : "1RMA: Re-envisioning Remote Memory Access for Multi-tenant Datacenters",
+            "authors": "Arjun Singhvi (University of Wisconsin - Madison); Aditya Akella (University of Wisconsin - Madison and Google, Inc); Dan Gibson, Thomas F. Wenisch, Monica Wong-Chan, Sean Clark, Milo M. K. Martin, Moray McLaren, Prashant Chandra, Rob Cauble, Hassan M. G. Wassel, Behnam Montazeri (Google, Inc.); Simon L. Sabato (Lilac Cloud); Joel Scherpelz (unaffiliated); Amin Vahdat (Google, Inc.)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "thursday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "12:30 - 12:45 pm EDT",
+            "title" : "SmartNIC Performance Isolation with FairNIC: Programmable Networking for the Cloud",
+            "authors": "Stewart Grant, Anil Yelam (UC San Diego); Maxwell Bland (University of Illinois at Urbana-Champaign); Alex C. Snoeren (UC San Diego)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "thursday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "12:45 - 1:00 pm EDT",
+            "title" : "Beyond the mega-data center: networking multi-data center regions",
+            "authors" : "Vojislav Dukic (ETH Zurich); Ginni Khanna, Christos Gkantsidis, Thomas Karagiannis, Francesca Parmigiani (Microsoft); Ankit Singla (ETH Zurich); Mark Filer, Jeffrey L. Cox, Anna Ptasznik, Nick Harland, Winston Saunders, Christian Belady (Microsoft)"
+        },
+
+        {
+            "break" : "true",
+            "time" : "1.00 - 1.45 PM EDT",
+            "break_type" : "Break",
+            "day" : "thursday"
+        },
+
+        {
+            "session_header" : "true",
+            "time" : "1:45 - 3:00 pm EDT",
+            "title": "Technical Session 13: Wireless: Break Free of Wires of All Lengths",
+            "day" : "thursday"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "thursday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "1:45 - 2:00 pm EDT",
+            "title" : "NFC+: Breaking NFC Networking Limits through Resonance Engineering",
+            "authors" : "Renjie Zhao (Alibaba Group & University of California San Diego); Purui Wang (Alibaba Group & Peking University); Yunfei Ma, Pengyu Zhang, Hongqiang Harry Liu, Xianshang Lin (Alibaba Group); Xinyu Zhang (University of California San Diego); Chenren Xu (Peking University); Ming Zhang (Alibaba Group)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "thursday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "2:00 - 2:15 pm EDT",
+            "title" : "TACK: Improving Wireless Transport Performance by Taming Acknowledgments",
+            "authors" : "Tong Li (Huawei Technologies Co., Ltd.); Kai Zheng (Huawei Technologies Co. Ltd.); Ke Xu (Tsinghua University & BNRist & PCL); Rahul Arvind Jadhav, Tao Xiong (Huawei Technologies Co. Ltd.); Keith Winstein (Stanford University); Kun Tan (Huawei Technologies Co. Ltd.)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "thursday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "2:15 - 2:30 pm EDT",
+            "title" : "Beyond-5G Reliable Extreme Mobility Management",
+            "authors" : "Yuanjie Li (Hewlett Packard Labs); Qianru Li, Zhehui Zhang (University of California, Los Angeles); Ghufran Baig, Lili Qiu (University of Texas at Austin); Songwu Lu (University of California, Los Angeles)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "thursday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "2:30 - 2:45 pm EDT",
+            "title" : "Understanding Operational 5G: A First Measurement Study on Its Coverage, Performance and Energy Consumption",
+            "authors": "Dongzhu Xu, Anfu Zhou (Beijing University of Posts and Telecommunications); Xinyu Zhang (University of California San Diego); Guixian Wang, Xi Liu, Congkai An, Yiming Shi, Liang Liu, Huadong Ma (Beijing University of Posts and Telecommunications)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "thursday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "2:45 - 3:00 pm EDT",
+            "title" : "A Low Latency and Consistent Cellular Control Plane",
+            "authors" : "Mukhtiar Ahmad, Syed Usman Jafri, Azam Ikram, Wasiq Noor Ahmad Qasmi, Muhammad Ali Nawazish, Zartash Afzal Uzmi, Zafar Ayyub Qazi (LUMS)"
+        },
+
+        {
+            "session_header" : "true",
+            "time" : "3:00 - 4:15 pm EDT",
+            "title": "Technical Session 14: Serving All The People",
+            "day" : "thursday"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "thursday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "3:00 - 3:15 pm EDT",
+            "title" : "Akamai DNS: Providing Authoritative Answers to the World’s Queries",
+            "authors": "Kyle Schomp, Onkar Bhardwaj, Eymen Kurdoglu, Mashooq Muhaimen (Akamai Technologies); Ramesh K. Sitaraman (University of Massachusetts at Amherst/Akamai Technologies)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "thursday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "3:15 - 3:30 pm EDT",
+            "title" : "Zero Downtime Release: Disruption-free Load Balancing of a Multi-Billion User Website",
+            "authors" : "Usama Naseer (Brown University); Luca Niccolini, Udip Pant, Alan Frindell, Ranjeeth Dasineni (Facebook); Theophilus A. Benson (Brown University)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "thursday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "3:30 - 3:45 pm EDT",
+            "title" : "Get Out: Helping Unmodified Clients Bypass Censorship with Server-side Evasion",
+            "authors" : "Kevin Bock, George Hughey, Louis-Henri Merino, Tania Arya, Daniel Liscinsky, Regina Pogosian, Dave Levin (University of Maryland)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "thursday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "3:45 - 4:00 pm EDT",
+            "title" : "Caching with Delayed Hits",
+            "authors": "Nirav Atre, Justine Sherry, Weina Wang (Carnegie Mellon University); Daniel Berger (Microsoft Research)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "thursday",
+            "paperlink" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "abstract" : "Abstract is forthcoming.",
+            "time" : "4:00 - 4:15 pm EDT",
+            "title" : "Interpreting Deep Learning-Based Networking Systems",
+            "authors" : "Zili Meng, Minhu Wang, Jiasong Bai, Mingwei Xu (Tsinghua University); Hongzi Mao (Massachusetts Institute of Technology); Hongxin Hu (Clemson University)"
+        },
+
+        {
+            "keynote" : "true",
+            "day" : "tuesday",
+            "time" : "4:15 - 4:30 pm EDT",
+            "keynote_title" : "Closing",
+            "keynote_speaker" : "Vishal Misra (Columbia University, USA), Henning Schulzrinne (Columbia University, USA), Sujata Banerjee (VMware Research), Ratul Mahajan (University of Washington, Intentionet)",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "dl_video_link" : "https://conferences.sigcomm.org/sigcomm/2020/content-forthcoming.html"
+        },
         
         {
             "program_end" : "true"
