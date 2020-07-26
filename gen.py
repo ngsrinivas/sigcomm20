@@ -32,7 +32,8 @@ data_files = ['index',
               'cf-posters',
               'tutorial-quic',
               'n2women',
-              'content-forthcoming']
+              'content-forthcoming',
+              'supporters']
 
 templated_files = {'program': 'main-program'}
 
