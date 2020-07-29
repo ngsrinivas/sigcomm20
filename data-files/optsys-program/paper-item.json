@@ -1,0 +1,175 @@
+{
+    "program_items": [
+        {
+            "program_start" : "true"
+        },
+        
+        {
+            "day_header" : "true",
+            "day" : "monday",
+            "day_title" : "Monday, August 10, 2020 EDT"
+        },
+        
+        {
+            "keynote" : "true",
+            "time" : "10:00 - 10:10 am EDT",
+            "keynote_title" : "Workshop opening",
+            "day" : "monday"
+        },
+                
+        {
+            "session_header" : "true",
+            "time" : "10:10 - 11:50 am EDT",
+            "title": "Session 1: Invited Talks",
+            "day" : "monday"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "How to BOLD-ly Support Data-Intensive Applications? (25min)",
+            "authors" : "Eugene Ng <em>(Rice University)</em>"
+        },
+
+        
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Optical datacenter networks: towards practical deployment (25min)",
+            "authors" : "Elad Mentovich <em>(Mellanox)</em>"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "From the Optics to the Cloud (25min)",
+            "authors" : "Thomas Karagiannis <em>(Microsoft)</em>"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Nanoseconds Optical Control and Switching System for Data Center Networks (25min)",
+            "abstract" : "As the traffic in DC networks steady growth, the electrical switching based data center networks (DCNs) have intrinsic bandwidth bottleneck and require power consuming multi-tier switching layers. Optical nanoseconds switched DCN systems could provide very large bandwidth and high-efficient cost and power performance. However, the deployment of nanoseconds optical switches in DCNs remains a challenge due to the lack of nanoseconds switch control, optical buffers for packet contention resolution, and the need of high-cost burst clock and data recovery. In this work we present a nanosecond switch control and clock-distribution technique that is experimentally demonstrated and deployed to enable a nanoseconds optical switched DCN with packet contention resolution and no burst mode receiver. Results confirm that the nanoseconds switch control and clock-distribution technique provide few tens of otical switching reconfiguration time, data and clock recovery within a few ns with stable operation and low packet loss.",
+            "authors" : "Nicola Calabretta <em>(Eindhoven University of Technology)</em>"
+        },
+
+        {
+            "break" : "true",
+            "time" : "12.00 - 12.10 pm EDT",
+            "break_type" : "(Virtual) Coffee Break",
+            "day" : "monday"
+        },
+
+        {
+            "session_header" : "true",
+            "time" : "12:10 - 2:00 pm EDT",
+            "title": "Session 2: Accepted Presentations",
+            "day" : "monday"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Optical Fibre as a Sensor for Network Anomaly Detection (15min)",
+            "authors" : "Aamir Gulistan <em>(Simula Research Laboratory)</em>, Steinar Bjørnstad <em>(Simula Research Laboratory)</em>"
+        },
+ 
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Leveraging Optical Noise for Fast Fiber Cut Recovery (15min)",
+            "authors" : "Zhizhen Zhong <em>(Facebook)</em>, Yiting Xia <em>(Facebook)</em>, Ying Zhang <em>(Facebook)</em>, Jonathan Leach <em>(Facebook)</em>, Manya Ghobadi <em>(MIT)</em>"
+        },
+ 
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "The Impact of Social Distancing on Facebook's Optical Backbone (15min)",
+            "authors" : "Zhizhen Zhong <em>(Facebook)</em>, Yiting Xia <em>(Facebook)</em>, Guanqing Yan <em>(Facebook)</em>, Chiun Lin Lim <em>(Facebook)</em>, Ying Zhang <em>(Facebook)</em>, Kimia Ghobadi <em>(Johns Hopkins University)</em>, Manya Ghobadi <em>(MIT)</em>"
+        },
+ 
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Topology Augmentation Meets Machine Learning (15min)",
+            "authors" : "Saim Salman <em>(Brown University)</em>, Theophilus Benson <em>(Brown University)</em>"
+        },
+ 
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Analyzing the Robustness of the Chilean Optical Network (15min)",
+            "authors" : "Ivana Bachmann <em>(NIC Chile Research Labs, Universidad de Chile)</em>, Javier Bustos-Jiménez <em>(NIC Chile Research Labs, Universidad de Chile)</em>, Jose Piquer <em>(DSTI, Universidad de Chile)</em>, Cecilia Saint-Pierre <em>(DSTI, Universidad de Chile)</em>, Matilde Rivas <em>(NIC Chile Research Labs, Universidad de Chile)</em>, Marcelo Valenzuela <em>(NIC Chile Research Labs, Universidad de Chile)</em>"
+        },
+ 
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Bridging the Optical-Packet Network Chasm via Secure Enclaves (15min)",
+            "authors" : "Matthew Nance Hall <em>(University of Oregon)</em>, Ramakrishnan Durairajan <em>(University of Oregon)</em>"
+        },
+
+        {
+            "break" : "true",
+            "time" : "2.00 - 2.05 pm EDT",
+            "break_type" : "(Virtual) Coffee Break",
+            "day" : "monday"
+        },
+
+        {
+            "session_header" : "true",
+            "time" : "2:05 - 3:55 pm EDT",
+            "title": "Session 1: Invited Talks",
+            "day" : "monday"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Demand-Aware Networks: Metrics, Models, Algorithms (25min)",
+            "abstract" : "Emerging optical communication topologies enable demand-aware networks: networks whose physical topology is optimized towards the demand, either statically or dynamically. But how useful are demand-aware networks? As usual in computer science, the answer is: it depends! In this talk, we explore metrics for quantifying the temporal and non-temporal structure of traffic patterns, and show analytically how these metrics relate to 'what can be achieved' by a demand-aware network. In particular, we propose an information-theoretic approach and highlight an intriguing connection between demand-aware networks and coding and self-adjusting data structures. We discuss both offline and online algorithms to design demand-aware networks, and as a case study, show how to design demand-aware networks whose route lengths are proportional to the entropy of the traffic pattern; this is asymptotically optimal. ",
+            "authors" : "Chen Avin <em>(BGU)</em> &amp; Stefan Schmid <em>(University of Vienna)</em>"
+        },
+ 
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "TBD (25min)",
+            "authors" : "Dan Blumenthal <em>(UCSB)</em> "
+        },
+ 
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Supporting optical networks with the Corundum programmable NIC platform (25min)",
+            "authors" : "Alex Forencich <em>(UCSD)</em> "
+        },
+ 
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Invited Talk: Optics to scale the Datacenter: Technology directions over the next decade (25min)",
+            "authors" : "Ryohei Urata (Google)"
+        },
+
+        {
+            "break" : "true",
+            "time" : "3.55 - 4.00 pm EDT",
+            "break_type" : "(Virtual) Coffee Break",
+            "day" : "monday"
+        },
+
+        {
+            "keynote" : "true",
+            "time" : "4:00 - 4:30 pm EDT",
+            "keynote_title" : "Industrial panel session + Closing remarks",
+            "day" : "monday"
+        },
+        
+        {
+            "program_end" : "true"
+        }
+        
+    ]
+}
