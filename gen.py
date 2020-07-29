@@ -21,7 +21,6 @@ data_files = ['index',
               'workshop-netai',
               'workshop-nai',
               'workshop-hotedgevideo',
-              'workshop-epiq',
               'camera-ready_ws',
               'tutorial-scion',
               'tutorial-mptp',
@@ -35,7 +34,8 @@ data_files = ['index',
               'supporters']
 
 templated_files = {'program': 'main-program',
-                   'workshop-optsys' : 'optsys-program'}
+                   'workshop-optsys' : 'optsys-program',
+                   'workshop-epiq': 'epiq-program'}
 
 def read_file(fname):
     with open(data_folder + fname + '.html', 'r') as f:
