@@ -6,10 +6,11 @@
 <!-- session header -->
 <li class="ui-li ui-bar-a prog-item ui-li-divider prog-{{ program_item.day }}" data-role="list-divider">
   <h3 style="font-weight: 700">
-    {{ program_item.time }} {{ program_item.title }}
+    {{ program_item.time }} <i>&nbsp;&nbsp;&amp;&nbsp;&nbsp;</i> {{ program_item.time2 }} {{ program_item.title }}
   </h3>
   {% if program_item.session_chair is defined -%}
-  <p><strong>Session chair: </strong> {{ program_item.session_chair }} </p>
+  <p><strong>Session chairs: </strong> {{ program_item.session_chair }} (western hemisphere) <i>&amp;</i> {{ program_item.session_chair2 }} (eastern hemisphere)</p>
+  <br/>
   {% endif -%}
 </li>
 <!-- end session header -->
@@ -24,7 +25,7 @@
 <!-- start break item -->
 <li class="prog-break prog-item ui-li-divider prog-{{ program_item.day }}" data-role="list-divider">
   <h3 style="font-weight: 500;">
-    <strong>{{ program_item.time }} {{ program_item.break_type }}</strong>
+    <strong>{{ program_item.time }} <i>&nbsp;&nbsp;&amp;&nbsp;&nbsp;</i> {{ program_item.time2 }} {{ program_item.break_type }}</strong>
   </h3>
 </li>
 <li class="hidden">Tea/Coffee/Meal Break</li>
@@ -45,7 +46,7 @@
           <p class="keynote-header">
           <table>
             <tr>
-              <td style="font-size:80%; padding-right:10px; max-width:20%;">{{ program_item.time }}</td>
+              <td style="font-size:80%; padding-right:10px; max-width:20%;">{{ program_item.time }}<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&amp;<br/>{{ program_item.time2 }}</td>
               <td style="width:100%; text-align:left;">
                 <h2>{{ program_item.title }}</h2>
                 <p>{{ program_item.authors }}</p>
@@ -85,7 +86,7 @@
 <li data-icon="false" class="prog-item prog-{{ program_item.day }}">
       <table>
          <tr>             
-             <td style="font-size:80%; padding-right:10px; max-width:20%;"><b>{{ program_item.time }}</b></td>
+             <td style="font-size:80%; padding-right:10px; max-width:20%;"><b>{{ program_item.time }}<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&amp;<br/>{{ program_item.time2 }}</b></td>
              <td style="width:100%;text-align:left;">
                <p class="paper-header">
                  {{ program_item.keynote_title }}
@@ -125,6 +126,8 @@
 
 <div class="content-primary">
   <h1 id="acm-sigcomm-2020-program">ACM SIGCOMM 2020 Program</h1>
+
+  Each technical session will have two instances, once in a time zone friendly to the western hemisphere and another in a time zone friendly to the eastern hemisphere. <br/><br/>
 
   <div id="program-program" class="program-program">
     <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">
