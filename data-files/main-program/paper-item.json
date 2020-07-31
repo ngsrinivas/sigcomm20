@@ -15,7 +15,8 @@
             "time" : "10:00 - 11:15 am EDT",
             "time2" : "9:00 - 10:15 pm EDT",
             "title" : "Opening &amp; Keynote",
-            "day" : "tuesday"
+            "day" : "tuesday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017F5M370V"
         },
         
         {
@@ -47,7 +48,8 @@
             "title": "Technical Session 1: Programming Switches",
             "session_chair" : "Xin Jin",
             "session_chair2" : "Vincent Liu",
-            "day" : "tuesday"
+            "day" : "tuesday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017V5M5CDP"
         },
 
         {
@@ -96,7 +98,8 @@
             "title": "Technical Session 2: Telemetry: Tell Me More About My Packets",
             "session_chair" : "Arpit Gupta",
             "session_chair2" : "Hongqiang Liu",
-            "day" : "tuesday"
+            "day" : "tuesday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0171Q9KZ63/"
         },
 
         {
@@ -166,7 +169,8 @@
             "title": "Technical Session 3: Routing: Take Me via Scenic Routes",
             "session_chair" : "Dave Levin",
             "session_chair2" : "Tim Griffin",
-            "day" : "tuesday"
+            "day" : "tuesday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0186C1LP16/"
         },
         
         {
@@ -228,7 +232,8 @@
             "title": "Technical Session 4: Verification: Are you doing what I think you're doing?",
             "session_chair" : "Minlan Yu",
             "session_chair2" : "Nate Foster",
-            "day" : "tuesday"
+            "day" : "tuesday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017GGSLMNW"
         },
         
         {
@@ -290,7 +295,8 @@
             "title": "Technical Session 5: Let's watch some videos",
             "session_chair" : "Ganesh Ananthanarayanan",
             "session_chair2" : "Dongsu Han",
-            "day" : "tuesday"
+            "day" : "tuesday",
+            "slack_channel": "https://app.slack.com/client/T0107RGGMU6/C0186C4FSU8"
         },
         
         {
@@ -343,7 +349,8 @@
             "time" : "10:00 - 10:45 am EDT",
             "time2" : "9:00 - 9:45 pm EDT",
             "title" : "Keynote",
-            "day" : "wednesday"
+            "day" : "wednesday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017V5UEL01"
         },        
 
         {
@@ -364,7 +371,8 @@
             "title": "Technical Session 6: Congestion Control: Now now, not so fast",
             "session_chair"  : "Rachit Agarwal",
             "session_chair2" : "Radhika Mittal",
-            "day" : "wednesday"
+            "day" : "wednesday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017GGXANJE"
         },
         
         {
@@ -439,7 +447,8 @@
             "session_chair" : "Nate Foster",
             "session_chair2" : "Kate Lin",
             "title": "Technical Session 7: What is Switch Programmability Good For?",
-            "day" : "wednesday"
+            "day" : "wednesday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0179QW544E"
         },
         
         {
@@ -509,7 +518,8 @@
             "title": "Technical Session 8: Build new data center services but don't forget to debug current ones",
             "session_chair" : "Manya Ghobadi",
             "session_chair2" : "Paolo Costa",
-            "day" : "wednesday"
+            "day" : "wednesday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017NNFV2BW"
         },
         
         {
@@ -572,7 +582,8 @@
             "title": "Technical Session 9: Backscatter: Look Ma, No Batteries",
             "session_chair" : "Deepak Vasisht",
             "session_chair2" : "Lili Qiu",
-            "day" : "wednesday"
+            "day" : "wednesday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0171QMDXTR"
         },
         
         {
@@ -635,7 +646,8 @@
             "title": "Technical Session 10: Best of CCR",
             "session_chair" : "Steve Uhlig",
             "session_chair2" : "Sergey Gorinsky",
-            "day" : "wednesday"
+            "day" : "wednesday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0179R02FPG"
         },
         
         {
@@ -688,7 +700,8 @@
             "time" : "10:00 - 11:00 am EDT",
             "time2" : "9:00 - 10:00 pm EDT",
             "title" : "Panel",
-            "day" : "thursday"
+            "day" : "thursday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0171QRBNSK"
         },
         
         {
@@ -709,7 +722,8 @@
             "title": "Technical Session 11: NFV: Making Networks Function Virtually",
             "session_chair" : "Aurojit Panda",
             "session_chair2" : "Danyang Zhuo",
-            "day" : "thursday"
+            "day" : "thursday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017GH6C282"
         },
         
         {
@@ -772,7 +786,8 @@
             "title": "Technical Session 12: Data Centers Need More New Gadgets",
             "session_chair" : "Radhika Niranjan Mysore",
             "session_chair2" : "Dongsu Han",
-            "day" : "thursday"
+            "day" : "thursday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017V67076D"
         },
         
         {
@@ -842,7 +857,8 @@
             "title": "Technical Session 13: Wireless: Break Free of Wires of All Lengths",
             "session_chair" : "Aaron Schulman",
             "session_chair2" : "Kun Tan",
-            "day" : "thursday"
+            "day" : "thursday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0186CLT39N"
         },
         
         {
@@ -917,7 +933,8 @@
             "title": "Technical Session 14: Serving All The People",
             "session_chair" : "Sanjay Rao",
             "session_chair2" : "Sangeetha Abdu Jyothi",
-            "day" : "thursday"
+            "day" : "thursday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017F6DG78D"
         },
         
         {

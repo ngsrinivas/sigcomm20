@@ -6,11 +6,13 @@
 <!-- session header -->
 <li class="ui-li ui-bar-a prog-item ui-li-divider prog-{{ program_item.day }}" data-role="list-divider">
   <h3 style="font-weight: 700">
-    {{ program_item.time }} <i>&nbsp;&nbsp;&amp;&nbsp;&nbsp;</i> {{ program_item.time2 }} {{ program_item.title }}
+    {{ program_item.time }} <i>&nbsp;&amp;&nbsp;</i> {{ program_item.time2 }} <i>&nbsp;&nbsp;&nbsp;&nbsp;</i> {{ program_item.title }}
   </h3>
   {% if program_item.session_chair is defined -%}
-  <p><strong>Session chairs: </strong> {{ program_item.session_chair }} (western hemisphere) <i>&amp;</i> {{ program_item.session_chair2 }} (eastern hemisphere)</p>
-  <br/>
+  <h5 style="font-size:90%;"><strong>Session chairs: </strong> {{ program_item.session_chair }} (western hemisphere) <i>&amp;</i> {{ program_item.session_chair2 }} (eastern hemisphere)</h5>
+  {% endif -%}
+  {% if program_item.slack_channel is defined -%}
+  <h5 style="font-size:90%;"><strong><a href="{{ program_item.slack_channel }}">Go to Slack channel</a></strong></h5>
   {% endif -%}
 </li>
 <!-- end session header -->
