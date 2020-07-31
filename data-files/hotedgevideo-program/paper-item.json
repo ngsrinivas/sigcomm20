@@ -1,0 +1,123 @@
+{
+    "program_items": [
+        {
+            "program_start" : "true"
+        },
+
+        {
+            "day_header" : "true",
+            "day" : "friday",
+            "day_title" : "Monday, August 10, 2020 EDT"
+        },
+
+        {
+            "session_header" : "true",
+            "day" : "monday",
+            "time" : "10:00 - 10:45 am EDT",
+            "title" : "Keynote 1"
+        },
+
+        {
+            "keynote" : "true",
+            "day" : "monday",
+            "time" : "10:00 - 10:45 am EDT",
+            "title": "Multi-Scale GPU Resource Management for Deep Learning",
+            "authors" : "Mosharaf Chowdhury <em>(University of Michigan)</em>",
+            "abstract" : "GPUs have emerged as a popular choice for deep learning. To deal with ever-growing datasets, it is also common to use multiple GPUs in parallel for distributed deep learning. Although achieving cost-effectiveness in these clusters relies on efficient sharing, modern GPU hardware, deep learning frameworks, and cluster managers are not designed for efficient, fine-grained sharing of GPU resources. In this talk, I will present our recent works on efficient GPU resource management, both within a single GPU and across many GPUs in a cluster.<br/>I will start at the macroscale and present Tiresias first, which is a GPU cluster manager to reduce the average job completion times of training jobs that schedules jobs in an information-constrained scenario and assigns jobs to GPUs based on their model characteristics. It introduces two novel schedulers: one that relies on partial information and one that is information-agnostic, that allow Tiresias to perform similar to that of schedulers with perfect knowledge. Next, we will focus on the micro scale and present Salus, which enables fine-grained sharing of individual GPUs. It is an execution service that enforces fine-grained sharing via two primitives: fast job switching and memory sharing. I will show how these primitives can be used to implement diverse GPU sharing policies. Salus improves the utilization of an individual GPU by 2X to 3X for hyper-parameter tuning and training; for inference applications, it improves by 7X over NVIDIA MPS with small performance overhead. <br/>Both Tiresias and Salus are open-source and available at <a href='https://github.com/symbioticlab'>https://github.com/symbioticlab.</a>",
+            "bio" : "Mosharaf Chowdhury is an Assistant Professor in the EECS Department at the University of Michigan, Ann Arbor. He received his PhD from the AMPLab at UC Berkeley in 2015. His current research focuses on application-infrastructure symbiosis across different layers of software and hardware stacks. Mosharaf invented coflows and is a co-creator of Apache Spark. Software artifacts from his research have been deployed in Microsoft, Facebook, Google, and Amazon datacenters. He has received an NSF CAREER award, the 2015 ACM SIGCOMM doctoral dissertation award, multiple faculty fellowships and awards from Google, VMware, and Alibaba, an NSDI best paper award, as well as a Facebook fellowship and a Cheriton scholarship. He had also been nominated for an NSDI community award and a University of Waterloo alumni gold medal."
+        },
+
+        {
+            "break" : "true",
+            "time" : "10:45 - 11:00 am EDT",
+            "break_type" : "Break",
+            "day" : "monday"
+        },
+
+        {
+            "session_header" : "true",
+            "title" : "Smart Cameras and DNNs",
+            "day" : "monday",
+            "time" : "11:00 - 11:30 am EDT"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "time" : "11:00 - 11:15 am EDT",
+            "title" : "Chameleon: Overfitting Video Analytics Model to Individual Surveillance Camera Environment",
+            "authors" : "Taewan Kim, Chunghun Kang, Beomjun Kim, Yongsung Kim, Seungji Yang, Kyungnam Kim <em>(SK telecom)</em>"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "time" : "11:15 - 11:30 am EDT",
+            "title": "Compress Images with DNN for AIoT Cameras",
+            "authors" : "Pan Hu, Junha Im, Sachin Katti <em>(Stanford University)</em>"
+        },
+
+        {
+            "session_header" : "true",
+            "day" : "monday",
+            "time" : "11:30 - 11:59 am EDT",
+            "title" : "Keynote 2"
+        },
+
+        {
+            "keynote" : "true",
+            "day" : "monday",
+            "time" : "11:30 - 11:59 am EDT",
+            "title" : "Edge Video Analytics: Scalability, Efficiency and Automation",
+            "authors" : "Ravi Iyer <em>(Intel)</em>",
+            "abstract": "The rapid growth of video analytics has made edge computing research especially interesting and challenging. In this talk, I will discuss scalability, efficiency and automation challenges and opportunities for edge video analytics. On scalability, I will describe the growing amount of raw visual data as well as meta data that needs to be stored for real-time and offline analytics. I will show the design of a scalable video data management system and demonstrate a few use cases to highlight the efficacy of such a system. On efficiency, I will describe the need for increasing stream and analytics density and how HW/SW co-design and acceleration can be applied to make this happen. On automation, I will describe the need for tools to automate the E2E workflow for video analytics at the edge and show examples ranging from addressing labeling challenges to automating model optimization on target edge platforms. I will finally outline some open research challenges and opportunities for future edge video analytics.",
+            "bio" : "Ravi Iyer is an Intel Fellow and Sr. Director of the Emerging Systems Lab in Intel Labs. His research interests are in driving innovative systems, architectures and technologies for emerging workloads and edge/cloud infrastructure. He has published 150+ papers in areas such as SoC architectures (from edge devices to cloud servers), novel (visual/speech/AI) accelerators, cache/memory hierarchies, QoS and performance analysis of emerging workloads. He has also filed 70+ patents. He received his PhD in Computer Science from Texas A&M University. He is also an IEEE Fellow."
+        },
+
+        {
+            "break" : "true",
+            "time" : "12:00 - 1:00 pm EDT",
+            "break_type" : "Lunch",
+            "day" : "monday"
+        },
+
+        {
+            "session_header" : "true",
+            "day" : "monday",
+            "time" : "1:00 - 1:45 pm EDT",
+            "title" : "Keynote 3"
+        },
+
+        {
+            "keynote" : "true",
+            "day" : "monday",
+            "time" : "1:00 - 1:45 pm EDT",
+            "title" : "A talk in five graphs",
+            "authors" : "Keith Winstein <em>(Stanford University)</em>",
+            "abstract" : "Cameras capture tons of video each day, with limits on resources for communication and for computation (at the camera or elsewhere). This makes it a real challenge to make use of all that data, with a lot of interesting tradeoffs to be navigated. No single solution is likely to be a silver bullet. How can we understand where in the landscape a given system lies? In this talk, I'll discuss five tradeoffs -- that is, five pairs of axes to put on a graph -- that I propose may be helpful in characterizing and understanding the contribution of systems in this research domain.",
+            "bio" : "Keith Winstein is an assistant professor of computer science and, by courtesy, of electrical engineering at Stanford University. His research group creates new kinds of networked systems by rethinking abstractions around communication, compre,ssion, and computing (<a href='https://cs.stanford.edu/~keithw'>https://cs.stanford.edu/~keithw</a>)."
+        },
+
+        {
+            "session_header" : "true",
+            "day" : "monday",
+            "time" : "1:45 - 2:15 pm EDT",
+            "title" : "Keynote 4"
+        },
+
+        {
+            "keynote" : "true",
+            "day" : "monday",
+            "time" : "1:45 - 2:15 pm EDT",
+            "title" : "Managing Edge compute cost for Live Video Analytics (and our integration with Microsoft Rocket)",
+            "authors" : "Avi Kewalramani <em>(Microsoft)</em>", 
+            "abstract" : "Unprecedented advances in computer vision and machine learning have opened opportunities for video analytics applications that are of wide-spread interest to society, science, and business. While computer vision models have become more accurate and capable, they are also becoming resource-hungry and expensive for 24/7 analysis of video. As a result, live video analytics across multiple cameras also means a large computational footprint on premises built with a good amount of expensive edge compute hardware (CPU, GPU etc.). <br/>Total cost of ownership (TCO) for video analytics is an important consideration and pain point for our customers. With that in mind, we integrated Live Video Analytics from Azure Media Services and Microsoft Rocket (from Microsoft Research) to enable an order-of-magnitude improvement in throughput per edge core (frame per second analyzed per CPU/GPU core), while maintaining the accuracy of the video analytics insights.",
+            "bio" : "Avi Kewalramani is a customer and business focused product manager for Microsoft’s Live Video Analytics  platform. In the past, he has launched Azure Storage Events, Azure Change Feed and co-launched Azure Data Lake Gen 2. Prior to Product, he was a software engineer and engineering manager focused on big data and bioinformatics. <a href='https://www.linkedin.com/in/avikewalramani/'>https://www.linkedin.com/in/avikewalramani/</a>"
+        },
+
+        {
+            "program_end" : "true"
+        }
+        
+    ]
+}
