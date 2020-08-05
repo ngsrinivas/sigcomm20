@@ -512,7 +512,13 @@
         {
             "break" : "true",
             "time" : "1:00 - 1:45 pm EDT",
-            "time2" : "12:00 - 12:45 am EDT",
+            "break_type" : "SIGCOMM Community Meeting",
+            "day" : "wednesday"
+        },
+
+        {
+            "break" : "true",
+            "time" : "12:00 - 12:45 am EDT",
             "break_type" : "Break",
             "day" : "wednesday"
         },
