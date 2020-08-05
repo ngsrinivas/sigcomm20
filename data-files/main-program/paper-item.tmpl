@@ -27,7 +27,11 @@
 <!-- start break item -->
 <li class="prog-break prog-item ui-li-divider prog-{{ program_item.day }}" data-role="list-divider">
   <h3 style="font-weight: 500;">
+    {% if program_item.time2 is defined -%}
     <strong>{{ program_item.time }} <i>&nbsp;&nbsp;&amp;&nbsp;&nbsp;</i> {{ program_item.time2 }} {{ program_item.break_type }}</strong>
+    {% else -%}
+    <strong>{{ program_item.time }} {{ program_item.break_type }}</strong>
+    {% endif -%}    
   </h3>
 </li>
 <li class="hidden">Tea/Coffee/Meal Break</li>
@@ -60,13 +64,18 @@
         <div class="ui-li-aside">
           <div class="button-paper">
               <a href="{{ program_item.paperlink }}" onclick="window.location='{{ program_item.paperlink }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-file-text" aria-hidden="true"></i></a>
-            </div>
+          </div>
+          <!-- No slides for talks -->
+          <!-- 
             <div class="button-paper">
               <a href="{{ program_item.slide_relpath }}" onclick="window.location='{{ program_item.slide_relpath }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i></a>
             </div>
+           -->
+            {% if program_item.dl_video_link is defined -%}
             <div class="button-paper">
               <a href="{{ program_item.dl_video_link }}" onclick="window.location='{{ program_item.dl_video_link }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
             </div>
+            {% endif -%}
         </div>
       </h4>
       <ul data-role="listview" data-inset="false">
@@ -103,12 +112,14 @@
                     <i class="fa fa-file-powerpoint-o"></i>
                 </a>
              </td>
+             <!-- No videos for keynotes -->
+             <!-- 
              <td>
                 <a style="color: dimgray;" href="{{ program_item.dl_video_link }}" rel="external" target="_blank">
                     <i class="fa fa-video-camera"></i>
                 </a>
             </td>
-             
+            -->
          </tr>
   </table>
 </li>

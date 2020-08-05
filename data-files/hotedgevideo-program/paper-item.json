@@ -45,7 +45,7 @@
             "paper" : "true",
             "day" : "monday",
             "time" : "11:00 - 11:15 am EDT",
-            "title" : "Chameleon: Overfitting Video Analytics Model to Individual Surveillance Camera Environment",
+            "title" : "Chameleon: Self-Adaptation of Video Analytics Model to Individual Surveillance Camera Environments",
             "authors" : "Taewan Kim, Chunghun Kang, Beomjun Kim, Yongsung Kim, Seungji Yang, Kyungnam Kim <em>(SK telecom)</em>"
         },
 

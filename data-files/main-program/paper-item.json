@@ -12,8 +12,8 @@
         
         {
             "session_header" : "true",
-            "time" : "10:00 - 11:15 am EDT",
-            "time2" : "9:00 - 10:15 pm EDT",
+            "time" : "9:45 - 11:15 am EDT",
+            "time2" : "8:45 - 10:15 pm EDT",
             "title" : "Opening &amp; Keynote",
             "day" : "tuesday",
             "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017F5M370V"
@@ -22,8 +22,8 @@
         {
             "keynote" : "true",
             "day" : "tuesday",
-            "time" : "10:00 - 10:30 am EDT",
-            "time2" : "9:00 - 9:30 pm EDT",
+            "time" : "9:45 - 10:15 am EDT",
+            "time2" : "8:45 - 9:15 pm EDT",
             "keynote_title" : "Opening: Welcome by GCs and PC chairs. Paper and lifetime awards",
             "keynote_speaker" : "Vishal Misra <em>(Columbia University, USA)</em>, Henning Schulzrinne <em>(Columbia University, USA)</em>, Sujata Banerjee <em>(VMware Research)</em>, Ratul Mahajan <em>(University of Washington, Intentionet)</em>",
             "slide_relpath" : "files/slides/content-forthcoming.html",
@@ -33,8 +33,8 @@
         {
             "keynote" : "true",
             "day" : "tuesday",
-            "time" : "10:30 - 11:15 am EDT",
-            "time2" : "9:30 - 10:15 pm EDT",
+            "time" : "10:15 - 11:15 am EDT",
+            "time2" : "9:15 - 10:15 pm EDT",
             "keynote_title" : "Keynote 1",
             "keynote_speaker" : "Amin Vahdat <em>(Google)</em>",
             "slide_relpath" : "files/slides/content-forthcoming.html",
@@ -157,10 +157,16 @@
         {
             "break" : "true",
             "time" : "1:00 - 1:45 pm EDT",
-            "time2" : "12:00 - 12:45 am EDT",
-            "break_type" : "Break",
+            "break_type" : "<a href='/sigcomm/2020/supporters.html'>SIGCOMM Job Event</a>",
             "day" : "tuesday"
         },
+
+        {
+            "break" : "true",
+            "time" : "12:00 - 12:45 am EDT",
+            "break_type" : "Break",
+            "day": "wednesday"
+        },        
 
         {
             "session_header" : "true",
@@ -346,8 +352,8 @@
 
         {
             "session_header" : "true",
-            "time" : "10:00 - 10:45 am EDT",
-            "time2" : "9:00 - 9:45 pm EDT",
+            "time" : "9:45 - 10:45 am EDT",
+            "time2" : "8:45 - 9:45 pm EDT",
             "title" : "Keynote",
             "day" : "wednesday",
             "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017V5UEL01"
@@ -356,8 +362,8 @@
         {
             "keynote" : "true",
             "day" : "wednesday",
-            "time" : "10:00 - 10:45 am EDT",
-            "time2" : "9:00 - 9:45 pm EDT",
+            "time" : "9:45 - 10:45 am EDT",
+            "time2" : "8:45 - 9:45 pm EDT",
             "keynote_title" : "Keynote 2",
             "keynote_speaker" : "Lixia Zhang <em>(UCLA)</em>",
             "slide_relpath" : "files/slides/content-forthcoming.html",
@@ -655,7 +661,6 @@
             "day" : "wednesday",
             "paperlink" : "https://dl.acm.org/doi/abs/10.1145/3402413.3402420",
             "slide_relpath" : "files/slides/content-forthcoming.html",
-            "dl_video_link" : "files/slides/content-forthcoming.html",
             "abstract" : "Each year at ETH Zurich, around 100 students collectively build and operate their very own Internet infrastructure composed of hundreds of routers and dozens of Autonomous Systems (ASes). Their goal? Enabling Internet-wide connectivity. AB@We find this class-wide project to be invaluable in teaching our students how the Internet infrastructure practically works. Among others, our students have a much deeper understanding of Internet operations alongside their pitfalls. Besides students tend to love the project: clearly the fact that all of them need to cooperate for the entire Internet to work is empowering. In this paper, we describe the overall design of our teaching platform, how we use it, and interesting lessons we have learnt over the years. We also make our platform openly available.",
             "time" : "3:45 - 4:00 pm EDT",
             "time2" : "2:45 - 3:00 am EDT",
@@ -668,7 +673,6 @@
             "day" : "wednesday",
             "paperlink" : "https://dl.acm.org/doi/10.1145/3371934.3371956",
             "slide_relpath" : "files/slides/content-forthcoming.html",
-            "dl_video_link" : "files/slides/content-forthcoming.html",
             "abstract" : "The TCP Macroscopic Model will be completely obsolete soon. It was a closed form performance model for Van Jacobson's landmark congestion control algorithms presented at Sigcomm'88. Jacobson88 requires relatively large buffers to function as intended, while Moore's law is making them uneconomical.<br/><br/>BBR-TCP is a break from the past, unconstrained by many of the assumptions and principles defined in Jacobson88. It already out performs Reno and CUBIC TCP over large portions of the Internet, generally without creating queues of the sort needed by earlier congestion control algorithms. It offers the potential to scale better while using less queue buffer space than existing algorithms.<br/><br/>Because BBR-TCP is built on an entirely new set of principles, it has the potential to deprecate many things, including the Macroscopic Model. New research will be required to lay a solid foundation for an Internet built on BBR.",
             "time" : "4:00 - 4:15 pm EDT",
             "time2" : "3:00 - 3:15 am EDT",
@@ -681,7 +685,6 @@
             "day" : "wednesday",
             "paperlink" : "https://dl.acm.org/doi/10.1145/3371927.3371929",
             "slide_relpath" : "files/slides/content-forthcoming.html",
-            "dl_video_link" : "files/slides/content-forthcoming.html",
             "abstract" : "The sheer increase in network speed and the massive deployment of containerized applications in a Linux server has led to the consciousness that iptables, the current de-facto firewall in Linux, may not be able to cope with the current requirements particularly in terms of scalability in the number of rules. This paper presents an eBPF-based firewall, bpf-iptables, which emulates the iptables filtering semantic while guaranteeing higher throughput. We compare our implementation against the current version of iptables and other Linux firewalls, showing how it achieves a notable boost in terms of performance particularly when a high number of rules is involved. This result is achieved without requiring custom kernels or additional software frameworks (e.g., DPDK) that could not be allowed in some scenarios such as public data-centers.",
             "time" : "4:15 - 4:30 pm EDT",
             "time2" : "3:15 - 3:30 am EDT",
@@ -795,7 +798,7 @@
             "day" : "thursday",
             "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3387514.3406221",
             "slide_relpath" : "files/slides/content-forthcoming.html",
-            "dl_video_link" : "",
+            "dl_video_link" : "https://aka.ms/sirius-sigcomm20",
             "abstract" : "The increasing gap between the growth of datacenter traffic and electrical switch capacity is expected to worsen due to the slowdown of Moore's law, motivating the need for a new switching technology for the post-Moore's law era that can meet the increasingly stringent requirements of hardware-driven cloud workloads. We propose Sirius, an optically-switched network for datacenters providing the abstraction of a single, high-radix switch that can connect thousands of nodes---racks or servers---in a datacenter while achieving nanosecond-granularity reconfiguration. At its core, Sirius uses a combination of tunable lasers and simple, passive gratings that route light based on its wavelength. Sirius' switching technology and topology is tightly codesigned with its routing and scheduling and with novel congestion-control and time-synchronization mechanisms to achieve a scalable yet flat network that can offer high bandwidth and very low end-to-end latency. Through a small-scale prototype using a custom tunable laser chip that can tune in less than 912 ps, we demonstrate 3.84 ns end-to-end reconfiguration atop 50 Gbps channels. Through large-scale simulations, we show that Sirius can approximate the performance of an ideal, electrically-switched non-blocking network with up to 74-77% lower power.",
             "time" : "12:00 - 12:15 pm EDT",
             "time2" : "11:00 - 11:15 pm EDT",
@@ -808,7 +811,7 @@
             "day" : "thursday",
             "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3387514.3405897",
             "slide_relpath" : "files/slides/content-forthcoming.html",
-            "dl_video_link" : "",
+            "dl_video_link" : "https://dl.acm.org/doi/abs/10.1145/3387514.3405897#sec-supp",
             "abstract" : "Remote Direct Memory Access (RDMA) plays a key role in supporting performance-hungry datacenter applications. However, existing RDMA technologies are ill-suited to multi-tenant datacenters, where applications run at massive scales, tenants require isolation and security, and the workload mix changes over time. Our experiences seeking to operationalize RDMA at scale indicate that these ills are rooted in standard RDMA's basic design attributes: connectionorientedness and complex policies baked into hardware.<br/><br/>We describe a new approach to remote memory access -- One-Shot RMA (1RMA) -- suited to the constraints imposed by our multi-tenant datacenter settings. The 1RMA NIC is connection-free and fixed-function; it treats each RMA operation independently, assisting software by offering fine-grained delay measurements and fast failure notifications. 1RMA software provides operation pacing, congestion control, failure recovery, and inter-operation ordering, when needed. The NIC, deployed in our production datacenters, supports encryption at line rate (100Gbps and 100M ops/sec) with minimal performance/availability disruption for encryption key rotation.",
             "time" : "12:15 - 12:30 pm EDT",
             "time2" : "11:15 - 11:30 pm EDT",
