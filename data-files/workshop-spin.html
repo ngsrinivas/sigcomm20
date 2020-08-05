@@ -1,79 +1,482 @@
+
+
 <div class="content-primary">
   <h1 id="acm-sigcomm-2020-workshop-on-secure-programmable-network-infrastructure-spin-2020">ACM
   SIGCOMM 2020 Workshop on Secure Programmable Network Infrastructure
     (SPIN 2020)</h1>
 
 
-<p>The workshop has an associated Slack channel for discussions. Click on the link below to visit it. If you're asked to sign in, use the workspace name &quot;sigcomm.slack.com&quot; to sign up or sign in.</p>
+<p>This workshop has an associated Slack channel for discussions. Click on the link below to visit it. If you're asked to sign in, use the workspace name &quot;sigcomm.slack.com&quot; to sign up or sign in.</p>
 
 <a class="button" data-role="button" href="https://app.slack.com/client/T0107RGGMU6/C017V6MJZND">Go to workshop Slack channel</a>
 <br/>
 
-<h3 id="call-for-papers">Call for Papers</h3>
+
+  <h3 id="workshop-program">Workshop Program</h3>
+
+  <!--
+  <h3 id="-click-here-to-access-the-proceedings"><a href="https://dl.acm.org/citation.cfm?id=3341216" target="_blank"
+      style="color:#9a0000;text-decoration:none;font-weight:normal;"><i class="fa fa-link"></i> Click here to access the
+      proceedings</a></h3>
+  -->
+
+  <div id="spin-program" class="spin-program">
+    <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a"
+      placeholder="Filter program...">
 
 
-<p> The 1st SPIN workshop aims to provide a forum for the community to come together and rethink fundamental questions in Internet security.
-The Internet was not designed with a secure foundation. However, as more and more applications rely on secure network services,
-the importance of network security has grown significantly. Looking forward, the security of networks and distributed systems will become a first-class design goal,
-just like performance, reliability, etc. are today. In the past, however, one hindrance in designing secure networks is that the Internet was very hard to change.
-Networking devices used to be "blackboxes", and only a handful of switch vendors decide what goes into these boxes. Despite many interesting proposals on
-Internet/network security, many of these useful designs cannot be easily integrated into the operational network without a forklift change. </p>
+      <li class="prog-header prog-no-filter ui-bar-a prog-item prog-monday">
+        <h3>Monday, August 10, 2020, Virtual Event</h3>
+      </li>
+
+      <li class="ui-li ui-bar-a prog-item ui-li-divider prog-monday   " data-role="list-divider">
+        <h3 style="font-weight: 700;">10:00am - 11:00am (EST)  Opening + Keynote</h3>
+      </li>
+      <li class="hidden">Opening + Keynote</li>
 
 
-<p> Recently, a new opportunity is on the horizon---networking hardware is becoming programmable. The networking community has already leveraged this to design a
-range of new systems and in-network capabilities. Unfortunately, most existing developments are not related to security.
-In this workshop, we are soliciting papers that focus on examining
-the security implications of the trend of network programmability, particularly in the recent development of programmable data planes. We seek contributions on early ideas
-in these areas, position papers that outline next steps in network security, as well as preliminary papers from ongoing projects that could benefit from early community feedback.
-The workshop seeks to bring together experts in networking, security, hardware, programming languages, and systems, with the goal of
-identifying exciting opportunities for network security in the next generation. </p>
+
+      <li data-icon="false" class="prog-item prog-monday">
+        <h3 style="font-weight: 500;">
+          10:00am - 10:10am (EST) Opening
+        </h3>
+      </li>
+      <li class="hidden">Opening</li>
+
+      <li data-icon="false" class="prog-item prog-monday">
+        <table>
+          <tr>
+            <td style="width: 100%;text-align: left;">
+              <h3 style="font-weight: 500;">
+                10:10am - 11:00am (EST) Keynote
+              </h3>
+              <p>Speaker: Jennifer Rexford <em>(Princeton University)</em></p>
+            </td>
+          </tr>
+        </table>
+      </li>
 
 
-<h3 id="topics-of-interest">Topics of Interest</h3>
 
-<p>We invite submissions on a wide range of topics of interest, including, but not limited to:</p>
-<ul>
-  <li>The security applications of programmable networking hardware</li>
-  <li>The security risks of programmable networking hardware</li>
-  <li>Architectural support for Internet/network security</li>
-  <li>Incrementally deployable designs for Internet security</li>
-  <li>Denial-of-service attacks and countermeasures</li>
-  <li>Intrusion detection, prevention, and forensics</li>
-  <li>Network and distributed systems access control</li>
-  <li>Security for emerging network scenarios (e.g., Home, IoT)</li>
-  <li>Policy-related issues for Internet security</li>
-</ul>
+      <li class="ui-li ui-bar-a prog-item ui-li-divider prog-monday   " data-role="list-divider">
+        <h3 style="font-weight: 700;">
+          11:00am - 12:00pm (EST) Session 1: Programmable security
+        </h3>
+      </li>
 
-<h3 id="committees">Program Committee</h3>
+      <li class="hidden">Session 1: Programmable security</li>
 
 
-<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
+      <li data-icon="false" class="prog-item prog-monday">
+        <!--<div >-->
+        <table>
+          <tr>
+            <td style="width:100%;text-align:left;">
+              <p class="paper-header">
+                Implementing AES Encryption on Programmable Switches via Scrambled Lookup Tables
+              </p>
+              <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+              <p>Xiaoqi Chen <em>(Princeton University)</em></p>
+            </td>
+            <!----
+            <td>
+              <a style="color: dimgray;"
+                href="https://dl.acm.org/ft_gateway.cfm?id=3342212&amp;ftid=2081194&amp;dwn=1&amp;CFID=68272303&amp;CFTOKEN=cb3e4900d754680a-631968DC-068F-F9E5-816436936C17C7A1"
+                rel="external" target="_blank">
+                <i class="fa fa-video-camera"></i>
+              </a>
+            </td>
+            ---->
+          </tr>
+        </table>
+        <!--</div>-->
+        <!--<div class="ui-li-aside-item">-->
+        <!---->
+        <!---->
+        <!---->
+        <!--<div class="button-paper">      -->
+        <!--<a href="https://dl.acm.org/ft_gateway.cfm?id=3342212&ftid=2081194&dwn=1&CFID=68272303&CFTOKEN=cb3e4900d754680a-631968DC-068F-F9E5-816436936C17C7A1" rel="external" target="_blank" class="ui-link">Video</a>-->
+        <!--</div>-->
+        <!---->
+        <!--</div>-->
+      </li>
 
-  <li data-role="list-divider" style="white-space: normal;
+
+
+
+
+
+
+      <li data-icon="false" class="prog-item prog-monday">
+        <!--<div >-->
+
+        <table>
+          <tr>
+            <td style="width:100%;text-align:left;">
+              <p class="paper-header">
+                Secure State Migration in the Data Plane
+              </p>
+              <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+              <p>Jiarong Xing <em>(Rice University)</em>, Ang Chen <em>(Rice University)</em>, T.S. Eugene Ng <em>(Rice University)</em>
+              </p>
+            </td>
+
+            <!----
+            <td>
+              <a style="color: dimgray;"
+                href="https://dl.acm.org/ft_gateway.cfm?id=3342214&amp;ftid=2081195&amp;dwn=1&amp;CFID=68272303&amp;CFTOKEN=cb3e4900d754680a-631968DC-068F-F9E5-816436936C17C7A1"
+                rel="external" target="_blank">
+                <i class="fa fa-video-camera"></i>
+              </a>
+            </td>
+            ---->
+          </tr>
+        </table>
+        <!--</div>-->
+        <!--<div class="ui-li-aside-item">-->
+        <!---->
+        <!---->
+        <!---->
+        <!--<div class="button-paper">      -->
+        <!--<a href="https://dl.acm.org/ft_gateway.cfm?id=3342214&ftid=2081195&dwn=1&CFID=68272303&CFTOKEN=cb3e4900d754680a-631968DC-068F-F9E5-816436936C17C7A1" rel="external" target="_blank" class="ui-link">Video</a>-->
+        <!--</div>-->
+        <!---->
+        <!--</div>-->
+      </li>
+
+
+
+
+
+
+
+
+
+
+      <li data-icon="false" class="prog-item prog-monday">
+        <!--<div >-->
+
+        <table>
+          <tr>
+
+            <td style="width:100%;text-align:left;">
+              <p class="paper-header">
+                Fighting Fire with Light: Tackling Extreme Terabit DDoS Using Programmable Optics
+              </p>
+              <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+              <p>Matthew Nance Hall <em>(University of Oregon)</em>, Guyue Liu <em>(Carnegie Mellon University)</em>,
+                Ramakrishnan Durairajan <em>(University of Oregon)</em>, Vyas Sekar <em>(Carnegie Mellon University)</em>
+              </p>
+            </td>
+            <!----
+            <td>
+              <a style="color: dimgray;"
+                href="https://dl.acm.org/ft_gateway.cfm?id=3342210&amp;ftid=2081192&amp;dwn=1&amp;CFID=68272303&amp;CFTOKEN=cb3e4900d754680a-631968DC-068F-F9E5-816436936C17C7A1"
+                rel="external" target="_blank">
+                <i class="fa fa-video-camera"></i>
+              </a>
+            </td>
+            ---->
+          </tr>
+        </table>
+        <!--</div>-->
+        <!--<div class="ui-li-aside-item">-->
+        <!---->
+        <!---->
+        <!---->
+        <!--<div class="button-paper">      -->
+        <!--<a href="https://dl.acm.org/ft_gateway.cfm?id=3342210&ftid=2081192&dwn=1&CFID=68272303&CFTOKEN=cb3e4900d754680a-631968DC-068F-F9E5-816436936C17C7A1" rel="external" target="_blank" class="ui-link">Video</a>-->
+        <!--</div>-->
+        <!---->
+        <!--</div>-->
+      </li>
+
+      <li data-icon="false" class="prog-item prog-monday">
+        <!--<div >-->
+
+        <table>
+          <tr>
+            <td style="width:100%;text-align:left;">
+              <p class="paper-header">
+                FastFE: Accelerating ML-based Traffic Analysis with Programmable Switches
+              </p>
+              <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+              <p>Jiasong Bai <em>(Tsinghua University)</em>, Menghao Zhang <em>(Tsinghua University)</em>, Guanyu
+                Li <em>(Tsinghua University)</em>, Chang Liu <em>(Tsinghua University)</em>,
+                Mingwei Xu <em>(Tsinghua University)</em>, Hongxin Hu <em>(Clemson University)</em>
+              </p>
+            </td>
+            <!----
+            <td>
+              <a style="color: dimgray;"
+                href="https://dl.acm.org/ft_gateway.cfm?id=3342211&amp;ftid=2081193&amp;dwn=1&amp;CFID=68272303&amp;CFTOKEN=cb3e4900d754680a-631968DC-068F-F9E5-816436936C17C7A1"
+                rel="external" target="_blank">
+                <i class="fa fa-video-camera"></i>
+              </a>
+            </td>
+            ---->
+          </tr>
+        </table>
+        <!--</div>-->
+        <!--<div class="ui-li-aside-item">-->
+        <!---->
+        <!---->
+        <!---->
+        <!--<div class="button-paper">      -->
+        <!--<a href="https://dl.acm.org/ft_gateway.cfm?id=3342211&ftid=2081193&dwn=1&CFID=68272303&CFTOKEN=cb3e4900d754680a-631968DC-068F-F9E5-816436936C17C7A1" rel="external" target="_blank" class="ui-link">Video</a>-->
+        <!--</div>-->
+        <!---->
+        <!--</div>-->
+      </li>
+
+
+
+
+
+
+
+      <li class="ui-li ui-bar-a prog-item ui-li-divider prog-monday   " data-role="list-divider">
+        <h3 style="font-weight: 700;">
+          12:00pm - 12:45pm (EST) Session 2: Security monitoring
+        </h3>
+      </li>
+
+      <li class="hidden">Session 2: Security monitoring</li>
+
+
+
+
+      <li data-icon="false" class="prog-item prog-monday">
+        <!--<div >-->
+        <table>
+          <tr>
+            <td style="width:100%;text-align:left;">
+              <p class="paper-header">
+                Carpe Elephants: Seize the Global Heavy Hitters
+              </p>
+              <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+              <p>Rob Harrison <em>(United States Military Academy)</em>, Shir Landau Feibish <em>(Princeton University)</em>,
+                Arpit Gupta <em>(UC Santa Barbara)</em>, Ross Teixeira <em>(Princeton University)</em>,
+                S. Muthukrishnan <em>(Rutgers University)</em>, Jennifer Rexford <em>(Princeton University)</em></p>
+            </td>
+            <!----
+            <td>
+              <a style="color: dimgray;"
+                href="https://dl.acm.org/ft_gateway.cfm?id=3342207&amp;ftid=2081198&amp;dwn=1&amp;CFID=68272303&amp;CFTOKEN=cb3e4900d754680a-631968DC-068F-F9E5-816436936C17C7A1"
+                rel="external" target="_blank">
+                <i class="fa fa-video-camera"></i>
+              </a>
+            </td>
+            ---->
+          </tr>
+        </table>
+        <!--</div>-->
+        <!--<div class="ui-li-aside-item">-->
+        <!---->
+        <!---->
+        <!---->
+        <!--<div class="button-paper">      -->
+        <!--<a href="https://dl.acm.org/ft_gateway.cfm?id=3342207&ftid=2081198&dwn=1&CFID=68272303&CFTOKEN=cb3e4900d754680a-631968DC-068F-F9E5-816436936C17C7A1" rel="external" target="_blank" class="ui-link">Video</a>-->
+        <!--</div>-->
+        <!---->
+        <!--</div>-->
+      </li>
+
+
+
+      <li data-icon="false" class="prog-item prog-monday">
+        <!--<div >-->
+        <table>
+          <tr>
+            <td style="width:100%;text-align:left;">
+              <p class="paper-header">
+                Measuring TCP Round-Trip Time in the Data Plane
+              </p>
+              <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+              <p>Xiaoqi Chen <em>(Princeton University)</em>, Hyojoon Kim <em>(Princeton University)</em>,
+                Javed M Aman <em>(Princeton University)</em>, Willie Chang <em>(Princeton University)</em>,
+                Mack Lee <em>(Princeton University)</em>, Jennifer Rexford <em>(Princeton University)</em></p>
+            </td>
+
+            <!----
+            <td>
+              <a style="color: dimgray;"
+                href="https://dl.acm.org/ft_gateway.cfm?id=3342215&amp;ftid=2081201&amp;dwn=1&amp;CFID=68272303&amp;CFTOKEN=cb3e4900d754680a-631968DC-068F-F9E5-816436936C17C7A1"
+                rel="external" target="_blank">
+                <i class="fa fa-video-camera"></i>
+              </a>
+            </td>
+            ---->
+          </tr>
+        </table>
+        <!--</div>-->
+        <!--<div class="ui-li-aside-item">-->
+        <!---->
+        <!---->
+        <!---->
+        <!--<div class="button-paper">      -->
+        <!--<a href="https://dl.acm.org/ft_gateway.cfm?id=3342215&ftid=2081201&dwn=1&CFID=68272303&CFTOKEN=cb3e4900d754680a-631968DC-068F-F9E5-816436936C17C7A1" rel="external" target="_blank" class="ui-link">Video</a>-->
+        <!--</div>-->
+        <!---->
+        <!--</div>-->
+      </li>
+
+
+
+
+      <li data-icon="false" class="prog-item prog-monday">
+        <!--<div >-->
+        <table>
+          <tr>
+            <td style="width:100%;text-align:left;">
+              <p class="paper-header">
+                A Feasibility Study on Time-aware Monitoring with Commodity Switches
+              </p>
+              <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+              <p>Yiming Qiu <em>(Rice University)</em>, Kuo-Feng Hsu <em>(Rice University)</em>,
+                Jiarong Xing <em>(Rice University)</em>, Ang Chen <em>(Rice University)</em></p>
+            </td>
+
+
+            <!----
+            <td>
+              <a style="color: dimgray;"
+                href="https://dl.acm.org/ft_gateway.cfm?id=3342208&amp;ftid=2081199&amp;dwn=1&amp;CFID=68272303&amp;CFTOKEN=cb3e4900d754680a-631968DC-068F-F9E5-816436936C17C7A1"
+                rel="external" target="_blank">
+                <i class="fa fa-video-camera"></i>
+              </a>
+            </td>
+            ---->
+          </tr>
+        </table>
+        <!--</div>-->
+        <!--<div class="ui-li-aside-item">-->
+        <!---->
+        <!---->
+        <!---->
+        <!--<div class="button-paper">      -->
+        <!--<a href="https://dl.acm.org/ft_gateway.cfm?id=3342208&ftid=2081199&dwn=1&CFID=68272303&CFTOKEN=cb3e4900d754680a-631968DC-068F-F9E5-816436936C17C7A1" rel="external" target="_blank" class="ui-link">Video</a>-->
+        <!--</div>-->
+        <!---->
+        <!--</div>-->
+      </li>
+
+      <li class="prog-break prog-item ui-li-divider prog-monday   " data-role="list-divider">
+        <h3 style="font-weight: 500;">
+          <strong>12:45pm - 13:00pm
+            Break</strong>
+        </h3>
+        <!---->
+      </li>
+      <li class="hidden">Break</li>
+
+      <li class="ui-li ui-bar-a prog-item ui-li-divider prog-monday   " data-role="list-divider">
+        <h3 style="font-weight: 700;">
+          13:00pm - 14:00pm (EST)
+          Panel
+        </h3>
+        <!---->
+        <p>Jennifer Rexford <em>(Princeton University)</em>, Nate Foster <em>(Cornell University)</em>,
+          Vyas Sekar <em>(Carnegie Mellon University)</em>, Venkat Pullela <em>(Broadcom Inc.)</em></p>
+      </li>
+
+      <li class="hidden">Panel</li>
+
+
+
+      <li class="ui-li ui-bar-a prog-item ui-li-divider prog-monday listlast listlast " data-role="list-divider">
+        <h3 style="font-weight: 700;">
+          14:00 - 14:10pm (EST)
+          Concluding remarks
+        </h3>
+        <!---->
+      </li>
+      <li class="hidden">Concluding remarks</li>
+    </ul>
+  </div>
+
+
+
+  <h3 id="call-for-papers">Call for Papers</h3>
+
+
+  <p> The 1st SPIN workshop aims to provide a forum for the community to come together and rethink fundamental questions
+    in Internet security.
+    The Internet was not designed with a secure foundation. However, as more and more applications rely on secure
+    network services,
+    the importance of network security has grown significantly. Looking forward, the security of networks and
+    distributed systems will become a first-class design goal,
+    just like performance, reliability, etc. are today. In the past, however, one hindrance in designing secure networks
+    is that the Internet was very hard to change.
+    Networking devices used to be "blackboxes", and only a handful of switch vendors decide what goes into these boxes.
+    Despite many interesting proposals on
+    Internet/network security, many of these useful designs cannot be easily integrated into the operational network
+    without a forklift change. </p>
+
+
+  <p> Recently, a new opportunity is on the horizon---networking hardware is becoming programmable. The networking
+    community has already leveraged this to design a
+    range of new systems and in-network capabilities. Unfortunately, most existing developments are not related to
+    security.
+    In this workshop, we are soliciting papers that focus on examining
+    the security implications of the trend of network programmability, particularly in the recent development of
+    programmable data planes. We seek contributions on early ideas
+    in these areas, position papers that outline next steps in network security, as well as preliminary papers from
+    ongoing projects that could benefit from early community feedback.
+    The workshop seeks to bring together experts in networking, security, hardware, programming languages, and systems,
+    with the goal of
+    identifying exciting opportunities for network security in the next generation. </p>
+
+
+  <h3 id="topics-of-interest">Topics of Interest</h3>
+
+  <p>We invite submissions on a wide range of topics of interest, including, but not limited to:</p>
+  <ul>
+    <li>The security applications of programmable networking hardware</li>
+    <li>The security risks of programmable networking hardware</li>
+    <li>Architectural support for Internet/network security</li>
+    <li>Incrementally deployable designs for Internet security</li>
+    <li>Denial-of-service attacks and countermeasures</li>
+    <li>Intrusion detection, prevention, and forensics</li>
+    <li>Network and distributed systems access control</li>
+    <li>Security for emerging network scenarios (e.g., Home, IoT)</li>
+    <li>Policy-related issues for Internet security</li>
+  </ul>
+
+  <h3 id="committees">Program Committee</h3>
+
+
+  <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
+
+    <li data-role="list-divider" style="white-space: normal;
     padding-right:.5em">Program Chairs
-  </li>
+    </li>
 
-  <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a">
-        <p>
-          Ang Chen
-        </p>
+    <li data-icon="false">
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Ang Chen
+          </p>
+        </div>
+        <div class="ui-block-b">
+          <p>Rice University</p>
+        </div>
       </div>
-      <div class="ui-block-b"><p>Rice University</p></div>
-    </div>
-  </li>
+    </li>
 
-  <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a">
-        <p>
-          Laurent Vanbever
-        </p>
+    <li data-icon="false">
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Laurent Vanbever
+          </p>
+        </div>
+        <div class="ui-block-b">
+          <p>ETH Zurich</p>
+        </div>
       </div>
-      <div class="ui-block-b"><p>ETH Zurich</p></div>
-    </div>
-  </li>
+    </li>
 
     <li data-role="list-divider" style="white-space: normal;
     padding-right:.5em">Program Committee
@@ -86,7 +489,9 @@ identifying exciting opportunities for network security in the next generation. 
             Aaron Ding
           </p>
         </div>
-        <div class="ui-block-b"><p>TU Delft</p></div>
+        <div class="ui-block-b">
+          <p>TU Delft</p>
+        </div>
       </div>
     </li>
 
@@ -97,7 +502,9 @@ identifying exciting opportunities for network security in the next generation. 
             Adam Wierman
           </p>
         </div>
-        <div class="ui-block-b"><p>California Institute of Technology </p></div>
+        <div class="ui-block-b">
+          <p>California Institute of Technology </p>
+        </div>
       </div>
     </li>
 
@@ -108,7 +515,9 @@ identifying exciting opportunities for network security in the next generation. 
             Adrian Perrig
           </p>
         </div>
-        <div class="ui-block-b"><p>ETH Zurich</p></div>
+        <div class="ui-block-b">
+          <p>ETH Zurich</p>
+        </div>
       </div>
     </li>
 
@@ -119,7 +528,9 @@ identifying exciting opportunities for network security in the next generation. 
             Andreas Blenk
           </p>
         </div>
-        <div class="ui-block-b"><p>TUM</p></div>
+        <div class="ui-block-b">
+          <p>TUM</p>
+        </div>
       </div>
     </li>
 
@@ -130,7 +541,9 @@ identifying exciting opportunities for network security in the next generation. 
             Arpit Gupta
           </p>
         </div>
-        <div class="ui-block-b"><p>University of California, Santa Babara</p></div>
+        <div class="ui-block-b">
+          <p>University of California, Santa Babara</p>
+        </div>
       </div>
     </li>
 
@@ -141,7 +554,9 @@ identifying exciting opportunities for network security in the next generation. 
             Eric Keller
           </p>
         </div>
-        <div class="ui-block-b"><p>University of Colorado, Boulder</p></div>
+        <div class="ui-block-b">
+          <p>University of Colorado, Boulder</p>
+        </div>
       </div>
     </li>
 
@@ -152,7 +567,9 @@ identifying exciting opportunities for network security in the next generation. 
             Georgios Nikolaidis
           </p>
         </div>
-        <div class="ui-block-b"><p>Barefoot Networks</p></div>
+        <div class="ui-block-b">
+          <p>Barefoot Networks</p>
+        </div>
       </div>
     </li>
 
@@ -163,7 +580,9 @@ identifying exciting opportunities for network security in the next generation. 
             Georgios Smaragdakis
           </p>
         </div>
-        <div class="ui-block-b"><p>TU Berlin</p></div>
+        <div class="ui-block-b">
+          <p>TU Berlin</p>
+        </div>
       </div>
     </li>
 
@@ -174,7 +593,9 @@ identifying exciting opportunities for network security in the next generation. 
             Giulia Fanti
           </p>
         </div>
-        <div class="ui-block-b"><p>Carnegie Mellon University</p></div>
+        <div class="ui-block-b">
+          <p>Carnegie Mellon University</p>
+        </div>
       </div>
     </li>
 
@@ -185,7 +606,9 @@ identifying exciting opportunities for network security in the next generation. 
             Guofei Gu
           </p>
         </div>
-        <div class="ui-block-b"><p>Texas A&amp;M University</p></div>
+        <div class="ui-block-b">
+          <p>Texas A&amp;M University</p>
+        </div>
       </div>
     </li>
 
@@ -196,7 +619,9 @@ identifying exciting opportunities for network security in the next generation. 
             Kaveh Razavi
           </p>
         </div>
-        <div class="ui-block-b"><p>VU Amsterdam</p></div>
+        <div class="ui-block-b">
+          <p>VU Amsterdam</p>
+        </div>
       </div>
     </li>
 
@@ -207,7 +632,9 @@ identifying exciting opportunities for network security in the next generation. 
             Liang Wang
           </p>
         </div>
-        <div class="ui-block-b"><p>Princeton University</p></div>
+        <div class="ui-block-b">
+          <p>Princeton University</p>
+        </div>
       </div>
     </li>
 
@@ -218,7 +645,9 @@ identifying exciting opportunities for network security in the next generation. 
             Maria Apostolaki
           </p>
         </div>
-        <div class="ui-block-b"><p>ETH Zurich</p></div>
+        <div class="ui-block-b">
+          <p>ETH Zurich</p>
+        </div>
       </div>
     </li>
 
@@ -229,7 +658,9 @@ identifying exciting opportunities for network security in the next generation. 
             Nate Foster
           </p>
         </div>
-        <div class="ui-block-b"><p>Cornell University</p></div>
+        <div class="ui-block-b">
+          <p>Cornell University</p>
+        </div>
       </div>
     </li>
 
@@ -240,7 +671,9 @@ identifying exciting opportunities for network security in the next generation. 
             Pamela Zave
           </p>
         </div>
-        <div class="ui-block-b"><p>Princeton University</p></div>
+        <div class="ui-block-b">
+          <p>Princeton University</p>
+        </div>
       </div>
     </li>
 
@@ -251,7 +684,9 @@ identifying exciting opportunities for network security in the next generation. 
             Suman Jana
           </p>
         </div>
-        <div class="ui-block-b"><p>Columbia University</p></div>
+        <div class="ui-block-b">
+          <p>Columbia University</p>
+        </div>
       </div>
     </li>
 
@@ -262,7 +697,9 @@ identifying exciting opportunities for network security in the next generation. 
             T.S. Eugene Ng
           </p>
         </div>
-        <div class="ui-block-b"><p>Rice University</p></div>
+        <div class="ui-block-b">
+          <p>Rice University</p>
+        </div>
       </div>
     </li>
 
@@ -273,100 +710,124 @@ identifying exciting opportunities for network security in the next generation. 
             Xiaowei Yang
           </p>
         </div>
-        <div class="ui-block-b"><p>Duke University</p></div>
+        <div class="ui-block-b">
+          <p>Duke University</p>
+        </div>
       </div>
     </li>
 
     <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a">
-        <p>
-          Zakir Durumeric
-        </p>
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Zakir Durumeric
+          </p>
+        </div>
+        <div class="ui-block-b">
+          <p>Stanford University</p>
+        </div>
       </div>
-      <div class="ui-block-b"><p>Stanford University</p></div>
-    </div>
-  </li>
+    </li>
 
 
 
-  <li data-role="list-divider" style="white-space: normal;
+    <li data-role="list-divider" style="white-space: normal;
     padding-right:.5em">Web Chair
     </li>
 
-  <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a">
-        <p>
-          Jiarong Xing
-        </p>
+    <li data-icon="false">
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <p>
+            Jiarong Xing
+          </p>
+        </div>
+        <div class="ui-block-b">
+          <p>Rice University</p>
+        </div>
       </div>
-      <div class="ui-block-b"><p>Rice University</p></div>
-    </div>
-  </li>
+    </li>
 
 
-</ul>
+  </ul>
 
 
-<h3 id="submission-instructions">Submission Instructions</h3>
-<p>Submissions must be original, unpublished work, and not under consideration at another conference or journal.
-LaTeX sources can be found at <a href="https://github.com/scyue/latex-sigcomm18">this link</a>.
-With older versions of this template, authors should use "10pt" in the documentclass command to ensure that
-the font size for all submitted papers is 10 points. The length of the submitted paper should be 6 pages, excluding references. Authors are welcome to include an appendix beyond the page limit, but the main paper should be self-contained.
-Paper submissions should not include author names or affiliations, and submissions will go through a double-blind reviewing process by the program committee.
-At least one author for each accepted paper is expected to present the paper at the workshop in person. We expect that at least some papers at SPIN would represent "work-in-progress"
-projects. Therefore, authors of published papers could choose to extend their work to full-length conference papers later. </p>
+  <h3 id="submission-instructions">Submission Instructions</h3>
+  <p>Submissions must be original, unpublished work, and not under consideration at another conference or journal.
+    LaTeX sources can be found at <a href="https://github.com/scyue/latex-sigcomm18">this link</a>.
+    With older versions of this template, authors should use "10pt" in the documentclass command to ensure that
+    the font size for all submitted papers is 10 points. The length of the submitted paper should be 6 pages, excluding
+    references. Authors are welcome to include an appendix beyond the page limit, but the main paper should be
+    self-contained.
+    Paper submissions should not include author names or affiliations, and submissions will go through a double-blind
+    reviewing process by the program committee.
+    At least one author for each accepted paper is expected to present the paper at the workshop in person. We expect
+    that at least some papers at SPIN would represent "work-in-progress"
+    projects. Therefore, authors of published papers could choose to extend their work to full-length conference papers
+    later. </p>
 
 
-<p><strong>Paper Submission:</strong></p>
+  <p><strong>Paper Submission:</strong></p>
 
-<p>Please submit your paper via <a href="https://spin20.hotcrp.com/">https://spin20.hotcrp.com/</a>.</p>
+  <p>Please submit your paper via <a href="https://spin20.hotcrp.com/">https://spin20.hotcrp.com/</a>.</p>
 
 
-<h3 id="-important-dates"><i class="fa fa-calendar"></i> Important Dates</h3>
+  <h3 id="-important-dates"><i class="fa fa-calendar"></i> Important Dates</h3>
 
-<ul data-role="listview" data-inset="true" data-theme="a"
-    data-content-theme="a" class="datetbl">
+  <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
 
-  <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a">
-        <h2>
-          <mark>May 01, 2020, 10pm CST</mark>
-        </h2>
+    <li data-icon="false">
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <h2>
+            <mark>May 01, 2020, 10pm CST</mark>
+          </h2>
+        </div>
+        <div class="ui-block-b">
+          <p>Submission deadline</p>
+        </div>
       </div>
-      <div class="ui-block-b"><p>Submission deadline</p></div>
-    </div>
 
-  </li>
+    </li>
 
-  <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a">
-        <h2>
-          May 23, 2020
-        </h2>
+    <li data-icon="false">
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <h2>
+            May 23, 2020
+          </h2>
+        </div>
+        <div class="ui-block-b">
+          <p>Acceptance notification</p>
+        </div>
       </div>
-      <div class="ui-block-b"><p>Acceptance notification</p></div>
-    </div>
-  </li>
+    </li>
 
-  <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a"><h2>June 10, 2020</h2></div>
-      <div class="ui-block-b"><p>Camera-ready deadline</p></div>
-    </div>
-  </li>
+    <li data-icon="false">
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <h2>June 10, 2020</h2>
+        </div>
+        <div class="ui-block-b">
+          <p>Camera-ready deadline</p>
+        </div>
+      </div>
+    </li>
 
 
-  <li data-icon="false">
-    <div class="ui-grid-a">
-      <div class="ui-block-a"><h2>August 10, 2020</h2></div>
-      <div class="ui-block-b"><p>Workshop program</p></div>
-    </div>
-  </li>
+    <li data-icon="false">
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+          <h2>August 10, 2020</h2>
+        </div>
+        <div class="ui-block-b">
+          <p>Workshop program</p>
+        </div>
+      </div>
+    </li>
 
-</ul>
+
+
+  </ul>
 
 </div> <!-- content-primary -->
