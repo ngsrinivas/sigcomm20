@@ -14,7 +14,7 @@
             "session_header" : "true",
             "day" : "monday",
             "time" : "10:00 - 10:45 am EDT",
-            "title" : "Keynote"
+            "title" : "Keynote 1"
         },
 
         {
@@ -61,7 +61,7 @@
             "session_header" : "true",
             "day" : "monday",
             "time" : "11:30 - 11:59 am EDT",
-            "title" : "Invited Talk"
+            "title" : "Invited Talk 1"
         },
 
         {
@@ -85,7 +85,7 @@
             "session_header" : "true",
             "day" : "monday",
             "time" : "1:00 - 1:45 pm EDT",
-            "title" : "Keynote"
+            "title" : "Keynote 2"
         },
 
         {
@@ -102,7 +102,7 @@
             "session_header" : "true",
             "day" : "monday",
             "time" : "1:45 - 2:15 pm EDT",
-            "title" : "Invited Talk"
+            "title" : "Invited Talk 2"
         },
 
         {
