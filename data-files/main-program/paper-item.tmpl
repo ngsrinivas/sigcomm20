@@ -6,7 +6,11 @@
 <!-- session header -->
 <li class="ui-li ui-bar-a prog-item ui-li-divider prog-{{ program_item.day }}" data-role="list-divider">
   <h3 style="font-weight: 700">
+    {% if program_item.time2 is defined -%}
     {{ program_item.time }} <i>&nbsp;&amp;&nbsp;</i> {{ program_item.time2 }} <i>&nbsp;&nbsp;&nbsp;&nbsp;</i> {{ program_item.title }}
+    {% else -%}
+    {{ program_item.time }} <i>&nbsp;&nbsp;&nbsp;&nbsp;</i> {{ program_item.title }}
+    {% endif -%}
   </h3>
   {% if program_item.session_chair is defined -%}
   <h5 style="font-size:90%;"><strong>Session chairs: </strong> {{ program_item.session_chair }} (western hemisphere) <i>&amp;</i> {{ program_item.session_chair2 }} (eastern hemisphere)</h5>
@@ -17,7 +21,7 @@
 </li>
 <!-- end session header -->
 
-
+<li class="hidden">Tea/Coffee/Meal Break</li>
 
 {% endif -%}
 {% if program_item.break is defined -%}
