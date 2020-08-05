@@ -99,17 +99,23 @@
 {% if program_item.keynote is defined -%}
 
 
-
 <!-- single item in a session -->
 <li data-icon="false" class="prog-item prog-{{ program_item.day }}">
       <table>
          <tr>             
+             {% if program_item.time2 is defined -%}
              <td style="font-size:80%; padding-right:10px; max-width:20%;"><b>{{ program_item.time }}<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&amp;<br/>{{ program_item.time2 }}</b></td>
+             {% else -%}
+             <td style="font-size:80%; padding-right:10px; max-width:20%;"><b>{{ program_item.time }}</b></td>
+             {% endif -%}
              <td style="width:100%;text-align:left;">
                <p class="paper-header">
                  {{ program_item.keynote_title }}
                </p>
                <p><strong>Speakers&#58;</strong> {{ program_item.keynote_speaker }}</p>
+               {% if program_item.slack_channel is defined -%}
+               <p><a href="{{ program_item.slack_channel }}">Go to Slack channel</a></p>
+               {% endif -%}
              </td>
              <td>
                 <a style="color: dimgray;" href="{{ program_item.slide_relpath }}" rel="external" target="_blank">

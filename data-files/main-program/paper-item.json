@@ -157,7 +157,7 @@
         {
             "break" : "true",
             "time" : "1:00 - 1:45 pm EDT",
-            "break_type" : "<a href='/sigcomm/2020/supporters.html'>SIGCOMM Job Event</a>",
+            "break_type" : "<a href='/sigcomm/2020/supporters.html'>SIGCOMM Sponsors/Job Event</a> (<a href='https://app.slack.com/client/T0107RGGMU6/C017ZKK40MC/ '>Go to Slack channel</a>)",
             "day" : "tuesday"
         },
 
@@ -736,24 +736,40 @@
         
         {
             "session_header" : "true",
-            "time" : "10:00 - 11:00 am EDT",
-            "time2" : "9:00 - 10:00 pm EDT",
-            "title" : "Panel",
+            "time" : "10:00 - 10:30 am EDT",
+            "title" : "Invited/Industry Talk #1",
             "day" : "thursday",
             "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0171QRBNSK"
         },
-        
+
         {
             "keynote" : "true",
             "day" : "thursday",
-            "time" : "10:00 - 11:00 am EDT",
-            "time2" : "9:00 - 10:00 pm EDT",
-            "keynote_title" : "Panel",
-            "keynote_speaker" : "Tom Anderson",
+            "time" : "10:00 - 10:30 am EDT",
+            "keynote_title" : "What's Beyond 5G?",
+            "keynote_speaker" : "Andrea Goldsmith <em>(Stanford University)</em>",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "dl_video_link" : "content-forthcoming.html"
         },
 
+        {
+            "session_header" : "true",
+            "time" : "10:30 - 11:00 am EDT",
+            "title" : "Invited/Industry Talk #2",
+            "day" : "thursday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017RJDBAA3"
+        },
+
+        {
+            "keynote" : "true",
+            "day" : "thursday",
+            "time" : "10:30 - 11:00 am EDT",
+            "keynote_title" : "Zoom: A Conversation",
+            "keynote_speaker" : "Eric Yuan <em>(CEO, Zoom)</em>",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "dl_video_link" : "content-forthcoming.html"
+        },
+        
         {
             "session_header" : "true",
             "time" : "11:00 - 11:59 am EDT",
@@ -1042,9 +1058,27 @@
         },
 
         {
+            "session_header" : "true",
+            "time" : "4:30 - 5:00 pm EDT",
+            "title" : "Invited/Industry Talk #3",
+            "day" : "thursday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0186H0113M"
+        },
+
+        {
+            "keynote" : "true",
+            "day" : "thursday",
+            "time" : "4:30 - 5:00 pm EDT",
+            "keynote_title" : "The network as a programmable platform: fertile new ground for networking research",
+            "keynote_speaker" : "Nick McKeown <em>(Stanford University)</em>",
+            "slide_relpath" : "files/slides/content-forthcoming.html",
+            "dl_video_link" : "content-forthcoming.html"
+        },
+        
+        {
             "keynote" : "true",
             "day" : "tuesday",
-            "time" : "4:15 - 4:30 pm EDT",
+            "time" : "5:00 - 5:30 pm EDT",
             "time2" : "3:15 - 3:30 am EDT",
             "keynote_title" : "Closing",
             "keynote_speaker" : "Vishal Misra <em>(Columbia University, USA)</em>, Henning Schulzrinne <em>(Columbia University, USA)</em>, Sujata Banerjee <em>(VMware Research)</em>, Ratul Mahajan <em>(University of Washington, Intentionet)</em>",
