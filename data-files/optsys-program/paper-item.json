@@ -28,7 +28,8 @@
             "paper" : "true",
             "day" : "monday",
             "title" : "How to BOLD-ly Support Data-Intensive Applications? (25min)",
-            "authors" : "Eugene Ng <em>(Rice University)</em>"
+            "authors" : "Eugene Ng <em>(Rice University)</em>",
+            "abstract" : "Data-intensive applications are on the rise in large-scale compute clusters and they constantly transmit large objects across servers. How these applications are supported today could be characterized as 'leave it to the network' or 'leave it to the application.' In this talk, we will explore a different approach that achieves the best of both worlds, by combining packet switch bandwidth from the network edge with an optical network architecture to provide a scalable, predictable, and reliable alternative"
         },
 
         
@@ -36,14 +37,16 @@
             "paper" : "true",
             "day" : "monday",
             "title" : "Optical datacenter networks: towards practical deployment (25min)",
-            "authors" : "Elad Mentovich <em>(Mellanox)</em>"
+            "authors" : "Giannis Patronas <em>(Nvidia Networking, Mellanox Advanced Technologies)</em>",
+            "abstract" : ""
         },
 
         {
             "paper" : "true",
             "day" : "monday",
-            "title" : "From the Optics to the Cloud (25min)",
-            "authors" : "Thomas Karagiannis <em>(Microsoft)</em>"
+            "title" : "Optics for the cloud – Light at the end of the tunnel? (25min)",
+            "authors" : "Thomas Karagiannis <em>(Microsoft)</em>",
+            "abstract" : "The amazing growth of the cloud has also led to the emergence of inflection points that may hinder future cloud scaling. In this talk, I will discuss how the optics for the cloud team at Microsoft Research Cambridge is betting on optical technologies and cross-layer innovation across the cloud stack to alleviate challenges leading to these inflection points. "
         },
 
         {
@@ -135,8 +138,9 @@
         {
             "paper" : "true",
             "day" : "monday",
-            "title" : "TBD (25min)",
-            "authors" : "Dan Blumenthal <em>(UCSB)</em> "
+            "title" : "Frequency Stabilized Coherent WDM Optical Links for Low-Energy Data Center Interconnects (25min)",
+            "authors" : "Dan Blumenthal <em>(UCSB)</em> ",
+            "abstract" : "As data center ethernet switches scale towards 100Tbps, scaling DCI fiber links will face significant cost, power and engineering barriers. In this talk we describe the FRESCO approach that uses ultra-stable, ultra-low linewidth laser and silicon photonic transceiver technologies to bring high-capacity coherent WDM links into the DCI without the need for DSPs and other power consuming technologies."
         },
  
         {
@@ -150,7 +154,8 @@
             "paper" : "true",
             "day" : "monday",
             "title" : "Invited Talk: Optics to scale the Datacenter: Technology directions over the next decade (25min)",
-            "authors" : "Ryohei Urata (Google)"
+            "authors" : "Ryohei Urata (Google)",
+            "abstract" : "We will review the role of optics in bringing hyperscale datacenters to their present state. We will then discuss future technology directions, with focus on themes of higher speeds, integration, and the end of Moore’s Law."
         },
 
         {
@@ -164,9 +169,10 @@
             "keynote" : "true",
             "time" : "4:00 - 4:30 pm EDT",
             "keynote_title" : "Industrial panel session + Closing remarks",
+            "keynote_speaker" : "Mark Filer <em>(Microsoft)</em>, Giannis Patronas <em>(Nvidia Networking, Mellanox Advanced Technologies)</em>, Ryohei Urata <em>(Google)</em>, Ying Zhang <em>(Facebook)</em><br/><b>Moderator:</b> Manya Ghobadi <em>(MIT)</em>",
             "day" : "monday"
         },
-        
+
         {
             "program_end" : "true"
         }
