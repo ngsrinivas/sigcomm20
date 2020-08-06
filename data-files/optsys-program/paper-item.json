@@ -38,7 +38,7 @@
             "day" : "monday",
             "title" : "Optical datacenter networks: towards practical deployment (25min)",
             "authors" : "Giannis Patronas <em>(Nvidia Networking, Mellanox Advanced Technologies)</em>",
-            "abstract" : ""
+            "abstract" : "Scaling up the datacenter (DC) network results in higher switch energy consumption due to the breakdown of Dennard scaling. Signs of Moore’s law erosion question the capability to cope with exponentially growing intra-DC traffic in the long run. The introduction of optical switching could simultaneously address the bandwidth and energy consumption challenges in the DC interconnection network. However, the lack of key functionalities in the optical domain (i.e. buffering and header processing) hinders the introduction of such optical circuit switches in the DC. Novel approaches are required for the design of the optical DC network as well as for the associated devices connected in the optical DC (e.g. NICs, switches, transceivers). This presentation will outline the main challenges we are facing and will provide a short description of our activities towards the practical deployment of optical switches in the DC network. "
         },
 
         {
@@ -147,7 +147,8 @@
             "paper" : "true",
             "day" : "monday",
             "title" : "Supporting optical networks with the Corundum programmable NIC platform (25min)",
-            "authors" : "Alex Forencich <em>(UCSD)</em> "
+            "authors" : "Alex Forencich <em>(UCSD)</em> ",
+            "abstract" : "Corundum is an open-source, FPGA-based prototyping platform for network interface development at up to 100 Gbps and beyond. The Corundum platform includes several core features to enable real-time, high-line-rate operations including a high-performance datapath, 10G/25G/100G Ethernet MACs, PCI Express (gen 3), a custom PCIe DMA engine, and native high-precision IEEE 1588 timestamping (PTP). In particular, Corundum is designed to support the implementation of a microsecond-precision time-division multiple access (TDMA) hardware scheduler to enforce a TDMA schedule at 100 Gbps line rate with no CPU overhead. In this talk, I'll describe how Corundum can support optical circuit-switched network architectures employing a range of physical-layer technologies, and how applications layered on these circuit-switched networks can be supported through a combination of endhost and NIC functionality."
         },
  
         {
