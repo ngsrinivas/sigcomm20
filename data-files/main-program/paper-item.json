@@ -14,7 +14,7 @@
             "session_header" : "true",
             "time" : "9:45 - 11:15 am EDT",
             "time2" : "8:45 - 10:15 pm EDT",
-            "title" : "Opening &amp; Keynote",
+            "title" : "Opening &amp; Keynote 1",
             "day" : "tuesday",
             "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017F5M370V"
         },
@@ -35,7 +35,8 @@
             "day" : "tuesday",
             "time" : "10:15 - 11:15 am EDT",
             "time2" : "9:15 - 10:15 pm EDT",
-            "keynote_title" : "Keynote 1",
+            "keynote_title" : "Coming of Age in the Fifth Epoch of Distributed Computing: The Power of Sustained Exponential Growth",
+            "abstract" : "The annual SIGCOMM Award will be presented to Amin Vahdat for groundbreaking contributions to data center and wide area networks.",
             "keynote_speaker" : "Amin Vahdat <em>(Google)</em>",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "dl_video_link" : "content-forthcoming.html"
@@ -369,7 +370,7 @@
             "session_header" : "true",
             "time" : "9:45 - 10:45 am EDT",
             "time2" : "8:45 - 9:45 pm EDT",
-            "title" : "Keynote",
+            "title" : "Keynote 2",
             "day" : "wednesday",
             "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017V5UEL01"
         },        
@@ -379,7 +380,8 @@
             "day" : "wednesday",
             "time" : "9:45 - 10:45 am EDT",
             "time2" : "8:45 - 9:45 pm EDT",
-            "keynote_title" : "Keynote 2",
+            "keynote_title" : "Learning the Art and Science in Internet Protocol Designs",
+            "abstract" : "The annual SIGCOMM Award will be presented to Lixia Zhang for her many insights into data network architectures and the interactions between network components.",
             "keynote_speaker" : "Lixia Zhang <em>(UCLA)</em>",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "dl_video_link" : "content-forthcoming.html"

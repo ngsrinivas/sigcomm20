@@ -105,6 +105,8 @@
 
 <!-- single item in a session -->
 <li data-icon="false" class="prog-item prog-{{ program_item.day }}">
+  <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+      <h4>
       <table>
          <tr>             
              {% if program_item.time2 is defined -%}
@@ -137,7 +139,19 @@
             </td>
             -->
          </tr>
-  </table>
+      </table>
+      </h4>
+      {% if program_item.abstract is defined -%}
+      <ul data-role="listview" data-inset="false">
+        <li data-icon="false">
+            <p>
+              {{ program_item.abstract }}
+            </p>
+            <p>&nbsp;</p>
+        </li>
+      </ul>
+      {% endif -%}
+  </div>
 </li>
 <!-- end single item in a session -->
 
