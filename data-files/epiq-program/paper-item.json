@@ -11,18 +11,58 @@
         },
 
         {
+            "session_header" : "true",
+            "day" : "friday",
+            "time" : "10:00 - 10:15 am EDT",
+            "title" : "Opening"
+        },
+
+        {
+            "keynote" : "true",
+            "day" : "friday",
+            "time" : "10:00 - 10:15 am EDT",
+            "keynote_title" : "Chairs welcome"
+        },
+
+        {
+            "session_header" : "true",
+            "day" : "friday",
+            "time" : "10:15 - 11:15 am EDT",
+            "title" : "Keynote"
+        },
+
+        {
             "paper" : "true",
-            "day" : "monday",
+            "day" : "friday",
+            "time" : "10:15 - 11:15 am EDT",
+            "title" : "As QUIC as TCP, Optimizing QUIC and HTTP/3 CPU usage",
+            "authors" : "Ian Swett <em>(Google)</em>",
+            "abstract" : "TCP has benefitted from years of optimization.  As recently as 2017, QUIC consumed twice the CPU of TLS over TCP. However, QUIC was designed as an encrypted transport, which benefits application performance and can benefit transport CPU performance.  This talk will discuss CPU optimizations that have brought QUIC CPU usage down to parity with TCP in some cases, as well as looking at optimizations and hardware offloads that could enable QUIC to surpass TCP in CPU consumption.",
+            "bio" : "Ian Swett is a software engineer who’s been working on QUIC at Google prior to its first public use and is an IETF editor on the loss detection and congestion control draft.  Ian led the work to improve QUIC CPU usage at Google, with a focus on YouTube video delivery."
+        },
+
+        {
+            "break" : "true",
+            "break_type" : "Short break",
+            "time" : "11:15 - 11:30 am EDT",
+            "day" : "friday"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "friday",
             "title" : "Testing QUIC with packetdrill",
             "paperlink" : "https://dl.acm.org/doi/abs/10.1145/3405796.3405825",
             "authors" : "Vidhi Goel, Rui Paulo, and Christoph Paasch",
+            "time" : "11:30 - 11:59 am EDT",
             "abstract" : "A secure transport protocol like QUIC has extensive state machines and algorithms to ensure secure, reliable and in-order delivery of multiple byte streams. Testing these mechanisms is at the heart of a successful deployment of QUIC. While interop-testing, fuzzing and performance tests allow to explore a large part of these algorithms, concrete issues are hard to reproduce reliably with those methods. packetdrill has emerged as an effective tool for exercising the TCP stack by generating events like incoming packets or system calls at precise timings.</p><p>In this paper, we present how we extended packetdrill for testing QUIC. This involves a special grammar to express the QUIC packet format and integration of TLS 1.3 into packetdrill. We integrated our own QUIC library and show that it is easy to include any QUIC library into packetdrill, and even reuse test cases across different libraries. This illustrates that using packetdrill is a useful approach for testing QUIC implementations."
         },
 
         {
             "paper" : "true",
-            "day" : "monday",
+            "day" : "friday",
             "title" : "Automating QUIC Interoperability Testing",
+            "time" : "12:00 - 12:30 pm EDT",
             "paperlink" : "https://dl.acm.org/doi/abs/10.1145/3405796.3405826",
             "authors" : "Marten Seemann and Jana Iyengar",
             "abstract" : "We present QuicInteropRunner (QIR) [1, 2], a test framework for automated and on-demand interoperability testing between implementations of the QUIC protocol [3]. QIR is a framework in which QUIC clients and servers interact with each other over a network that simulates various network conditions using ns-3 [4]. QIR automates QUIC interoperability testing by running a suite of test cases between containerized QUIC implementations. We describe the key constraints and insights that defined our work, recent innovations that made the framework possible, a high-level overview of our design, and a few exemplary tests. QIR is now supported and used by ten QUIC implementations as part of their development process, confirming our thesis that there is a need for automating interoperability testing and making it available on demand."
@@ -30,17 +70,26 @@
 
         {
             "paper" : "true",
-            "day" : "monday",
+            "day" : "friday",
             "title" : "Same Standards, Different Decisions: A Study of QUIC and HTTP/3 Implementation Diversity",
+            "time" : "12:30 - 1:00 pm EDT",
             "paperlink" : "https://dl.acm.org/doi/abs/10.1145/3405796.3405828",
             "authors" : "Robin Marx, Joris Herbots, Wim Lamotte, and Peter Quax",
             "abstract" : "The QUIC and HTTP/3 protocols are quickly maturing together with their implementations, though many of their low-level behaviours are not yet well-understood. To help improve this, we empirically compare 15 IETF QUIC+HTTP/3 implementations for advanced features like Flow and Congestion Control, 0-RTT, Multiplexing, and Packetization. We find a large heterogeneity between stacks, discuss uncovered bugs and conclude that most implementations are not fully optimized or validated yet. We argue that future work must prioritize rigorous root-cause analysis of observed behaviours, and show this is possible by employing our qlog and qvis tools."
         },
 
         {
+            "break" : "true",
+            "break_type" : "Break",
+            "time" : "1:00 - 2:00 pm EDT",
+            "day" : "friday"
+        },
+        
+        {
             "paper" : "true",
-            "day" : "monday",
+            "day" : "friday",
             "title" : "Making QUIC Quicker With NIC Offload",
+            "time" : "2:00 - 2:30 pm EDT",
             "paperlink" : "https://dl.acm.org/doi/abs/10.1145/3405796.3405827",
             "authors" : "Xiangrui Yang, Lars Eggert, Jörg Ott, Steve Uhlig, Zhigang Sun, and Gianni Antichi",
             "abstract" : "This paper aims at defining the right set of primitives a NIC shall expose to efficiently offload the QUIC protocol. Although previous work already partially tackled this problem, it has only considered one specific aspect: the crypto module. We instead dissect different QUIC implementations, and perform an in-depth analysis of the cost associated to many of its components. We find that the kernel to userspace communication, the crypto module and the packet reordering algorithm are CPU hungry and often the cause of application performance degradation. We use those findings to define an architecture for offloading QUIC and discuss the associated challenges."
@@ -48,8 +97,9 @@
 
         {
             "paper" : "true",
-            "day" : "monday",
+            "day" : "friday",
             "title" : "Scalable High Efficiency Video Coding based HTTP Adaptive Streaming over QUIC",
+            "time" : "2:30 - 3:00 pm EDT",
             "paperlink" : "https://dl.acm.org/doi/abs/10.1145/3405796.3405829",
             "authors" : "Minh Nguyen, Hadi Amirpour, Christian Timmerer, and Hermann Hellwagner",
             "abstract" : "HTTP/2 has been explored widely for adaptive video streaming, but still suffers from Head-of-Line blocking, and three-way handshake delay due to TCP. Meanwhile, QUIC running on top of UDP can tackle these issues. In addition, although many adaptive bitrate (ABR) algorithms have been proposed for scalable and non-scalable video streaming, the literature lacks an algorithm designed for both types of video streaming approaches. In this paper, we investigate the impact of QUIC and HTTP/2 on the performance of ABR algorithms. Moreover, we propose an efficient approach for utilizing scalable video coding formats for adaptive video streaming that combines a traditional video streaming approach (based on non-scalable video coding formats) and a retransmission technique. The experimental results show that QUIC benefits significantly from our proposed method in the context of packet loss and retransmission. Compared to HTTP/2, it improves the average video quality and provides a smoother adaptation behavior. Finally, we demonstrate that our proposed method originally designed for non-scalable video codecs also works efficiently for scalable videos such as Scalable High Efficiency Video Coding (SHVC)."
@@ -57,11 +107,19 @@
 
         {
             "paper" : "true",
-            "day" : "monday",
+            "day" : "friday",
             "title" : "Analyzing the Adoption of QUIC From a Mobile Development Perspective",
+            "time" : "3:00 - 3:30 pm EDT",
             "paperlink" : "https://dl.acm.org/doi/abs/10.1145/3405796.3405830",
             "authors" : "Diego Madariaga, Lucas Torrealba, Javier Madariaga, Javiera Bermúdez, and Javier Bustos-Jiménez",
             "abstract" : "First introduced in 2013, QUIC protocol has been in constant development and it has gained great importance over time, currently being standardized by the Internet Engineering Task Force (IETF). Previous experiments have shown that the performance of QUIC can be of particular interest for lossy wireless networks. Thus, it becomes relevant to measure and profile QUIC traffic from mobile devices in the wild. This paper analyzes the adoption of QUIC from a mobile development perspective, by using crowdsourced data from real Android users during the normal use of their mobile devices. The results obtained show a significant increase in the number of Android apps using QUIC and evidence newer efforts of companies to adopt this protocol. To the best of the authors' knowledge, this is the first work focused on analyzing and profiling QUIC traffic from crowdsourced network measurements taken by mobile end-user devices."
+        },
+
+        {
+            "keynote" : "true",
+            "keynote_title" : "End",
+            "time" : "3:30 - 3:45 pm EDT",
+            "day" : "friday"
         },
         
         {

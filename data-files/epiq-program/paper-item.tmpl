@@ -41,10 +41,15 @@
       <h4>
         <div style="width: 78%">
           <p class="keynote-header">
-            <div>
-            <h2>{{ program_item.title }} </h2>
-            <p>{{ program_item.authors }}</p>
-            </div>
+          <table>
+            <tr>
+              <td style="font-size:80%; padding-right:10px; max-width:20%;">{{ program_item.time }}</td>
+              <td style="width:100%; text-align:left;">
+                <h2>{{ program_item.title }}</h2>
+                <p>{{ program_item.authors }}</p>
+              </td>
+            </tr>
+          </table>
           </p>
         </div>
         <div class="ui-li-aside">
@@ -58,6 +63,12 @@
             <p>
               <b>Abstract: </b> {{ program_item.abstract }}
             </p>
+            {% if program_item.bio is defined -%}
+            <br/>
+            <p>
+              <b>Bio: </b> {{ program_item.bio }}
+            </p>
+            {% endif -%}
             <p>&nbsp;</p>
         </li>
       </ul>
