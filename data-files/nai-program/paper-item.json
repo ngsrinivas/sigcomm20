@@ -1,0 +1,186 @@
+{
+    "program_items": [
+        {
+            "program_start" : "true"
+        },
+        
+        {
+            "day_header" : "true",
+            "day" : "friday",
+            "day_title" : "Friday, August 14, 2020 EDT"
+        },
+
+        {
+            "session_header" : "true",
+            "day" : "friday",
+            "time" : "10:00 - 10:10 am EDT",
+            "title" : "Opening + Invited Talks 1 &amp; 2"
+        },
+
+        {
+            "keynote" : "true",
+            "keynote_speaker" : "Workshop co-chairs",
+            "keynote_title" : "Opening Remarks",
+            "day" : "friday",
+            "time" : "10:00 - 10:10 am EDT"
+        },
+
+        {
+            "keynote" : "true",
+            "keynote_speaker" : "Deep Medhi <em>(US National Science Foundation)</em>",
+            "keynote_title" : "Domain Science Applications and the Role of Networking",
+            "day" : "friday",
+            "time" : "10:10 - 10:40 am EDT"
+        },
+
+        {
+            "keynote" : "true",
+            "keynote_speaker" : "Bruce Maggs <em>(Duke/Akamai)</em>",
+            "keynote_title" : "No Queuing and &quot;Reverse CDN&quot; for NAI",
+            "day" : "friday",
+            "time" : "10:40 - 11:20 am EDT"
+        },
+
+        {
+            "session_header" : "true",
+            "day" : "friday",
+            "time" : "11:20 am - 12:30 pm EDT",
+            "title" : "Session I: NAI Frameworks"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "friday",
+            "title" : "",
+            "authors" : ""
+        },
+
+        {
+            "paper" : "true",
+            "day" : "friday",
+            "title" : "Toward Deep Network & Application Integration: Possibilities, Challenges and Research Directions",
+            "authors" : "Danny Alex lachos Perez (University of Campinas (UNICAMP)), Qiao Xiang (Yale University), Christian Esteve Rothenberg (University of Campinas), Sabine Randriamasy (Nokia Bell Labs), Luis Miguel Contreras Murillo (Telefonica) and Börje Ohlman (Ericsson)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "friday",
+            "title" : "Dawn: Co-programming Distributed Applications with Network Control",
+            "authors" : "Shuhe Wang (Tsinghua University), Dong Guo (Tongji University), Wei Jiang (Wuhan University), Haizhou Du (Tongji University) and Mingwei Xu (Tsinghua University)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "friday",
+            "title" : "Semantically Aware, Mission-Oriented (SAMO) Networks – A Framework for Application/Network Integration",
+            "authors" : "Timothy J. Salo (University of Minnesota) and Zhi-Li Zhang (University of Minnesota)"
+        },
+
+        {
+            "break" : "true",
+            "time" : "12:30 - 12:50 pm EDT",
+            "break_type" : "Break",
+            "day" : "friday"
+        },
+
+        {
+            "session_header" : "true",
+            "time" : "12:50 - 1:30 pm EDT",
+            "day" : "friday",
+            "title" : "Invited Talk 3"
+        },
+
+        {
+            "keynote" : "true",
+            "keynote_speaker" : "Albert Greenberg <em>(Microsoft)</em>",
+            "keynote_title" : "Edge and 5G for NAI",
+            "day" : "friday",
+            "time" : "12:50 - 1:30 pm EDT"
+        },
+
+        {
+            "session_header" : "true",
+            "time" : "1:30 - 3:00 pm EDT",
+            "day" : "friday",
+            "title" : "Session II: Network to Application Exposure & Adaptive Applications"
+        },
+
+
+
+        {
+            "paper" : "true",
+            "day" : "friday",
+            "title" : "MoWIE: Toward Systematic, Adaptive Network Information Exposure as an Enabling Technique for Cloud-Based Applications over 5G and Beyond (Invited Paper),",
+            "authors" : "Yunfei Zhang (Tencent), Chunshan Xiong (Tencent), Yixue Lei (Tencent), Wei Huang (Tencent), Yunbo Han (Tencent), Gang Li (China Mobile), Anwar Walid (Nokia Bell Labs), Richard Yang (Yale University) and Zhi-li Zhang (University of Minnesota -- Twin Cities)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "friday",
+            "title" : "Federated Adaptive Bitrate Live Streaming over Locality Sensitive Playback Coalitions",
+            "authors" : "Abhijit Mondal (Indian Institute of Technology, Kharagpur) and Sandip Chakraborty (Indian Institute of Technology, Kharagpur)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "friday",
+            "title" : "Trading Latency for Compute in the Network",
+            "authors" : "Pietro Bressana (Universitá della Svizzera italiana), Noa Zilberman (University of Oxford),  Dejan Vucinic (Western Digital Research) and Robert Soulé (Yale University)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "friday",
+            "title" : "Trading Cold Start in Serverless Computing with Container Runtime Reusing",
+            "authors" : "Kun Suo (Kennesaw State University), Yong Shi (Kennesaw State University), Xiaohua Xu (Kennesaw State University), Dazhao Cheng (University of North Carolina at Charlotte), and Wei Chen (Nvidia Corporation)"
+        },
+
+        {
+            "session_header" : "true",
+            "time" : "3:00 - 4:25 pm EDT",
+            "day" : "friday",
+            "title" : "Session III: Application to Network Signaling"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "friday",
+            "title" : "Bi-directional Network and Application Interaction: Application Intents upon Abstracted Network Information (Invited Paper)",
+            "authors" : "Kai Gao (Sichuan University), Luis Miguel Contreras Murillo (Telefonica), and Sabine Randriamasy (Nokia Bell Labs)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "friday",
+            "title" : "NetworkAPI: An In-band Signalling Application-aware Traffic Engineering using SRv6 and IP anycast",
+            "authors" : "Takuya Miyasaka (KDDI Research, Inc.), Yuichiro Hei (KDDI Research, Inc.) and Takeshi Kitahara (KDDI Research, Inc.)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "friday",
+            "title" : "Network Tokens (Invited Talk)",
+            "authors" : "Yiannis Yiakoumis (Selfie Networks)"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "friday",
+            "title" : "ETCNet: Encrypted Traffic Classification using Siamese Convolutional Networks",
+            "authors" : "Lu Xu (New York University), Daihui Dou (New York University) and H. Jonathan Chao (New York University)"
+        },
+        
+        {
+            "keynote" : "true",
+            "keynote_speaker" : "Workshop Co-chairs",
+            "keynote_title" : "Closing Remarks",
+            "day" : "friday",
+            "time" : "4:25 - 4:30 pm EDT"
+        }, 
+        
+        {
+            "program_end" : "true"
+        }
+        
+    ]
+}
