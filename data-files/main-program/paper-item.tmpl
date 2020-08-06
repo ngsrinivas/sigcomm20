@@ -13,7 +13,11 @@
     {% endif -%}
   </h3>
   {% if program_item.session_chair is defined -%}
+    {% if program_item.session_chair2 is defined -%}
   <h5 style="font-size:90%;"><strong>Session chairs: </strong> {{ program_item.session_chair }} (western hemisphere) <i>&amp;</i> {{ program_item.session_chair2 }} (eastern hemisphere)</h5>
+    {% else -%}
+  <h5 style="font-size:90%;"><strong>Session chair(s): </strong> {{ program_item.session_chair }}</h5>
+    {% endif -%}
   {% endif -%}
   {% if program_item.slack_channel is defined -%}
   <h5 style="font-size:90%;"><strong><a href="{{ program_item.slack_channel }}">Go to Slack channel</a></strong></h5>

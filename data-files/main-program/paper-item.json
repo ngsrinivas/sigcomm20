@@ -739,7 +739,8 @@
             "time" : "10:00 - 10:30 am EDT",
             "title" : "Invited/Industry Talk #1",
             "day" : "thursday",
-            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0171QRBNSK"
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0171QRBNSK",
+            "session_chair" : "Jennifer Rexford and Nick McKeown"
         },
 
         {
@@ -757,7 +758,8 @@
             "time" : "10:30 - 11:00 am EDT",
             "title" : "Invited/Industry Talk #2",
             "day" : "thursday",
-            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017RJDBAA3"
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017RJDBAA3",
+            "session_chair" : "Jennifer Rexford and Nick McKeown"
         },
 
         {
@@ -1062,7 +1064,8 @@
             "time" : "4:30 - 5:00 pm EDT",
             "title" : "Invited/Industry Talk #3",
             "day" : "thursday",
-            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0186H0113M"
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0186H0113M",
+            "session_chair" : "Ratul Mahajan"
         },
 
         {
