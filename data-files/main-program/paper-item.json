@@ -153,7 +153,23 @@
             "time2" : "11:45 - 11:59 pm EDT",
             "title" : "A Computational Approach to Packet Classification",
             "authors" : "Alon Rashelbach, Ori Rottenstreich, Mark Silberstein <em>(Technion)</em>"
-        },            
+        },
+
+        {
+            "session_header" : "true",
+            "time" : "1:00 - 1:45 pm EDT",
+            "title" : "Panel &nbsp;&nbsp;&nbsp;&nbsp;<i>(happening in parallel with the Sponsors/Job Event, see below)</i>",
+            "session_chair" : "Nick Feamster",
+            "day" : "tuesday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0186HADUSF"
+        },
+
+        {
+            "keynote" : "true",
+            "time" : "1:00 - 1:45 pm EDT",
+            "keynote_title" : "A Conversation On Privacy",
+            "keynote_speaker" : "TBD"
+        },
         
         {
             "break" : "true",

@@ -105,8 +105,10 @@
 
 <!-- single item in a session -->
 <li data-icon="false" class="prog-item prog-{{ program_item.day }}">
+  {% if program_item.abstract is defined -%}
   <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
-      <h4>
+    <h4>    
+  {% endif -%}
       <table>
          <tr>             
              {% if program_item.time2 is defined -%}
@@ -140,8 +142,8 @@
             -->
          </tr>
       </table>
-      </h4>
-      {% if program_item.abstract is defined -%}
+  {% if program_item.abstract is defined -%}
+    </h4>
       <ul data-role="listview" data-inset="false">
         <li data-icon="false">
             <p>
@@ -150,8 +152,8 @@
             <p>&nbsp;</p>
         </li>
       </ul>
-      {% endif -%}
   </div>
+  {% endif -%}
 </li>
 <!-- end single item in a session -->
 
@@ -175,12 +177,11 @@
 
   <p>Each technical session will have two instances, once in a time zone friendly to the western hemisphere and another in a time zone friendly to the eastern hemisphere.</p>
 
+  <p>For each paper presented at each technical session, there will a pre-recorded talk of 10-minute duration and a 5-minute live Q&amp;A conducted by the session chair. Registered attendees may view the talk and live Q&ampA through a Zoom session link that will be mailed out through the registration system. </p>
+
   <p>Each session has an associated Slack channel for discussion of papers and/or talks. Click on the link &quot;Go to slack channel&quot; under each session title to go to the corresponding channel. If you're asked to sign in, use the workspace name &quot;sigcomm.slack.com&quot; to sign up or sign in.</p>
 
-  <p>The full conference proceedings are available
-  at <a href="https://dl.acm.org/doi/proceedings/10.1145/3387514">https://dl.acm.org/doi/proceedings/10.1145/3387514.</a>
-  Links to individual papers and talk videos are available in the
-  detailed program information below. </p>
+  <p>The full conference proceedings are available at <a href="https://dl.acm.org/doi/proceedings/10.1145/3387514">https://dl.acm.org/doi/proceedings/10.1145/3387514.</a>  Links to individual papers and 20-minute talk videos (distinct from the 10-minute videos which will be aired during the conference Zoom session) are freely and openly available in the detailed program information below. </p>
   
   <div id="program-program" class="program-program">
     <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">
