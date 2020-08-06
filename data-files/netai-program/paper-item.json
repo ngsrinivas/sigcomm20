@@ -23,7 +23,7 @@
             "time" : "10:00 - 11:00 am EDT",
             "title" : "What Deep Generative Models Can Do for You: Opportunities, Challenges, and Open Questions",
             "authors" : "Giulia Fanti <em>(CMU)</em>",
-            "abstract" : "Data-driven generative data models produce random samples from a target distribution (e.g. autoregressive models, Gaussian mixtures, etc.). Despite decades of study in multiple communities, generative models have historically struggled to capture the complex correlations found in most real data. However, recent breakthroughs in deep learning have led to a significant jump in their performance, albeit mostly in the image and video domains. In this talk, we give a primer on state-of-the-art deep generative models, and discuss three use cases where the networking community may be able to benefit from these tools: (1) synthetic data generation, (2) vulnerability testing of black-box protocols and systems, and (3) extracting qualitative insights from unstructured data. We will discuss results in each of these application domains, highlight challenges and tradeoffs, and conclude with some open questions.",
+            "abstract" : "Data-driven generative data models produce random samples from a target distribution <em>(e.g. autoregressive models, Gaussian mixtures, etc.)</em>. Despite decades of study in multiple communities, generative models have historically struggled to capture the complex correlations found in most real data. However, recent breakthroughs in deep learning have led to a significant jump in their performance, albeit mostly in the image and video domains. In this talk, we give a primer on state-of-the-art deep generative models, and discuss three use cases where the networking community may be able to benefit from these tools: <em>(1)</em> synthetic data generation, <em>(2)</em> vulnerability testing of black-box protocols and systems, and <em>(3)</em> extracting qualitative insights from unstructured data. We will discuss results in each of these application domains, highlight challenges and tradeoffs, and conclude with some open questions.",
             "bio" : "Giulia Fanti is an Assistant Professor of Electrical and Computer Engineering at Carnegie Mellon University. Her research interests relate to cooperation in the absence of trust. She is a fellow for the World Economic Forum’s Global Future Council on Cybersecurity and has received best paper awards from ACM Sigmetrics and ACM MobiHoc, as well as Faculty Research Awards from Google and JP Morgan Chase. She obtained her Ph.D. in EECS from U.C. Berkeley and her B.S. in ECE from Olin College of Engineering."
         },
                 
@@ -37,21 +37,21 @@
         {
             "paper" : "true",
             "title" : "SmartEntry: Mitigating Routing Update Overhead with Reinforcement Learning for Traffic Engineering",
-            "authors" : "",
+            "authors" : "Junjie Zhang <em>(Fortinet)</em>; Zehua Guo <em>(Beijing Institute of Technology)</em>; Minghao Ye, H. Jonathan Chao <em>(New York University)</em>",
             "day" : "monday"
         },
         
         {
             "paper" : "true",
             "title" : "Neural Packet Routing",
-            "authors" : "",
+            "authors" : "Shihan Xiao, Haiyan Mao, Bo Wu, Wenjie Liu, Fenglin Li <em>(Huawei)</em>",
             "day" : "monday"
         },
         
         {
             "paper" : "true",
             "title" : "DeepBGP: A Machine Learning Approach for BGP Configuration Synthesis",
-            "authors" : "",
+            "authors" : "Mahmoud Bahnasy, Fenglin Li <em>(Huawei Canada)</em>; Shihan Xiao, Xiangle Cheng <em>(Huawei Technologies Co., Ltd.)</em>",
             "day" : "monday"
         },
         
@@ -72,21 +72,21 @@
         {
             "paper" : "true",
             "title" : "Is Network the Bottleneck of Distributed Training?",
-            "authors" : "",
+            "authors" : "Zhen Zhang <em>(Johns Hopkins University)</em>; Chaokun Chang, Haibin Lin, Yida Wang <em>(Amazon Web Services)</em>; Raman Arora, Xin Jin <em>(Johns Hopkins University)</em>",
             "day" : "monday"
         },
         
         {
             "paper" : "true",
             "title" : "Challenges in Using ML for Networking Research: How to Label If You Must",
-            "authors" : "",
+            "authors" : "Yukhe Lavinia, Ramakrishnan Durairajan, Reza Rejaie <em>(University of Oregon)</em>; Walter Willinger <em>(NIKSUN, Inc.)</em>",
             "day" : "monday"
         },
         
         {
             "paper" : "true",
             "title" : "Pitfalls of data-driven networking: A case study of latent causal confounders in video streaming",
-            "authors" : "",
+            "authors" : "P. C. Sruthi, Sanjay Rao, Bruno Ribeiro <em>(Purdue University)</em>",
             "day" : "monday"
         },
                 
@@ -107,21 +107,21 @@
         {
             "paper" : "true",
             "title" : "SAM: Self-Attention based Deep Learning Method for Online Traffic Classification",
-            "authors" : "",
+            "authors" : "Guorui Xie <em>(Tsinghua University, Peng Cheng Laboratory)</em>; Qing Li <em>(Southern University of Science and Technology, Peng Cheng Laboratory)</em>; Yong Jiang, Tao Dai, Gengbiao Shen, Rui Li <em>(Tsinghua University)</em>; Richard Sinnott <em>(University of Melbourne)</em>; Shutao Xia <em>(Tsinghua University)</em>",
             "day" : "monday"
         },
         
         {
             "paper" : "true",
             "title" : "A Deep Learning Approach for IP Hijack Detection Based on ASN Embedding",
-            "authors" : "",
+            "authors" : "Tal Shapira <em>(Tel Aviv University)</em>; Yuval Shavitt <em>(Department of Electrical Engineering, Tel Aviv University)</em>",
             "day" : "monday"
         },
         
         {
             "paper" : "true",
             "title" : "An Adaptive Tree Algorithm to Approach Collision-Free Transmission in Slotted ALOHA",
-            "authors" : "",
+            "authors" : "Molly Zhang, Luca de Alfaro, J.J. Garcia-Luna-Aceves <em>(University of California, Santa Cruz)</em>",
             "day" : "monday"
         },
         
