@@ -1,0 +1,223 @@
+{
+    "program_items": [
+        {
+            "program_start" : "true"
+        },
+
+        {
+            "day_header" : "true",
+            "day" : "friday",
+            "day_title" : "Monday, August 10, 2020 EDT"
+        },
+
+        {
+            "session_header" : "true",
+            "time" : "10:00 - 10:10 am EDT",
+            "title" : "Opening",
+            "day"  : "monday"
+        },
+
+        {
+            "keynote" : "true",
+            "time" : "10:00 - 10:10 am EDT",
+            "keynote_title" : "Opening",
+            "keynote_speaker" : "Workshop chairs",
+            "day" : "monday"
+        },
+
+        {
+            "session_header" : "true",
+            "time" :  "10:10 -11:00 am EDT",
+            "title" : "Poster Session 1 (7 posters)",
+            "day" : "monday"
+        },
+            
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Do you Trust the Data on Blockchain?",
+            "authors" : "Sidra Malik, Salil S Kanhere (UNSW, Australia); Raja Jurdak (CSIRO); Volkan Dedeoglu (Data61, CSIRO)"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title": "A Voting Blockchain-Enabled Incentivized Message Dissemination in Vehicular Ad-hoc Networks (VANETs)",
+            "authors" : "Ferheen Ayaz, Zhengguo Sheng (University of Sussex)"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Scalable Decentralized Routing for Blockchain Payment Networks",
+            "authors" : "Xiaoxue Zhang, Chen Qian (University of California Santa Cruz)"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Twitch’s CDN as an Open-Population Ecosystem",
+            "authors" : "Wei-Shiang Wung, Caleb Wang, Hsi Chen, Yuan-Tai Liu, Cheng Hsu, Guan-Ting Ting, Polly Huang (National Taiwan University)"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Specializing the network for scatter-gather workloads",
+            "authors" : "Catalina Alvarez, Zhenhao He, Gustavo Alonso, Ankit Singla (ETH Zurich)"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "FDP: A teaching and demo platform for P4-based SDN",
+            "authors" : "Heena Nagda (Georgia Institute of Technology); Rakesh Nagda, Isaac Pedisich, Nik Sultana, Boon Thau Loo (University of Pennsylvania)"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Prepare your video for streaming with SEGUE",
+            "authors" : "Melissa Licciardello, Lukas Humbel, Ankit Singla (ETH Zurich)"
+        },
+        
+        {
+            "session_header" : "true",
+            "day" : "monday",
+            "time" : "11:00 - 11:50 am EDT",
+            "title" : "Mentoring sessions"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Group 1: Challenges in Early Ph.D Studies",
+            "authors" : "Meryem Simsek and Ying Zhang"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Group 2: Career Selection Between Industry and Academia",
+            "authors" : "Yiting Xia, Grace Guyue Liu, and Jiasi Chen"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Group 3: Challenges in Early Academic Life",
+            "authors" : "Carlee Joe-Wong, Luoyi Fu, and Chunyi Peng"
+        },
+
+        {
+            "break" : "true",
+            "time" : "11:50 - 11:59 am EDT",
+            "break_type" : "Virtual coffee break",
+            "day" : "monday"
+        },
+
+        {
+            "session_header" : "true",
+            "day" : "monday",
+            "time" : "12:00 - 12:45 pm EDT",
+            "title" : "Panel"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "time" : "12:00 - 12:45 pm EDT",
+            "title" : "How to Build the Culture of Diversity and Inclusion in Research and Industry",
+            "authors" : "<a href='https://research.vmware.com/researchers/radhika-niranjan'>Radhika Niranjan Mysore</a> (VMWare), <a href='https://www.cs.purdue.edu/homes/fahmy/'>Sonia Fahmy</a> (Purdue University), <a href='https://people.cs.uchicago.edu/~htzheng/'>Heather Zheng</a> (University of Chicago), <a href='http://www3.cs.stonybrook.edu/~arunab/'>Aruna Balasubramanian</a> (Stony Brook University)"
+        },
+
+        {
+            "break" : "true",
+            "day" : "monday",
+            "time" : "12:45 - 1:00 pm EDT",
+            "break_type" : "Virtual coffee break"
+        },
+
+        {
+            "session_header" : "true",
+            "day" : "monday",
+            "time" : "1:00 - 1:50 pm EDT",
+            "title" : "Poster Session 2 (8 posters)"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Footprint and Performance of Large Cloud Networks",
+            "authors" : "Jia He, Weifan Jiang, Ege Gurmericliler, Georgia Essig (Columbia University); Arpit Gupta (UC Santa Barbara); Matt Calder (Microsoft); Vasileios Giotsas (Lancaster University); Italo Cunha (Universidade Federal de Minas Gerais); Ethan Katz-Bassett, Todd Arnold (Columbia University)"
+        },
+                                                        
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Prudentia: A Watchdog Service for Measuring Congestion Control Harm on the Internet",
+            "authors" : "Rukshani Athapathu, Ranysha Ware, Justine Sherry, Aditya Abraham Philip, Srinivasan Seshan (Carnegie Mellon University)"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "NADA Fairness: Analyzing the Future of WebRTC",
+            "authors" : "Serena Vincent (Spelman College); Adithya Phillip, Justine Sherry, Rukshani Athapathu, Srinivasan Seshan (Carnegie Mellon University)"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Enhance Video Steaming over Mobile Networks with iCellSpeed",
+            "authors" : "Jingqi Huang, Haotian Deng (Purdue University); Qianru Li (UCLA); Chunyi Peng (Purdue University)"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Empirically Evaluating Configurations of a Sketch-Based Data Analysis Framework",
+            "authors": "Tooba Bajwa (The College of New Jersey); Antonis Manousis, Vyas Sekar, Justine Sherry (Carnegie Mellon University)"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Correlation-Aware Flow Consolidation with Reinforcement Learning",
+            "authors" : "Shiva Ketabi, Mahdi Haghifam (University of Toronto); Faraz Farahvash (Sharif University of Technology); Yashar Ganjali (University of Toronto)"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Consolidated Data Plane Algorithms and Data Structures",
+            "authors" : "Minmei Wang, Melanie Wong, Shouqian Shi, Xiaofeng Shi, Chen Qian (University of California, Santa Cruz)"
+        },
+        
+        {
+            "paper" : "true",
+            "day" : "monday",
+            "title" : "Using Network Localization Algorithms for Digital Contact Logging Applications",
+            "authors" : "Lillian Clark (University of Southern California); Alan Papalia (Massachusetts Institute of Technology); Luca Mastrostefano (Covid Community Alert); Jonata Tyska Carvalho (Federal University of Santa Catarina); Bhaskar Krishnamachari (University of Southern California)"
+        },
+        
+        {
+            "break" : "true",
+            "time" : "1:50 - 2:00 pm EDT",
+            "break_type" : "Virtual coffee break ",
+            "day" : "monday"
+        },
+
+        {
+            "break" : "true",
+            "time" : "2:00 - 2:15 pm EDT",
+            "break_type" : "Award Announcement and Closing",
+            "day" : "monday"
+        },
+
+        {
+            "program_end" : "true"
+        }
+        
+    ]
+}

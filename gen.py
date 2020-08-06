@@ -28,14 +28,14 @@ data_files = ['index',
               'camera-ready',
               'cf-posters',
               'tutorial-quic',
-              'n2women',
               'content-forthcoming',
               'supporters']
 
 templated_files = {'program': 'main-program',
                    'workshop-optsys' : 'optsys-program',
                    'workshop-epiq': 'epiq-program',
-                   'workshop-hotedgevideo': 'hotedgevideo-program'}
+                   'workshop-hotedgevideo': 'hotedgevideo-program',
+                   'n2women': 'n2women-program'}
 
 def read_file(fname):
     with open(data_folder + fname + '.html', 'r') as f:
