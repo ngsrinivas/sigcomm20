@@ -121,11 +121,13 @@
                <p><a href="{{ program_item.slack_channel }}">Go to Slack channel</a></p>
                {% endif -%}
              </td>
+             {% if program_item.slide_relpath is defined -%}
              <td>
                 <a style="color: dimgray;" href="{{ program_item.slide_relpath }}" rel="external" target="_blank">
                     <i class="fa fa-file-powerpoint-o"></i>
                 </a>
              </td>
+             {% endif -%}
              <!-- No videos for keynotes -->
              <!-- 
              <td>

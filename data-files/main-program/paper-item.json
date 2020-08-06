@@ -525,6 +525,22 @@
         },
 
         {
+            "session_header" : "true",
+            "time" : "1:00 - 1:45 pm EDT",
+            "title" : "Panel &nbsp;&nbsp;&nbsp;&nbsp;<i>(happening in parallel with the SIGCOMM Community Meeting, see below)</i>",
+            "session_chair" : "Ellen Zegura",
+            "day" : "wednesday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017RJVN44X"
+        },
+
+        {
+            "keynote" : "true",
+            "time" : "1:00 - 1:45 pm EDT",
+            "keynote_title" : "A Conversation on Networking for the Social Good",
+            "keynote_speaker" : "Martin Casado <em>(MuralNet)</em>, Kurtis Heimerl <em>(University of Washington)</em>, Leandro Navarro <em>(Politecnica de Catalunya)</em>, Ellen Zegura <em>(Georgia Tech)</em>"
+        },        
+
+        {
             "break" : "true",
             "time" : "1:00 - 1:45 pm EDT",
             "break_type" : "SIGCOMM Community Meeting",
@@ -900,8 +916,23 @@
         },
 
         {
-            "break" : "true",
+            "session_header" : "true",
             "time" : "1:00 - 1:45 pm EDT",
+            "title" : "Panel",
+            "session_chair" : "Shyam Gollakota",
+            "day" : "thursday",
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C018W6R7EEL/"
+        },
+
+        {
+            "keynote" : "true",
+            "time" : "1:00 - 1:45 pm EDT",
+            "keynote_title" : "A Conversation on Future Embedded Systems: Living IoT, Nano Satellites and Mobile health",
+            "keynote_speaker" : "Tanzeem Choudhury <em>(Cornell Tech)</em>, Shyam Gollakota <em>(University of Washington)</em>, Luca Mottola <em>(Politecnico di Milano)</em>"
+        },
+
+        {
+            "break" : "true",
             "time2" : "12:00 - 12:45 am EDT",
             "break_type" : "Break",
             "day" : "thursday"
