@@ -123,7 +123,7 @@
         {
             "session_header" : "true",
             "time" : "2:05 - 3:55 pm EDT",
-            "title": "Session 1: Invited Talks",
+            "title": "Session 3: Invited Talks",
             "day" : "monday"
         },
 
@@ -154,7 +154,7 @@
         {
             "paper" : "true",
             "day" : "monday",
-            "title" : "Invited Talk: Optics to scale the Datacenter: Technology directions over the next decade (25min)",
+            "title" : "Optics to scale the Datacenter: Technology directions over the next decade (25min)",
             "authors" : "Ryohei Urata (Google)",
             "abstract" : "We will review the role of optics in bringing hyperscale datacenters to their present state. We will then discuss future technology directions, with focus on themes of higher speeds, integration, and the end of Moore’s Law."
         },

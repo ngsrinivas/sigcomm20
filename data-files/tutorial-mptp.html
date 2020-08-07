@@ -20,7 +20,7 @@
       <tr>
         <td style="width:100%;text-align:left;">
           <h3 style="font-weight: 700">
-            10:00 - 10:30 am EDT
+            10:00 - 11:30 am EDT
             Session I: Multipath TCP
           </h3>
         </td>        
@@ -33,24 +33,7 @@
     <li data-icon="false" class="prog-item prog-monday">
         <table>
            <tr>
-               <td style="font-size:80%; padding-right:10px; max-width:20%;">10:00 - 10:15 am EDT</td>
-               
-               <td style="width:100%;text-align:left;">
-                  <p class="paper-header">
-                    Basic principles of Multipath transport protocols
-  
-                  </p>
-                  <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
-                  <p>Olivier Bonaventure, UCLouvain, Belgium</p>
-               </td> 
-           </tr>
-        </table>
-    </li>
-
-    <li data-icon="false" class="prog-item prog-monday">
-        <table>
-           <tr>
-               <td style="font-size:80%; padding-right:10px; max-width:20%;">10:15 - 11:30 am EDT</td>
+               <td style="font-size:80%; padding-right:10px; max-width:20%;">10:00 - 11:00 am EDT</td>
                
                <td style="width:100%;text-align:left;">
                   <p class="paper-header">
@@ -63,6 +46,24 @@
            </tr>
         </table>
     </li>
+    
+    <li data-icon="false" class="prog-item prog-monday">
+        <table>
+           <tr>
+               <td style="font-size:80%; padding-right:10px; max-width:20%;">11:00 - 11:30 am EDT</td>
+               
+               <td style="width:100%;text-align:left;">
+                  <p class="paper-header">
+                    Hands-on labs: The impact of multi-path algorithms
+  
+                  </p>
+                  <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+                  <p>Quentin De Coninck, UCLouvain, Belgium </p>
+               </td> 
+           </tr>
+        </table>
+    </li>
+
 
     <li class="prog-break prog-item ui-li-divider prog-monday   " data-role="list-divider">
     <h3 style="font-weight: 500;">
@@ -78,8 +79,8 @@
       <tr>
         <td style="width:100%;text-align:left;">
           <h3 style="font-weight: 700">
-            12:00 pm - 1:30 pm EDT
-            Session II: Multipath QUIC and the Impact of Multipath algorithm
+            12:00 - 1:30 pm EDT
+            Session II: Multipath QUIC
           </h3>
         </td>
       </tr>
@@ -91,12 +92,11 @@
     <li data-icon="false" class="prog-item prog-monday">
         <table>
            <tr>
-               <td style="font-size:80%; padding-right:10px; max-width:20%;">12:00 - 12:30 pm EDT</td>
+               <td style="font-size:80%; padding-right:10px; max-width:20%;">12:00 - 1:00 pm EDT</td>
                
                <td style="width:100%;text-align:left;">
                   <p class="paper-header">
-                    Applying multipath principles to a cleaner transport protocol:
-Multipath QUIC
+                    Applying multipath principles to a cleaner transport protocol: Multipath QUIC
   
                   </p>
                   <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
@@ -112,8 +112,8 @@ Multipath QUIC
                <td style="font-size:80%; padding-right:10px; max-width:20%;">12:30 - 1:30 pm EDT</td>
                
                <td style="width:100%;text-align:left;">
-                  <p class="paper-header">
-                    Hands-on labs: the impact of Multipath algorithms
+                 <p class="paper-header">
+                   Hands-on labs: Multipath QUIC in action and tweaking its packet scheduler 
   
                   </p>
                   <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
@@ -152,13 +152,17 @@ Multipath QUIC
 
 <h2 id="outline">Outline</h2>
 
-<p>This tutorial consists in three lectures and one hands-on lab.</p>
+<p>This tutorial consists in two lectures and two hands-on labs.</p>
 
 <ul>
-    <li><p><strong>Basic principles of Multipath transport protocols</strong> This introductory lecture describes why using multiple paths can be desirable and which challenges such protocols face</p></li>
-    <li><p><strong>The design of Multipath TCP and the influence of the middleboxes</strong> This lecture explains how TCP can be extended through TCP options to support the simultanous usage of multiple paths and reports deployment experiences that led to the current design</p></li>
-    <li><p><strong>Applying multipath principles to a cleaner transport protocol: Multipath QUIC</strong> This lecture introduces the main features of the QUIC protocol and then explains how Multipath QUIC got rid of many design issues that affects Multipath TCP</p></li>
-    <li><p><strong>Hands-on labs: the impact of Multipath algorithms</strong> This hands-on lab is based on a vagrant box that enables participants to figure out the importance of the multipath algorithms (path manager, packet scheduler,...) depending on the network conditions and the network traffics</p></li>
+  <li><strong>The design of Multipath TCP and the influence of the middleboxes:</strong> After introducing why using multiple paths can be desirable and which challenges such protocols face, this lecture explains how TCP can be extended through TCP options to support the simultaneous usage of multiple paths and reports deployment experiences that led to the current design</li>
+
+  <li><strong>Hands-on labs: the impact of Multipath algorithms:</strong> This hands-on lab is based on a vagrant box that enables participants to figure out the importance of the multipath algorithms (path manager, packet scheduler,...) depending on the network conditions and the network traffics</li>
+
+  <li><strong>Applying multipath principles to a cleaner transport protocol:</strong> Multipath QUIC This lecture introduces the main features of the QUIC protocol and then explains how Multipath QUIC got rid of many design issues that affects Multipath TCP</li>
+
+  <li><strong>Hands-on labs:</strong> Multipath QUIC in action and tweaking its packet scheduler This second hands-on lab reuses the vagrant box to observe how a Multipath QUIC implementation behaves and allows participants to hack with its packet scheduler, one of the key multipath algorithms</li>
+
 </ul>
 
 <h2 id="background">Background</h2>
@@ -175,7 +179,7 @@ Multipath QUIC
 
 <h2 id="audience-expectations-and-prerequisites">Audience Expectations and Prerequisites</h2>
 
-<p>Anyone with basic understanding of TCP can participate in this tutorial. In order to benefit from the hands-on, they are asked to bring they own laptop with <code class="language-plaintext highlighter-rouge">vagrant</code> installed on it. The vagrant box is available at the following link: <a href="https://todo">TODO</a>.</p>
+<p>Anyone with basic understanding of TCP can participate in this tutorial. In order to benefit from the hands-on, they are asked to bring they own laptop with <code class="language-plaintext highlighter-rouge">vagrant</code> installed on it. The vagrant box is available at the following link: <a href="https://github.com/qdeconinck/sigcomm20_mptp_tutorial">MPTP tutorial software setup</a>.</p>
 
 <h2 id="organizers">Organizers</h2>
 
