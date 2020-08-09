@@ -50,7 +50,13 @@
             "session_chair" : "Xin Jin",
             "session_chair2" : "Vincent Liu",
             "day" : "tuesday",
-            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017V5M5CDP"
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017V5M5CDP",
+            "topic_previews" : [
+                {
+                    "preview_title" : "Programmable Switches",
+                    "preview_link"  : "https://www.youtube.com/watch?v=Bp75OJSxG5w"
+                }
+            ]
         },
 
         {
@@ -100,7 +106,18 @@
             "session_chair" : "Arpit Gupta",
             "session_chair2" : "Hongqiang Liu",
             "day" : "tuesday",
-            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0171Q9KZ63/"
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0171Q9KZ63/",
+            "topic_previews" : [
+                {
+                    "preview_title" : "Telemetry",
+                    "preview_link"  : "https://youtu.be/VzbV0ceRAVU"
+                },
+                
+                {
+                    "preview_title" : "Programmable switches",
+                    "preview_link"  : "https://www.youtube.com/watch?v=Bp75OJSxG5w"
+                }
+            ]
         },
 
         {
@@ -256,7 +273,13 @@
             "session_chair" : "Minlan Yu",
             "session_chair2" : "Nate Foster",
             "day" : "tuesday",
-            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017GGSLMNW"
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017GGSLMNW",
+            "topic_previews" : [
+                {
+                    "preview_title" : "Verification",
+                    "preview_link"  : "https://www.youtube.com/watch?v=isKw_Ic-Eao&feature=youtu.be"
+                }
+            ]
         },
         
         {
@@ -319,7 +342,13 @@
             "session_chair" : "Ganesh Ananthanarayanan",
             "session_chair2" : "Dongsu Han",
             "day" : "tuesday",
-            "slack_channel": "https://app.slack.com/client/T0107RGGMU6/C0186C4FSU8"
+            "slack_channel": "https://app.slack.com/client/T0107RGGMU6/C0186C4FSU8",
+            "topic_previews" : [
+                {
+                    "preview_title" : "Video+ML",
+                    "preview_link"  : "https://youtu.be/5VtWWG_a1sk"
+                }
+            ]
         },
         
         {
@@ -487,7 +516,23 @@
             "session_chair2" : "Kate Lin",
             "title": "Technical Session 7: What is Switch Programmability Good For?",
             "day" : "wednesday",
-            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0179QW544E"
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0179QW544E",
+            "topic_previews" : [
+                {
+                    "preview_title" : "Programmable switches",
+                    "preview_link"  : "https://www.youtube.com/watch?v=Bp75OJSxG5w"
+                },
+
+                {
+                    "preview_title" : "Network Function Virtualization",
+                    "preview_link"  : "https://www.youtube.com/watch?v=l25biNs0n3U"
+                },
+
+                {
+                    "preview_title" : "Telemetry",
+                    "preview_link"  : "https://youtu.be/VzbV0ceRAVU"
+                }
+            ]
         },
         
         {
@@ -814,7 +859,18 @@
             "session_chair" : "Aurojit Panda",
             "session_chair2" : "Danyang Zhuo",
             "day" : "thursday",
-            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017GH6C282"
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017GH6C282",
+            "topic_previews" : [
+                {
+                    "preview_title" : "Network Function Virtualization",
+                    "preview_link"  : "https://www.youtube.com/watch?v=l25biNs0n3U"
+                },
+
+                {
+                    "preview_title" : "Programmable switches",
+                    "preview_link"  : "https://www.youtube.com/watch?v=Bp75OJSxG5w"
+                }
+            ]
         },
         
         {
@@ -878,7 +934,13 @@
             "session_chair" : "Radhika Niranjan Mysore",
             "session_chair2" : "Dongsu Han",
             "day" : "thursday",
-            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017V67076D"
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017V67076D",
+            "topic_previews" : [
+                {
+                    "preview_title" : "Data centers: Advanced networking",
+                    "preview_link"  : "https://www.youtube.com/watch?v=SII9-VDmsQc&feature=youtu.be"
+                }
+            ]
         },
         
         {
@@ -1040,7 +1102,13 @@
             "session_chair" : "Sanjay Rao",
             "session_chair2" : "Sangeetha Abdu Jyothi",
             "day" : "thursday",
-            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017F6DG78D"
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017F6DG78D",
+            "topic_previews" : [
+                {
+                    "preview_title" : "Video + ML",
+                    "preview_link"  : "https://youtu.be/5VtWWG_a1sk"
+                }
+            ]
         },
         
         {

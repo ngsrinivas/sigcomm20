@@ -22,6 +22,14 @@
   {% if program_item.slack_channel is defined -%}
   <h5 style="font-size:90%;"><strong><a href="{{ program_item.slack_channel }}">Go to Slack channel</a></strong></h5>
   {% endif -%}
+  {% if program_item.topic_previews is defined -%}
+  <h5 style="font-size: 90%"><strong>Related Topic Preview(s):</strong>
+    {% for preview_item in program_item.topic_previews -%}
+    &nbsp;&nbsp;&nbsp; <a href="{{ preview_item.preview_link }}">{{ preview_item.preview_title }}</a>
+    {% endfor -%}
+    </h5>
+  {% endif -%}
+  
 </li>
 <!-- end session header -->
 
