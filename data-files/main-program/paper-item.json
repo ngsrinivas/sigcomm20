@@ -175,6 +175,7 @@
         {
             "session_header" : "true",
             "time" : "1:00 - 1:45 pm EDT",
+            "time2" : "12:00 - 12:45 am EDT",
             "title" : "Panel &nbsp;&nbsp;&nbsp;&nbsp;<i>(happening in parallel with the Sponsors/Job Event, see below)</i>",
             "session_chair" : "Nick Feamster",
             "day" : "tuesday",
@@ -184,6 +185,7 @@
         {
             "keynote" : "true",
             "time" : "1:00 - 1:45 pm EDT",
+            "time2" : "12:00 - 12:45 am EDT",
             "keynote_title" : "A Conversation On Privacy",
             "keynote_speaker" : "TBD"
         },
@@ -194,13 +196,6 @@
             "break_type" : "<a href='/sigcomm/2020/supporters.html'>SIGCOMM Sponsors/Job Event</a> (<a href='https://app.slack.com/client/T0107RGGMU6/C017ZKK40MC/ '>Go to Slack channel</a>)",
             "day" : "tuesday"
         },
-
-        {
-            "break" : "true",
-            "time" : "12:00 - 12:45 am EDT",
-            "break_type" : "Break",
-            "day": "wednesday"
-        },        
 
         {
             "session_header" : "true",
@@ -406,6 +401,14 @@
         },
 
         {
+            "break" : "true",
+            "time" : "5:30 - 6:30 pm EDT",
+            "time2" : "3:30 - 4:30 am EDT",
+            "break_type" : "Pictionary (<a href='https://app.slack.com/client/T0107RGGMU6/C018J8T602E'>Go to Slack channel</a>)",
+            "day" : "tuesday"
+        },
+
+        {
             "day_header" : "true",
             "day" : "wednesday",
             "day_title" : "Wednesday, August 12, 2020 EDT"
@@ -590,6 +593,7 @@
         {
             "session_header" : "true",
             "time" : "1:00 - 1:45 pm EDT",
+            "time2" : "12:00 - 12:45 am EDT",
             "title" : "Panel &nbsp;&nbsp;&nbsp;&nbsp;<i>(happening in parallel with the SIGCOMM Community Meeting, see below)</i>",
             "session_chair" : "Ellen Zegura",
             "day" : "wednesday",
@@ -599,6 +603,7 @@
         {
             "keynote" : "true",
             "time" : "1:00 - 1:45 pm EDT",
+            "time2" : "12:00 - 12:45 am EDT",
             "keynote_title" : "A Conversation on Networking for the Social Good",
             "keynote_speaker" : "Martin Casado <em>(MuralNet)</em>, Kurtis Heimerl <em>(University of Washington)</em>, Leandro Navarro <em>(Politecnica de Catalunya)</em>, Ellen Zegura <em>(Georgia Tech)</em>"
         },        
@@ -606,14 +611,8 @@
         {
             "break" : "true",
             "time" : "1:00 - 1:45 pm EDT",
+            "time2" : "12:00 - 12:45 am EDT",
             "break_type" : "SIGCOMM Community Meeting",
-            "day" : "wednesday"
-        },
-
-        {
-            "break" : "true",
-            "time" : "12:00 - 12:45 am EDT",
-            "break_type" : "Break",
             "day" : "wednesday"
         },
 
@@ -816,6 +815,7 @@
         {
             "session_header" : "true",
             "time" : "10:00 - 10:30 am EDT",
+            "time2" : "9:00 - 9:30 pm EDT",
             "title" : "Invited/Industry Talk #1",
             "day" : "thursday",
             "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0171QRBNSK",
@@ -826,6 +826,7 @@
             "keynote" : "true",
             "day" : "thursday",
             "time" : "10:00 - 10:30 am EDT",
+            "time2" : "9:00 - 9:30 pm EDT",
             "keynote_title" : "What's Beyond 5G?",
             "keynote_speaker" : "Andrea Goldsmith <em>(Stanford University)</em>",
             "slide_relpath" : "files/slides/content-forthcoming.html",
@@ -835,6 +836,7 @@
         {
             "session_header" : "true",
             "time" : "10:30 - 11:00 am EDT",
+            "time2" : "9:30 - 10:00 pm EDT",
             "title" : "Invited/Industry Talk #2",
             "day" : "thursday",
             "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017RJDBAA3",
@@ -845,6 +847,7 @@
             "keynote" : "true",
             "day" : "thursday",
             "time" : "10:30 - 11:00 am EDT",
+            "time2" : "9:30 - 10:00 pm EDT",
             "keynote_title" : "Zoom: A Conversation",
             "keynote_speaker" : "Eric Yuan <em>(CEO, Zoom)</em>",
             "slide_relpath" : "files/slides/content-forthcoming.html",
@@ -998,8 +1001,9 @@
         {
             "session_header" : "true",
             "time" : "1:00 - 1:45 pm EDT",
+            "time2" : "12:00 - 12:45 am EDT",
             "title" : "Panel",
-            "session_chair" : "Shyam Gollakota",
+            "session_chair" : "Shyam Gollakota &nbsp;&nbsp;&nbsp;&nbsp;<i>(happening in parallel with the Speed Networking 1:1 Sessions, see below)</i>",
             "day" : "thursday",
             "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C018W6R7EEL/"
         },
@@ -1007,14 +1011,16 @@
         {
             "keynote" : "true",
             "time" : "1:00 - 1:45 pm EDT",
+            "time2" : "12:00 - 12:45 am EDT",
             "keynote_title" : "A Conversation on Future Embedded Systems: Living IoT, Nano Satellites and Mobile health",
             "keynote_speaker" : "Tanzeem Choudhury <em>(Cornell Tech)</em>, Shyam Gollakota <em>(University of Washington)</em>, Luca Mottola <em>(Politecnico di Milano)</em>"
         },
 
         {
             "break" : "true",
+            "time" : "1:00 - 1:45 pm EDT",
             "time2" : "12:00 - 12:45 am EDT",
-            "break_type" : "Break",
+            "break_type" : "Speed Networking 1:1 Sessions (<a href='https://app.slack.com/client/T0107RGGMU6/C0183NHM7JB'>Go to Slack channel</a>)",
             "day" : "thursday"
         },
 
@@ -1189,6 +1195,7 @@
             "keynote" : "true",
             "day" : "thursday",
             "time" : "4:30 - 5:00 pm EDT",
+            "time2" : "3:30 - 4:00 am EDT",
             "keynote_title" : "The network as a programmable platform: fertile new ground for networking research",
             "keynote_speaker" : "Nick McKeown <em>(Stanford University)</em>",
             "slide_relpath" : "files/slides/content-forthcoming.html",
@@ -1199,11 +1206,19 @@
             "keynote" : "true",
             "day" : "tuesday",
             "time" : "5:00 - 5:15 pm EDT",
-            "time2" : "3:15 - 3:30 am EDT",
+            "time2" : "4:00 - 4:15 am EDT",
             "keynote_title" : "Closing",
             "keynote_speaker" : "Vishal Misra <em>(Columbia University, USA)</em>, Henning Schulzrinne <em>(Columbia University, USA)</em>, Sujata Banerjee <em>(VMware Research)</em>, Ratul Mahajan <em>(University of Washington, Intentionet)</em>",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "dl_video_link" : "content-forthcoming.html"
+        },
+
+        {
+            "break" : "true",
+            "time" : "5:15- 6:15 pm EDT",
+            "time2" : "4:15 - 5:15 am EDT",
+            "break_type" : "Virtual Tours: Minecraft + Videos (<a href='https://app.slack.com/client/T0107RGGMU6/C0186JP5Q1W'>Go to Slack channel</a>)",
+            "day" : "thursday"
         },
         
         {
