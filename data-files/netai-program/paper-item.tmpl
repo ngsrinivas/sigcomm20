@@ -8,6 +8,9 @@
   <h3 style="font-weight: 700">
     {{ program_item.time }} {{ program_item.title }}
   </h3>
+  {% if program_item.session_chair is defined -%}
+  <h5 style="font-size:90%"><strong>Session chair: </strong> {{ program_item.session_chair }} </h5>
+  {% endif -%}
 </li>
 <!-- end session header -->
 
