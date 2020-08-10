@@ -174,8 +174,8 @@
 
         {
             "session_header" : "true",
-            "time" : "1:00 - 1:45 pm EDT",
-            "time2" : "12:00 - 12:45 am EDT",
+            "time" : "1:05 - 1:40 pm EDT",
+            "time2" : "12:05 - 12:40 am EDT",
             "title" : "Panel &nbsp;&nbsp;&nbsp;&nbsp;<i>(happening in parallel with the Sponsors/Job Event, see below)</i>",
             "session_chair" : "Nick Feamster",
             "day" : "tuesday",
@@ -184,15 +184,15 @@
 
         {
             "keynote" : "true",
-            "time" : "1:00 - 1:45 pm EDT",
-            "time2" : "12:00 - 12:45 am EDT",
+            "time" : "1:05 - 1:40 pm EDT",
+            "time2" : "12:05 - 12:40 am EDT",
             "keynote_title" : "A Conversation On Privacy",
-            "keynote_speaker" : "TBD"
+            "keynote_speaker" : "Dave Choffnes <em>(Northeastern University)</em>, Dave Levin <em>(University of Maryland)</em>, Franzi Roesner <em>(University of Washington)</em>, Stefan Savage <em>(UC San Diego)</em>"
         },
         
         {
             "break" : "true",
-            "time" : "1:00 - 1:45 pm EDT",
+            "time" : "1:05 - 1:40 pm EDT",
             "break_type" : "<a href='/sigcomm/2020/supporters.html'>SIGCOMM Sponsors/Job Event</a> (<a href='https://app.slack.com/client/T0107RGGMU6/C017ZKK40MC/ '>Go to Slack channel</a>)",
             "day" : "tuesday"
         },
@@ -592,8 +592,8 @@
 
         {
             "session_header" : "true",
-            "time" : "1:00 - 1:45 pm EDT",
-            "time2" : "12:00 - 12:45 am EDT",
+            "time" : "1:05 - 1:40 pm EDT",
+            "time2" : "12:05 - 12:40 am EDT",
             "title" : "Panel &nbsp;&nbsp;&nbsp;&nbsp;<i>(happening in parallel with the SIGCOMM Community Meeting, see below)</i>",
             "session_chair" : "Ellen Zegura",
             "day" : "wednesday",
@@ -602,16 +602,16 @@
 
         {
             "keynote" : "true",
-            "time" : "1:00 - 1:45 pm EDT",
-            "time2" : "12:00 - 12:45 am EDT",
+            "time" : "1:05 - 1:40 pm EDT",
+            "time2" : "12:05 - 12:40 am EDT",
             "keynote_title" : "A Conversation on Networking for the Social Good",
             "keynote_speaker" : "Martin Casado <em>(MuralNet)</em>, Kurtis Heimerl <em>(University of Washington)</em>, Leandro Navarro <em>(Politecnica de Catalunya)</em>, Ellen Zegura <em>(Georgia Tech)</em>"
         },        
 
         {
             "break" : "true",
-            "time" : "1:00 - 1:45 pm EDT",
-            "time2" : "12:00 - 12:45 am EDT",
+            "time" : "1:05 - 1:40 pm EDT",
+            "time2" : "12:05 - 12:40 am EDT",
             "break_type" : "SIGCOMM Community Meeting",
             "day" : "wednesday"
         },
@@ -1000,8 +1000,8 @@
 
         {
             "session_header" : "true",
-            "time" : "1:00 - 1:45 pm EDT",
-            "time2" : "12:00 - 12:45 am EDT",
+            "time" : "1:05 - 1:40 pm EDT",
+            "time2" : "12:05 - 12:40 am EDT",
             "title" : "Panel",
             "session_chair" : "Shyam Gollakota &nbsp;&nbsp;&nbsp;&nbsp;<i>(happening in parallel with the Speed Networking 1:1 Sessions, see below)</i>",
             "day" : "thursday",
@@ -1010,16 +1010,16 @@
 
         {
             "keynote" : "true",
-            "time" : "1:00 - 1:45 pm EDT",
-            "time2" : "12:00 - 12:45 am EDT",
+            "time" : "1:05 - 1:40 pm EDT",
+            "time2" : "12:05 - 12:40 am EDT",
             "keynote_title" : "A Conversation on Future Embedded Systems: Living IoT, Nano Satellites and Mobile health",
             "keynote_speaker" : "Tanzeem Choudhury <em>(Cornell Tech)</em>, Shyam Gollakota <em>(University of Washington)</em>, Luca Mottola <em>(Politecnico di Milano)</em>"
         },
 
         {
             "break" : "true",
-            "time" : "1:00 - 1:45 pm EDT",
-            "time2" : "12:00 - 12:45 am EDT",
+            "time" : "1:05 - 1:40 pm EDT",
+            "time2" : "12:05 - 12:40 am EDT",
             "break_type" : "Speed Networking 1:1 Sessions (<a href='https://app.slack.com/client/T0107RGGMU6/C0183NHM7JB'>Go to Slack channel</a>)",
             "day" : "thursday"
         },
