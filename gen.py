@@ -26,7 +26,8 @@ data_files = ['index',
               'cf-posters',
               'tutorial-quic',
               'content-forthcoming',
-              'supporters']
+              'supporters',
+              'policies']
 
 templated_files = {'program': 'main-program',
                    'workshop-optsys' : 'optsys-program',
