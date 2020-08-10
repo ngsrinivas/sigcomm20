@@ -205,7 +205,19 @@
             "session_chair" : "Dave Levin",
             "session_chair2" : "Tim Griffin",
             "day" : "tuesday",
-            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0186C1LP16/"
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0186C1LP16/",
+ 	    "topic_previews" : [
+                {
+                    "preview_title" : "Quantum networks",
+                    "preview_link"  : "https://www.youtube.com/watch?v=3Z6V65MB0bQ"
+                },
+                
+                {
+                    "preview_title" : "Routing",
+                    "preview_link"  : "https://www.youtube.com/watch?v=fOT4h-WcfEY&feature=youtu.be"
+                }
+            ]
+
         },
         
         {
@@ -443,7 +455,13 @@
             "session_chair"  : "Rachit Agarwal",
             "session_chair2" : "Radhika Mittal",
             "day" : "wednesday",
-            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017GGXANJE"
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017GGXANJE",
+	    "topic_previews" : [
+                {
+                    "preview_title" : "Congestion Control",
+                    "preview_link"  : "https://www.youtube.com/watch?v=MoBpZhf-ca0&feature=youtu.be"
+                }
+            ]
         },
         
         {
@@ -624,7 +642,24 @@
             "session_chair" : "Manya Ghobadi",
             "session_chair2" : "Paolo Costa",
             "day" : "wednesday",
-            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017NNFV2BW"
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017NNFV2BW",
+	    "topic_previews" : [
+                {
+                    "preview_title" : "Congestion Control",
+                    "preview_link"  : "https://www.youtube.com/watch?v=MoBpZhf-ca0&feature=youtu.be"
+                },
+		{
+                    "preview_title" : "Data centers: advanced networking",
+                    "preview_link"  : "https://www.youtube.com/watch?v=SII9-VDmsQc&feature=youtu.be"
+                },
+                
+                
+                {
+                    "preview_title" : "Debugging and availability of large-scale services",
+                    "preview_link"  : "https://www.youtube.com/watch?v=0ScKtPIiVqI"
+                }
+            ]
+
         },
         
         {
@@ -688,7 +723,13 @@
             "session_chair" : "Deepak Vasisht",
             "session_chair2" : "Lili Qiu",
             "day" : "wednesday",
-            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0171QMDXTR"
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0171QMDXTR",
+ 	    "topic_previews" : [
+                {
+                    "preview_title" : "Backscatter and NFV",
+                    "preview_link"  : "https://www.youtube.com/watch?v=eyGPcm6RS2U&feature=youtu.be"
+                }
+            ]
         },
         
         {
@@ -752,7 +793,13 @@
             "session_chair" : "Steve Uhlig",
             "session_chair2" : "Sergey Gorinsky",
             "day" : "wednesday",
-            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0179R02FPG"
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0179R02FPG",
+	    "topic_previews" : [
+                {
+                    "preview_title" : "Congestion Control",
+                    "preview_link"  : "https://www.youtube.com/watch?v=MoBpZhf-ca0&feature=youtu.be"
+                }
+            ]
         },
         
         {
@@ -939,6 +986,11 @@
             "day" : "thursday",
             "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C017V67076D",
             "topic_previews" : [
+		{
+                    "preview_title" : "Data centers: Topology",
+                    "preview_link"  : "https://www.youtube.com/watch?v=hseNaMkEcyk&feature=youtu.be"
+                },
+
                 {
                     "preview_title" : "Data centers: Advanced networking",
                     "preview_link"  : "https://www.youtube.com/watch?v=SII9-VDmsQc&feature=youtu.be"
@@ -1032,7 +1084,21 @@
             "session_chair" : "Aaron Schulman",
             "session_chair2" : "Kun Tan",
             "day" : "thursday",
-            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0186CLT39N"
+            "slack_channel" : "https://app.slack.com/client/T0107RGGMU6/C0186CLT39N",
+	    "topic_previews" : [
+                {
+                    "preview_title" : "Congestion Control",
+                    "preview_link"  : "https://www.youtube.com/watch?v=MoBpZhf-ca0&feature=youtu.be"
+                },
+
+		{
+                    "preview_title" : "Cellular",
+                    "preview_link"  : "https://www.youtube.com/watch?v=F-4QBAa925g&feature=youtu.be"
+                }
+
+            ]
+
+
         },
         
         {
@@ -1113,7 +1179,13 @@
                 {
                     "preview_title" : "Video + ML",
                     "preview_link"  : "https://youtu.be/5VtWWG_a1sk"
+                },
+
+		{
+                    "preview_title" : "Debugging and availability of large-scale services",
+                    "preview_link"  : "https://www.youtube.com/watch?v=0ScKtPIiVqI"
                 }
+	
             ]
         },
         
