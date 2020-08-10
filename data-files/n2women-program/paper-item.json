@@ -29,6 +29,7 @@
             "session_header" : "true",
             "time" :  "10:10 -11:00 am EDT",
             "title" : "Poster Session 1 (7 posters)",
+            "extra_links" : "Find the posters, videos, and abstracts <a href='https://docs.google.com/spreadsheets/d/1J3LS5WWhjWwQkhqvCm6fHZWt_5zKQqitOkwRgQBHrjo/edit#gid=0'>here</a> and <a href='https://drive.google.com/drive/folders/1YLShAmdfHgrrXLFN7vlfNagwv4YOSBDG?usp=sharing'>here.</a>",
             "day" : "monday"
         },
             
@@ -92,7 +93,7 @@
             "paper" : "true",
             "day" : "monday",
             "title" : "Group 1: Challenges in Early Ph.D Studies",
-            "authors" : "Meryem Simsek and Ying Zhang"
+            "authors" : "Meryem Simsek, Ying Zhang, and Carlee Joe-Wong"
         },
 
         {
@@ -106,7 +107,7 @@
             "paper" : "true",
             "day" : "monday",
             "title" : "Group 3: Challenges in Early Academic Life",
-            "authors" : "Carlee Joe-Wong, Luoyi Fu, and Chunyi Peng"
+            "authors" : "Luoyi Fu and Chunyi Peng"
         },
 
         {
@@ -127,8 +128,9 @@
             "paper" : "true",
             "day" : "monday",
             "time" : "12:00 - 12:45 pm EDT",
-            "title" : "How to Build the Culture of Diversity and Inclusion in Research and Industry",
-            "authors" : "<a href='https://research.vmware.com/researchers/radhika-niranjan'>Radhika Niranjan Mysore</a> (VMWare), <a href='https://www.cs.purdue.edu/homes/fahmy/'>Sonia Fahmy</a> (Purdue University), <a href='https://people.cs.uchicago.edu/~htzheng/'>Heather Zheng</a> (University of Chicago), <a href='http://www3.cs.stonybrook.edu/~arunab/'>Aruna Balasubramanian</a> (Stony Brook University)"
+            "title" : "How to Build the Culture of Diversity and Inclusion in Research and Industry (<a href='/sigcomm/2020/images/n2women-flyer.pdf'>See flyer</a>)",
+            "authors" : "<b>Speakers: </b><a href='https://research.vmware.com/researchers/radhika-niranjan'>Radhika Niranjan Mysore</a> (VMWare), <a href='https://www.cs.purdue.edu/homes/fahmy/'>Sonia Fahmy</a> (Purdue University), <a href='https://people.cs.uchicago.edu/~htzheng/'>Heather Zheng</a> (University of Chicago), <a href='http://www3.cs.stonybrook.edu/~arunab/'>Aruna Balasubramanian</a> (Stony Brook University)<br/><b>Panel Co-ordinator: </b> Ferheen Ayaz (University of Sussex, UK)<br/><b>Chairs: </b>Chunyi Peng (Purdue University) and Ying Zhang (Facebook)",
+            "abstract" : "We are happy to invite you to an interactive panel discussion [<a href='/sigcomm/2020/images/n2women-flyer.pdf'>flyer</a>] with distinguished panelists from academia and industry who will share their knowledge and valuable experiences of their research career with us.<br/><br/>Everyone is welcome to join. Please <a href='https://docs.google.com/forms/d/e/1FAIpQLSfc-LJiG91kOWBu0XWAywq5BQVBy0vIYJWwoi1lJTARzaZ8Wg/viewform?vc=0&c=0&w=1'>RSVP to the event</a> and join the <a href='https://zoom.us/j/98669041526.'>Panel Zoom session.</a><br/><br/>For more information, please <a href='mailto:f.ayaz@sussex.ac.uk'>contact Ferheen Ayaz.</a><br/><br/>N^2 Women is supported by ACM SIGMOBILE, ACM SIGCOMM, IEEE Communications Society, IEEE Computer Society (CS) Technical Committee on Computer Communications (TCCC), NSF Division of Computer and Network Systems, CRA-W, Facebook, Microsoft Research, HP Labs, and Google Research."
         },
 
         {
@@ -142,9 +144,10 @@
             "session_header" : "true",
             "day" : "monday",
             "time" : "1:00 - 1:50 pm EDT",
-            "title" : "Poster Session 2 (8 posters)"
+            "title" : "Poster Session 2 (8 posters)",
+            "extra_links" : "Find the posters, videos, and abstracts <a href='https://docs.google.com/spreadsheets/d/1J3LS5WWhjWwQkhqvCm6fHZWt_5zKQqitOkwRgQBHrjo/edit#gid=0'>here</a> and <a href='https://drive.google.com/drive/folders/1YLShAmdfHgrrXLFN7vlfNagwv4YOSBDG?usp=sharing'>here.</a>"
         },
-        
+
         {
             "paper" : "true",
             "day" : "monday",

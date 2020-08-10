@@ -8,6 +8,9 @@
   <h3 style="font-weight: 700">
     {{ program_item.time }} {{ program_item.title }}
   </h3>
+  {% if program_item.extra_links is defined -%}
+  <h5>{{ program_item.extra_links }}</h5>
+  {% endif -%}
 </li>
 <!-- end session header -->
 
@@ -48,14 +51,19 @@
           </p>
         </div>
         <div class="ui-li-aside">
-          {% if program_item.paperlink is defined -%}
+          {% if program_item.paper_link is defined -%}
           <div class="button-paper">
-            <a href="{{ program_item.paperlink }}" onclick="window.location='{{ program_item.paperlink }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-file-text" aria-hidden="true"></i></a>
+            <a href="{{ program_item.paper_link }}" onclick="window.location='{{ program_item.paper_link }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-file-text" aria-hidden="true"></i></a>
           </div>
           {% endif -%}
-          {% if program_item.dl_video_link is defined -%}
+          {% if program_item.poster_link is defined -%}
           <div class="button-paper">
-            <a href="{{ program_item.dl_video_link }}" onclick="window.location='{{ program_item.dl_video_link }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-video" aria-hidden="true"></i></a>
+            <a href="{{ program_item.poster_link }}" onclick="window.location='{{ program_item.poster_link }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-photo" aria-hidden="true"></i></a>
+          </div>
+          {% endif -%}
+          {% if program_item.video_link is defined -%}
+          <div class="button-paper">
+            <a href="{{ program_item.video_link }}" onclick="window.location='{{ program_item.video_link }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
           </div>
           {% endif -%}
         </div>
@@ -70,6 +78,7 @@
       </ul>
   </div>
   {% else -%}
+  <!-- no abstract on the item -->
   <div style="width: 78%">
   <p class="paper-header">
     <h2>{{ program_item.title }}</h2>
@@ -77,14 +86,19 @@
   <p> {{ program_item.authors }} </p>
   </div>
   <div class="ui-li-aside">
-    {% if program_item.paperlink is defined -%}
+    {% if program_item.paper_link is defined -%}
     <div class="button-paper">
-      <a href="{{ program_item.paperlink }}" onclick="window.location='{{ program_item.paperlink }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-file-text" aria-hidden="true"></i></a>
+      <a href="{{ program_item.paper_link }}" onclick="window.location='{{ program_item.paper_link }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-file-text" aria-hidden="true"></i></a>
     </div>
     {% endif -%}
-    {% if program_item.dl_video_link is defined -%}
+    {% if program_item.poster_link is defined -%}
     <div class="button-paper">
-      <a href="{{ program_item.dl_video_link }}" onclick="window.location='{{ program_item.dl_video_link }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-video" aria-hidden="true"></i></a>
+      <a href="{{ program_item.poster_link }}" onclick="window.location='{{ program_item.poster_link }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-photo" aria-hidden="true"></i></a>
+    </div>
+    {% endif -%}
+    {% if program_item.video_link is defined -%}
+    <div class="button-paper">
+      <a href="{{ program_item.video_link }}" onclick="window.location='{{ program_item.video_link }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
     </div>
     {% endif -%}
   </div>
