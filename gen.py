@@ -17,7 +17,6 @@ data_files = ['index',
               'cf-tutorials',
               'submission',
               'workshop-spin',
-              'workshop-mantra',
               'camera-ready_ws',
               'tutorial-scion',
               'tutorial-mptp',
@@ -35,7 +34,8 @@ templated_files = {'program': 'main-program',
                    'workshop-hotedgevideo': 'hotedgevideo-program',
                    'n2women': 'n2women-program',
                    'workshop-netai': 'netai-program',
-                   'workshop-nai': 'nai-program'}
+                   'workshop-nai': 'nai-program',
+                   'workshop-mantra': 'mantra-program'}
 
 def read_file(fname):
     with open(data_folder + fname + '.html', 'r') as f:

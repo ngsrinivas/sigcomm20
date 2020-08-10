@@ -1,0 +1,194 @@
+{
+    "program_items": [
+        {
+            "program_start" : "true"
+        },
+
+        {
+            "day_header" : "true",
+            "day" : "friday",
+            "day_title" : "Friday, August 14, 2020 EDT"
+        },
+
+        {
+            "session_header" : "true",
+            "day" : "friday",
+            "time" : "10:30 - 11:00 am EDT",
+            "title" : "Welcome and Introduction"
+        },
+
+        {
+            "keynote" : "true",
+            "day" : "friday",
+            "time" : "10:30 - 11:00 am EDT",
+            "keynote_title" : "Welcome and Introduction",
+            "keynote_speaker" : "ManTra workshop chairs (Haya Shulman &amp; Radia Perlman)"
+        },
+
+        {
+            "session_header" : "true",
+            "day" : "friday",
+            "time" : "11:00 - 11:45 am EDT",
+            "title" : "Invited Talk 1"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "friday",
+            "time" : "11:00 - 11:30 am EDT",
+            "title" : "Securing Internet Applications From Routing Attacks",
+            "authors" : "Jennifer Rexford",
+            "abstract" : "Attacks on Internet routing are typically viewed through the lens of availability and confidentiality, assuming an adversary that either discards traffic or performs eavesdropping. Yet, a strategic adversary can use routing attacks to compromise the security of critical Internet applications like Tor, certificate authorities, and the bitcoin network.  In this talk, we survey such application-specific routing attacks and argue that both application-layer and network-layer defenses are essential and urgently needed.  While application-layer defenses are easier to deploy in the short term, we hope that greater awareness of strategic attacks on important applications can provide much needed momentum for the deployment of network-layer defenses like secure routing protocols.",
+            "bio" : "Jennifer Rexford is the Gordon Y.S. Wu Professor of Engineering and the Chair of Computer Science at Princeton University.  She served as the chair of ACM SIGCOMM from 2003 to 2007, and received the ACM SIGCOMM Award for lifetime contributions in 2018. ",
+            "image_link" : "/sigcomm/2020/images/mantra-speakers/Jennifer-Rexford.jpg"
+        },
+
+        {
+            "qa_item" : "true",
+            "qa_title" : "Q &amp; A session",
+            "time" : "11:30 - 11:45 am EDT",
+            "day" : "friday"
+        },
+
+        {
+            "break" : "true",
+            "break_type" : "Break",
+            "time" : "11:45 - 11:59 am EDT",
+            "day" : "friday"
+        },
+
+        {
+            "session_header" : "true",
+            "day" : "friday",
+            "time" : "12:00 - 12:45 pm EDT",
+            "title" : "Invited Talk 2"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "friday",
+            "time" : "12:00 - 12:30 pm EDT",
+            "title" : "New directions for high-throughput and high-security communication",
+            "authors" : "Adrian Perrig",
+            "abstract" : "Recent research in future Internet architectures has enabled several new opportunities that enable not only high security for communication, but also higher performance than traditional Internet approaches. In particular, new global symmetric key derivation systems can enable high-speed packet authentication at routers and firewalls at less than 100 ns on commodity hardware. The Path Aware Networking (PAN) concept empowers end hosts to obtain information about end-to-end network paths and select the optimal path for each packet, enabling multipath communication which can further speed up communication. We will discuss these and other directions to move toward a highly secure and efficient next-generation academic research network.",
+            "bio" : "Adrian Perrig is a Professor at the Department of Computer Science at ETH Zürich, Switzerland, where he leads the network security group. He is also a Distinguished Fellow at CyLab, and an Adjunct Professor of Electrical and Computer Engineering at Carnegie Mellon University.<br/><br/>From 2002 to 2012, he was a Professor of Electrical and Computer Engineering, Engineering and Public Policy, and Computer Science (courtesy) at Carnegie Mellon University, becoming Full Professor in 2009. From 2007 to 2012, he served as the technical director for Carnegie Mellon's Cybersecurity Laboratory (CyLab). He earned his MS and PhD degrees in Computer Science from Carnegie Mellon University, and spent three years during his PhD at the University of California at Berkeley. He received his BSc degree in Computer Engineering from EPFL. Adrian's research revolves around building secure systems -- in particular his group is working on the SCION secure Internet architecture.<br/><br/>He is a recipient of the NSF CAREER award in 2004, IBM faculty fellowships in 2004 and 2005, the Sloan research fellowship in 2006, the Security 7 award in the category of education by the Information Security Magazine in 2009, the Benjamin Richard Teare teaching award in 2011, the ACM SIGSAC Outstanding Innovation Award in 2013. He is an IEEE senior member and became an ACM Fellow in 2017.",
+            "image_link" : "/sigcomm/2020/images/mantra-speakers/Adrian-Perrig.jpg"
+        },
+
+        {
+            "qa_item" : "true",
+            "qa_title" : "Q &amp; A session",
+            "time" : "12:30 - 12:45 pm EDT",
+            "day" : "friday"
+        },
+
+        {
+            "break" : "true",
+            "break_type" : "Break",
+            "time" : "12:45 - 1:00 pm EDT",
+            "day" : "friday"
+        },
+
+        {
+            "session_header" : "true",
+            "day" : "friday",
+            "time" : "1:00 - 1:45 pm EDT",
+            "title" : "Invited Talk 3"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "friday",
+            "time" : "1:00 - 1:30 pm EDT",
+            "title" : "When Off-Path TCP Injection Attack Meets Side Channels",
+            "authors" : "Zhiyun Qian",
+            "abstract" : "In this talk, I will introduce network side channels and how they can exploited by remote attackers to launch off-path TCP packet injection attacks. As side channels were never really considered when network protocols are designed, and they are difficult to change for interoperability and backward-compatibility reasons. I will demonstrate how a blind off-path attacker can hijack a remote TCP connection (without the ability to eavesdrop and being man-in-the-middle). The talk will conclude with some early effort in systematically discovering this class of flaws.",
+            "bio" : "Dr. Zhiyun Qian is an associate professor at University of California, Riverside. He received his PhD from University of Michigan, Ann Arbor. His research interest is on system and network security, including vulnerability discovery, system building, applied program analysis, Internet security (e.g., TCP/IP), and Android security. His research has resulted in real-world impact on the design and implementation of Linux kernel, Android, FreeBSD, macOS, and firewall products. He is a recipient of the NSF CAREER Award, Applied Networking Research Prize 2019, Facebook Internet Defense Prize Finalist 2016, and the most creative idea award in GeekPwn 2016.",
+            "image_link" : "/sigcomm/2020/images/mantra-speakers/Zhiyun-Qian.png"
+        },
+
+        {
+            "qa_item" : "true",
+            "qa_title" : "Q &amp; A session",
+            "time" : "1:30 - 1:45 pm EDT",
+            "day" : "friday"
+        },
+
+        {
+            "break" : "true",
+            "break_type" : "Break",
+            "time" : "1:45 - 2:00 pm EDT",
+            "day" : "friday"
+        },
+        
+        {
+            "session_header" : "true",
+            "day" : "friday",
+            "time" : "2:00 - 2:45 pm EDT",
+            "title" : "Invited Talk 4"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "friday",
+            "time" : "2:00 - 2:30 pm EDT",
+            "title" : "Reality of HTTPS deployments online",
+            "authors" : "Nick Sullivan",
+            "abstract" : "In this talk, I’ll explore the unpleasant but true reality of HTTPS deployment online. We have made some great progress in moving the web from a primarily unencrypted and insecure medium for information transfer to one that has certain cryptographic assurances and protection. However, the reality is not as clear cut as many would assume. HTTPS does not provide end-to-end security in a significant percentage of connections online. This talk will explore the role of forward and reverse proxies and their effect on web security, while doing a deeper dive into several instances in which attacks were made using traffic manipulation against web properties that were nominally protected by HTTPS.",
+            "bio" : "Nick Sullivan is Head of Research at Cloudflare, a leading Internet security, performance, and reliability company. He leads research efforts in the fields of security and privacy, cryptography, Internet measurement, and emerging networking paradigms. Nick is also the co-chair of the Crypto Forum Research Group, which sets international standards in cryptography for the Internet Engineering Task Force. Prior to working at Cloudflare, he developed encryption technology for Apple’s Internet Services division, co-wrote Symantec’s Internet Security Threat Report, and completed degrees in both Computer Science and Pure Mathematics. He is passionate about improving the Internet through cutting-edge research and the development of open standards.",
+            "image_link" : "/sigcomm/2020/images/mantra-speakers/Nick-Sullivan.png"
+        },
+
+        {
+            "qa_item" : "true",
+            "qa_title" : "Q &amp; A session",
+            "time" : "2:30 - 2:45 pm EDT",
+            "day" : "friday"
+        },
+
+        {
+            "break" : "true",
+            "break_type" : "Break",
+            "time" : "2:45 - 3:00 pm EDT",
+            "day" : "friday"
+        },
+
+        {
+            "session_header" : "true",
+            "day" : "friday",
+            "time" : "3:00 - 3:45 pm EDT",
+            "title" : "Invited Talk 5"
+        },
+
+        {
+            "paper" : "true",
+            "day" : "friday",
+            "time" : "3:00 - 3:30 pm EDT",
+            "title" : "Using Deep Learning to Detect IP Hijack Attack",
+            "authors" : "Yuval Shavit",
+            "abstract" : "IP hijack attack is a growing and serious security risk.  In such attacks, traffic is diverted to the attacker network and then forwarded to the original destination, forming a man-in-the-middle attack. The attack was first introduced over a daced ago as a BGP attack.  Thus to detect BGP hijack attacks monitoring services are examining BGP announcements for suspicious routes.  <br/><br/>Recently, we discovered that many such attacks are done in a stealth manner that is not detected by BGP monitoring.  Such techniques use injection of /25 to a large ISP, so the route is not exported; inserting static route to ISPs;  or by manipulating traffic at the data-plane in IXPs.<br/><br/>To detect such stealth attacks, we suggest to use active monitoring with traceroute like monitoring of the route, which brings many analysis challenges. With data plane data, we can now analyze not only the BGP chaining rules, but also look at geography, reachability, delay and other data-plane aspects of the route.<br/><br/>In the talk I present deflection examples and show how deep learning technology can help with the route analysis.  In particular I would look at  BGP level and geographic route classification, and on finding Type of relationship (ToR)  between ASes to aid with classical valley-free analysis.",
+            "bio" : "Professor of Electrical Engineering at Tel Aviv University.  Before joining Tel Aviv University, he worked for four years at the Networking Center of  Bell Labs, Holmdel, NJ.  Has published seminal papers in the fields of caching, routing, security, and network measurements.<br/><br/>In 2004 he incepted the DIMES project for mapping the Internet infrastructure using thousands of lightweight software agents, which revolutionized the field of Internet measurement and mapping. Data gathered by DIMES have been used by academians worldwide.In 2014 he established BGProtect, a company that uses the DIMES approach to protect nations and large organizations against IP hijack attacks and provide network infrastructure intelligence.",
+            "image_link" : "/sigcomm/2020/images/mantra-speakers/Yuval-Shavit.jpg"
+        },
+
+        {
+            "qa_item" : "true",
+            "qa_title" : "Q &amp; A session",
+            "time" : "3:30 - 3:45 pm EDT",
+            "day" : "friday"
+        },
+        
+        {
+            "keynote" : "true",
+            "keynote_title" : "Closing",
+            "keynote_speaker" : "ManTra workshop chairs",
+            "time" : "3:45 - 4:00 pm EDT",
+            "day" : "friday"
+        },
+        
+        {
+            "program_end" : "true"
+        }
+        
+    ]
+}
