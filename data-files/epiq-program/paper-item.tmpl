@@ -53,6 +53,11 @@
           </p>
         </div>
         <div class="ui-li-aside">
+          {% if program_item.video_link is defined -%}
+          <div class="button-paper">
+            <a href="{{ program_item.video_link }}" onclick="window.location='{{ program_item.video_link }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
+          </div>
+          {% endif -%}
           <div class="button-paper">
             <a href="{{ program_item.paperlink }}" onclick="window.location='{{ program_item.paperlink }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-file-text" aria-hidden="true"></i></a>
           </div>
