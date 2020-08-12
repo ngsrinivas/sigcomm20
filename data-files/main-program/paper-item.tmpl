@@ -71,6 +71,17 @@
               <td style="font-size:80%; padding-right:10px; max-width:20%;">{{ program_item.time }}<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&amp;<br/>{{ program_item.time2 }}</td>
               <td style="width:100%; text-align:left;">
                 <h2>{{ program_item.title }}</h2>
+                <p>
+                  {% if program_item.badge_available is defined -%}
+                  <img style="width:3%" src="/sigcomm/2020/images/artifact-available.jpg" alt="Artifac available"/><i>Artifact available</i> &nbsp;&nbsp;&nbsp;&nbsp;
+                  {% endif -%}
+                  {% if program_item.badge_functional is defined -%}
+                  <img style="width:3%" src="/sigcomm/2020/images/artifact-functional.jpg" alt="Artifac functional"/><i>Artifact functional</i> &nbsp;&nbsp;&nbsp;&nbsp;
+                  {% endif -%}
+                  {% if program_item.badge_reusable is defined -%}
+                  <img style="width:3%" src="/sigcomm/2020/images/artifact-reusable.jpg" alt="Artifac functional"/><i>Artifact reusable</i> &nbsp;&nbsp;&nbsp;&nbsp;
+                  {% endif -%}
+                </p>
                 <p>{{ program_item.authors }}</p>
               </td>
             </tr>
