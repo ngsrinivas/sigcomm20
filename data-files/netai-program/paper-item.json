@@ -126,7 +126,7 @@
             "title" : "A Deep Learning Approach for IP Hijack Detection Based on ASN Embedding",
             "authors" : "Tal Shapira <em>(Tel Aviv University)</em>; Yuval Shavitt <em>(Department of Electrical Engineering, Tel Aviv University)</em>",
             "day" : "monday",
-            "paperlink" : "#12 A Deep Learning Approach for IP Hijack Detection Based on ASN Embedding"
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405671.3405814"
         },
         
         {
