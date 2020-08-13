@@ -1315,7 +1315,6 @@
             "keynote" : "true",
             "day" : "thursday",
             "time" : "4:30 - 5:00 pm EDT",
-            "time2" : "3:30 - 4:00 am EDT",
             "keynote_title" : "The network as a programmable platform: fertile new ground for networking research",
             "keynote_speaker" : "Nick McKeown <em>(Stanford University)</em>",
             "slide_relpath" : "files/slides/content-forthcoming.html",
@@ -1326,7 +1325,7 @@
             "keynote" : "true",
             "day" : "tuesday",
             "time" : "5:00 - 5:15 pm EDT",
-            "time2" : "4:00 - 4:15 am EDT",
+            "time2" : "3:15 - 3:30 am EDT",
             "keynote_title" : "Closing",
             "keynote_speaker" : "Vishal Misra <em>(Columbia University, USA)</em>, Henning Schulzrinne <em>(Columbia University, USA)</em>, Sujata Banerjee <em>(VMware Research)</em>, Ratul Mahajan <em>(University of Washington, Intentionet)</em>",
             "slide_relpath" : "files/slides/content-forthcoming.html",
@@ -1336,7 +1335,7 @@
         {
             "break" : "true",
             "time" : "5:15- 6:15 pm EDT",
-            "time2" : "4:15 - 5:15 am EDT",
+            "time2" : "3:30 - 4:30 am EDT",
             "break_type" : "Virtual Tours: Minecraft + Videos (<a href='https://app.slack.com/client/T0107RGGMU6/C0186JP5Q1W'>Go to Slack channel</a>)",
             "day" : "thursday"
         },
