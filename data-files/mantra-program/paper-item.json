@@ -22,7 +22,17 @@
             "day" : "friday",
             "time" : "10:30 - 11:00 am EDT",
             "keynote_title" : "Welcome and Introduction",
-            "keynote_speaker" : "ManTra workshop chairs (Haya Shulman &amp; Radia Perlman)"
+            "keynote_speaker" : "ManTra workshop chairs (Haya Shulman &amp; Radia Perlman)",
+            "speaker_images" : [
+                {
+                    "image_link" : "/sigcomm/2020/images/mantra-speakers/Haya-Shulman.jpg",
+                    "alt_text" : "Haya Shulman"
+                },
+                {
+                    "image_link" : "/sigcomm/2020/images/mantra-speakers/Radia-Perlman2.png",
+                    "alt_text" : "Radia Perlman"
+                }
+            ]
         },
 
         {

@@ -140,7 +140,13 @@
                  {{ program_item.keynote_title }}
                </p>
                {% if program_item.keynote_speaker is defined -%}
-               <p><strong>Speakers&#58;</strong> {{ program_item.keynote_speaker }}</p>
+               {{ program_item.keynote_speaker }}</p>
+               {% endif -%}
+               {% if program_item.speaker_images is defined -%}
+               <br/>
+               {% for image_data in program_item.speaker_images -%}
+               <img src="{{ image_data.image_link }}" alt="{{ image_data.alt_text }}" style="max-width: 20%;" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               {% endfor -%}
                {% endif -%}
              </td>
          </tr>
