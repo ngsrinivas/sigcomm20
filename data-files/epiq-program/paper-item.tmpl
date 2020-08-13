@@ -58,6 +58,11 @@
             <a href="{{ program_item.video_link }}" onclick="window.location='{{ program_item.video_link }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
           </div>
           {% endif -%}
+          {% if program_item.slide_relpath is defined -%}
+          <div class="button-paper">
+            <a href="{{ program_item.slide_relpath }}" onclick="window.location='{{ program_item.slide_relpath }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i></a>
+          </div>
+          {% endif -%}
           <div class="button-paper">
             <a href="{{ program_item.paperlink }}" onclick="window.location='{{ program_item.paperlink }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-file-text" aria-hidden="true"></i></a>
           </div>
