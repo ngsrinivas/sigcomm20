@@ -73,6 +73,13 @@
   </p>
   <p> {{ program_item.authors }} </p>
   </div>
+  {% if program_item.paperlink is defined -%}
+  <div class="ui-li-aside">
+    <div class="button-paper">
+      <a href="{{ program_item.paperlink }}" onclick="window.location='{{ program_item.paperlink }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-file-text" aria-hidden="true"></i></a>
+    </div>
+  </div>
+  {% endif -%}
   {% endif -%}
 </li>
 <!-- end single item in a session -->

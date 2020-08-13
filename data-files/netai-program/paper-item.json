@@ -39,21 +39,24 @@
             "paper" : "true",
             "title" : "SmartEntry: Mitigating Routing Update Overhead with Reinforcement Learning for Traffic Engineering",
             "authors" : "Junjie Zhang <em>(Fortinet)</em>; Zehua Guo <em>(Beijing Institute of Technology)</em>; Minghao Ye, H. Jonathan Chao <em>(New York University)</em>",
-            "day" : "monday"
+            "day" : "monday",
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405671.3405809"
         },
         
         {
             "paper" : "true",
             "title" : "Neural Packet Routing",
             "authors" : "Shihan Xiao, Haiyan Mao, Bo Wu, Wenjie Liu, Fenglin Li <em>(Huawei)</em>",
-            "day" : "monday"
+            "day" : "monday",
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405671.3405813"
         },
         
         {
             "paper" : "true",
             "title" : "DeepBGP: A Machine Learning Approach for BGP Configuration Synthesis",
             "authors" : "Mahmoud Bahnasy, Fenglin Li <em>(Huawei Canada)</em>; Shihan Xiao, Xiangle Cheng <em>(Huawei Technologies Co., Ltd.)</em>",
-            "day" : "monday"
+            "day" : "monday",
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405671.3405816"
         },
         
         {
@@ -75,21 +78,24 @@
             "paper" : "true",
             "title" : "Is Network the Bottleneck of Distributed Training?",
             "authors" : "Zhen Zhang <em>(Johns Hopkins University)</em>; Chaokun Chang, Haibin Lin, Yida Wang <em>(Amazon Web Services)</em>; Raman Arora, Xin Jin <em>(Johns Hopkins University)</em>",
-            "day" : "monday"
+            "day" : "monday",
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405671.3405810"
         },
         
         {
             "paper" : "true",
             "title" : "Challenges in Using ML for Networking Research: How to Label If You Must",
             "authors" : "Yukhe Lavinia, Ramakrishnan Durairajan, Reza Rejaie <em>(University of Oregon)</em>; Walter Willinger <em>(NIKSUN, Inc.)</em>",
-            "day" : "monday"
+            "day" : "monday",
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405671.3405812"
         },
         
         {
             "paper" : "true",
             "title" : "Pitfalls of data-driven networking: A case study of latent causal confounders in video streaming",
             "authors" : "P. C. Sruthi, Sanjay Rao, Bruno Ribeiro <em>(Purdue University)</em>",
-            "day" : "monday"
+            "day" : "monday",
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405671.3405815"
         },
                 
         {
@@ -111,21 +117,24 @@
             "paper" : "true",
             "title" : "SAM: Self-Attention based Deep Learning Method for Online Traffic Classification",
             "authors" : "Guorui Xie <em>(Tsinghua University, Peng Cheng Laboratory)</em>; Qing Li <em>(Southern University of Science and Technology, Peng Cheng Laboratory)</em>; Yong Jiang, Tao Dai, Gengbiao Shen, Rui Li <em>(Tsinghua University)</em>; Richard Sinnott <em>(University of Melbourne)</em>; Shutao Xia <em>(Tsinghua University)</em>",
-            "day" : "monday"
+            "day" : "monday",
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405671.3405811"
         },
         
         {
             "paper" : "true",
             "title" : "A Deep Learning Approach for IP Hijack Detection Based on ASN Embedding",
             "authors" : "Tal Shapira <em>(Tel Aviv University)</em>; Yuval Shavitt <em>(Department of Electrical Engineering, Tel Aviv University)</em>",
-            "day" : "monday"
+            "day" : "monday",
+            "paperlink" : "#12 A Deep Learning Approach for IP Hijack Detection Based on ASN Embedding"
         },
         
         {
             "paper" : "true",
             "title" : "An Adaptive Tree Algorithm to Approach Collision-Free Transmission in Slotted ALOHA",
             "authors" : "Molly Zhang, Luca de Alfaro, J.J. Garcia-Luna-Aceves <em>(University of California, Santa Cruz)</em>",
-            "day" : "monday"
+            "day" : "monday",
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405671.3405817"
         },
         
         {
