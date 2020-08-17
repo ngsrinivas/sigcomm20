@@ -38,7 +38,8 @@
             "title" : "As QUIC as TCP, Optimizing QUIC and HTTP/3 CPU usage",
             "authors" : "Ian Swett <em>(Google)</em>",
             "abstract" : "TCP has benefitted from years of optimization.  As recently as 2017, QUIC consumed twice the CPU of TLS over TCP. However, QUIC was designed as an encrypted transport, which benefits application performance and can benefit transport CPU performance.  This talk will discuss CPU optimizations that have brought QUIC CPU usage down to parity with TCP in some cases, as well as looking at optimizations and hardware offloads that could enable QUIC to surpass TCP in CPU consumption.",
-            "bio" : "Ian Swett is a software engineer who’s been working on QUIC at Google prior to its first public use and is an IETF editor on the loss detection and congestion control draft.  Ian led the work to improve QUIC CPU usage at Google, with a focus on YouTube video delivery."
+            "bio" : "Ian Swett is a software engineer who’s been working on QUIC at Google prior to its first public use and is an IETF editor on the loss detection and congestion control draft.  Ian led the work to improve QUIC CPU usage at Google, with a focus on YouTube video delivery.",
+            "slide_relpath" : "/sigcomm/2020/files/slides/epiq/0%20QUIC%20and%20HTTP_3%20CPU%20Performance.pdf"
         },
 
         {
