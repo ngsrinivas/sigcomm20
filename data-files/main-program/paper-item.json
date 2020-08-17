@@ -1104,7 +1104,8 @@
             "time" : "1:05 - 1:40 pm EDT",
             "time2" : "12:05 - 12:40 am EDT",
             "keynote_title" : "A Conversation on Future Embedded Systems: Living IoT, Nano Satellites and Mobile health",
-            "keynote_speaker" : "Tanzeem Choudhury <em>(Cornell Tech)</em>, Shyam Gollakota <em>(University of Washington)</em>, Luca Mottola <em>(Politecnico di Milano)</em>"
+            "keynote_speaker" : "Tanzeem Choudhury <em>(Cornell Tech)</em>, Shyam Gollakota <em>(University of Washington)</em>, Luca Mottola <em>(Politecnico di Milano)</em>",
+            "slide_relpath" : "/sigcomm/2020/files/slides/embedded-panel.pptx"
         },
 
         {
