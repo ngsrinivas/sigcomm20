@@ -83,6 +83,9 @@
                   {% endif -%}
                 </p>
                 <p>{{ program_item.authors }}</p>
+                {% if program_item.award is defined -%}
+                <p><h4>{{ program_item.award }}</h4></p>
+                {% endif -%}
               </td>
             </tr>
           </table>
