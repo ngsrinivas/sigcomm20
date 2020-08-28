@@ -24,7 +24,9 @@
             "title" : "What Deep Generative Models Can Do for You: Opportunities, Challenges, and Open Questions",
             "authors" : "Giulia Fanti <em>(CMU)</em>",
             "abstract" : "Data-driven generative data models produce random samples from a target distribution <em>(e.g. autoregressive models, Gaussian mixtures, etc.)</em>. Despite decades of study in multiple communities, generative models have historically struggled to capture the complex correlations found in most real data. However, recent breakthroughs in deep learning have led to a significant jump in their performance, albeit mostly in the image and video domains. In this talk, we give a primer on state-of-the-art deep generative models, and discuss three use cases where the networking community may be able to benefit from these tools: <em>(1)</em> synthetic data generation, <em>(2)</em> vulnerability testing of black-box protocols and systems, and <em>(3)</em> extracting qualitative insights from unstructured data. We will discuss results in each of these application domains, highlight challenges and tradeoffs, and conclude with some open questions.",
-            "bio" : "Giulia Fanti is an Assistant Professor of Electrical and Computer Engineering at Carnegie Mellon University. Her research interests relate to cooperation in the absence of trust. She is a fellow for the World Economic Forum’s Global Future Council on Cybersecurity and has received best paper awards from ACM Sigmetrics and ACM MobiHoc, as well as Faculty Research Awards from Google and JP Morgan Chase. She obtained her Ph.D. in EECS from U.C. Berkeley and her B.S. in ECE from Olin College of Engineering."
+            "bio" : "Giulia Fanti is an Assistant Professor of Electrical and Computer Engineering at Carnegie Mellon University. Her research interests relate to cooperation in the absence of trust. She is a fellow for the World Economic Forum’s Global Future Council on Cybersecurity and has received best paper awards from ACM Sigmetrics and ACM MobiHoc, as well as Faculty Research Awards from Google and JP Morgan Chase. She obtained her Ph.D. in EECS from U.C. Berkeley and her B.S. in ECE from Olin College of Engineering.",
+            "slide_relpath" : "/sigcomm/2020/files/slides/netai/netai20_slides_fanti.pdf",
+            "dl_video_link" : "https://youtu.be/fC3ESM_MC4s"
         },
                 
         {
@@ -40,7 +42,9 @@
             "title" : "SmartEntry: Mitigating Routing Update Overhead with Reinforcement Learning for Traffic Engineering",
             "authors" : "Junjie Zhang <em>(Fortinet)</em>; Zehua Guo <em>(Beijing Institute of Technology)</em>; Minghao Ye, H. Jonathan Chao <em>(New York University)</em>",
             "day" : "monday",
-            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405671.3405809"
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405671.3405809",
+            "slide_relpath" : "/sigcomm/2020/files/slides/netai/netai20_slides_ye.pdf",
+            "dl_video_link" : "https://youtu.be/BDHSE4Z1cBU"
         },
         
         {
@@ -56,7 +60,9 @@
             "title" : "DeepBGP: A Machine Learning Approach for BGP Configuration Synthesis",
             "authors" : "Mahmoud Bahnasy, Fenglin Li <em>(Huawei Canada)</em>; Shihan Xiao, Xiangle Cheng <em>(Huawei Technologies Co., Ltd.)</em>",
             "day" : "monday",
-            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405671.3405816"
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405671.3405816",
+            "slide_relpath" : "/sigcomm/2020/files/slides/netai/netai20_slides_bahnasy.pptx",
+            "dl_video_link" :  "https://youtu.be/J-_KUc6hLAE"
         },
         
         {
@@ -79,7 +85,9 @@
             "title" : "Is Network the Bottleneck of Distributed Training?",
             "authors" : "Zhen Zhang <em>(Johns Hopkins University)</em>; Chaokun Chang, Haibin Lin, Yida Wang <em>(Amazon Web Services)</em>; Raman Arora, Xin Jin <em>(Johns Hopkins University)</em>",
             "day" : "monday",
-            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405671.3405810"
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405671.3405810",
+            "slide_relpath" : "/sigcomm/2020/files/slides/netai/netai20_slides_zhang.pptx",
+            "dl_video_link" : "https://youtu.be/Lt8GJSF7ap8"
         },
         
         {
@@ -87,7 +95,9 @@
             "title" : "Challenges in Using ML for Networking Research: How to Label If You Must",
             "authors" : "Yukhe Lavinia, Ramakrishnan Durairajan, Reza Rejaie <em>(University of Oregon)</em>; Walter Willinger <em>(NIKSUN, Inc.)</em>",
             "day" : "monday",
-            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405671.3405812"
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405671.3405812",
+            "slide_relpath" : "/sigcomm/2020/files/slides/netai/netai20_slides_lavinia.pptx",
+            "dl_video_link" : "https://youtu.be/rQ1XaDIztWQ"
         },
         
         {
@@ -126,7 +136,9 @@
             "title" : "A Deep Learning Approach for IP Hijack Detection Based on ASN Embedding",
             "authors" : "Tal Shapira <em>(Tel Aviv University)</em>; Yuval Shavitt <em>(Department of Electrical Engineering, Tel Aviv University)</em>",
             "day" : "monday",
-            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405671.3405814"
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405671.3405814",
+            "slide_relpath" : "/sigcomm/2020/files/slides/netai/netai20_slides_shapira.pdf",
+            "dl_video_link" : "https://youtu.be/KxUwQJ39LfE"
         },
         
         {
