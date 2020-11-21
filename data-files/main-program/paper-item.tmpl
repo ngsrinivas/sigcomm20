@@ -95,17 +95,17 @@
           <div class="button-paper">
               <a href="{{ program_item.paperlink }}" onclick="window.location='{{ program_item.paperlink }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-file-text" aria-hidden="true"></i></a>
           </div>
-          <!-- No slides for talks -->
-          <!-- 
-            <div class="button-paper">
-              <a href="{{ program_item.slide_relpath }}" onclick="window.location='{{ program_item.slide_relpath }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i></a>
-            </div>
-           -->
             {% if program_item.dl_video_link is defined -%}
             <div class="button-paper">
               <a href="{{ program_item.dl_video_link }}" onclick="window.location='{{ program_item.dl_video_link }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
             </div>
             {% endif -%}
+            {% if program_item.conf_video_link is defined -%}
+            <div class="button-paper">
+              <a href="{{ program_item.conf_video_link }}" onclick="window.location='{{ program_item.conf_video_link }}'; event.stopPropagation();" rel="external" class="ui-link"><i class="fa fa-user" aria-hidden="true"></i></a>
+            </div>
+            {% endif -%}
+            
         </div>
       </h4>
       <ul data-role="listview" data-inset="false">
@@ -127,10 +127,6 @@
 
 <!-- single item in a session -->
 <li data-icon="false" class="prog-item prog-{{ program_item.day }}">
-  {% if program_item.abstract is defined -%}
-  <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
-    <h4>    
-  {% endif -%}
       <table>
          <tr>             
              {% if program_item.time2 is defined -%}
@@ -143,6 +139,9 @@
                  {{ program_item.keynote_title }}
                </p>
                <p><strong>Speakers&#58;</strong> {{ program_item.keynote_speaker }}</p>
+               {% if program_item.abstract is defined -%}
+               <p><strong>Abstract&#58;</strong> {{ program_item.abstract }}</p>
+               {% endif -%}
                {% if program_item.slack_channel is defined -%}
                <p><a href="{{ program_item.slack_channel }}">Go to Slack channel</a></p>
                {% endif -%}
@@ -163,18 +162,6 @@
             {% endif -%}
          </tr>
       </table>
-  {% if program_item.abstract is defined -%}
-    </h4>
-      <ul data-role="listview" data-inset="false">
-        <li data-icon="false">
-            <p>
-              {{ program_item.abstract }}
-            </p>
-            <p>&nbsp;</p>
-        </li>
-      </ul>
-  </div>
-  {% endif -%}
 </li>
 <!-- end single item in a session -->
 
