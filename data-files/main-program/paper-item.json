@@ -38,8 +38,7 @@
             "keynote_title" : "Coming of Age in the Fifth Epoch of Distributed Computing: The Power of Sustained Exponential Growth",
             "abstract" : "The annual SIGCOMM Award will be presented to Amin Vahdat for groundbreaking contributions to data center and wide area networks.",
             "keynote_speaker" : "Amin Vahdat <em>(Google)</em>",
-            "slide_relpath" : "files/slides/content-forthcoming.html",
-            "dl_video_link" : "content-forthcoming.html"
+            "dl_video_link" : "http://conferences.sigcomm.org/sigcomm/2020/files/videos/Keynotes%20and%20Panels/01_Tuesday%20Final%20Amin%20Keynote.mov"
         },
         
         {
@@ -62,7 +61,7 @@
         {
             "paper" : "true",
             "day" : "tuesday",
-            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3387514.3405852",
+            "paperlink" : "https://dl.acm.org/doi/abs/10.1145/3387514.3405852",
             "slide_relpath" : "files/slides/content-forthcoming.html",
             "dl_video_link" : "https://dl.acm.org/doi/abs/10.1145/3387514.3405852#sec-supp",
             "abstract" : "Writing packet-processing programs for programmable switch pipelines is challenging because of their all-or-nothing nature: a program either runs at line rate if it can fit within pipeline resources, or does not run at all. It is the compiler's responsibility to fit programs into pipeline resources. However, switch compilers, which use rewrite rules to generate switch machine code, often reject programs because the rules fail to transform programs into a form that can be mapped to a pipeline's limited resources---even if a mapping actually exists.<br/><br/>This paper presents a compiler, Chipmunk, which formulates code generation as a program synthesis problem. Chipmunk uses a program synthesis engine, SKETCH, to transform high-level programs down to switch machine code. However, naively formulating code generation as program synthesis can lead to long compile times. Hence, we develop a new domain-specific synthesis technique, slicing, which reduces compile times by 1-387x and 51x on average.<br/><br/>Using a switch hardware simulator, we show that Chipmunk compiles many programs that a previous rule-based compiler, Domino, rejects. Chipmunk also produces machine code with fewer pipeline stages than Domino. A Chipmunk backend for the Tofino programmable switch shows that program synthesis can produce machine code for high-speed switches.",
@@ -1322,8 +1321,7 @@
             "time" : "4:30 - 5:00 pm EDT",
             "keynote_title" : "The network as a programmable platform: fertile new ground for networking research",
             "keynote_speaker" : "Nick McKeown <em>(Stanford University)</em>",
-            "slide_relpath" : "files/slides/content-forthcoming.html",
-            "dl_video_link" : "content-forthcoming.html"
+            "dl_video_link" : " https://www.youtube.com/watch?v=CcHBE7maCyo"
         },
         
         {

@@ -154,14 +154,13 @@
                 </a>
              </td>
              {% endif -%}
-             <!-- No videos for keynotes -->
-             <!-- 
+             {% if program_item.dl_video_link is defined -%}
              <td>
                 <a style="color: dimgray;" href="{{ program_item.dl_video_link }}" rel="external" target="_blank">
                     <i class="fa fa-video-camera"></i>
                 </a>
             </td>
-            -->
+            {% endif -%}
          </tr>
       </table>
   {% if program_item.abstract is defined -%}
