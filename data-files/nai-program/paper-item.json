@@ -59,6 +59,8 @@
             "paper" : "true",
             "day" : "friday",
             "title" : "Toward Deep Network & Application Integration: Possibilities, Challenges and Research Directions",
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405672.3405804",
+            "dl_video_link" : "https://drive.google.com/file/d/1YTwuf56GYB2-9x1axd3LAk9xqDwoFoPY/view?usp=sharing",
             "authors" : "Danny Alex lachos Perez (University of Campinas (UNICAMP)), Qiao Xiang (Yale University), Christian Esteve Rothenberg (University of Campinas), Sabine Randriamasy (Nokia Bell Labs), Luis Miguel Contreras Murillo (Telefonica) and Börje Ohlman (Ericsson)"
         },
 
@@ -66,6 +68,8 @@
             "paper" : "true",
             "day" : "friday",
             "title" : "Dawn: Co-programming Distributed Applications with Network Control",
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405672.3405808",
+            "dl_video_link" : "https://drive.google.com/file/d/1-pJKdqBxrsQqJHlqpL47G7eg6MPU6ZFE/view?usp=sharing",
             "authors" : "Shuhe Wang (Tsinghua University), Dong Guo (Tongji University), Wei Jiang (Wuhan University), Haizhou Du (Tongji University) and Mingwei Xu (Tsinghua University)"
         },
 
@@ -73,6 +77,8 @@
             "paper" : "true",
             "day" : "friday",
             "title" : "Semantically Aware, Mission-Oriented (SAMO) Networks – A Framework for Application/Network Integration",
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405672.3409490",
+            "dl_video_link" : "https://drive.google.com/file/d/13LAwpPwBZyO9dNI2mw3A_OAMZyz99kEk/view?usp=sharing",
             "authors" : "Timothy J. Salo (University of Minnesota) and Zhi-Li Zhang (University of Minnesota)"
         },
 
@@ -111,6 +117,8 @@
             "paper" : "true",
             "day" : "friday",
             "title" : "MoWIE: Toward Systematic, Adaptive Network Information Exposure as an Enabling Technique for Cloud-Based Applications over 5G and Beyond (Invited Paper),",
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405672.3409489",
+            "dl_video_link" : "https://drive.google.com/file/d/1Sf0Z85HtQpz6bBL7jUd54GR4T_WNEhho/view?usp=sharing",
             "authors" : "Yunfei Zhang (Tencent), Chunshan Xiong (Tencent), Yixue Lei (Tencent), Wei Huang (Tencent), Yunbo Han (Tencent), Gang Li (China Mobile), Anwar Walid (Nokia Bell Labs), Richard Yang (Yale University) and Zhi-li Zhang (University of Minnesota -- Twin Cities)"
         },
 
@@ -118,6 +126,8 @@
             "paper" : "true",
             "day" : "friday",
             "title" : "Federated Adaptive Bitrate Live Streaming over Locality Sensitive Playback Coalitions",
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405672.3405806",
+            "dl_video_link" : "https://drive.google.com/file/d/1z5xgNHwgTXiV_OisKN0jYOVZVHWfs0df/view?usp=sharing",
             "authors" : "Abhijit Mondal (Indian Institute of Technology, Kharagpur) and Sandip Chakraborty (Indian Institute of Technology, Kharagpur)"
         },
 
@@ -125,6 +135,8 @@
             "paper" : "true",
             "day" : "friday",
             "title" : "Trading Latency for Compute in the Network",
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405672.3405807",
+            "dl_video_link" : "https://drive.google.com/file/d/1UcmvezBZyI7TU6-0dJjaNSDjipohvgSc/view?usp=sharing",
             "authors" : "Pietro Bressana (Universitá della Svizzera italiana), Noa Zilberman (University of Oxford),  Dejan Vucinic (Western Digital Research) and Robert Soulé (Yale University)"
         },
 
@@ -132,6 +144,8 @@
             "paper" : "true",
             "day" : "friday",
             "title" : "Trading Cold Start in Serverless Computing with Container Runtime Reusing",
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405672.3409493",
+            "dl_video_link" : "https://drive.google.com/file/d/1fdXA3YorTZXi2TCanePQ-C5hsbBfN-QU/view?usp=sharing",
             "authors" : "Kun Suo (Kennesaw State University), Yong Shi (Kennesaw State University), Xiaohua Xu (Kennesaw State University), Dazhao Cheng (University of North Carolina at Charlotte), and Wei Chen (Nvidia Corporation)"
         },
 
@@ -146,6 +160,8 @@
             "paper" : "true",
             "day" : "friday",
             "title" : "Bi-directional Network and Application Interaction: Application Intents upon Abstracted Network Information (Invited Paper)",
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405672.3409491",
+            "dl_video_link" : "https://drive.google.com/file/d/1Hw9fj9kBXOcjx9mleXFWPFOa5a9oepZI/view?usp=sharing",
             "authors" : "Kai Gao (Sichuan University), Luis Miguel Contreras Murillo (Telefonica), and Sabine Randriamasy (Nokia Bell Labs)"
         },
 
@@ -153,6 +169,8 @@
             "paper" : "true",
             "day" : "friday",
             "title" : "NetworkAPI: An In-band Signalling Application-aware Traffic Engineering using SRv6 and IP anycast",
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405672.3405805",
+            "dl_video_link" : "https://drive.google.com/file/d/10yyJF45pRwmhRg6eThTue2ZOv9nAjpQa/view?usp=sharing",
             "authors" : "Takuya Miyasaka (KDDI Research, Inc.), Yuichiro Hei (KDDI Research, Inc.) and Takeshi Kitahara (KDDI Research, Inc.)"
         },
 
@@ -167,6 +185,8 @@
             "paper" : "true",
             "day" : "friday",
             "title" : "ETCNet: Encrypted Traffic Classification using Siamese Convolutional Networks",
+            "paperlink" : "https://dl.acm.org/doi/pdf/10.1145/3405672.3409492",
+            "dl_video_link" : "https://drive.google.com/file/d/1YhupD5hST0VMPOpqiUxsztTYpe9j9-AA/view?usp=sharing",
             "authors" : "Lu Xu (New York University), Daihui Dou (New York University) and H. Jonathan Chao (New York University)"
         },
         
